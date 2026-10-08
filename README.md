@@ -36,7 +36,9 @@ The optimal **universal** Poincaré constant satisfies $4\le C_*\le500$.
 
 Lean verification also passed for the [exact KLS conjecture statement defined by OpenAI](https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Analysis/KLS/Model.lean#L51-L58), `OAI.LeanBlast.KLS.KLSStatement`, using the universal Poincaré constant 500.
 
-See [KLS500.lean](KLS500.lean) and the separately compiled [Challenge.lean](Challenge.lean). The proof follows the Bizeul–Klartag–Lehec route with quantitative refinements. Verification rebuilt 1,710 mathematical modules at kernel trust level zero; endpoint axiom checks found only `propext`, `Classical.choice`, and `Quot.sound`. [Evidence](verification/README.md) is included; Comparator and Nanoda were not run.
+The Lean development is based chiefly on the cumulant and suspension approach of [Pierre Bizeul, Boaz Klartag and Joseph Lehec](https://arxiv.org/pdf/2610.05474v1), including the tilt–spectral criterion of [Zhao Song and Xinzhi Zhang](https://arxiv.org/pdf/2610.01447v2), with quantitative refinements giving 500. The related manuscript by [Krishnakumar Balasubramanian and Shiva Kasiviswanathan](https://github.com/kriznakumar/paper/blob/4837c33649ba2271f43c9684e9350ecbdd725f95/KLS.pdf) develops a separate approach using compatible integration operators and a Hodge comparison.
+
+See [KLS500.lean](KLS500.lean) and the separately compiled [Challenge.lean](Challenge.lean). Verification rebuilt 1,710 mathematical modules at kernel trust level zero; endpoint axiom checks found only `propext`, `Classical.choice`, and `Quot.sound`. [Evidence](verification/README.md) is included; Comparator and Nanoda were not run.
 
 Build with Elan and the pinned dependencies:
 

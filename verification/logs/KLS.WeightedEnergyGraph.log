@@ -1,0 +1,6 @@
+'KLS.weightedCenteredH1_completeSpace' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_coordinateDerivative_mul_compact_test' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedCenteredGradientGraph_weak_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_weightedH1_of_smoothCompact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedH1_integral_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedH1_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]

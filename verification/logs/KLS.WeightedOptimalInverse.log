@@ -1,0 +1,3 @@
+'KLS.weightedEnergyInverse_value_norm_le_of_rayleigh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedEnergyInverse_energy_le_of_rayleigh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_optimal_weightedEnergyInverse_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

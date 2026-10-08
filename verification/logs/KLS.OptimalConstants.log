@@ -1,0 +1,3 @@
+'KLS.variance_le_optimal_mul_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.optimal_toNNReal_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_counterexample_of_lt_universal' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,1 @@
+'KLS.LocalDiffusion.ae_zero_of_perTime_energy_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

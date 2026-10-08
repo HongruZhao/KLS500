@@ -1,0 +1,2 @@
+'KLS.weightedIterationSwapDefect_propagation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedIteration_adjacentSwap_norm_sq_le' depends on axioms: [propext, Classical.choice, Quot.sound]

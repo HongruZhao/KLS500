@@ -1,0 +1,7 @@
+'KLS.MomentMap.fderiv_comp_gradient_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.MomentMap.integral_target_mul_test_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.MomentMap.integral_coordinate_test_eq_hessian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.MomentMap.integrable_stein_derivative_of_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.MomentMap.integral_target_mul_test_eq_of_hasCompactSupport' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

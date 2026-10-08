@@ -1,0 +1,3 @@
+'KLS.AdaptiveLocalization.MaximalProcess.integral_directionalCovariancePath' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

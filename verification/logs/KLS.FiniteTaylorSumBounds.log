@@ -1,0 +1,2 @@
+'KLS.nonneg_sum_range_shift_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.nonneg_sum_shift_windows_le' depends on axioms: [propext, Classical.choice, Quot.sound]

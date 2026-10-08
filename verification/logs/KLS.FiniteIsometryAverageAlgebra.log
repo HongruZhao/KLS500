@@ -1,0 +1,3 @@
+'KLS.finiteIsometryAverageLinearMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.norm_finiteIsometryAverage_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.finiteIsometryAverage_absorb' depends on axioms: [propext, Classical.choice, Quot.sound]

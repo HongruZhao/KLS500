@@ -1,0 +1,6 @@
+'KLS.covarianceMatrix_affineMatrixMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.whitenedMeasure_isIsotropic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.admissibleMeasure.eventually_admissible_whitenedBallCutoffMeasure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.admissibleMeasure.exists_whitened_compact_cutoffs' depends on axioms: [propext, Classical.choice, Quot.sound]

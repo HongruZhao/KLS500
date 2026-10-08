@@ -1,0 +1,3 @@
+'KLS.continuous_real_moment_density_closedTarget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.moment_det_ge_density_of_positive_quadratic_upper_touch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.moment_det_le_density_of_positive_quadratic_lower_touch' depends on axioms: [propext, Classical.choice, Quot.sound]

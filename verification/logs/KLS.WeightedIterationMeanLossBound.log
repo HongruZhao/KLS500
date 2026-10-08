@@ -1,0 +1,2 @@
+'KLS.weightedIteration_sum_meanLoss_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedEigenIteration_exists_meanLoss_index' depends on axioms: [propext, Classical.choice, Quot.sound]

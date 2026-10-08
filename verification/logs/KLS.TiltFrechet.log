@@ -1,0 +1,4 @@
+'KLS.hasFDerivAt_tiltNumerator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.contDiff_tiltNumerator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.contDiff_exponentialTilt_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.contDiff_tiltLogLaplace' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,25 @@
+KLS/AdaptiveLogPartition.lean:29:34: warning: This simp argument is unused:
+  featureNumerator
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [coordinatePartition, tiltPartition, one_mul, zero_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+KLS/AdaptiveLogPartition.lean:29:67: warning: This simp argument is unused:
+  one_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [coordinatePartition, featureNumerator, tiltPartition, zero_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+KLS/AdaptiveLogPartition.lean:29:76: warning: This simp argument is unused:
+  zero_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [coordinatePartition, featureNumerator, tiltPartition, one_mul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'KLS.AdaptiveLocalization.contDiff_coordinateLogMGF_joint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.AdaptiveLocalization.coordinateLogMGF_eq_partition_difference' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

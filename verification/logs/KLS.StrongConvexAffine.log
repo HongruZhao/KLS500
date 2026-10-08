@@ -1,0 +1,1 @@
+'KLS.affineTransformedPotential_strongConvex' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,67 @@
+{
+  "success": true,
+  "status": "ACCEPTED_TWO_AUDIT_PREPARATION_ADDENDUM",
+  "reviewer": "definition_audit",
+  "created_utc": "2026-10-08T03:08:35.961378+00:00",
+  "previous_review": {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/definition-review/package-preparation-review.json",
+    "sha256": "d7a16b744c135be07819c7bcdb3b3a0789930bdb15b2dbcb1214f0eb8e68a6d2"
+  },
+  "preserved_previous_script": {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/stage_package.single-audit.py",
+    "sha256": "1873f16b0da3d14d35e3383d3030e2f9e55d2ab4ed7b06b0603bff8b3d98fa60"
+  },
+  "new_script": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/stage_package.py",
+  "new_script_sha256": "6aa1ffe86bd837afc3b8f2c98cbf8e44c141656e4c3221473f16f812786cb74d",
+  "script_executed": false,
+  "findings": [],
+  "mathematical_source_count": 1710,
+  "audit_source_count": 2,
+  "total_roots": 1712,
+  "total_exact_globs": 1712,
+  "all_roots_and_globs_match_exact_source_set": true,
+  "config_expression_sha256": "8f77b1de5926e4b4671f46fbd994f4da71556f0e4e932f04adb6ba164c859665",
+  "changed_checks": [
+    {
+      "lines": [
+        26,
+        33
+      ],
+      "verified": "The second audit source is pinned to its successful receipt; summary pins the companion execution, selected-origin reconciliation, and registry recovery. Counts1710/2 and strict gates3658 are checked."
+    },
+    {
+      "lines": [
+        42,
+        69
+      ],
+      "verified": "All 1710 mathematical sources retain byte checks; both audit sources are copied against their receipt hashes; inventory and Lake root/glob arrays contain exactly1712 modules."
+    },
+    {
+      "lines": [
+        81,
+        105
+      ],
+      "verified": "The package adds recovery receipts, generated-instance-review, the archived two-name companion directory, the recovery runner, and the preserved single-audit staging script."
+    },
+    {
+      "lines": [
+        119,
+        138
+      ],
+      "verified": "README identifies both audit modules and the seven exact selected-origin cases; all historical reviewer artifacts remain outside the Lean import search path."
+    },
+    {
+      "lines": [
+        143,
+        152
+      ],
+      "verified": "The staging receipt records two audits, the recovery/companion receipt hashes, current and previous staging script hashes, and the still-pending separate Lake configuration/entry check."
+    }
+  ],
+  "unchanged_safeguards": [
+    "Successful accepted proof and PDF QA gates; current/copied report hash checks.",
+    "All three known public pending-status markers are checked before directory creation and immediately before copying.",
+    "No existing release-stage is overwritten; reviewer directories/logs and source notices are preserved."
+  ],
+  "remaining_parent_checks": "Run only after accepted final proof and PDF QA receipts and finalized publication text; load the actual staged Lake configuration and check the final entry; verify final package hashes. This addendum is preparation only, not a full Lake rebuild."
+}

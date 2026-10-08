@@ -1,0 +1,18 @@
+KLS/AdaptiveGlobalEnergyIto.lean:19:8: warning: automatically included section variable(s) unused in theorem `_private.KLS.AdaptiveGlobalEnergyIto.0.KLS.AdaptiveLocalization.martingale_sum_energy`:
+  [IsProbabilityMeasure P]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure P] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+KLS/AdaptiveGlobalEnergyIto.lean:33:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.energyNoiseCoefficient_eq_coordinate_sum`:
+  [IsProbabilityMeasure μ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure μ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'KLS.AdaptiveLocalization.MaximalProcess.energy_equation_global' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.AdaptiveLocalization.MaximalProcess.globalEnergyMartingale_martingale' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

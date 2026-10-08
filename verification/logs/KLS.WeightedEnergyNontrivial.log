@@ -1,0 +1,2 @@
+'KLS.exists_weightedH1_value_ne_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_weightedH1_value_norm_eq_one' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,9 @@
+'KLS.ConstantReduction.weightedIterationDiffusionEnergy_ge_spectral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.ConstantReduction.weightedIterationDefect_sum_before_stop_le_retained' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.ConstantReduction.exists_attained_eigenvalue_retained_iteration' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

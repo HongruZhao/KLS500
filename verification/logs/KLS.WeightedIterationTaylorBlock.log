@@ -1,0 +1,2 @@
+'KLS.weightedIterationBlockTaylor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedIterationBlockTaylor_step_entry' depends on axioms: [propext, Classical.choice, Quot.sound]

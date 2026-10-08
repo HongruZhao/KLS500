@@ -1,0 +1,4 @@
+'KLS.supportDeficit_dyadic_le_on_convex_set' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.supportDeficit_le_at_dyadic_distance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.norm_subgradient_sub_le_dyadic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.dyadic_subgradient_decay_factor_lt_one' depends on axioms: [propext, Classical.choice, Quot.sound]

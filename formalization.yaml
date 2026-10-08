@@ -1,0 +1,148 @@
+{
+  "version": "v0.4",
+  "project": {
+    "name": "KLS500",
+    "description": "Lean 4 dimension-free Poincare bound 500, Cheeger bound 100/(197 sqrt 500), and universal Poincare range [4,500].",
+    "authors": [
+      "Hongru Zhao"
+    ],
+    "license": "Apache-2.0"
+  },
+  "sources": [
+    {
+      "title": "OpenAI KLS model",
+      "authors": [
+        "OpenAI"
+      ],
+      "type": "other",
+      "location": "https://github.com/openai/math/blob/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Analysis/KLS/Model.lean",
+      "relationship": "formalizes",
+      "note": "The upstream Model.lean is preserved byte-for-byte; the exact KLSStatement is an endpoint."
+    },
+    {
+      "title": "KLS endpoint technical report",
+      "authors": [
+        "Hongru Zhao"
+      ],
+      "type": "other",
+      "relationship": "other",
+      "note": "Four-page local draft under author revision; not included in this code-first upload."
+    }
+  ],
+  "classification": {
+    "arxiv": [
+      "math.PR",
+      "math.FA"
+    ],
+    "msc2020": [
+      "60E15",
+      "52A40"
+    ]
+  },
+  "status": {
+    "scope": "Full original admissible-law Poincare and Cheeger bounds in positive dimensions, plus the unchanged upstream OpenAI density statement. The proof follows the Bizeul-Klartag-Lehec route with quantitative refinements; an independent Song-Zhang proof is not claimed.",
+    "main_results": [
+      {
+        "declaration": "KLS500.poincare500",
+        "file": "KLS500.lean",
+        "sorry_count": 0,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "KLS500.cheeger197",
+        "file": "KLS500.lean",
+        "sorry_count": 0,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "KLS500.universalPoincareRange",
+        "file": "KLS500.lean",
+        "sorry_count": 0,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "KLS500.openaiPoincare500",
+        "file": "KLS500.lean",
+        "sorry_count": 0,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      },
+      {
+        "declaration": "KLS500.openaiKLS",
+        "file": "KLS500.lean",
+        "sorry_count": 0,
+        "axioms": [
+          "propext",
+          "Classical.choice",
+          "Quot.sound"
+        ]
+      }
+    ]
+  },
+  "automation": {
+    "methods": [
+      {
+        "method": "agent",
+        "framework": "Codex",
+        "tool_setup": "Pinned Lean 4.35.0-rc3 and mathlib; Lean kernel compilation and transitive axiom checks. Comparator and Nanoda not run.",
+        "prompting_notes": "Human-guided formalization, quantitative refinement and source-to-statement audits."
+      }
+    ],
+    "notes": "Three agents assisted the final interface, license and release preparation reviews."
+  },
+  "review": {
+    "status": "self-assessed",
+    "notes": "Accepted full fresh build: 1710 mathematical modules, plus two audits. New public interfaces separately compiled and axiom-checked. Standard axioms only; no independent human semantic review. Challenge is a post-solution proof-bearing companion, not an independent pre-solution specification. Comparator/Nanoda not run."
+  },
+  "alignment": {
+    "namespace": "KLS500",
+    "statements": [
+      {
+        "source": "Full-class Poincare inequality with coefficient 500",
+        "lean": "KLS500.poincare500",
+        "module": "KLS500",
+        "status": "proved"
+      },
+      {
+        "source": "Original Cheeger lower bound with denominator factor 197/100",
+        "lean": "KLS500.cheeger197",
+        "module": "KLS500",
+        "status": "proved"
+      },
+      {
+        "source": "Universal optimal Poincare constant in [4,500]",
+        "lean": "KLS500.universalPoincareRange",
+        "module": "KLS500",
+        "status": "proved"
+      },
+      {
+        "source": "Unchanged upstream density formulation with fixed witness 500",
+        "lean": "KLS500.openaiPoincare500",
+        "module": "KLS500",
+        "status": "proved"
+      },
+      {
+        "source": "Exact OAI.LeanBlast.KLS.KLSStatement",
+        "lean": "KLS500.openaiKLS",
+        "module": "KLS500",
+        "status": "proved"
+      }
+    ]
+  },
+  "acknowledgements": "Lean, mathlib, and bundled proof-library contributors are credited in source headers and preserved licenses/notices. Repository layout and statement interface follow https://github.com/openai/PrimeGaps186/tree/61340d0b74163003b32756bb16e91d9209a5e330."
+}

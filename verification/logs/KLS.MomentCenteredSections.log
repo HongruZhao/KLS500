@@ -1,0 +1,5 @@
+'KLS.exists_linear_lower_bound_tiltedPotential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_mem_convexSubgradient_of_mem_interior_momentLegendreDomain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.isCompact_closure_centeredSection' depends on axioms: [propext, Classical.choice, Quot.sound]

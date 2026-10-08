@@ -1,0 +1,8 @@
+'KLS.restrict_volume_le_exp_smul_potentialMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_restrict_volume_le_smul_potentialMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.MemLp.restrict_volume_of_potentialMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exp_neg_mul_weightedDiffusion_eq_sum_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weak_diffusion_unweighted_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.MemLp.locallyIntegrable_volume_of_potentialMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integrable_unweighted_mul_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weak_diffusion_unweighted_laplacian' depends on axioms: [propext, Classical.choice, Quot.sound]

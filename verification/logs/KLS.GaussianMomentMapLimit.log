@@ -1,0 +1,7 @@
+'KLS.tendsto_integral_norm_add_smul_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.quadratic_variance_le_linear_momentMap_energy_of_compact' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.quadratic_variance_le_hessian_contraction_of_compact_target' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

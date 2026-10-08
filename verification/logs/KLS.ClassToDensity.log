@@ -1,0 +1,3 @@
+'KLS.admissibleMeasure.isKLSMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.fullClassAbsolutelyContinuous' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.fullFiniteEnergyPoincare_of_universal_finite' depends on axioms: [propext, Classical.choice, Quot.sound]

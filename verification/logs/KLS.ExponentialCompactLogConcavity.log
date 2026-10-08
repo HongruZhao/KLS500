@@ -1,0 +1,3 @@
+'KLS.exponentialWeightMeasure_eq_volume_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exponentialWeightMeasure_logConcave' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.expMeasure_one_compact_logConcave' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,7 @@
+'KLS.admissibleMeasure.optimal_attained' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.fullL2Poincare_of_universal_finite' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.fullFiniteEnergyPoincare_of_finite_and_absolutelyContinuous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.one_le_universal_of_example' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.universal_eq_inf_positive_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

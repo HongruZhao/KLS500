@@ -1,0 +1,5 @@
+'KLS.MomentMap.hessianMatrix_apply_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.MomentMap.integral_hessian_entry_eq_gradient_product' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.MomentMap.integrable_gradient_coordinate_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.MomentMap.integrable_hessianMatrix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.MomentMap.integral_hessianMatrix_eq_one' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'KLS.exists_symmetric_invertible_approximation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.measureLogConcave.continuous_quadraticVariance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.measureLogConcave.quadraticVarianceEight_of_invertible' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'KLS.quadratic_gradient_dual_of_momentMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.quadratic_variance_le_momentMap_energy' depends on axioms: [propext, Classical.choice, Quot.sound]

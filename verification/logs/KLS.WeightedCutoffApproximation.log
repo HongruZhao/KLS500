@@ -1,0 +1,3 @@
+'KLS.weightedL2_square_cutoff_error_sq_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_weightedH1SquareCutoff_opNorm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedH1SquareCutoff_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]

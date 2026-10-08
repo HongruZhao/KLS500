@@ -1,0 +1,12 @@
+LevyStochCalc/Brownian/ContinuityKolmogorovBounds.lean:90:13: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲
+LevyStochCalc/Brownian/ContinuityKolmogorovBounds.lean:252:37: warning: `Set.setOf_mem_eq` has been deprecated: Use `Set.ofPred_mem_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵s̵e̵t̵O̵f̵_̵m̵e̵m̵_̵e̵q̵S̲e̲t̲.̲o̲f̲P̲r̲e̲d̲_̲m̲e̲m̲_̲e̲q̲
+LevyStochCalc/Brownian/ContinuityKolmogorovBounds.lean:260:29: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead
+
+Hint: Replace the deprecated name:
+  S̵e̵t̵.̵m̵e̵m̵_̵s̵e̵t̵O̵f̵_̵e̵q̵S̲e̲t̲.̲m̲e̲m̲_̲o̲f̲P̲r̲e̲d̲_̲e̲q̲

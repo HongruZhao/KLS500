@@ -1,0 +1,9 @@
+KLS/AdaptivePathLogDetBounds.lean:43:2: warning: Unused tactic linter: `change |if (t : WithTop ℝ) ≤ D.exit m ω then _ else 0| ≤ _` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+'KLS.AdaptiveLocalization.MaximalProcess.ae_all_logDet_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.AdaptiveLocalization.MaximalProcess.logDetNoiseIntegral_secondMoment_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,10 @@
+KLS/WeightedBochnerBounds.lean:134:5: warning: Variable name `hK` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hK
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'KLS.abs_bochnerCutoffError_sq_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.abs_bochnerCutoffError_sq_le_vanishing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.abs_cutoff_diffusion_error_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_cutoff_bochnerDensity_le' depends on axioms: [propext, Classical.choice, Quot.sound]

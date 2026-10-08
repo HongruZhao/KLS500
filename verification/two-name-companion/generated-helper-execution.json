@@ -1,0 +1,19 @@
+{
+  "success": true,
+  "command": [
+    "/Users/avatar/.elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean",
+    "-j1",
+    "-M12288",
+    "-t0",
+    "-DmaxSynthPendingDepth=3",
+    "-o",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/clean-lean/.lake/build/lib/lean/GeneratedProvenanceAudit.olean",
+    "GeneratedProvenanceAudit.lean"
+  ],
+  "exit_status": 0,
+  "seconds": 3.2192024590000003,
+  "source_sha256": "759d187379b5be201c0da2f1874952dfc578ef850a1e5728318731dff955d2fc",
+  "log_sha256": "6c991fe7a66b6ee1234d3559b445e731b3bb45b15ea5532116b67d0d8871ccc5",
+  "object_sha256": "e95075150ff5dedb2fe355615ef38f0b15f6be485afc8ec9e884db563121bac6",
+  "fresh_object": true
+}

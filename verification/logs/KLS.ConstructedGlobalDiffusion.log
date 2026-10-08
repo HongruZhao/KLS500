@@ -1,0 +1,1 @@
+'KLSLevyProbe.exists_constructed_continuous_globalDiffusion' depends on axioms: [propext, Classical.choice, Quot.sound]

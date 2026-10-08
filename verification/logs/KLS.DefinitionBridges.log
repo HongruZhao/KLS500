@@ -1,0 +1,4 @@
+'KLS.HasLogConcaveDensity.absolutelyContinuousLebesgue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.IsIsotropic.integral_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.IsIsotropic.variance_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.hasLogConcaveDensity_convex_indicator' depends on axioms: [propext, Classical.choice, Quot.sound]

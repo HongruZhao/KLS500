@@ -1,0 +1,48 @@
+{
+  "success": true,
+  "mathematical_modules": 1710,
+  "audit_modules": 2,
+  "lake_library_roots_and_globs_exactly_all_1712_sources": true,
+  "portable_source_inventory_sha256": "292afa37bde2325e3dbea917f6498c1916d5fa33b91a42098a1524a7e13e0477",
+  "package_configuration_sha256": {
+    "lean-toolchain": "bc84812c94489d1e3e191baa1dc10d5eb684382d7fe9d2a5ab085e72c1c67e47",
+    "lakefile.toml": "8f77b1de5926e4b4671f46fbd994f4da71556f0e4e932f04adb6ba164c859665",
+    "lake-manifest.json": "7a85b9cd416efb4d2dfcd512373ce14530eaff993e3621309721a2ba835f219e"
+  },
+  "commands": [
+    {
+      "command": [
+        "/Users/avatar/.elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lake",
+        "env",
+        "lean",
+        "--version"
+      ],
+      "exit_status": 0,
+      "seconds": 1.258,
+      "log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/portable-config-0.log",
+      "log_sha256": "7d6e80aeb07b52d32b6386a20cec52e6fca1f11b0601c94f0db1bbb1684cde95"
+    },
+    {
+      "command": [
+        "/Users/avatar/.elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lake",
+        "env",
+        "lean",
+        "-j1",
+        "-M12288",
+        "-t0",
+        "-DmaxSynthPendingDepth=3",
+        "FinalKLSRange.lean"
+      ],
+      "exit_status": 0,
+      "seconds": 4.061,
+      "log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/portable-config-1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "entry_check_uses_only_the_previously_sealed_fresh_project_objects": true,
+  "previous_project_object_directories_used": false,
+  "all_temporary_links_removed": true,
+  "all_1710_fresh_mathematics_artifacts_unchanged": true,
+  "scope": "Configuration loading and an additional final-entry type check. The complete 1710-module fresh proof build is separately recorded; this is not a second complete Lake rebuild.",
+  "check_runner_sha256": "9430b4c787bf1576024a0420c20f2169c2cdc35ad5b57b5b0213aea22f2be6ed"
+}

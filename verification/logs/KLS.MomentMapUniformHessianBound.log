@@ -1,0 +1,3 @@
+'KLS.symmetricSecondDifference_le_of_uniformlyConvex_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.secondFrechet_le_of_uniformlyConvex_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.bounded_hessian_of_uniformlyConvex_target' depends on axioms: [propext, Classical.choice, Quot.sound]

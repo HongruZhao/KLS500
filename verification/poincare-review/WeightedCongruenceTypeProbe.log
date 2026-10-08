@@ -1,0 +1,36 @@
+/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/poincare-review/WeightedCongruenceTypeProbe.lean:2:0: error: Unknown option `pp.width`
+theorem KLS.weightedIterationEnergy.congr_simp.{u_1} : ∀ {n : ℕ} {φ : KLS.Space n → ℝ} {κ κ_1 : ℝ} (e_κ : κ = κ_1)
+  [inst : MeasureTheory.IsProbabilityMeasure (KLS.potentialMeasure φ)] (hφ : ContDiff ℝ 2 φ) (hκ : 0 < κ)
+  (hlower : ∀ (x : KLS.Space n) (a : Fin n → ℝ), κ * a ⬝ᵥ a ≤ a ⬝ᵥ (KLS.coordinateHessian φ x).mulVec a) {ι : Type u_1}
+  [inst_1 : Fintype ι] (U U_1 : KLS.WeightedH1Family φ ι),
+  U = U_1 →
+    ∀ (k k_1 : ℕ),
+      k = k_1 → KLS.weightedIterationEnergy hφ hκ hlower U k = KLS.weightedIterationEnergy hφ ⋯ ⋯ U_1 k_1 :=
+fun {n} {φ} {κ κ_1} e_κ =>
+  @Eq.rec ℝ κ
+    (fun {κ_2} e_κ =>
+      ∀ [inst : MeasureTheory.IsProbabilityMeasure (KLS.potentialMeasure φ)] (hφ : ContDiff ℝ 2 φ) (hκ : 0 < κ)
+        (hlower : ∀ (x : KLS.Space n) (a : Fin n → ℝ), κ * a ⬝ᵥ a ≤ a ⬝ᵥ (KLS.coordinateHessian φ x).mulVec a)
+        {ι : Type u_1} [inst_1 : Fintype ι] (U U_1 : KLS.WeightedH1Family φ ι),
+        U = U_1 →
+          ∀ (k k_1 : ℕ),
+            k = k_1 →
+              KLS.weightedIterationEnergy hφ hκ hlower U k =
+                KLS.weightedIterationEnergy hφ (e_κ ▸ hκ)
+                  (Eq.ndrec (motive := fun {κ} =>
+                    ∀ (x : KLS.Space n) (a : Fin n → ℝ), κ * a ⬝ᵥ a ≤ a ⬝ᵥ (KLS.coordinateHessian φ x).mulVec a) hlower
+                    e_κ)
+                  U_1 k_1)
+    (fun [MeasureTheory.IsProbabilityMeasure (KLS.potentialMeasure φ)] hφ hκ hlower {ι} [Fintype ι] U U_1 e_U =>
+      Eq.rec (motive := fun U_2 e_U =>
+        ∀ (k k_1 : ℕ),
+          k = k_1 →
+            KLS.weightedIterationEnergy hφ hκ hlower U k =
+              KLS.weightedIterationEnergy hφ (Eq.refl κ ▸ hκ)
+                (Eq.ndrec (motive := fun {κ} =>
+                  ∀ (x : KLS.Space n) (a : Fin n → ℝ), κ * a ⬝ᵥ a ≤ a ⬝ᵥ (KLS.coordinateHessian φ x).mulVec a) hlower
+                  (Eq.refl κ))
+                U_2 k_1)
+        (fun k k_1 e_k => e_k ▸ Eq.refl (KLS.weightedIterationEnergy hφ hκ hlower U k)) e_U)
+    κ_1 e_κ
+'KLS.weightedIterationEnergy.congr_simp' depends on axioms: [propext, Classical.choice, Quot.sound]

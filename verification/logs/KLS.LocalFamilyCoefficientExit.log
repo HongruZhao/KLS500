@@ -1,0 +1,3 @@
+'KLS.LocalDiffusion.LocalProcessFamily.ae_clipped_eq_before_joint' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

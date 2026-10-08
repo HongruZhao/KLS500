@@ -1,0 +1,7 @@
+'KLS.memLp_compact_mul_weighted_to_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_compact_mul_weighted_to_volume_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.memLp_compact_mul_volume_to_weighted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_compact_mul_volume_to_weighted_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedL2CompactToVolume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.volumeL2CompactToWeighted' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedH1CompactDerivative_hasWeakCoordinateDerivative' depends on axioms: [propext, Classical.choice, Quot.sound]

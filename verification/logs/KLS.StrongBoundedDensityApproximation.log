@@ -1,0 +1,9 @@
+'KLS.HasSmoothBoundedConvexDensity.affine_quadraticDamping_strongDensity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.admissibleMeasure.eventually_strongDensity_whitened_quadraticDamping' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.admissibleMeasure.quadraticVarianceEight_of_strongDensity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

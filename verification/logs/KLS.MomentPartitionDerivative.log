@@ -1,0 +1,4 @@
+'KLS.hasDerivAt_integral_of_dominated_sub_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.hasDerivAt_momentPartitionFunction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.momentVariational_integral_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.IsIsotropic.exists_moment_potential_integral_identity' depends on axioms: [propext, Classical.choice, Quot.sound]

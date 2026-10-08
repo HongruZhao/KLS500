@@ -1,0 +1,2 @@
+'KLS.brascampLieb_dual_diffusion_of_integrable_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.brascampLieb_variance_of_integrable_energy' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,14 @@
+fun {n} =>
+  KLS.matrixFrobeniusSq.eq_1 : ∀ {n : ℕ} (M : Matrix (Fin n) (Fin n) ℝ), KLS.matrixFrobeniusSq M = ∑ i, ∑ j, M i j ^ 2
+KLS.CenteredExponential.instIsProbabilityMeasureRealExpMeasureOfNat_kLS_1 : IsProbabilityMeasure (expMeasure 1)
+GENERATED_HELPER_OK KLS.matrixFrobeniusSq.eq_1|KLS.SteinMatrixContraction|theorem|[propext,
+ Classical.choice,
+ Quot.sound]
+GENERATED_HELPER_OK KLS.CenteredExponential.instIsProbabilityMeasureRealExpMeasureOfNat_kLS_1|KLS.ExponentialPoincare|theorem|[propext,
+ Classical.choice,
+ Quot.sound]
+GENERATED_HELPERS_PASSED 2
+'KLS.matrixFrobeniusSq.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.CenteredExponential.instIsProbabilityMeasureRealExpMeasureOfNat_kLS_1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

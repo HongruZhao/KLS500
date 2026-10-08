@@ -1,0 +1,10 @@
+'KLS.hasFDerivAt_finiteLegendrePotential_of_strictConvexOn' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.gradient_finiteLegendrePotential_eq_of_mem_convexSubgradient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.continuousOn_gradient_finiteLegendrePotential_of_strictConvexOn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.contDiffOn_one_finiteLegendrePotential_of_strictConvexOn' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

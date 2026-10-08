@@ -1,0 +1,5 @@
+'KLS.mollify_eq_indicator_on' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_sq_mollify_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.memLp_compact_mul_of_local' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.eLpNorm_compact_mul_mollify_sub_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_uniform_integral_sq_compact_mul_mollify' depends on axioms: [propext, Classical.choice, Quot.sound]

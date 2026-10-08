@@ -1,0 +1,1 @@
+'KLS.TensorEnergy.fderiv_tensorMetric_whitened' depends on axioms: [propext, Classical.choice, Quot.sound]

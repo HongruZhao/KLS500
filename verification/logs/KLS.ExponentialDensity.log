@@ -1,0 +1,5 @@
+'KLS.CenteredExponential.measurePreserving_embedding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.CenteredExponential.measure_eq_withDensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.CenteredExponential.potential_extendedConvex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.CenteredExponential.hasLogConcaveDensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.CenteredExponential.isKLSMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]

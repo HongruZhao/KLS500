@@ -1,0 +1,4 @@
+'KLS.gaussianSmoothing_eq_map_prod' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.admissibleMeasure.tendsto_coordinate_moment_gaussianSmoothing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

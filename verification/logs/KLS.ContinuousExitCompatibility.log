@@ -1,0 +1,2 @@
+'KLS.LocalDiffusion.ae_all_eq_before_cutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.LocalDiffusion.exitTime_eq_of_eq_before_common' depends on axioms: [propext, Classical.choice, Quot.sound]

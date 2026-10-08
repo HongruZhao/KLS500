@@ -1,0 +1,4 @@
+'KLS.tiltLogLaplace_exponentialTilt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.cumulantTensor_exponentialTilt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.hasFDerivAt_cumulantTensor_exponentialTilt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.hasDerivAt_cumulantTensor_exponentialTilt_eval' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'KLS.potentialSublevelCutoff_hasCompactSupport' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.hessianMetricDiffusion_potentialSublevelCutoff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.potentialSublevelTail_energy_identity' depends on axioms: [propext, Classical.choice, Quot.sound]

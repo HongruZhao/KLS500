@@ -1,0 +1,2 @@
+'KLS.IsIsotropic.norm_tail_fixed_radius_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.measureLogConcave.isotropic_norm_tail_le' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'KLS.weightedFamilyCenteredGradient_ae_of_representative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedIteration_diffusion_taylor_recursion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedIteration_centered_taylor_recursion' depends on axioms: [propext, Classical.choice, Quot.sound]

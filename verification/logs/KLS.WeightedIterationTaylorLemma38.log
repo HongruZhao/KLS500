@@ -1,0 +1,3 @@
+'KLS.weightedIteration_taylor_doubling_universal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedIteration_taylor_lemma38' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedIteration_taylor_lemma38_before_stop' depends on axioms: [propext, Classical.choice, Quot.sound]

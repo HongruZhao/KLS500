@@ -1,0 +1,7 @@
+'KLS.LocalDiffusion.LocalProcessFamily.measurable_path_slice' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.LocalDiffusion.LocalProcessFamily.ae_continuousOn_before_lifetime' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.LocalDiffusion.LocalProcessFamily.ae_finite_lifetime_escape' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

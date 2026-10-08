@@ -1,0 +1,21 @@
+KLS/IsotropicLowerBound.lean:73:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+KLS/IsotropicLowerBound.lean:78:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+'KLS.gradient_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.energy_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.IsIsotropic.one_le_poincareConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.IsIsotropic.poincareConstant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.admissibleMeasure.one_le_poincareConstant' depends on axioms: [propext, Classical.choice, Quot.sound]

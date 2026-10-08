@@ -1,0 +1,1 @@
+'KLS.LocalDiffusion.exists_extension_on_closedBall' depends on axioms: [propext, Classical.choice, Quot.sound]

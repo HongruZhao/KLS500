@@ -1,0 +1,92 @@
+{
+  "success": true,
+  "status": "ACCEPTED_STATIC_RUNNER_AND_COMPANION_REVIEW",
+  "reviewer": "definition_audit",
+  "created_utc": "2026-10-08T03:08:35.956108+00:00",
+  "recovery_runner": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/recover_registry.py",
+  "recovery_runner_sha256": "0c1755cc0cd9193952685c13e945c7b343722e5fc7360951e77da37fefe0d566",
+  "runner_executed_by_this_review": false,
+  "findings": [],
+  "preceding_registry_review": {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/definition-review/registry-reconciliation-review.json",
+    "sha256": "bf30f41716d61b4ee21f703624da0049e5d2ce53ec3947fdbc126bf5754ba3a4"
+  },
+  "checks": [
+    {
+      "lines": [
+        33,
+        45
+      ],
+      "verified": "Hardcoded hashes preserve the original primary audit runner, expected tables, source, log, object, and successful kernel receipt."
+    },
+    {
+      "lines": [
+        47,
+        69
+      ],
+      "verified": "Completion pins are validated; all 1710 unique successful mathematical source/log/artifact rows and all sidecar hashes are rechecked with no old project-object search path."
+    },
+    {
+      "lines": [
+        71,
+        90
+      ],
+      "verified": "Exactly 22017 distinct primary rows, 19686 theorems, and 3651 strict unique gates are required; every row belongs to the chosen source closure and has only standard axioms."
+    },
+    {
+      "lines": [
+        92,
+        104
+      ],
+      "verified": "The full baseline registry and filtered table are pinned. The raw comparison must produce precisely two excluded-origin extras, no missing old names, and precisely five row differences."
+    },
+    {
+      "lines": [
+        106,
+        140
+      ],
+      "verified": "The seven-case companion is hash-linked to its successful receipt and exact source/log/object. Exactly seven strict companion rows and seven literal ascriptions are required. Each old row and selected new origin is fixed by the explicit CASES table; then every one of the 22004 reconciled prior rows must match exactly and the only additional names are 13 new public declarations."
+    },
+    {
+      "lines": [
+        141,
+        150
+      ],
+      "verified": "All 23 public endpoints retain theorem kind and exactly the standard three axioms. The earlier hessianSquare.eq_1 selection remains separately checked."
+    },
+    {
+      "lines": [
+        151,
+        214
+      ],
+      "verified": "Recovery writes new additive reconciliation and recovery records, then a summary marked review_status=pending. The primary audit files and mathematical sources are not rewritten. Count3658 is correctly 3651 primary gates plus seven disjoint companion gates."
+    }
+  ],
+  "companion": {
+    "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/clean-lean/GeneratedProvenanceAudit.lean",
+    "source_sha256": "db84ef56659bcf59f183cb5c706e7325638ce4f00d2b6c8a22072bbc414cee65",
+    "execution_receipt": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/generated-helper-execution.json",
+    "execution_receipt_sha256": "03d0364436a74774c6d45e848e751b75bb4f98843a191e0aab602837b9c3418f",
+    "log_sha256": "747bcc2fcd5df8a34ab0c0af79506d482c1e47ed77927fa15345b70a2cc38d07",
+    "object_sha256": "5ff2976099cc9985803939f6fd31ff8058bbcc88c307cfda75dd20a6f30ca485",
+    "exit_status": 0,
+    "recorded_kernel_trust_level": 0,
+    "literal_types_reviewed": 7,
+    "exact_origin_kind_axiom_gates": 7,
+    "all_exact_rows_match_fixed_case_table": true,
+    "old_two_name_companion_preserved": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/two-name-companion"
+  },
+  "literal_type_semantics": [
+    "matrixFrobeniusSq.eq_1 is the finite sum of squared matrix entries.",
+    "The generated local probability instance states IsProbabilityMeasure (expMeasure 1).",
+    "potentialMeasure.eq_1 is Lebesgue density exp(-phi); tiltLogLaplace.eq_1 is log of the tilt partition; tiltThirdCumulant.eq_1 is the centered triple tilt average.",
+    "weightedIterationEnergy.congr_simp transports equality of kappa and its dependent hypotheses, equality of the Hilbert-space family, and equality of the iterate index; it states an equality, not an estimate.",
+    "coordinateDerivative_sq is the duplicated handwritten product-rule theorem with the same literal type."
+  ],
+  "independent_semantic_review_pins": {
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/definition-review/registry-reconciliation-review.json": "bf30f41716d61b4ee21f703624da0049e5d2ce53ec3947fdbc126bf5754ba3a4",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/poincare-review/three-origin-cases-addendum.json": "fb951e10fb43487eb73050ebadec58a8b90a1738170d93d4f3cba8c0bcb560e0",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/generated-instance-review/semantic-review.json": "f7ec66e376f433215dcab60b7cb3a0c59d4c711fbe1c90118a64e13c1d4282ad"
+  },
+  "limits": "This is a static postprocessor review plus verification of the already compiled seven-case companion. The parent must execute the reviewed recovery runner and inspect its successful outputs before final release. No second exhaustive Lean compilation was performed or claimed by this review."
+}

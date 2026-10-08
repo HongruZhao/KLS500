@@ -1,0 +1,4 @@
+'KLS.integrable_exponentialTilt_of_weighted_memLp' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exponentialTiltCoordinateTaylor_const_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exponentialTiltCoordinateTaylor_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exponentialTiltCoordinateTaylor_sub_const' depends on axioms: [propext, Classical.choice, Quot.sound]

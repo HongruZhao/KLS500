@@ -1,0 +1,2 @@
+'KLS.tendsto_integral_quadraticDamping' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.quadraticDamping_eq_restrict_potentialMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]

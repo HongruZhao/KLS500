@@ -1,0 +1,29 @@
+{
+  "success": true,
+  "status": "ACCEPTED",
+  "reviewer": "definition_audit",
+  "created_utc": "2026-10-08T02:24:17.909974+00:00",
+  "scope": "Additive source review of the one-character comment syntax correction in the authored FinalKLS500.lean wrapper. No theorem, definition or proof is changed.",
+  "original_sealed_review": {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/definition-review/review.json",
+    "sha256": "247b445809845b387b54e0039707a74106db6ad24bd80c22060629782ed552e2",
+    "unchanged": true
+  },
+  "previous_source_sha256": "892420de5332564c50196708a14035aa22de098b214abf2a6a046fa4d6a6d8a9",
+  "corrected_source_path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/FinalKLS500.lean",
+  "corrected_source_sha256": "207ffd00a5e5291f3f7f9b416b2dfe6d212d90b46b19bbd275e761c203459990",
+  "change": {
+    "line": 8,
+    "before": "/-- Final public endpoints, using the unchanged upstream OpenAI model. -/",
+    "after": "/- Final public endpoints, using the unchanged upstream OpenAI model. -/",
+    "purpose": "A Lean declaration documentation comment cannot be attached to a namespace command. An ordinary block comment preserves the text and permits the namespace command."
+  },
+  "exact_comparison": {
+    "single_byte_removed": true,
+    "complete_remaining_source_byte_identical": true,
+    "all_theorem_types_and_bodies_byte_identical": true
+  },
+  "findings": [],
+  "clean_build_snapshot_status": "At addendum time clean-lean/FinalKLS500.lean still contains the old reviewed snapshot. The final clean rebuild must copy the corrected source and seal its corrected hash.",
+  "verification_scope": "This addendum confirms the source-only equivalence. The parent owns the pending fresh 1710-module closure rebuild and final endpoint audit."
+}

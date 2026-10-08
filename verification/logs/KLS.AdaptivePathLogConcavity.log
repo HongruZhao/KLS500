@@ -1,0 +1,3 @@
+'KLS.AdaptiveLocalization.MaximalProcess.ae_all_localizationLaw_logConcave' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

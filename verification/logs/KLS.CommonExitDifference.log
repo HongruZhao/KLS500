@@ -1,0 +1,20 @@
+KLS/CommonExitDifference.lean:23:38: warning: `Set.setOf_or` has been deprecated: Use `Set.ofPred_or` instead
+
+Hint: Replace the deprecated name:
+  s̵e̵t̵O̵f̵_̵o̵r̵o̲f̲P̲r̲e̲d̲_̲o̲r̲
+KLS/CommonExitDifference.lean:32:8: warning: `measurable_pi_lambda` has been deprecated: Use `Measurable.of_eval` instead
+
+Hint: Replace the deprecated name:
+  m̵e̵a̵s̵u̵r̵a̵b̵l̵e̵_̵p̵i̵_̵l̵a̵m̵b̵d̵a̵M̲e̲a̲s̲u̲r̲a̲b̲l̲e̲.̲o̲f̲_̲e̲v̲a̲l̲
+KLS/CommonExitDifference.lean:59:58: warning: Variable name `hT` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hT
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+KLS/CommonExitDifference.lean:115:45: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+'KLS.LocalDiffusion.commonDifference_sup_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.LocalDiffusion.common_stopped_coefficients_sq_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

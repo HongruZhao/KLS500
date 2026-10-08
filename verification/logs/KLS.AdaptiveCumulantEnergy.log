@@ -1,0 +1,4 @@
+'KLS.AdaptiveLocalization.cumulantEnergy_generator_exact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.AdaptiveLocalization.cumulantEnergy_generator_lower_of_matrix_seed' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,6 @@
+'KLS.IsIsotropic.integral_coordinate_mul_gaussianSmoothing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.IsIsotropic.isotropicGaussianSmoothing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.admissibleMeasure.isotropicGaussianSmoothing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.admissibleMeasure.tendsto_coordinate_moment_isotropicGaussianSmoothing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

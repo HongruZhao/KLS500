@@ -1,0 +1,3 @@
+'KLS.measurePreserving_suspensionCoordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.euclideanSuspensionLaw_eq_withDensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.isProbabilityMeasure_euclideanSuspensionLaw' depends on axioms: [propext, Classical.choice, Quot.sound]

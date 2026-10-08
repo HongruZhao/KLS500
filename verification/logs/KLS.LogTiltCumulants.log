@@ -1,0 +1,3 @@
+'KLS.iteratedDeriv_four_log_tiltPartition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.hasDerivAt_exponentialTilt_covariance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.IsIsotropic.hasDerivAt_covariance_eq_thirdCumulant' depends on axioms: [propext, Classical.choice, Quot.sound]

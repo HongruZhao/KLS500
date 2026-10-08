@@ -1,0 +1,2 @@
+'KLS.exists_mem_compactCumulative_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.compactQuantile_increment' depends on axioms: [propext, Classical.choice, Quot.sound]

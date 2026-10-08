@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/Users/avatar/.elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean",
+    "-j1",
+    "-M12288",
+    "-t0",
+    "-DmaxSynthPendingDepth=3",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/poincare-review/WeightedCongruenceTypeProbe.lean"
+  ],
+  "exit_status": 1,
+  "seconds": 3.182,
+  "source_sha256": "dd75fe5e412ff8fa60a9c357fd9cd1f942d8102002a4c8b093606c50c38a12e5",
+  "log_sha256": "5b3d07999e0adce5b417f13acd7f5646512ff4710e2a6edc43df82cced8e355f",
+  "effective_prepare_sha256": "6286fb8ccbb6a11fa9c450edfa50bf901ac87dd24d3f0186565861855f3c52dc",
+  "project_objects_used": "same completed fresh 1710-module library",
+  "output_object_requested": false
+}

@@ -1,0 +1,7 @@
+'KLS.isOpen_truncatedConjugateAgreementRegion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.convexSubgradient_truncatedLegendrePotential_eq_relative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.volume_convexSubgradientImage_centeredTruncatedConjugate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

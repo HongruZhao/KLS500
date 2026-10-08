@@ -1,0 +1,1 @@
+'KLS.TensorEnergy.fderiv_fderiv_tensorMetric_at_identity' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,27 @@
+KLS/CumulantSubsetPairing.lean:64:41: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+KLS/CumulantSubsetPairing.lean:110:41: warning: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+KLS/CumulantSubsetPairing.lean:82:20: warning: This simp argument is unused:
+  hA2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hA, hB, hf]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+KLS/CumulantSubsetPairing.lean:87:20: warning: This simp argument is unused:
+  hB2
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hA, hB, hf]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'KLS.half_sum_subsets_eq_singletons_and_middle' depends on axioms: [propext, Classical.choice, Quot.sound]

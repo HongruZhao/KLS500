@@ -1,0 +1,3 @@
+'KLS.ProbabilityKernel.eLpNorm_convolution_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.ProbabilityKernel.eLpNorm_convolution_restrict_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.ProbabilityKernel.memLp_convolution' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'KLS.finite_of_pointwise_logConcave' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.admissibleMeasure.absolutelyContinuousLebesgue' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.admissibleMeasure.eq_withDensity_lowerBallDensity' depends on axioms: [propext, Classical.choice, Quot.sound]

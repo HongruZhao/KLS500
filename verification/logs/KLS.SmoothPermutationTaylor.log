@@ -1,0 +1,3 @@
+'KLS.smooth_permutation_head_sum_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.smooth_permutation_head_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.sum_permutation_head_eq_last' depends on axioms: [propext, Classical.choice, Quot.sound]

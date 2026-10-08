@@ -1,0 +1,6 @@
+'KLS.scaledGaussianMeasure_eq_withDensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.admissibleMeasure.gaussianSmoothing_logConcave' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.gaussianSmoothedDensity_contDiff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.gaussianSmoothedDensity_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.admissibleMeasure.gaussianSmoothedPotential_convex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.admissibleMeasure.gaussianSmoothing_eq_exp_potential' depends on axioms: [propext, Classical.choice, Quot.sound]

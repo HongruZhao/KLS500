@@ -1,0 +1,2 @@
+'KLS.weightedH1_coordinateDerivative_of_representative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weighted_eigenpair_pointwise_of_representative' depends on axioms: [propext, Classical.choice, Quot.sound]

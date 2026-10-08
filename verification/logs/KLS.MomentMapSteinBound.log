@@ -1,0 +1,2 @@
+'KLS.integral_inner_sq_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.MomentMap.integral_linear_test_sq_le_stein_energy' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'KLS.locallyLipschitzOn_ae_differentiableAt_of_isOpen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.convexOn_ae_differentiableAt_interior' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.convexOn_ae_mem_interior_and_differentiableAt' depends on axioms: [propext, Classical.choice, Quot.sound]

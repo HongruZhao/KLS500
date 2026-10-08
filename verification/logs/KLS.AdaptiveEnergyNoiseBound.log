@@ -1,0 +1,7 @@
+KLS/AdaptiveEnergyNoiseBound.lean:96:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.energyUniformNoiseBound_nonnegative`:
+  [IsProbabilityMeasure μ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure μ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'KLS.AdaptiveLocalization.abs_energyNoiseCoefficient_le' depends on axioms: [propext, Classical.choice, Quot.sound]

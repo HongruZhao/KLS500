@@ -1,0 +1,3 @@
+'KLS.ConstantReduction.weightedIterationBlockTaylor_partial_norm_sq_le_of_scale' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

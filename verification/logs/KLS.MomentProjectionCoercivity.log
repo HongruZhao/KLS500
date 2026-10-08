@@ -1,0 +1,10 @@
+'KLS.IsIsotropic.exists_projectionAbsoluteMoment_coercivity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.IsIsotropic.exists_affineProjectionAbsoluteMoment_coercivity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.IsIsotropic.exists_uniform_affineProjectionAbsoluteMoment_pos' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.IsIsotropic.norm_le_twice_radius_mul_affineProjectionAbsoluteMoment' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

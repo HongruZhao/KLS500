@@ -1,0 +1,50 @@
+{
+  "status": "PASS_TARGETED_SEMANTIC_REVERIFY",
+  "created_utc": "2026-10-08T02:04:44.865118+00:00",
+  "reviewer": "bkl_audit",
+  "scope": "Poincare 500 regular criterion, full-law and finite-energy transfer, fixed 500 OpenAI and combined endpoint",
+  "fresh_compilation_in_this_subaudit": false,
+  "fresh_rebuild_owner": "root",
+  "findings": [],
+  "source_references_file": "source-pins.json",
+  "accepted_source_files_hash_verified": 18,
+  "baseline_files_equal_working_sources": 9,
+  "token_scan_file": "token-scan.json",
+  "actual_endpoint_types_sha256": "eb0af57a8d101a6374dbeae9b47bca3b8b4a8a89179b271a290eb45a12812f8e",
+  "trace": [
+    {
+      "claim": "The optimal Poincare constant is not defined as 500 and membership is not tautological.",
+      "evidence": "Definitions.lean:138-178 defines admissibleMeasure by probability, compact-set log-concavity and isotropy; poincareConstants tests every locally Lipschitz L2 function against literal extended variance and gradient energy; poincareConstant is an infimum of that set. OptimalConstants.lean:48-101 proves infimum admissibility using independently established finiteness and positivity."
+    },
+    {
+      "claim": "The rank-sensitive premise is a bound for the actual full-L2 Taylor operator.",
+      "evidence": "SpectralReductionRankTaylor.lean:17-19 quantifies every rank and every actual Lp function. WeightedTiltTaylorTensor.lean:12-14 uses coordinate directions in the actual normalized tilted-expectation derivative; WeightedTiltSymmetrizedTaylor.lean:15-18 includes the literal factorial. No truncated or synthetic Taylor operator replaces it."
+    },
+    {
+      "claim": "The Taylor premise is discharged at the regular numerical endpoint.",
+      "evidence": "SpectralReductionMoving256Taylor.lean:11-23 covers all ranks by the <= 256 unconditional theorem and the all-rank eighteen-fifth theorem. The finite cumulant induction uses exact initial ranks and smaller-rank induction, and the cubic process seed is supplied by uniformCompactCubicSeed_unconditional. The regular endpoint in SpectralReductionCoupledCriterion.lean:80-89 derives Hessian lower bounds and the second moment from strong convexity and isotropy."
+    },
+    {
+      "claim": "The spectral bound is obtained before numerical membership is used.",
+      "evidence": "SpectralReductionRetainedDefect.lean:92-129 constructs the actual attained eigenpair and full orbit, including CP=lambda inverse and the Bochner defect budget. CoupledStopping.lean:17-116 derives finite stopping and rho in [0,1] from that orbit. CoupledCriterion.lean:40-76 derives the actual Taylor recurrence and mean-loss inequality. CoupledScalar.lean:188-213 then contradicts lambda<=1/500; only afterwards does the criterion invert lambda to obtain CP<=500."
+    },
+    {
+      "claim": "The same 500 covers all original admissible laws and finite-energy locally Lipschitz tests.",
+      "evidence": "RankFullVerification29.lean:17-36 applies actual strong-density approximation, proving regular-law finite constant membership from the bound and isotropic positivity. CoupledRankYoungFullVerification.lean:12-36 specializes this to 500. Its real_poincare theorem at49-58 assumes only locally Lipschitz and finite energy and concludes L2 membership, gradient-square integrability, and literal real-integral inequality with 500. TruncationEnergy.lean:69-80 derives L2 membership by truncation and Fatou; RealEndpoint.lean:35-51 converts only after finiteness."
+    },
+    {
+      "claim": "The exact OpenAI type retains fixed 500 before dimension and law quantifiers.",
+      "evidence": "OpenAIKLSBridge.lean:17-65 derives the actual admissible law from upstream log-concave density and isotropy;67-86 proves the upstream compact smooth test inequality using the faithful finite-energy result. OpenAIKLS500.lean:11-25 proves poincareBound500 and witnesses the unchanged KLSStatement by 500. The final combined endpoint explicitly repeats this fixed 500 predicate and independently supplies 100/(197sqrt500) Cheeger bound."
+    }
+  ],
+  "comment_and_token_observations": [
+    "The general criterion intentionally retains hTaylor; its adjacent regular theorem explicitly discharges it. The module comment is not an undisclosed endpoint assumption.",
+    "Older historical constants remain in imported generic wrapper modules; the accepted P500 application instantiates the generic constant with 500, and the printed final theorem quantifiers confirm the fixed witness.",
+    "No executable sorry, admit, axiom declaration, constant declaration, native_decide, implemented_by, or unsafe token was found in the 27 selected unique source files after excluding nested comments and strings."
+  ],
+  "limitations": [
+    "This is a targeted semantic reread and hash/type audit. It is not a new manual reread of every theorem in the hundreds of foundational stochastic, analytic, and approximation modules. Those dependencies retain their prior accepted proof receipts.",
+    "The new fresh proof rebuild and exhaustive origin/axiom checks requested by the user are owned by root and must be reported separately. This subaudit did not compile or edit accepted inputs.",
+    "No optimality of 500 or 1.97 is asserted. The OpenAI endpoint is its exact Poincare statement; the stronger locally Lipschitz finite-energy and numerical Cheeger conclusions are separate explicit theorems."
+  ]
+}

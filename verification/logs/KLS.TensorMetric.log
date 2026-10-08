@@ -1,0 +1,2 @@
+'KLS.TensorEnergy.tensorMetric_congruence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.TensorEnergy.tensorMetric_eq_whitened' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,302 @@
+{
+  "success": true,
+  "scope": "Read-only add-on plan; do not replace or mutate the current main build manifest while it runs.",
+  "current_prepare_receipt": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/prepare-receipt.json",
+  "current_prepare_receipt_sha256": "da74a0667f66b9cd885679c5cad9528c926330fe5e0ea269760a9258696904d5",
+  "current_source_module_count": 1699,
+  "lower_four_root": "KLS.ExponentialFullClass",
+  "lower_four_local_closure_count": 16,
+  "already_present_lower_four_modules": [
+    "KLS.DefinitionBridges",
+    "KLS.Definitions",
+    "KLS.IsotropicLowerBound",
+    "KLS.LocalRademacher",
+    "KLS.OptimalConstants",
+    "KLS.RouteArithmetic"
+  ],
+  "missing_baseline_module_count": 10,
+  "new_wrapper_count": 1,
+  "new_module_count": 11,
+  "expected_combined_source_module_count": 1710,
+  "topological_addon_order": [
+    "KLS.OneDimensionalBrunnMinkowski",
+    "KLS.CompactSetQuantile",
+    "KLS.MultiplicativeBrunnMinkowski",
+    "KLS.ExponentialMoments",
+    "KLS.ExponentialCompactLogConcavity",
+    "KLS.ExponentialPoincareScalar",
+    "KLS.CenteredExponential",
+    "KLS.ExponentialDensity",
+    "KLS.ExponentialPoincare",
+    "KLS.ExponentialFullClass",
+    "FinalKLSRange"
+  ],
+  "modules": [
+    {
+      "module": "KLS.OneDimensionalBrunnMinkowski",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/OneDimensionalBrunnMinkowski.lean",
+      "source_sha256": "3172887936a38c421a3266ef018c17ee8a3eb1848bb8b1b892d0402c71c2e609",
+      "imports": [
+        "KLS.Definitions"
+      ],
+      "baseline": true,
+      "baseline_inventory_key": "lean/KLS/OneDimensionalBrunnMinkowski.lean",
+      "baseline_pin_matched": true,
+      "destination_relative": "KLS/OneDimensionalBrunnMinkowski.lean"
+    },
+    {
+      "module": "KLS.CompactSetQuantile",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/CompactSetQuantile.lean",
+      "source_sha256": "6a0ca950fe3bc144021757f9c46594d55e31c02bf5fb1e770cc28614070482d2",
+      "imports": [
+        "KLS.OneDimensionalBrunnMinkowski",
+        "Mathlib.MeasureTheory.Measure.Hausdorff"
+      ],
+      "baseline": true,
+      "baseline_inventory_key": "lean/KLS/CompactSetQuantile.lean",
+      "baseline_pin_matched": true,
+      "destination_relative": "KLS/CompactSetQuantile.lean"
+    },
+    {
+      "module": "KLS.MultiplicativeBrunnMinkowski",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/MultiplicativeBrunnMinkowski.lean",
+      "source_sha256": "9fef25b432a904d55b9cc6c86032677f011bd3d518713a1a7781a3d0167b7255",
+      "imports": [
+        "KLS.CompactSetQuantile"
+      ],
+      "baseline": true,
+      "baseline_inventory_key": "lean/KLS/MultiplicativeBrunnMinkowski.lean",
+      "baseline_pin_matched": true,
+      "destination_relative": "KLS/MultiplicativeBrunnMinkowski.lean"
+    },
+    {
+      "module": "KLS.ExponentialMoments",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/ExponentialMoments.lean",
+      "source_sha256": "1123ac937b842efe8ceffd617592f764d90bbd155587f1db531d137483621922",
+      "imports": [
+        "Mathlib"
+      ],
+      "baseline": true,
+      "baseline_inventory_key": "lean/KLS/ExponentialMoments.lean",
+      "baseline_pin_matched": true,
+      "destination_relative": "KLS/ExponentialMoments.lean"
+    },
+    {
+      "module": "KLS.ExponentialCompactLogConcavity",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/ExponentialCompactLogConcavity.lean",
+      "source_sha256": "6b06e3b465705e7fbd253e471dfcf4e73874f55e32e5a9800b657f62d7984efb",
+      "imports": [
+        "KLS.MultiplicativeBrunnMinkowski",
+        "KLS.ExponentialMoments",
+        "Mathlib.MeasureTheory.Function.JacobianOneDim"
+      ],
+      "baseline": true,
+      "baseline_inventory_key": "lean/KLS/ExponentialCompactLogConcavity.lean",
+      "baseline_pin_matched": true,
+      "destination_relative": "KLS/ExponentialCompactLogConcavity.lean"
+    },
+    {
+      "module": "KLS.ExponentialPoincareScalar",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/ExponentialPoincareScalar.lean",
+      "source_sha256": "0423f7333911519f052905e7e47313fac2a8b075efe8dbbaf51d95cc61c5aef5",
+      "imports": [
+        "KLS.ExponentialMoments",
+        "Mathlib.MeasureTheory.Integral.IntervalIntegral.AbsolutelyContinuousFun",
+        "Mathlib.Topology.Algebra.MetricSpace.Lipschitz"
+      ],
+      "baseline": true,
+      "baseline_inventory_key": "lean/KLS/ExponentialPoincareScalar.lean",
+      "baseline_pin_matched": true,
+      "destination_relative": "KLS/ExponentialPoincareScalar.lean"
+    },
+    {
+      "module": "KLS.CenteredExponential",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/CenteredExponential.lean",
+      "source_sha256": "02382392b1a68d020bfad77cb5d2fb8bbd935e6fa1083d461767e794d032c5b2",
+      "imports": [
+        "KLS.ExponentialMoments",
+        "KLS.IsotropicLowerBound",
+        "KLS.RouteArithmetic",
+        "Mathlib.MeasureTheory.SpecificCodomains.WithLp"
+      ],
+      "baseline": true,
+      "baseline_inventory_key": "lean/KLS/CenteredExponential.lean",
+      "baseline_pin_matched": true,
+      "destination_relative": "KLS/CenteredExponential.lean"
+    },
+    {
+      "module": "KLS.ExponentialDensity",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/ExponentialDensity.lean",
+      "source_sha256": "30dfacde0584fa53af0538ae320247d153c684ee3011a244d539b5238a82aaed",
+      "imports": [
+        "KLS.CenteredExponential"
+      ],
+      "baseline": true,
+      "baseline_inventory_key": "lean/KLS/ExponentialDensity.lean",
+      "baseline_pin_matched": true,
+      "destination_relative": "KLS/ExponentialDensity.lean"
+    },
+    {
+      "module": "KLS.ExponentialPoincare",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/ExponentialPoincare.lean",
+      "source_sha256": "daeb9d1d68f71855995ec9b6e3261f938c959753d36d66af5abf1c961f385f2e",
+      "imports": [
+        "KLS.ExponentialPoincareScalar",
+        "KLS.ExponentialDensity",
+        "KLS.LocalRademacher"
+      ],
+      "baseline": true,
+      "baseline_inventory_key": "lean/KLS/ExponentialPoincare.lean",
+      "baseline_pin_matched": true,
+      "destination_relative": "KLS/ExponentialPoincare.lean"
+    },
+    {
+      "module": "KLS.ExponentialFullClass",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/ExponentialFullClass.lean",
+      "source_sha256": "1fa737978b620d224bde3164089973ec729d03e4715f3f1303de130cc34605f1",
+      "imports": [
+        "KLS.ExponentialCompactLogConcavity",
+        "KLS.ExponentialPoincare"
+      ],
+      "baseline": true,
+      "baseline_inventory_key": "lean/KLS/ExponentialFullClass.lean",
+      "baseline_pin_matched": true,
+      "destination_relative": "KLS/ExponentialFullClass.lean"
+    },
+    {
+      "module": "FinalKLSRange",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/range-review/FinalKLSRange.lean",
+      "source_sha256": "91b032ab69d086ebd37d78c70a3d2acf93d01b34b0673cea41980c03bc692663",
+      "imports": [
+        "FinalKLS500",
+        "KLS.ExponentialFullClass"
+      ],
+      "baseline": false,
+      "destination_relative": "FinalKLSRange.lean"
+    }
+  ],
+  "lower_four_import_edges": {
+    "KLS.ExponentialFullClass": [
+      "KLS.ExponentialCompactLogConcavity",
+      "KLS.ExponentialPoincare"
+    ],
+    "KLS.ExponentialCompactLogConcavity": [
+      "KLS.MultiplicativeBrunnMinkowski",
+      "KLS.ExponentialMoments",
+      "Mathlib.MeasureTheory.Function.JacobianOneDim"
+    ],
+    "KLS.MultiplicativeBrunnMinkowski": [
+      "KLS.CompactSetQuantile"
+    ],
+    "KLS.CompactSetQuantile": [
+      "KLS.OneDimensionalBrunnMinkowski",
+      "Mathlib.MeasureTheory.Measure.Hausdorff"
+    ],
+    "KLS.OneDimensionalBrunnMinkowski": [
+      "KLS.Definitions"
+    ],
+    "KLS.Definitions": [
+      "Mathlib"
+    ],
+    "KLS.ExponentialMoments": [
+      "Mathlib"
+    ],
+    "KLS.ExponentialPoincare": [
+      "KLS.ExponentialPoincareScalar",
+      "KLS.ExponentialDensity",
+      "KLS.LocalRademacher"
+    ],
+    "KLS.ExponentialPoincareScalar": [
+      "KLS.ExponentialMoments",
+      "Mathlib.MeasureTheory.Integral.IntervalIntegral.AbsolutelyContinuousFun",
+      "Mathlib.Topology.Algebra.MetricSpace.Lipschitz"
+    ],
+    "KLS.ExponentialDensity": [
+      "KLS.CenteredExponential"
+    ],
+    "KLS.CenteredExponential": [
+      "KLS.ExponentialMoments",
+      "KLS.IsotropicLowerBound",
+      "KLS.RouteArithmetic",
+      "Mathlib.MeasureTheory.SpecificCodomains.WithLp"
+    ],
+    "KLS.IsotropicLowerBound": [
+      "KLS.DefinitionBridges",
+      "KLS.OptimalConstants"
+    ],
+    "KLS.DefinitionBridges": [
+      "KLS.Definitions"
+    ],
+    "KLS.OptimalConstants": [
+      "KLS.Definitions"
+    ],
+    "KLS.RouteArithmetic": [
+      "Mathlib"
+    ],
+    "KLS.LocalRademacher": [
+      "Mathlib.Analysis.Calculus.Rademacher",
+      "Mathlib.Analysis.Calculus.Gradient.Basic",
+      "Mathlib.Analysis.Calculus.FDeriv.Measurable",
+      "Mathlib.Topology.Compactness.Lindelof"
+    ]
+  },
+  "external_direct_imports": [
+    "Mathlib",
+    "Mathlib.Analysis.Calculus.FDeriv.Measurable",
+    "Mathlib.Analysis.Calculus.Gradient.Basic",
+    "Mathlib.Analysis.Calculus.Rademacher",
+    "Mathlib.MeasureTheory.Function.JacobianOneDim",
+    "Mathlib.MeasureTheory.Integral.IntervalIntegral.AbsolutelyContinuousFun",
+    "Mathlib.MeasureTheory.Measure.Hausdorff",
+    "Mathlib.MeasureTheory.SpecificCodomains.WithLp",
+    "Mathlib.Topology.Algebra.MetricSpace.Lipschitz",
+    "Mathlib.Topology.Compactness.Lindelof"
+  ],
+  "new_external_direct_import_pins": {
+    "Mathlib.MeasureTheory.Function.JacobianOneDim": [
+      {
+        "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Function/JacobianOneDim.olean",
+        "sha256": "dfbf61444b27d37e1810401b35372fe7847c7a7b077993581036d2b4362487b6"
+      },
+      {
+        "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Function/JacobianOneDim.olean.private",
+        "sha256": "f66d105e354a1b71e19208518d7185f0504d01ff4e089cfd656060603c044cfe"
+      },
+      {
+        "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Function/JacobianOneDim.olean.server",
+        "sha256": "8b2bdff0667eacd8e21b22c7dfbd38d282aa49535fab35bad9c9a0ec4cd51867"
+      },
+      {
+        "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Function/JacobianOneDim.olean.hash",
+        "sha256": "65d11f7ebf4135b29e01abf7ed685600308336be644024eccd906fbb215f6d1b"
+      },
+      {
+        "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Function/JacobianOneDim.olean.private.hash",
+        "sha256": "adbfa1bb6ca98251d7580cbbead942001e36bb2964d60def6db4565a9a2cd04e"
+      },
+      {
+        "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean/Mathlib/MeasureTheory/Function/JacobianOneDim.olean.server.hash",
+        "sha256": "16a8ca768779f63c23e8b5b890032db7476b6f895de223df1aedfc5ed24d32e2"
+      }
+    ]
+  },
+  "baseline_inventory": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/entropy197500-final-independent/baseline-source-inventory.json",
+  "baseline_inventory_sha256": "3ce94cba714b8931b5e01d6a57d7cb516f25900178e4758b7dcbeb17a079bc8f",
+  "actual_parent_namespace": "KLS.Final",
+  "new_public_endpoint": "KLS.Final.universalPoincareRange",
+  "parent_wrapper_comment_repair": {
+    "historical_prepare_remains_bound": true,
+    "old_wrapper_sha256": "892420de5332564c50196708a14035aa22de098b214abf2a6a046fa4d6a6d8a9",
+    "corrected_authored_wrapper": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/FinalKLS500.lean",
+    "corrected_source_sha256": "207ffd00a5e5291f3f7f9b416b2dfe6d212d90b46b19bbd275e761c203459990",
+    "change": "Namespace-attached /-- documentation comment opener corrected to ordinary /- block comment opener.",
+    "author_support_exact_match": true,
+    "root_owns_repaired_prepare_receipt_and_clean_wrapper_rebuild": true
+  },
+  "verification_probe": {
+    "module": "FinalKLSRangeProbe",
+    "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/range-review/FinalKLSRangeProbe.lean",
+    "source_sha256": "2383f6de92033a7300911564d820060a15d2430ededd81a6b973b5f960fa0efd",
+    "excluded_from_mathematical_dependency_closure_count": true
+  }
+}

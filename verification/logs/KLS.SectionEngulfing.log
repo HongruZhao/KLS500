@@ -1,0 +1,2 @@
+'KLS.sectionEngulfingConstant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.support_deficit_le_sectionEngulfingConstant' depends on axioms: [propext, Classical.choice, Quot.sound]

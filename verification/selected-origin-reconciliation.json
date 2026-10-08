@@ -1,0 +1,201 @@
+{
+  "success": true,
+  "finite_named_cases": [
+    {
+      "name": "KLS.matrixFrobeniusSq.eq_1",
+      "baseline": {
+        "module": "KLS.ExponentialQuadratic",
+        "kind": "theorem",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "selected_final": {
+        "module": "KLS.SteinMatrixContraction",
+        "kind": "theorem",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "classification": "generated unfolding equation",
+      "excluded_by_old_origin_filter": true,
+      "literal_type_and_exact_origin_checked_in_companion": true
+    },
+    {
+      "name": "KLS.CenteredExponential.instIsProbabilityMeasureRealExpMeasureOfNat_kLS_1",
+      "baseline": {
+        "module": "KLS.ExponentialQuadratic",
+        "kind": "theorem",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "selected_final": {
+        "module": "KLS.ExponentialPoincare",
+        "kind": "theorem",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "classification": "generated local probability instance",
+      "excluded_by_old_origin_filter": true,
+      "literal_type_and_exact_origin_checked_in_companion": true
+    },
+    {
+      "name": "KLS.coordinateDerivative_sq",
+      "baseline": {
+        "module": "KLS.HarmonicBernsteinPointwise",
+        "kind": "theorem",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "selected_final": {
+        "module": "KLS.WeightedDiffusionSquare",
+        "kind": "theorem",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "classification": "duplicate handwritten theorem with identical type",
+      "excluded_by_old_origin_filter": false,
+      "literal_type_and_exact_origin_checked_in_companion": true
+    },
+    {
+      "name": "KLS.potentialMeasure.eq_1",
+      "baseline": {
+        "module": "KLS.ConvexPotentialCoercivity",
+        "kind": "theorem",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "selected_final": {
+        "module": "KLS.WeightedEigenClassical",
+        "kind": "theorem",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "classification": "generated unfolding equation",
+      "excluded_by_old_origin_filter": false,
+      "literal_type_and_exact_origin_checked_in_companion": true
+    },
+    {
+      "name": "KLS.tiltLogLaplace.eq_1",
+      "baseline": {
+        "module": "KLS.TiltCumulantLowOrders",
+        "kind": "theorem",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "selected_final": {
+        "module": "KLS.AdaptiveLogMGFSpatial",
+        "kind": "theorem",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "classification": "generated unfolding equation",
+      "excluded_by_old_origin_filter": false,
+      "literal_type_and_exact_origin_checked_in_companion": true
+    },
+    {
+      "name": "KLS.tiltThirdCumulant.eq_1",
+      "baseline": {
+        "module": "KLS.LogTiltCumulants",
+        "kind": "theorem",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "selected_final": {
+        "module": "KLS.CumulantBounds",
+        "kind": "theorem",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "classification": "generated unfolding equation",
+      "excluded_by_old_origin_filter": false,
+      "literal_type_and_exact_origin_checked_in_companion": true
+    },
+    {
+      "name": "KLS.weightedIterationEnergy.congr_simp",
+      "baseline": {
+        "module": "KLS.WeightedEigenSuccessorIteration",
+        "kind": "theorem",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "selected_final": {
+        "module": "KLS.WeightedIterationBochner",
+        "kind": "theorem",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "classification": "generated congruence theorem",
+      "excluded_by_old_origin_filter": false,
+      "literal_type_and_exact_origin_checked_in_companion": true
+    }
+  ],
+  "existing_hessian_overlap": [
+    {
+      "name": "KLS.hessianSquare.eq_1",
+      "baseline": {
+        "module": "KLS.WeightedSuccessorDomain",
+        "kind": "theorem",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "accepted_final": {
+        "module": "ResolventGradientKato",
+        "kind": "theorem",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "explanation": "Lean generates this reflexive unfolding theorem on demand in multiple modules. The accepted final environment selects ResolventGradientKato; the fresh environment must match that exact origin and the literal type."
+    }
+  ],
+  "prior_registry_names_preserved": true,
+  "all_other_prior_rows_preserved_exactly": true,
+  "companion_execution_sha256": "03d0364436a74774c6d45e848e751b75bb4f98843a191e0aab602837b9c3418f",
+  "total_documented_selected_origin_cases": 8
+}

@@ -1,0 +1,5 @@
+KLS/LocalFamilyExitIdentification.lean:48:24: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+'KLS.LocalDiffusion.LocalProcessFamily.ae_exit_eq_path' depends on axioms: [propext, Classical.choice, Quot.sound]

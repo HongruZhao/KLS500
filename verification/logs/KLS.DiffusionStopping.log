@@ -1,0 +1,5 @@
+'KLSLevyAdapter.nonempty_globalDiffusionPair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSLevyAdapter.exists_constructed_globalDiffusionPair' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSLevyAdapter.GlobalDiffusionPair.exit_isStoppingTime' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSLevyAdapter.GlobalDiffusionPair.exit_covers_horizon' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSLevyAdapter.GlobalDiffusionPair.stopped_diffusion_energy' depends on axioms: [propext, Classical.choice, Quot.sound]

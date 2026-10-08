@@ -1,0 +1,4 @@
+'KLS.weightedIterationEnergy_summable_and_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedIterationEnergy_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedIterationMeanLoss_hasSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_weightedIteration_summable_defects' depends on axioms: [propext, Classical.choice, Quot.sound]

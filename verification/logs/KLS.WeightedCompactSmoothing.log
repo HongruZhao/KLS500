@@ -1,0 +1,4 @@
+'KLS.eLpNorm_potentialMeasure_sub_tendsto_zero_of_compact_support' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.compact_locallyLipschitz_weighted_smoothing' depends on axioms: [propext, Classical.choice, Quot.sound]

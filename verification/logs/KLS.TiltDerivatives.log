@@ -1,0 +1,4 @@
+'KLS.hasDerivAt_integral_exponential_tilt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.hasDerivAt_tiltAverage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.hasDerivAt_log_tiltPartition' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.hasDerivAt_exponentialTilt_average' depends on axioms: [propext, Classical.choice, Quot.sound]

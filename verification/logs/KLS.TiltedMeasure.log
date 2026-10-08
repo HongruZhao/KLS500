@@ -1,0 +1,12 @@
+KLS/TiltedMeasure.lean:72:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+'KLS.tilted_isProbability_of_compact_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integrable_tilted_iff_of_compact_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.tiltAverage_eq_ratio' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exponentialTilt_add' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'KLS.hasFDerivAt_tiltNumerator_of_normExponentialDomain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.contDiff_tiltNumerator_of_normExponentialDomain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.contDiff_exponentialTilt_average_of_weighted_memLp' depends on axioms: [propext, Classical.choice, Quot.sound]

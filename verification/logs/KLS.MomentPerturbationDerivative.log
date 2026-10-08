@@ -1,0 +1,3 @@
+'KLS.HasGradientAt.normalizedLegendre_contact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.HasGradientAt.exists_legendre_gap_control' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.hasDerivAt_momentLegendrePerturbation' depends on axioms: [propext, Classical.choice, Quot.sound]

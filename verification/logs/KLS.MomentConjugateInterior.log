@@ -1,0 +1,3 @@
+'KLS.interior_momentLegendreDomain_nonempty_of_ac_target' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.moment_convexSubgradient_subset_interior_domain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.moment_map_gradient_finiteLegendrePotential_inverse' depends on axioms: [propext, Classical.choice, Quot.sound]

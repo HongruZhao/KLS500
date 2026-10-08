@@ -1,0 +1,6 @@
+'KLS.measureLogConcave.integral_normalizedCenteredVector_norm_pow_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.measureLogConcave.abs_integral_normalized_coordinate_prod_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

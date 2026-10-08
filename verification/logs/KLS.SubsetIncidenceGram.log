@@ -1,0 +1,4 @@
+'KLS.incidence_sum_norm_sq_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.card_common_double_supersets' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.subset_incidence_gram_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.sum_norm_sq_le_subset_incidence' depends on axioms: [propext, Classical.choice, Quot.sound]

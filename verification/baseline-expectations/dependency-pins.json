@@ -1,0 +1,56 @@
+[
+  {
+    "name": "mathlib",
+    "revision": "4beb549110aa44b87d699166cece6e3642bddf34",
+    "tracked_sources_clean": true,
+    "resolved_checkout": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib"
+  },
+  {
+    "name": "plausible",
+    "revision": "afc2695efcb6855264d85a45632db1ddc56c8774",
+    "tracked_sources_clean": true,
+    "resolved_checkout": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/plausible"
+  },
+  {
+    "name": "LeanSearchClient",
+    "revision": "50cd21bc62f2c8357c4f269d1185921cbfcdfc90",
+    "tracked_sources_clean": true,
+    "resolved_checkout": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/LeanSearchClient"
+  },
+  {
+    "name": "importGraph",
+    "revision": "d05821707c1db7c14cbfc064594c8c8ebe84b0e8",
+    "tracked_sources_clean": true,
+    "resolved_checkout": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/importGraph"
+  },
+  {
+    "name": "proofwidgets",
+    "revision": "87dfe779d5dfd03142ee4fe158911b8eb553ec98",
+    "tracked_sources_clean": true,
+    "resolved_checkout": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/proofwidgets"
+  },
+  {
+    "name": "aesop",
+    "revision": "36cb0105a76ff3de70add8ae91afb6cfc57fafe3",
+    "tracked_sources_clean": true,
+    "resolved_checkout": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/aesop"
+  },
+  {
+    "name": "Qq",
+    "revision": "d93a8a0622807953d1e424f0fe2a5f5b5520c12e",
+    "tracked_sources_clean": true,
+    "resolved_checkout": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/Qq"
+  },
+  {
+    "name": "batteries",
+    "revision": "0947ec649687a40668db7722257c33e31493b7a2",
+    "tracked_sources_clean": true,
+    "resolved_checkout": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/batteries"
+  },
+  {
+    "name": "Cli",
+    "revision": "843844fa601dd56767b1eb22b7ada5b64d5e567a",
+    "tracked_sources_clean": true,
+    "resolved_checkout": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/Cli"
+  }
+]

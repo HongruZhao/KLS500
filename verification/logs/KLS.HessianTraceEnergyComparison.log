@@ -1,0 +1,1 @@
+'KLS.integral_hessianTraceGradientTerm_le_half_square' depends on axioms: [propext, Classical.choice, Quot.sound]

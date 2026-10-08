@@ -1,0 +1,13 @@
+/.lake/
+*.olean
+*.ilean
+*.trace
+*.olean.private
+*.olean.server
+*.ir
+*.ir.sig
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+venv/

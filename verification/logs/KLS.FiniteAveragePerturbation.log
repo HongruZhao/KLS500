@@ -1,0 +1,1 @@
+'KLS.norm_sq_le_of_near_average_recovery' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'KLS.integral_mul_sq_le_L2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weak_cutoff_test_pairing_sq_le' depends on axioms: [propext, Classical.choice, Quot.sound]

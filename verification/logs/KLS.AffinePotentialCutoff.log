@@ -1,0 +1,3 @@
+'KLS.map_potentialMeasure_affineMatrixEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.cond_closedBall_potentialMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.map_restrict_affineMatrixEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,6 @@
+'KLS.ConstantReduction.norm_sq_le_of_projection_recovery_young' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.ConstantReduction.weightedL2TaylorTensor_norm_sq_le_partial_and_error_projectionYoung' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

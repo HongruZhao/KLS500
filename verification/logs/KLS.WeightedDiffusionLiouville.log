@@ -1,0 +1,4 @@
+'KLS.mem_orthogonal_compactDiffusionRange_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.diffusionRangeDense_of_weakDiffusionLiouville' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weakDiffusionLiouville_of_diffusionRangeDense' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.diffusionRangeDense_iff_weakDiffusionLiouville' depends on axioms: [propext, Classical.choice, Quot.sound]

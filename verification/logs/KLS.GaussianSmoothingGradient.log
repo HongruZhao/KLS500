@@ -1,0 +1,3 @@
+'KLS.fderiv_scaledGaussianKernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.norm_fderiv_gaussianSmoothedDensity_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.norm_gradient_gaussianSmoothedPotential_le' depends on axioms: [propext, Classical.choice, Quot.sound]

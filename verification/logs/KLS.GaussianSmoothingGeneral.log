@@ -1,0 +1,12 @@
+'KLS.gaussianSmoothing_eq_potentialMeasure_of_absolutelyContinuous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.measureLogConcave.gaussianSmoothedPotential_convex_of_absolutelyContinuous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.measureLogConcave.tendsto_coordinate_moment_gaussianSmoothing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.measureLogConcave.tendsto_quadraticVariance_gaussianSmoothing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

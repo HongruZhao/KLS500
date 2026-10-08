@@ -1,0 +1,6 @@
+'KLS.HasWeakCoordinateDerivative.scalarConvolution_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.HasWeakCoordinateDerivative.eLpNorm_mollify_derivative_sub_tendsto_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.tsupport_mollify_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.tendsto_integral_mul_of_eLpNorm_sub_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

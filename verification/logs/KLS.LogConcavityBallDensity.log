@@ -1,0 +1,3 @@
+'KLS.measureLogConcave.lowerBallDensity_logConcave' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.lowerBallDensity_pos_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.lowerBallDensity_lt_top_ae' depends on axioms: [propext, Classical.choice, Quot.sound]

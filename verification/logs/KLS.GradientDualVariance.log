@@ -1,0 +1,9 @@
+KLS/GradientDualVariance.lean:106:16: warning: This simp argument is unused:
+  RCLike.inner_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hx, pow_two]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'KLS.gradient_dual_diffusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.variance_le_sum_gradient_dual_of_rangeDense' depends on axioms: [propext, Classical.choice, Quot.sound]

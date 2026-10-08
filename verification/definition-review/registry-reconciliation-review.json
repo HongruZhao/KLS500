@@ -1,0 +1,374 @@
+{
+  "success": true,
+  "status": "ACCEPTED_EXACT_NAMED_RECONCILIATION_PLAN",
+  "reviewer": "definition_audit",
+  "created_utc": "2026-10-08T03:04:26.554348+00:00",
+  "scope": "Independent registry filtering and finite reconciliation analysis, plus fresh typed/source/origin/axiom verification of potentialMeasure.eq_1, tiltLogLaplace.eq_1, and tiltThirdCumulant.eq_1. The other four exact companion cases have separate reviewers; this record requires the parent-owned seven-name companion and final postprocessor to succeed before release.",
+  "findings": [],
+  "input_pins": {
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/effective-prepare-receipt.json": "6286fb8ccbb6a11fa9c450edfa50bf901ac87dd24d3f0186565861855f3c52dc",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/work/full1744-song-audit/expected-all-declarations.json": "9c780cf38451ba98b69289095b05a518d191115096b2dc0cecec1ad1ccd7eff1",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/expected-prior-declarations.json": "64f2d6c5b3fee596aea0169feb39e16f925139b3a8bf98cb70e5e83820f5fd15",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/required-declarations.json": "04a4bcf228e18425e53b8482d25d01e69d9919184c601111c196f8b21c85b24f",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/audit-execution.json": "7305963a08b25d40fc97dd837444aac9e37f15ac732ad22dd50296e20fbb1090",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/logs/FinalKLS500Audit.log": "3fba305fe1d1da12074a8ce67475167b25a6ab82cee3dc11bd2e622bc94deb81"
+  },
+  "primary_audit": {
+    "exit_status": 0,
+    "declarations": 22017,
+    "theorems": 19686,
+    "strict_gates": 3651,
+    "original_source_log_and_execution_receipt_preserved": true
+  },
+  "raw_registry_difference": {
+    "expected_prior_names": 22002,
+    "new_public_names": 13,
+    "extra_names": [
+      "KLS.CenteredExponential.instIsProbabilityMeasureRealExpMeasureOfNat_kLS_1",
+      "KLS.matrixFrobeniusSq.eq_1"
+    ],
+    "missing_names": [],
+    "exact_row_mismatch_names": [
+      "KLS.coordinateDerivative_sq",
+      "KLS.potentialMeasure.eq_1",
+      "KLS.tiltLogLaplace.eq_1",
+      "KLS.tiltThirdCumulant.eq_1",
+      "KLS.weightedIterationEnergy.congr_simp"
+    ],
+    "all_seven_cases": [
+      {
+        "name": "KLS.CenteredExponential.instIsProbabilityMeasureRealExpMeasureOfNat_kLS_1",
+        "case": "excluded_old_origin_name_restored",
+        "baseline": {
+          "origin": "KLS.ExponentialQuadratic",
+          "kind": "theorem",
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        "actual": {
+          "module": "KLS.ExponentialPoincare",
+          "kind": "theorem",
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        "old_origin_in_current_closure": false,
+        "new_origin_in_current_closure": true,
+        "primary_strict_gate": false
+      },
+      {
+        "name": "KLS.matrixFrobeniusSq.eq_1",
+        "case": "excluded_old_origin_name_restored",
+        "baseline": {
+          "origin": "KLS.ExponentialQuadratic",
+          "kind": "theorem",
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        "actual": {
+          "module": "KLS.SteinMatrixContraction",
+          "kind": "theorem",
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        "old_origin_in_current_closure": false,
+        "new_origin_in_current_closure": true,
+        "primary_strict_gate": false
+      },
+      {
+        "name": "KLS.coordinateDerivative_sq",
+        "case": "selected_origin_changed",
+        "baseline": {
+          "origin": "KLS.HarmonicBernsteinPointwise",
+          "kind": "theorem",
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        "actual": {
+          "module": "KLS.WeightedDiffusionSquare",
+          "kind": "theorem",
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        "old_origin_in_current_closure": true,
+        "new_origin_in_current_closure": true,
+        "primary_strict_gate": false
+      },
+      {
+        "name": "KLS.potentialMeasure.eq_1",
+        "case": "selected_origin_changed",
+        "baseline": {
+          "origin": "KLS.ConvexPotentialCoercivity",
+          "kind": "theorem",
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        "actual": {
+          "module": "KLS.WeightedEigenClassical",
+          "kind": "theorem",
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        "old_origin_in_current_closure": true,
+        "new_origin_in_current_closure": true,
+        "primary_strict_gate": false
+      },
+      {
+        "name": "KLS.tiltLogLaplace.eq_1",
+        "case": "selected_origin_changed",
+        "baseline": {
+          "origin": "KLS.TiltCumulantLowOrders",
+          "kind": "theorem",
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        "actual": {
+          "module": "KLS.AdaptiveLogMGFSpatial",
+          "kind": "theorem",
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        "old_origin_in_current_closure": true,
+        "new_origin_in_current_closure": true,
+        "primary_strict_gate": false
+      },
+      {
+        "name": "KLS.tiltThirdCumulant.eq_1",
+        "case": "selected_origin_changed",
+        "baseline": {
+          "origin": "KLS.LogTiltCumulants",
+          "kind": "theorem",
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        "actual": {
+          "module": "KLS.CumulantBounds",
+          "kind": "theorem",
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        "old_origin_in_current_closure": true,
+        "new_origin_in_current_closure": true,
+        "primary_strict_gate": false
+      },
+      {
+        "name": "KLS.weightedIterationEnergy.congr_simp",
+        "case": "selected_origin_changed",
+        "baseline": {
+          "origin": "KLS.WeightedEigenSuccessorIteration",
+          "kind": "theorem",
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        "actual": {
+          "module": "KLS.WeightedIterationBochner",
+          "kind": "theorem",
+          "axioms": [
+            "Classical.choice",
+            "Quot.sound",
+            "propext"
+          ]
+        },
+        "old_origin_in_current_closure": true,
+        "new_origin_in_current_closure": true,
+        "primary_strict_gate": false
+      }
+    ]
+  },
+  "filtering_cause": "The baseline registry is restricted by its old selected origin. The two extra names are excluded because their old recorded module KLS.ExponentialQuadratic is outside the current closure, even though their exact names survive with a different selected origin. Five further rows survive the name filter but select a different current defining module. The kind and exact axiom set match in all seven cases.",
+  "resolution_requirements": [
+    "Preserve the primary audit source, log, execution receipt, original expected table, and original comparison failure as historical evidence.",
+    "Use an explicit seven-name mapping with fixed old rows and fixed current origins; do not derive the expected origin from the observed row without checking the hardcoded expected mapping.",
+    "Restore exactly the two named helpers from the full baseline table with their original kind and axiom set; replace only the module field of the five individually reviewed origin changes.",
+    "Require a fresh companion to check the literal type, exact current defining module, declaration kind, and exactly the standard three axioms of every one of the seven names.",
+    "Require the underlying definition/source hashes to equal the sealed original source hashes. The duplicate coordinateDerivative_sq is an explicit elementary lemma, not a generated equation, and must be described separately.",
+    "After the finite reconciliation, require exact name-set equality and exact module/kind/axiom equality for all 22017 rows; retain the previously documented hessianSquare.eq_1 selection and its typed check separately.",
+    "Do not weaken the origin check globally or ignore generated-looking names by suffix."
+  ],
+  "finite_resolution_result": {
+    "expected_prior_rows_after_two_additions": 22004,
+    "new_public_names": 13,
+    "actual_rows": 22017,
+    "exact_name_set_matches": true,
+    "all_resolved_prior_rows_match_exactly": true,
+    "all_actual_axioms_subset_standard_three": true,
+    "remaining_unknown_names": []
+  },
+  "three_equation_check": {
+    "probe_source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/definition-review/GeneratedDefinitionEquationsProbe.lean",
+    "probe_source_sha256": "f70ee501f35ad8b974c5dec3f667b67990e4669d746f41f6945587b77169a2ec",
+    "probe_build_receipt": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/definition-review/GeneratedDefinitionEquationsProbe-build.json",
+    "probe_build_receipt_sha256": "2d37ea633b01484735344802b5350aa1be853bc7a79e0eb8101795f7152df2f3",
+    "exit_status": 0,
+    "compiled_against_fresh_final_project_closure": true,
+    "strict_theorem_and_definition_gates": 6,
+    "literal_types": [
+      {
+        "name": "KLS.potentialMeasure.eq_1",
+        "type": "forall {n : Nat} (phi : KLS.Space n -> Real), KLS.potentialMeasure phi = volume.withDensity (fun x => ENNReal.ofReal (Real.exp (-phi x)))",
+        "actual_origin": "KLS.WeightedEigenClassical",
+        "underlying_definition_origin": "KLS.WeightedIntegrationByParts",
+        "definition_identity_proved_by": "rfl"
+      },
+      {
+        "name": "KLS.tiltLogLaplace.eq_1",
+        "type": "forall {n : Nat} (mu : Measure (KLS.Space n)) (z : KLS.Space n), KLS.tiltLogLaplace mu z = Real.log (KLS.tiltPartition mu (fun x => inner Real z x))",
+        "actual_origin": "KLS.AdaptiveLogMGFSpatial",
+        "underlying_definition_origin": "KLS.TiltFrechet",
+        "definition_identity_proved_by": "rfl"
+      },
+      {
+        "name": "KLS.tiltThirdCumulant.eq_1",
+        "type": "forall {n : Nat} (mu : Measure (KLS.Space n)) (q f g h : KLS.Space n -> Real), KLS.tiltThirdCumulant mu q f g h = KLS.tiltAverage mu q (fun x => (f x - KLS.tiltAverage mu q f) * (g x - KLS.tiltAverage mu q g) * (h x - KLS.tiltAverage mu q h))",
+        "actual_origin": "KLS.CumulantBounds",
+        "underlying_definition_origin": "KLS.TiltCumulants",
+        "definition_identity_proved_by": "rfl"
+      }
+    ],
+    "exact_axioms_for_all_six_gates": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "unchanged_source_evidence": [
+      {
+        "module": "KLS.WeightedIntegrationByParts",
+        "fresh_source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/clean-lean/KLS/WeightedIntegrationByParts.lean",
+        "original_source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/WeightedIntegrationByParts.lean",
+        "source_sha256": "ea34a5faedd752f6592f65998c81dc89891ece18837fb986599e674019fff746",
+        "original_and_fresh_byte_identical": true,
+        "lines": [
+          16,
+          17
+        ]
+      },
+      {
+        "module": "KLS.TiltFrechet",
+        "fresh_source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/clean-lean/KLS/TiltFrechet.lean",
+        "original_source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/TiltFrechet.lean",
+        "source_sha256": "0a15a99a4bcc156aa484bea384450976278a3a1f496527c093b176e57ea4fc62",
+        "original_and_fresh_byte_identical": true,
+        "lines": [
+          21,
+          22
+        ]
+      },
+      {
+        "module": "KLS.TiltCumulants",
+        "fresh_source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/clean-lean/KLS/TiltCumulants.lean",
+        "original_source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/TiltCumulants.lean",
+        "source_sha256": "fc9d10f10d6bc95edb152ec3265c3e6dbc8deea66b3f0928c04cfb1adb73f1c9",
+        "original_and_fresh_byte_identical": true,
+        "lines": [
+          25,
+          28
+        ]
+      },
+      {
+        "module": "KLS.ConvexPotentialCoercivity",
+        "fresh_source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/clean-lean/KLS/ConvexPotentialCoercivity.lean",
+        "original_source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/ConvexPotentialCoercivity.lean",
+        "source_sha256": "08d51deac855bc427b7a238a3a9fbcf2c221f00114dd314484033f07d9e89048",
+        "original_and_fresh_byte_identical": true,
+        "lines": [
+          79,
+          80
+        ]
+      },
+      {
+        "module": "KLS.WeightedEigenClassical",
+        "fresh_source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/clean-lean/KLS/WeightedEigenClassical.lean",
+        "original_source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/WeightedEigenClassical.lean",
+        "source_sha256": "8191acbe97307ba025d187ffd87ef53fee0d5f01208b5d65526b4b1dd5438cce",
+        "original_and_fresh_byte_identical": true,
+        "lines": [
+          12,
+          18
+        ]
+      },
+      {
+        "module": "KLS.TiltCumulantLowOrders",
+        "fresh_source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/clean-lean/KLS/TiltCumulantLowOrders.lean",
+        "original_source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/TiltCumulantLowOrders.lean",
+        "source_sha256": "e1faf770ab79b94f7e24644073b2e1954481f3836ad48d8bfd1656028818ec53",
+        "original_and_fresh_byte_identical": true,
+        "lines": [
+          33,
+          36
+        ]
+      },
+      {
+        "module": "KLS.AdaptiveLogMGFSpatial",
+        "fresh_source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/clean-lean/KLS/AdaptiveLogMGFSpatial.lean",
+        "original_source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/AdaptiveLogMGFSpatial.lean",
+        "source_sha256": "46e92fa3b78726d4a79f121f1046cb54f59043e9076990334ceda5cd6d90746b",
+        "original_and_fresh_byte_identical": true,
+        "lines": [
+          27,
+          30
+        ]
+      },
+      {
+        "module": "KLS.LogTiltCumulants",
+        "fresh_source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/clean-lean/KLS/LogTiltCumulants.lean",
+        "original_source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/LogTiltCumulants.lean",
+        "source_sha256": "fe64755e1aa4940d45e053e1822ae98819de9bd52140ed24a4758e2f03243df4",
+        "original_and_fresh_byte_identical": true,
+        "lines": [
+          71,
+          78
+        ]
+      },
+      {
+        "module": "KLS.CumulantBounds",
+        "fresh_source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/clean-lean/KLS/CumulantBounds.lean",
+        "original_source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/CumulantBounds.lean",
+        "source_sha256": "4dfd825edd7402657f3209dc4b4889f6cf58a27c743f85b0d6bc71cf2f3aa1d4",
+        "original_and_fresh_byte_identical": true,
+        "lines": [
+          34,
+          38
+        ]
+      }
+    ]
+  },
+  "release_status_limit": "The existing primary Lean audit passed. This review certifies the explicit registry resolution plan and the three independently probed equations, not completion of the forthcoming seven-name companion or recovery postprocessor."
+}

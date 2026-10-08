@@ -1,0 +1,7 @@
+'KLS.weightedH1_integrable_gradient_norm_sq_of_representative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.exponentialTiltCenteredGradientTaylor_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedDiffusion_exponentialTilt_centered_taylor_tensor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

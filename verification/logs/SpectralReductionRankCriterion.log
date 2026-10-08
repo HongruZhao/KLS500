@@ -1,0 +1,6 @@
+'KLS.ConstantReduction.poincareConstant_le_of_rankTaylorBound_twentyNine' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.ConstantReduction.poincareConstant_le_regular_rankTwentyNine' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

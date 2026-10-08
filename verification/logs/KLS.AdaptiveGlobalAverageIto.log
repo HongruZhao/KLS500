@@ -1,0 +1,12 @@
+KLS/AdaptiveGlobalAverageIto.lean:25:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.MaximalProcess.localAverageNoise_eq_stopped_global`:
+  [IsProbabilityMeasure μ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure μ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'KLS.AdaptiveLocalization.MaximalProcess.average_equation_global' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.AdaptiveLocalization.MaximalProcess.globalAverageNoise_eq_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

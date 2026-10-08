@@ -1,0 +1,4 @@
+'KLS.gaussianExample_isIsotropic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_probability_isotropic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.gaussianExample_isKLSMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_isKLSMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]

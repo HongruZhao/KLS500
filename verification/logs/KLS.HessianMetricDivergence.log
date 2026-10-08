@@ -1,0 +1,4 @@
+'KLS.contDiff_inverseHessian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.trace_inverseHessian_mul_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.inverseHessian_weighted_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.hessianMetricDiffusion_eq_sum_divergence' depends on axioms: [propext, Classical.choice, Quot.sound]

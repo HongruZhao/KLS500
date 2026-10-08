@@ -1,0 +1,4 @@
+'KLS.closedBall_subset_of_directional_width_lower' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_normalization_with_deep_interior_ball_and_slope_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

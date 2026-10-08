@@ -1,0 +1,3 @@
+'KLS.AdaptiveLocalization.covarianceGenerator_eq_neg_covariance' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

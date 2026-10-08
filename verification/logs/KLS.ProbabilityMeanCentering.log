@@ -1,0 +1,4 @@
+'KLS.CenteredL2.norm_center_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.CenteredL2.norm_centerCLM_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.CenteredL2.familyCenterCLM_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.CenteredL2.familyCenterCLM_opNorm_le' depends on axioms: [propext, Classical.choice, Quot.sound]

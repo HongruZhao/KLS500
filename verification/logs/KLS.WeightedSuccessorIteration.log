@@ -1,0 +1,4 @@
+'KLS.weightedIterationEnergy_sub_succ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedIterationEnergy_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedIterationEnergy_telescope' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_optimal_weightedIterationScale_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

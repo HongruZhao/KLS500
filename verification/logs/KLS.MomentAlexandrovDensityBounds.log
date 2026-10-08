@@ -1,0 +1,5 @@
+'KLS.norm_gradient_le_of_lipschitz' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_local_momentMongeAmpereDensity_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.momentMongeAmpereMeasure_apply_bounds_of_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_local_subgradient_volume_bounds_sigmaCompact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_local_subgradient_volume_bounds_open' depends on axioms: [propext, Classical.choice, Quot.sound]

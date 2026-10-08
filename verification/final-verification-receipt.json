@@ -1,0 +1,53 @@
+{
+  "success": true,
+  "review_status": "accepted",
+  "completed_utc": "2026-10-08T03:10:14.041323+00:00",
+  "poincare_constant": 500,
+  "cheeger_coefficient": "197/100",
+  "cheeger_two_corollary": true,
+  "universal_poincare_range": [
+    "4",
+    "500"
+  ],
+  "exact_openai_proposition": "OAI.LeanBlast.KLS.KLSStatement",
+  "fresh_mathematical_modules": 1710,
+  "fresh_audit_modules": 2,
+  "checked_declarations": 22017,
+  "checked_theorems": 19686,
+  "strict_name_origin_kind_gates": 3658,
+  "kernel_trust_level": 0,
+  "endpoint_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "old_project_objects_imported": false,
+  "verification_summary_sha256": "b944fd29fbdbb21fb41c3a1600c03cf63ed3ead8981679e22232db6b268e02fe",
+  "build_completion_sha256": "3ecdbc7c4c23d6437b343fb639b9f8dd38ab2a5497c110cbe4d1c5667a692d3b",
+  "registry_recovery_receipt_sha256": "51cfb6b4e6d10dd554fb09a5b36d1e94005ceacf3ae22ae87c6eb2aabff9ba15",
+  "final_source_scan_sha256": "7e800a74e6b4fe7c0a2461c40866effad30403608a64fc9bf340b889a8833e73",
+  "pdf_qa_sha256": "0cb16b18786322af9bc6ef63620d0c72dfe208f572cc55a6a778a3a474be0e5e",
+  "report_source_sha256": "c27bbb49f0c663c2f46c4abf88f1237650538dcd794824e26d20fe2f6019d8bb",
+  "report_pdf_sha256": "b34d3d01eef5647e9e44a5d5ca687c21c95febe3c96b4a45b576713b11645f9f",
+  "publication_status_finalization_sha256": "e357a51e553ab4ded19755944d47d59b3abe636aa7fbf44c3197df814228f898",
+  "review_receipts_sha256": {
+    "definition-review/review.json": "247b445809845b387b54e0039707a74106db6ad24bd80c22060629782ed552e2",
+    "definition-review/wrapper-comment-addendum.json": "09ce8b9625770029fb1fe663c8e915cd68a51c5718bc5d40a4c2702fcd37f5e0",
+    "definition-review/report-semantic-review.json": "3f25c1e639f67304be357b24b2f954ed07f60804e6a7b218a0b61a7e54b52069",
+    "definition-review/registry-reconciliation-review.json": "bf30f41716d61b4ee21f703624da0049e5d2ce53ec3947fdbc126bf5754ba3a4",
+    "definition-review/registry-recovery-runner-review.json": "73e896197120a67aeafff08d010c84e80d0e17c40e85fa5f4c8025d151523386",
+    "poincare-review/review.json": "77fba0558b6b32e004159d480e4c148370467bf6dc6ef261f098a6c7f6d0df56",
+    "poincare-review/runner-review.json": "28e0bbe182bf3cc512e11fc3b18943175aa6b677e2ec2cb013cadf695e4948f3",
+    "poincare-review/recovery-range-report-addendum.json": "5073cd82f2f8666ef6735f47e03f32b5b7370f03039457f5f49fd7b484410512",
+    "poincare-review/ir-signature-seal-addendum.json": "19ae055f2d60cc534e500b76041b97607f9d93e9f540ba3b98494485542db923",
+    "poincare-review/warning-classification-addendum.json": "2a0225f80fec10e09f4d4271154c2ad82ffacbb100fce2404e2722bb5cb6392e",
+    "poincare-review/three-origin-cases-addendum.json": "ffd466cd111c056ff595af20364b3a1a20a533a88984edb025134625b0051341",
+    "cheeger-review/semantic-review.json": "12d2abbb0e6c1d98c15ef9c24cd9450e40cf890ad9a90f9e46616a9ee3a6b941",
+    "range-review/semantic-review.json": "1f7fd139d999bf672e5105c4ece7594e97f51f06a33046afae07f247590133d6",
+    "range-review/bkl-semantic-review.json": "44cfc36cc4104eee2903ece0f83e83b2d7c631ea3163f236fcc50ec1811da594",
+    "generated-instance-review/semantic-review.json": "f7ec66e376f433215dcab60b7cb3a0c59d4c711fbe1c90118a64e13c1d4282ad",
+    "report-song-semantic-addendum/final-semantic-review.json": "8080803e361720250f4a7b3f661625233fd400656a68a13f28d28a504c5de4cb"
+  },
+  "root_closure_runner_sha256": "feedab3ac1311753cd4224167942fc5ed02c99419d401d0974b98c17be22e7b7",
+  "scope": "Proof and report verification sealed. Portable packaging and its configuration/entry checks are recorded separately before delivery."
+}

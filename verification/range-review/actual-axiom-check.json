@@ -1,0 +1,32 @@
+{
+  "success": true,
+  "actual_axioms": {
+    "KLS.Final.universalPoincareRange": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KLS.Final.poincareKLS": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KLS.Final.cheegerKLS": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KLS.Final.fullCheegerKLS": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ],
+    "KLS.CenteredExponential.admissible_and_poincareConstant_eq_four": [
+      "Classical.choice",
+      "Quot.sound",
+      "propext"
+    ]
+  },
+  "each_exact_standard_three": true,
+  "log_sha256": "55aab4061c64da3735b8ba0be50ef1622b04352cd97cd07b75ebd735b227bebc"
+}

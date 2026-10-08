@@ -1,0 +1,11 @@
+BrownianMotion/Auxiliary/Adapted.lean:5:0: warning: 
+'Mathlib.Data.Setoid.Partition' has been deprecated: please replace this import by
+
+import Mathlib.Order.Setoid.Partition
+BrownianMotion/Auxiliary/Adapted.lean:110:19: warning: This simp argument is unused:
+  Fin.val_mk
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only at he
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`

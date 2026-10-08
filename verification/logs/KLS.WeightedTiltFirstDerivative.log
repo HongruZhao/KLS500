@@ -1,0 +1,3 @@
+'KLS.memLp_gradient_of_integrable_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.contDiff_exponentialTilt_gradient_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.hasFDerivAt_weightedDiffusion_exponentialTilt_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

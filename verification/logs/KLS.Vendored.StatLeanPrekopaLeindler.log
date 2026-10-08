@@ -1,0 +1,2 @@
+'AsymptoticStatistics.prekopaLeindler_1d' depends on axioms: [propext, Classical.choice, Quot.sound]
+'AsymptoticStatistics.prekopaLeindler' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,5 @@
+'KLS.momentLegendreDomain_sub_const' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.finiteLegendrePotential_eq_of_mem_convexSubgradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.convexOn_finiteLegendrePotential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.finiteLegendrePotential_biconjugate_isLUB' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.mem_convexSubgradientOn_finiteLegendrePotential_iff' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'KLS.hessianMetricCutoffSequence_monotone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.hessianMetricCutoffSequence_tendsto_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_hessianMetricCutoffSequence' depends on axioms: [propext, Classical.choice, Quot.sound]

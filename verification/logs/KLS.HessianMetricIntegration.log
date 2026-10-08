@@ -1,0 +1,6 @@
+'KLS.integral_mul_coordinateDrift_of_hasCompactSupport_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.hessianMetricIntegrability_of_hasCompactSupport_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_mul_hessianMetricDiffusion_of_hasCompactSupport_left' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.integral_mul_hessianMetricDiffusion_comm' depends on axioms: [propext, Classical.choice, Quot.sound]

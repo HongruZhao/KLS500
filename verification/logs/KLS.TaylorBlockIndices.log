@@ -1,0 +1,3 @@
+'KLS.finBlockTuple_prefix_permutation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.finBlockTuple_suffix_permutation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.tensorPrefixEquiv_succ_symm_apply' depends on axioms: [propext, Quot.sound]

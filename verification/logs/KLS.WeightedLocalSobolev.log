@@ -1,0 +1,3 @@
+'KLS.weighted_annihilator_cutoff_density_hasWeakDerivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.HasWeakCoordinateDerivative.compact_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weighted_annihilator_compact_square_hasWeakDerivative' depends on axioms: [propext, Classical.choice, Quot.sound]

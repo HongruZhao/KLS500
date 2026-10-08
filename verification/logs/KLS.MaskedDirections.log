@@ -1,0 +1,23 @@
+KLS/MaskedDirections.lean:38:29: warning: This simp argument is unused:
+  hs
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Nat.add_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+KLS/MaskedDirections.lean:67:17: warning: This simp argument is unused:
+  hs
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Bool.false_eq_true, ↓reduceIte, Bool.not_false]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+KLS/MaskedDirections.lean:69:17: warning: This simp argument is unused:
+  hs
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [↓reduceIte, Bool.not_true, Bool.false_eq_true, List.cons_append]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'KLS.maskedDirections_append_complement' depends on axioms: [propext, Quot.sound]
+'KLS.maskedDirections_length' depends on axioms: [propext, Classical.choice, Quot.sound]

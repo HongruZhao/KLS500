@@ -1,0 +1,4 @@
+'KLS.AdaptiveLocalization.concaveOn_exponent' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.AdaptiveLocalization.law_measureLogConcave_of_admissible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

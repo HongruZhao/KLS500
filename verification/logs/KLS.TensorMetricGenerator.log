@@ -1,0 +1,17 @@
+KLS/TensorMetricGenerator.lean:61:60: warning: This simp argument is unused:
+  Nat.cast_smul_eq_nsmul ℝ
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [dotProduct_neg, dotProduct_add, dotProduct_smul, Matrix.neg_mulVec, Matrix.smul_mulVec,
+    Matrix.one_mulVec, dotProduct_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+KLS/TensorMetricGenerator.lean:62:2: warning: Unused tactic linter: `push_cast` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+'KLS.TensorEnergy.differentialGenerator_tensorMetric_at_identity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.TensorEnergy.differentialGenerator_tensorMetric_with_drift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

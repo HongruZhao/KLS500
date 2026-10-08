@@ -1,0 +1,10 @@
+KLS/WeightedClassicalLiouville.lean:26:52: warning: Variable name `ha` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'KLS.lintegral_gradient_sq_eq_zero_of_weighted_harmonic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.volume_absolutelyContinuous_potentialMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.gradient_eq_zero_of_weighted_harmonic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.classical_weighted_liouville' depends on axioms: [propext, Classical.choice, Quot.sound]

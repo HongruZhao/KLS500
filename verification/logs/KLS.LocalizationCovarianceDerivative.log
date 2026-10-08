@@ -1,0 +1,5 @@
+'KLS.StandardLocalization.hasDerivAt_augmentedCovariance_line' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.StandardLocalization.hasFDerivAt_covarianceGradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.StandardLocalization.norm_covarianceGradient_le' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'KLS.ConstantReduction.weightedIteration_exists_coupled_defect_index' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.ConstantReduction.coupled_defect_affine_upper' depends on axioms: [propext, Classical.choice, Quot.sound]

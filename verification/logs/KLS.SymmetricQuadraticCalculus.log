@@ -1,0 +1,2 @@
+'KLS.gradient_centeredQuadratic_of_isSymm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.eventually_abs_sub_quadratic_taylor_le_sq' depends on axioms: [propext, Classical.choice, Quot.sound]

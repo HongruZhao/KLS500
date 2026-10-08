@@ -1,0 +1,3 @@
+'KLS.convexSubgradient_nonempty' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.convexSubgradient_eq_singleton_of_differentiableAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.isCompact_convexSubgradientImage' depends on axioms: [propext, Classical.choice, Quot.sound]

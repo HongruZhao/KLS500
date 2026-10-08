@@ -1,0 +1,3 @@
+'KLS.ConstantReduction.weightedL2TaylorTensor_norm_sq_le_partial_and_error_orthogonalYoung' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

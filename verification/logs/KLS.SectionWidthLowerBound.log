@@ -1,0 +1,4 @@
+'KLS.directional_width_lower_bound_real' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.directional_width_lower_bound_ennreal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.normalizedSectionWidthConstant_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_normalization_with_positive_directional_width' depends on axioms: [propext, Classical.choice, Quot.sound]

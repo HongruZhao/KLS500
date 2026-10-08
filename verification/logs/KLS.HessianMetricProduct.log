@@ -1,0 +1,3 @@
+'KLS.coordinateHessian_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.hessianMetricDiffusion_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.hessianMetricDiffusion_mul' depends on axioms: [propext, Classical.choice, Quot.sound]

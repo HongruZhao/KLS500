@@ -1,0 +1,2 @@
+'KLS.finiteIsometryAverage_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.norm_sub_permutationAverage_sq_le' depends on axioms: [propext, Classical.choice, Quot.sound]

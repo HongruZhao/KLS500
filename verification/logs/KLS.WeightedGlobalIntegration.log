@@ -1,0 +1,10 @@
+KLS/WeightedGlobalIntegration.lean:109:69: warning: This simp argument is unused:
+  Pi.add_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [inner_add_left, inner_smul_left, conj_trivial, D]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'KLS.integral_smoothCutoff_mul_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integrable_inner_gradients_of_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_mul_weightedDiffusion_of_L2_domain' depends on axioms: [propext, Classical.choice, Quot.sound]

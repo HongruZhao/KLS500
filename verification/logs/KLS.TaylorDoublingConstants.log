@@ -1,0 +1,2 @@
+'KLS.taylorDoubling_main_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.taylorDoubling_error_coefficient' depends on axioms: [propext, Classical.choice, Quot.sound]

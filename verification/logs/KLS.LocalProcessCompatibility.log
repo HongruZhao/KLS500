@@ -1,0 +1,7 @@
+KLS/LocalProcessCompatibility.lean:62:52: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+'KLS.LocalDiffusion.commonDifference_ae_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.LocalDiffusion.ae_all_eq_before_exit' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.LocalDiffusion.ae_exit_eq' depends on axioms: [propext, Classical.choice, Quot.sound]

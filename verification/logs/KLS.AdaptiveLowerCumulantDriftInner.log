@@ -1,0 +1,3 @@
+'KLS.AdaptiveLocalization.lowerCumulantDrift_eq_inverseCovariance_inner' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

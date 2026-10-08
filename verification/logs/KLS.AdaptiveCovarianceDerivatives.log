@@ -1,0 +1,54 @@
+KLS/AdaptiveCovarianceDerivatives.lean:50:17: warning: This simp argument is unused:
+  Pi.add_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [id_eq, one_smul, zero_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+KLS/AdaptiveCovarianceDerivatives.lean:50:31: warning: This simp argument is unused:
+  id_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.add_apply, one_smul, zero_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+KLS/AdaptiveCovarianceDerivatives.lean:50:48: warning: This simp argument is unused:
+  zero_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.add_apply, id_eq, one_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+KLS/AdaptiveCovarianceDerivatives.lean:49:72: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+KLS/AdaptiveCovarianceDerivatives.lean:72:17: warning: This simp argument is unused:
+  Pi.add_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [id_eq, one_smul, zero_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+KLS/AdaptiveCovarianceDerivatives.lean:72:31: warning: This simp argument is unused:
+  id_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.add_apply, one_smul, zero_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+KLS/AdaptiveCovarianceDerivatives.lean:72:48: warning: This simp argument is unused:
+  zero_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.add_apply, id_eq, one_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+KLS/AdaptiveCovarianceDerivatives.lean:71:72: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'KLS.AdaptiveLocalization.covarianceGradient_apply_eq_cumulant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.AdaptiveLocalization.covarianceHessian_apply_eq_cumulant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

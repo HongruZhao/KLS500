@@ -1,0 +1,6 @@
+'KLS.AdaptiveLocalization.MaximalProcess.logMGFDrift_path_integrable_prod' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.AdaptiveLocalization.MaximalProcess.ae_integrableOn_logMGFDrift' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

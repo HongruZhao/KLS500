@@ -1,0 +1,7 @@
+'KLS.exists_pos_tilt_sublevel_in_cap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_pos_tilt_sublevel_subset_interior' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_pos_add_lt_zero_on_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_exposed_contact_tilt_inside' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.contactTiltSection_cap_localization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.contactTiltSection_geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.contactTiltSection_oscillation' depends on axioms: [propext, Classical.choice, Quot.sound]

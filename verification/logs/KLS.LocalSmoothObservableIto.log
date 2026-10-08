@@ -1,0 +1,5 @@
+KLS/LocalSmoothObservableIto.lean:26:2: warning: Unused tactic linter: `change
+  _ * (if (t : WithTop ℝ) ≤ D.exit ω then _ else 0) = _ * (if (t : WithTop ℝ) ≤ D.exit ω then _ else 0)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+'KLS.LocalDiffusion.LocalProcess.itoFormula_original_smooth' depends on axioms: [propext, Classical.choice, Quot.sound]

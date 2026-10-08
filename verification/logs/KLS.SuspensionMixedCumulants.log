@@ -1,0 +1,2 @@
+'KLS.cumulantTensor_suspension_pure_block' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.cumulantTensor_suspension_Taylor' depends on axioms: [propext, Classical.choice, Quot.sound]

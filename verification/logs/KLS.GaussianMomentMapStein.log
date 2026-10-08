@@ -1,0 +1,5 @@
+'KLS.MomentMap.integral_smoothed_linear_target_sq_le_stein_energy' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.quadratic_gradient_dual_of_smoothed_linear_momentMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.quadratic_variance_le_smoothed_linear_momentMap_energy' depends on axioms: [propext, Classical.choice, Quot.sound]

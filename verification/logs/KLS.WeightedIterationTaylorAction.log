@@ -1,0 +1,3 @@
+'KLS.realCoordinatePermutationAverage_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedIteration_gradient_taylor_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedIteration_taylor_action_recursion' depends on axioms: [propext, Classical.choice, Quot.sound]

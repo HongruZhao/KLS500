@@ -1,0 +1,2 @@
+'KLS.finitePrefixSet_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.norm_le_four_pow_mul_prefixAverage' depends on axioms: [propext, Classical.choice, Quot.sound]

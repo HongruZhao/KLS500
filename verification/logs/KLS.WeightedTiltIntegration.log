@@ -1,0 +1,6 @@
+'KLS.gradient_exp_inner' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_exp_inner_mul_neg_weightedDiffusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exponentialTilt_potentialMeasure_isProbability' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedDiffusion_tiltAverage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integrable_gradient_exponentialTilt_of_L2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedDiffusion_exponentialTilt_identity' depends on axioms: [propext, Classical.choice, Quot.sound]

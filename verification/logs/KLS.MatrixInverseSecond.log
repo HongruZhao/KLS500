@@ -1,0 +1,7 @@
+KLS/MatrixInverseSecond.lean:30:13: warning: `ContinuousLinearMap.neg_apply` has been deprecated: Use `_root_.neg_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.neg_apply` to `_root_.neg_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵n̵e̵g̵_̵a̵p̵p̵l̵y̵_̲r̲o̲o̲t̲_̲.̲n̲e̲g̲_̲a̲p̲p̲l̲y̲
+'KLS.MatrixCalculus.fderiv_fderiv_matrix_inv_apply' depends on axioms: [propext, Classical.choice, Quot.sound]

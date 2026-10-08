@@ -1,0 +1,6798 @@
+[
+  {
+    "module": "BrownianMotion.Auxiliary.Adapted",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Auxiliary.Algebra",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Auxiliary.Analysis",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Auxiliary.ContinuousBilinForm",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Auxiliary.ConvergenceInMeasure",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Auxiliary.DenseCountable",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Auxiliary.ENNReal",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Auxiliary.Filtration",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Auxiliary.FiniteInf",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Auxiliary.HasLaw",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Auxiliary.Indistinguishable",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Auxiliary.Jensen",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Auxiliary.LeftLimWithin",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Auxiliary.LimitProcess",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Auxiliary.LinearAlgebra",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Auxiliary.Martingale",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Auxiliary.MeanInequalities",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Auxiliary.MeasureTheory",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Auxiliary.Metric",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Auxiliary.NNReal",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Auxiliary.Nat",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Auxiliary.StoppedProcess",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Auxiliary.StoppedValue",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Auxiliary.StronglyMeasurablePath",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Auxiliary.Topology",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Auxiliary.Upcrossing",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Continuity.Chaining",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Continuity.CoveringNumber",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Continuity.HasBoundedInternalCoveringNumber",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Continuity.IsKolmogorovProcess",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Continuity.KolmogorovChentsov",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Continuity.KolmogorovChentsovInequality",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Continuity.LimitModification",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Gaussian.BrownianMotion",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Gaussian.CovMatrix",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Gaussian.Gaussian",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Gaussian.GaussianProcess",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Gaussian.Moment",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Gaussian.ProjectiveLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.Gaussian.StochasticProcesses",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.StochasticIntegral.Cadlag",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.StochasticIntegral.Predictable",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.StochasticIntegral.Quasimartingale.Basic",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.StochasticIntegral.Quasimartingale.CadlagModification",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.StochasticIntegral.Quasimartingale.MaximalInequality",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.StochasticIntegral.SimpleProcess",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "BrownianMotion.StochasticIntegral.UniformIntegrable",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "CenteredVarianceCheeger",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "CheegerTwoReverification",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "CoupledRankYoungFullVerification",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Calculus.ContDiff.Lipschitz",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Calculus.ContDiff.Support",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Calculus.Derivative.AlmostEverywhereLipschitz",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Calculus.Derivative.ParametricIntervalIntegral",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Calculus.Inverse.LocalInverse",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Calculus.Inverse.LocalSubmersion",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Calculus.Rademacher",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Calculus.Sard",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Calculus.SecondDerivative.Equiv",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Calculus.SecondDifference",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Calculus.Taylor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Convex.Convolution",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Convex.Differentiability",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Convex.Distribution",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Convex.Integral",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Convex.Proximal",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Convex.SupConvolution",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.FunctionalAnalysis.ContinuousLinearMap.Interpolation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Integration.Convolution.Approximation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Integration.Convolution.Derivatives",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Integration.Convolution.SecondDifference",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Integration.Fatou",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Integration.Integral.Asymptotics",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Integration.Integral.CompactSupport",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Integration.Integral.Convergence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Integration.Integral.LocalIntegrationByParts",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Integration.Lp.FiniteCover",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Integration.Lp.Lipschitz",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Integration.Measure.HausdorffDimension",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Integration.Measure.LipschitzChangeOfVariables",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Viscosity.Differentiability",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Viscosity.Distribution",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Analysis.Viscosity.SupConvolution",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.External.TauCeti.Analysis.Calculus.Sard.EqualDimension",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Topology.LocallyLipschitzOperations",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "DifferentialGeometry.Topology.MetricSpace.Lipschitz",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Analysis.DirectMethodForm",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Analysis.FrechetKolmogorov",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Analysis.LpExtendByZero",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Analysis.LpTranslation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Analysis.PoincareInequality",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Analysis.Translation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Analysis.WeakCompactness",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Embedding.ChainRule",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Embedding.ClassicalDeriv",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Embedding.Convolution",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Embedding.DomainSobolev",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Embedding.GagliardoNirenberg",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Embedding.H01Sobolev",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Embedding.Morrey",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Embedding.RayIntegral",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Embedding.SmoothOfGradClosed",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Embedding.SobolevLadder",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Embedding.WeakDerivBridge",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Embedding.WeakGradUnique",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Embedding.WeakGradient",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Existence.Garding",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Existence.WeakMaximum",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Extension.Basic",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Extension.BoundaryChart",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Extension.C1Boundary",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Extension.C1Test",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Extension.Cutoff",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Extension.Descent",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Extension.EvenReflection",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Extension.GlobalApproximation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Extension.GraphOperator",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Extension.HalfSpace",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Extension.LinearOperator",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Extension.LocalExtension",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Extension.Motion",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Extension.Operator",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Extension.PartitionOfUnity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Extension.Patch",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Extension.Reflect",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Extension.Shear",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Extension.ShearWeakGrad",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Form.BilinearForm",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Form.GeneralForm",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Poincare.BoundedDomain",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Poincare.BoxSlice",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Poincare.Density",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Poincare.Domain",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Poincare.Geometry",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Poincare.Slab",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.Caccioppoli",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.ClassicalSolvability",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.CoeffBridge",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.CoeffC1",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.CoeffC2",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.CoeffCk",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.CoeffLip",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.CoeffWkInfty",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.CollarIdentify",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.CutoffCommutator",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.CutoffDatum",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.CutoffDeriv",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.CutoffGradFormula",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.CutoffTower",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.DatumPiece",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.DiffQuotientBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.DifferenceQuotient",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.DifferentiatedEquation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.DifferentiatedWkInfty",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.ExtendCutoff",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.HigherInterior",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.HigherWeakDeriv",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.Interior",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.Interior.EnergyBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.Interior.NormBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.Interior.Support",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.InteriorCompactSupport",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.InteriorSmooth",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.InteriorSmoothGlobal",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.IteratedFamily",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.IteratedRestrict",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.IteratedSum",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.L2Pairing",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.LeibnizWkInfty",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.Local.Caccioppoli",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.Local.Datum",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.Local.Evans",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.Local.HigherInterior",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.Local.InteriorH2",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.Local.InteriorSmooth",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.Local.Reduction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.Local.WeakSolution",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.LocalWeakForm",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.LocalWeakFormWkInfty",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.Localise.CutoffProduct",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.Localise.Datum",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.Localise.LocalOp",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.LowerOrderWkInfty",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.MollifyWkInfty",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.MulIterated",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.PointwiseEquation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.RestrictedDiffQuotient",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.RestrictedDiffQuotientMem",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.SmoothGlue",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.TestFnCut",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.WeakDerivOnSymm",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.WeakDerivUnique",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.WeakFormDense",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Regularity.WeakLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Sobolev.Basic",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Sobolev.Coefficients",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Sobolev.GraphLimits",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Sobolev.H01Lattice",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Sobolev.WeakDeriv",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EllipticPdes.Sobolev.WeakDerivClassical",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "Entropy197500FullVerification",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EntropyClock",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EntropyFiniteDualDisplacement",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EntropyMixedScalar",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EntropyPolynomialDisplacement",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EntropyPolynomialProfile",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EntropyPolynomialProfileBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EntropyProfileFiniteGradient",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EntropyResolventFullCheeger",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "EntropyResolventVarianceGradient",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "FinalKLS500",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "FiniteAverageHilbertBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "FiniteAverageHilbertVariance",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "FiniteAverageTriangularBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "FiniteAverageTwoPoint",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "GeneralIto.FiltrationAux",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "GeneralIto.MartingaleAux",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "GeneralIto.Stopping",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "GeneralScaleAdjacentDefects",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "GeneralScaleSymmetrization",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "GeneralScaleTailPermutation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "GeometricWindowArithmetic",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "IteratedResolventDisplacement",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "IteratedResolventGradient",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "IteratedResolventNumerics",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "IteratedResolventSpectral",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "IteratedResolventVariance",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AbsolutelyContinuousCompactSmoothing",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ActualGradientIntegrability",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveAverageBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveAverageDerivatives",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveAverageGenerator",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveAverageMartingale",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveClippedLogDet",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveClippedLogDetEquation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveCoefficients",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveContinuousLogDet",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveCoordinateCovariance",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveCoordinateCovarianceBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveCoordinateGenerator",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveCoordinateState",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveCovarianceCompactBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveCovarianceDerivatives",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveCovarianceExpectation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveCovarianceExpectationEquation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveCovarianceGenerator",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveCovarianceMatrixDerivatives",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveCovarianceNoise",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveCovarianceUniformNoise",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveCumulantCancellation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveCumulantContraction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveCumulantDerivatives",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveCumulantDrift",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveCumulantEnergy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveCumulantGenerator",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveCumulantNoiseWords",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveCumulantTensor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveDeterminantNoncollapse",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveDiffusionCovariance",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveDiffusionRegularity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveEnergyApriori",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveEnergyBase",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveEnergyDriftBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveEnergyExpectation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveEnergyIto",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveEnergyNoiseBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveExponentConcavity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveExponentialAverage",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveFeatureTilt",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveGlobalAverageIto",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveGlobalAverageNoise",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveGlobalCovarianceEquation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveGlobalCovarianceNoise",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveGlobalEnergyIto",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveGlobalEnergyNoise",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveGlobalLogMGFIto",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveGlobalLogMGFNoise",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveLocalAverageIto",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveLocalCovarianceIto",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveLocalCumulantIto",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveLocalLogDetIto",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveLocalLogMGFIto",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveLocalProcess",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveLogDetBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveLogDetDerivatives",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveLogDetGenerator",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveLogMGFBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveLogMGFDerivatives",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveLogMGFDriftIntegrability",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveLogMGFGenerator",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveLogMGFSpatial",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveLogPartition",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveLowerCumulantDriftInner",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveLowerEnergyIntegral",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveMatrixSeedTransfer",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveMaximalCovarianceIto",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveMaximalCovarianceNoise",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveMaximalCumulantIto",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveMaximalCumulantNoise",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveMaximalLocalProcess",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveMaximalLogDetIto",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveMaximalSmoothIto",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveMaximalSmoothNoise",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveNonexplosion",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptivePathCoefficientBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptivePathLogConcavity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptivePathLogDetBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptivePathMatrixSeed",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveQuadraticParameter",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveScoreDecomposition",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveStandardizedMoments",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdaptiveWhitenedCovarianceNoise",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AdjugateExponentialGradientCalculus",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AffineMomentMapContraction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AffineMomentMapStein",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AffinePotentialCutoff",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AffineWhitening",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AlexandrovSectionVolume",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AveragedCofactorEllipticity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.AveragedCofactorHolder",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.BlockSymmetryInequality",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.BoundaryComparison",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.BoundedCompactH1Tests",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.BoundedCompactMollifierPairing",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.BoundedL1PairingLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.BoundedLocalH1CompactFlux",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.BoundedMomentMapExistence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.BoundedVarianceCheegerBoundary",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.BoundedVarianceCheegerShell",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.BoundedWeightedMollification",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.BrascampLiebDuality",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.BrascampLiebFiniteEnergy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.BrownianIntegralAE",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.C11CenteredDifferenceCalculus",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.C11HessianMollification",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.C11ScalarComposition",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.C11SublevelCutoff",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.C1DiffusionCompact",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.C1DiffusionLiouville",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.C1WeightedDistribution",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.C1WeightedEnergy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.C1WeightedEquation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.C1WeightedMollification",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.C1WeightedSobolev",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.C2BarrierComparison",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CanonicalLowerContraction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CenteredDensityCalibration",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CenteredGeometricHessian",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CenteredL2Variational",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CenteredSectionEngulfing",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CentralDifferenceHolderBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ClassToDensity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ClassicalLaplacianFromDistribution",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ClassicalViscosityHarmonic",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CoerciveContactGeometry",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CoerciveSublevelLocalization",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CommonExitDifference",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CommonExitEnergy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CompactC1L2Subsequence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CompactCumulantEnergyBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CompactDensityTransfer",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CompactDirectionalCumulantBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CompactEnergyInduction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CompactEnergyInductionStep",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CompactKernelDerivative",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CompactKernelSmoothing",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CompactLaplacianPairing",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CompactLipschitzDerivativeBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CompactParameterIntegral",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CompactPositiveMatrixField",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CompactRawWeakDerivative",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ConcaveExponentialTilt",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ConditionalEndpoints",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ConditionalFullPoincareBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ConstructedGlobalDiffusion",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ConstructedMaximalLocalSde",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ContactCapLocalization",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ContactSectionRetainedSegment",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ContactSetLocalSingleton",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ContactSetSingleton",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ContactTiltDensity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ContinuousExitCompatibility",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ContinuousProcessVersion",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ContinuousSupConvolution",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ContinuousViscosityDistribution",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ConvexHessian",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ConvexMollifierProperties",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ConvexPeanoHessian",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ConvexPotentialCoercivity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ConvexQuadraticGradientBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ConvexSectionNormalization",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ConvexSubgradient",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ConvexTraceDistribution",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ConvexUpperTestHessian",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CoordinateDerivativeSymmetry",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CoordinateMeanValue",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CoordinateQuadraticDerivatives",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CorrectedHarmonicQuadratic",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CorrectedRadialAverage",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CovarianceCumulantPDE",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CovarianceDerivativeCumulants",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CovarianceMatrix",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CovarianceWhiteCoordinates",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CubicCoordinateTaylor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CumulantAffine",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CumulantApriori",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CumulantBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CumulantEnergyBase",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CumulantFactorialMajorant",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CumulantJetLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CumulantRankOne",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CumulantSubsetPairing",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CumulantWhitening",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.CutoffC1Energy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.DampedWhiteningWeakLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.DefinitionBridges",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.Definitions",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.DensityToClass",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.DetOneQuadraticWhitening",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.DeterminantChordIdentity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.DeterminantOneCorrection",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.DeterminantQuadraticRemainder",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.DifferentialGenerator",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.DifferentialGeneratorContinuous",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.DiffusionStopping",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.DiffusionUnboundedIto",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.DirectionalCovarianceExpectation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.DirectionalCumulantCompactTransfer",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.DirectionalWordAffine",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.DirectionalWordAlgebra",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.DirectionalWordCalculus",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.DirectionalWordLeibniz",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.DirectionalWordSymmetry",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.DistanceRamp",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.DistanceRampVariance",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.DistributionHarmonicRegularity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.DualSubharmonicDistribution",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.DualTransportPairing",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.DualTransportRemainder",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.DyadicSpectralArithmetic",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.DyadicSubgradientModulus",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.DyadicToHolder",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.EnergyCrossIntegrals",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.EnergyInductionArithmetic",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.EnergyLowerRegularity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.EnergyProductIntegrals",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FaithfulFullTaylorCriterion",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FaithfulPoincareSmoothCore",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FiniteAveragePerturbation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FiniteConjugateC1",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FiniteDifferenceCutoff",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FiniteDifferenceGradient",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FiniteDifferenceMollification",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FiniteFeatureAverage",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FiniteFeatureNumerator",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FiniteGroupSymmetrization",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FiniteIsometryAverageAlgebra",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FiniteJetCompositionLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FiniteL2Reindex",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FiniteMultilinearCoordinateLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FiniteOrthonormalProjection",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FinitePermutationWords",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FinitePrefixBlockRecovery",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FinitePrefixPermutation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FiniteTaylorRecurrence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FiniteTaylorSumBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FiniteTraceBalance",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FirstMixedMomentContraction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FirstOrderCoordinateTaylor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FirstOrderTransportBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ForcedCaccioppoli",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FrameHessianAlgebra",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FullClassCheegerConversion",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FullL2CumulantTaylor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FullPoincareStrongApproximation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FullQuadraticVarianceBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FullVarianceGradientPoincare",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.FullVerification",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.GaussianAdditiveStein",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.GaussianExample",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.GaussianIntegrationByParts",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.GaussianMomentMapLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.GaussianMomentMapStein",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.GaussianSmoothApproximation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.GaussianSmoothing",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.GaussianSmoothingGeneral",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.GaussianSmoothingGradient",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.GaussianSmoothingMoments",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.GaussianWeakMeasureApproximation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.GeneralCenteredWeightedData",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.GeneralWeightedMatrixTransport",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.GeometricDensityFlatness",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.GeometricHolderInterpolation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.GeometricSecondOrderRemainder",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.GlobalDampingDensity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.GlobalDampingWhiteningMoments",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.GlobalDiffusion",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.GlobalQuadraticDamping",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.GradientAffineRescaling",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.GradientCompositionCalculus",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.GradientDerivativePeano",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.GradientDualVariance",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.GradientLevelBochnerTest",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.GradientLevelDefect",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.GradientSquareIntegrability",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.GraphExponentialMoments",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HarmonicBarrierComparison",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HarmonicBernsteinBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HarmonicBernsteinPointwise",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HarmonicCoordinateWords",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HarmonicCorrectionCoefficientBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HarmonicCubicTaylor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HarmonicDistributionSignedTests",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HarmonicInteriorGradient",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HarmonicPointwiseCalculus",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HarmonicQuadraticApproximation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HessianAdjugateMollifierLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HessianCongruenceEnergy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HessianConvexConverse",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HessianEntryBrascampLieb",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HessianMatrixMean",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HessianMetricComposition",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HessianMetricCutoffBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HessianMetricCutoffSequence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HessianMetricDivergence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HessianMetricEvolution",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HessianMetricIntegration",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HessianMetricIntegrationExtension",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HessianMetricIntegrationRight",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HessianMetricL1DriftCutoff",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HessianMetricL1DriftExtension",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HessianMetricMatrixProduct",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HessianMetricProduct",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HessianMetricSublevelCutoff",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HessianPotentialDrift",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HessianTraceBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HessianTraceBoundedGradient",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HessianTraceEnergyComparison",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HessianTraceEvolution",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HessianTraceIntegration",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.HessianTraceL1DriftIntegration",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.IdentityHessianPerturbation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.IntegratedEnergyFinite",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.IntegratedEnergyInfinite",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.IntegratedLowerContraction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.InverseSubgradientContinuity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.IsotropicAffineL2",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.IsotropicFirstTaylor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.IsotropicGaussianDensity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.IsotropicGaussianGradient",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.IsotropicGaussianSmoothing",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.IsotropicGeometricTail",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.IsotropicLowerBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.IsotropicSecondTaylor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.IsotropicSupport",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.IterationAffineCoefficients",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.IterationLimitingQuadratic",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.IterationPotentialReconstruction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.IterationQuadraticApproximation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.L1CheegerRamps",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.L1CompactTestExtension",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.L1CutoffApproximation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.L1CutoffDomain",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.L1MollificationGradient",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.L1SmoothTestExtension",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.L2DistributionHarmonicRepresentative",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LaplaceNoise",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LaplaceNoiseLaplaceTransform",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LinearCumulantTaylor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LipschitzCoordinateIntegration",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LipschitzDerivativeMollification",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalAlexandrovUpperTests",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalC11FirstFactor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalC11FluxDivergence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalC2DensityCalculus",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalCoefficientExtension",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalExponentialFromOneRate",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalFamilyClippedCoefficients",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalFamilyClippedContinuation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalFamilyClippedEquation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalFamilyCoefficientExit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalFamilyEquation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalFamilyExitIdentification",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalFamilyNonexplosion",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalFamilyPath",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalFamilyRegularity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalHarmonicGradientBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalHarmonicMollification",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalHarmonicWeakGradient",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalHessianGradientDerivative",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalL2CompactPairings",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalLipschitzWeakDerivative",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalMixedFrechet",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalNormExponentialDomain",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalNormalizedSubharmonicity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalObservableCutoff",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalObservableGenerator",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalObservableIto",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalObservableNoise",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalProcessCompatibility",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalProcessConstruction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalProcessEquation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalProcessFamily",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalRademacher",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalSectionDeficitComparison",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalSmoothObservableIto",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalStoppedPair",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalStrongConvexFromHessian",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalTiltNumeratorDerivative",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalTiltNumeratorMoments",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalTiltSmooth",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalWeakAlgebra",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalWeakDerivativeCutoff",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalWeakDerivativeGluing",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalWeakDerivativeUniqueness",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalWeakFiniteProduct",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalWeakProduct",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalizationCovariance",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalizationCovarianceDerivative",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalizationLipschitz",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalizationNormBridge",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalizationSmooth",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalizationTilt",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalizedGradientBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalizedMomentTransport",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocalizedReciprocalEquation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LocallyLipschitzDivergenceTests",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LogConcaveDensityPotential",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LogConcaveLaplaceJets",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LogConcavityAbsoluteContinuity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LogConcavityAffine",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LogConcavityBallDensity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LogConcavityConvolution",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LogConcavityCutoffApproximation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LogConcavityDensityRegularity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LogConcavityLocalExponential",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LogConcavityMoments",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LogConcavityProjection",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LogConcavityRestriction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LogConcavitySupport",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LogConcavityTails",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LogDetLineDerivatives",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LogDetQuantitativeConcavity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LogTiltCumulants",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LowerCumulantMultilinear",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.LowerCumulantSubsetSum",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MaskedDirections",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MaskedSubsetEnumeration",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MatrixActionMeasure",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MatrixDeterminantCompactEllipticity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MatrixEntryLpProducts",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MatrixEntrySmooth",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MatrixFrechetHessian",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MatrixInverseCoercivity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MatrixInverseSecond",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MatrixInverseSqrtLipschitz",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MatrixLoewnerUpper",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MatrixLogDet",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MatrixLogDetSecond",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MatrixLogDetTangent",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MatrixLogDetTraceClosure",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MatrixOperatorEntryBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MatrixSqrtLipschitz",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MatrixTracePositive",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MatrixWhitening",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MedianL1Approximation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MedianL1Minimizer",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MollificationApproximation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MollificationLocalization",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MollifiedAverageMaximizers",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MollifiedCompactTests",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MollifiedFiniteDifferenceHessian",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MollifiedTranslatedAverage",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentAlexandrovBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentAlexandrovDensityBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentAlexandrovEquation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentAlexandrovOpen",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentBoundedUniformHarmonicLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentCenteredSections",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentConjugateInterior",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentDensityHolder",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentDistributionalHarmonicLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentDualPairingBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentDualPairingLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentDyadicGradientModulus",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentExponentialTails",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentFirstOrderWeakBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentFullViscosity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentGradientHomeomorph",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentGradientRange",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentHarmonicApproximation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentHarmonicL2Compactness",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentL2HarmonicLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentLegendreDomainSupport",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentLegendreDuality",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentLegendreEnergy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentLegendrePerturbation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentLegendreRegularity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentMapFiniteDifference",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentMapIntegration",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentMapMaximumPrinciple",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentMapQuadraticVariance",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentMapStein",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentMapSteinBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentMapUniformHessianBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentOneStepImprovement",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentPartitionDerivative",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentPerturbationDerivative",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentPerturbationNormalization",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentPotentialCompactness",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentPotentialSublevel",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentPrimalC1",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentPrimalDualHarmonicLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentProjectionCoercivity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentQuadraticBarrier",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentQuadraticViscosity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentRadialAverageSandwich",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentRescalingData",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentSectionEngulfing",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentStrictConvexity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentStrongL2Compactness",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentTemperatureRescaling",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentUniformHarmonicLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentVariationalAttainment",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentVariationalCompactness",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MomentVariationalInequality",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.MongeAmpereDifferenceCoercivity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.NormExponentialDomain",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.NormExponentialLogLaplace",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.NormalizedCenteredMoments",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.NormalizedEnergyBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.NormalizedMongeAmpereViscosity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.NormalizedRadialMeanValue",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.NormalizedSectionInterior",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.NormalizedSubharmonicDistribution",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.NormalizedSubharmonicity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.NormalizedTransportCost",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.OneDimensionalJet",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.OptimalConstants",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.OrthogonalTaylorLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.PairwiseL2",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.PoincareGraphLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.PoincareWeakMeasureLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.PointwiseConvexHessian",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.PointwiseGradientHessian",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.PointwiseWeightedBochner",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.PositiveMatrixLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.PositiveMatrixPerturbation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.PositiveMatrixSquareRoot",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.PotentialScalarNormalization",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.PrekopaLeindler",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ProbabilityKernelConvolution",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ProbabilityMeanCentering",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ProbabilityMedians",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.QuadraticAlexandrovViscosity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.QuadraticBarrierStability",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.QuadraticCentralDifference",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.QuadraticCoefficientBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.QuadraticCovarianceOperator",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.QuadraticDamping",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.QuadraticDualLocalization",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.QuadraticEightFullPoincare",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.QuadraticEnergy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.QuadraticFenchelBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.QuadraticFrameReconstruction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.QuadraticPeanoJet",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.QuadraticRescalingBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.QuadraticSubgradientVolume",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.QuadraticTestHessian",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.QuadraticTransportMeasure",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.QuadraticWhiteningReconstruction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.QuantitativeWhiteningNorm",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.RademacherOnOpen",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.RadialAverageDerivative",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.RadialAverageLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.RadialKernelCalculus",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.RadialKernelUniformBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.RadialTailProfile",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.RawHessianTraceTerms",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.RawInverseHessianContractions",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.RawMomentMapCompactLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.RawMomentMapContraction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.RawMomentMapGaussianStein",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.RawMomentMapStein",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.RawTraceEnergyPassage",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.RawTraceLocalLp",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.RawWeakBrascampLieb",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.RawWeakTraceContractions",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.RawWeakTraceDerivative",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.RawWeakTraceFlux",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.RealEndpoint",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.RecenteredDensityBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.RecenteredQuadraticFlatness",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ReciprocalAlexandrovBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ReciprocalConjugateTransport",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.RegularMomentMapQuadratic",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.RelativeFenchelSubgradient",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.RelativeMomentDensity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.RescaledMomentRegularity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ResolventDyadicNumerics",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ResolventVarianceComparison",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.RouteArithmetic",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ScalarLinearIntegralEquation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ScalarMollification",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ScalarUpperCutoff",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ScaledDeterminantRemainder",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ScaledGeometricRemainder",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ScaledUniformHessianContinuity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SecondOrderLocalTaylor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SecondTaylorQuadraticEquivalence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SectionDeficitContraction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SectionEngulfing",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SectionWidthControl",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SectionWidthLowerBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SemiconvexLaplacianDistribution",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SemidefiniteTestViscosity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SingletonSubgradientDifferentiability",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SmoothAffineFunctions",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SmoothAlexandrovViscosity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SmoothBarrierStability",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SmoothBoundedDensityApproximation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SmoothCutoffSequence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SmoothHessianAdjugateDivergence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SmoothPermutationTaylor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SmoothSignGradient",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SmoothSignScalar",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SmoothUpperTest",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SpectralQuadraticTransport",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SpectralScalarCriterion",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SteinMatrixContraction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.StoppedDiffusionIntegral",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.StoppedEnergyToolkit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.StoppedGronwall",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.StrictAlexandrovComparison",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.StrictAlexandrovTouch",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.StrictConvexSubgradientInterior",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.StrictViscosityContact",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.StrongBoundedDensityApproximation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.StrongConvexAffine",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.StrongConvexGradientInverse",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.StrongDensityWeakMomentQuadratic",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SubgradientAffineCovariance",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SubgradientAffineNormalization",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SubgradientComparison",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SubgradientDirectionalEstimate",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SubgradientLocalMass",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SubgradientOscillation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SubgradientPolarEstimate",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SubgradientTransport",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SubharmonicEnergy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SublevelCutoffProfile",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SubsetIncidenceGram",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SubsetLowerContraction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SubsetOrbitAverage",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SubsetOrbitIsometry",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SupConvolutionViscosity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SuspensionBlockEmbedding",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SuspensionConvexPotential",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SuspensionCoordinates",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SuspensionCopyMoments",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SuspensionCumulantTaylorBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SuspensionFiberLaw",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SuspensionGraphLogLaplace",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SuspensionIsotropy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SuspensionLaplaceFactorization",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SuspensionLogConcavity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SuspensionLogLaplaceDerivative",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SuspensionMixedCumulants",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SuspensionProductDensity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SuspensionScalarMoments",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SuspensionTaylorNormalization",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SuspensionTensorRestriction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SymmetricLinearMomentTransport",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SymmetricMatrixApproximation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.SymmetricQuadraticCalculus",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TailSubsets",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.Targets",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TaylorBlockIndices",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TaylorBlockIsometry",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TaylorDoublingConstants",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TensorCenteredGradientInverse",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TensorCommutatorComparison",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TensorCoordinateExpansion",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TensorEnergyCorrection",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TensorEntryBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TensorIntegralCauchySchwarz",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TensorInverseDerivatives",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TensorInverseMetric",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TensorMatrixDifferential",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TensorMatrixFamily",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TensorMatrixSecond",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TensorMetric",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TensorMetricDerivatives",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TensorMetricFirstWhitened",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TensorMetricGenerator",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TensorMetricSmooth",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TensorRankOne",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TensorSlotLinear",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TensorSlotSumBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TensorWhitenedGenerator",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ThirdCumulant",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ThirdCumulantMatrixSeed",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TiltCovariancePositive",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TiltCumulantHierarchy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TiltCumulantLowOrders",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TiltCumulants",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TiltDerivatives",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TiltFrechet",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TiltMoments",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TiltNumeratorDerivativeBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TiltNumeratorMoments",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TiltedMeasure",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TraceDistributionMollification",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TranslatedHessianDifferenceQuotient",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TruncatedConjugate",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TruncatedConjugateAgreement",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TruncatedConjugateCoercivity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TruncatedConjugateSingleton",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.TruncationEnergy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.UniformApproximationCompactness",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.UniformGeometricC2Regularity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.UniformGeometricMoments",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.UniformHessianHolder",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.UniformInnerQuadraticFamily",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.UniformLimitFromRadialSandwich",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.UniformQuadraticHessianContinuity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.UniformRecenteredWeightedData",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.UniformSectionLocalization",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.UniversalCumulantGrowth",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.VarianceGradientCriteria",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.VarianceGradientDomain",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.VarianceGradientLawApproximation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.VarianceL1CutoffExtension",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.VarianceL1MollifierExtension",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.VectorBrownianExample",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.Vendored.StatLeanPrekopaLeindler",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ViscosityHarmonicDistribution",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ViscosityHarmonicLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ViscosityHarmonicRegularity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ViscosityLaplacianCalculus",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.VolumePreservingPotentialTransport",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakBochner",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakDerivativeMollification",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakDiffusionCommutator",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakDistributionConstant",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakDivergenceDifferentiation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakDivergenceMultiplier",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakEllipticCompactTransfer",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakEllipticFirstFactor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakEllipticGreenAlgebra",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakEllipticH1CutoffTransfer",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakGradientExtraction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakHessianCompactTest",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakHessianCongruenceEnergy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakHessianEvolution",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakHessianEvolutionPotential",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakHessianEvolutionTests",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakHessianInverseDerivative",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakHessianMatrixTest",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakHessianMean",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakHessianTensorSymmetry",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakHessianVariance",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakHessianVarianceMean",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakInverseTensorDivergence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakLocalPairing",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMatrixAdjugate",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMatrixCongruence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMatrixDeterminant",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMatrixInverse",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMatrixInverseIdentity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMatrixProduct",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMatrixSandwich",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMixedDerivativeSymmetry",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentAeEllipticity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentAeHessian",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentBoundedCutoffErrors",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentCenteredCoercivity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentCenteredTransfer",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentCompactDifferenceEnergy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentCompactTransfer",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentCutoffDifferenceEnergy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentDifferenceFirstOrder",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentExistsTraceEnergy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentExponentialScalar",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentFiniteDifferenceBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentFiniteDifferenceComparison",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentFirstFactor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentGlobalTraceEnergy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentGradientLipschitz",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentH1CutoffSequence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentH1CutoffTransfer",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentHessianEvolution",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentHessianMollification",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentHessianWeakDerivative",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentInverseDivergence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentLipschitzInverseTests",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentLiteralTraceEnergy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentLocalDifferenceEnergy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentLocalEssentialBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentLocalHessianWeakDerivative",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentLocalInverseControl",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentLocalStrongConvexity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentLocalTraceTensor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentLocalizedTraceBalance",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentLocallyLipschitzAdjugateTests",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentLogDetTrace",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentMollifiedEllipticity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentPointwiseHessianEquation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentPotentialDrift",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentQuadratic",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentRawTraceLocalIntegrability",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentSmoothAverageComparison",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentSublevelBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentSublevelSequence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentSublevelTail",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentSublevelTailBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentThirdTensor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentTraceDistribution",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentTracePositivity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakMomentTraceSquareBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakSobolevProduct",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakSubgradientTransport",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakWeightedIntegration",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakWeightedInverseDerivative",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakWeightedMean",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeakWeightedTargetDerivative",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedAnnihilatorEnergy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedAverageSandwich",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedBochner",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedBochnerBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedBochnerDomain",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedBoundedUniformHarmonicLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedCaccioppoli",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedCenteredGradientInverse",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedCenteredGradientTaylor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedClassicalLiouville",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedCompactEmbedding",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedCompactL2Maps",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedCompactSmoothing",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedCompactSupport",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedConfinement",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedControlledOneStepImprovement",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedCutoffApproximation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedDiffusion",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedDiffusionCalculus",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedDiffusionCommutator",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedDiffusionFiniteSum",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedDiffusionLinear",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedDiffusionLiouville",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedDiffusionRange",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedDiffusionSquare",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedDistributionHarmonicLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedDistributionPositivity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedDualPairingBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedDualPairingLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedDualSubharmonicity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedDualTransportPairing",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedEigenBochnerLocal",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedEigenClassical",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedEigenIterationConvergence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedEigenIterationSymmetrization",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedEigenLocalEquation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedEigenMeanLoss",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedEigenRegularity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedEigenSuccessorIteration",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedEnergyCoercivity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedEnergyGraph",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedEnergyGraphClosability",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedEnergyGraphCore",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedEnergyInverse",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedEnergyNontrivial",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedEnergyTail",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedExponentialMoments",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedFaithfulCutoff",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedFaithfulGraph",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedFaithfulSmoothing",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedFamilyEnergy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedFirstOrderWeakBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedFlatnessIteration",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedGlobalCompactEmbedding",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedGlobalIntegration",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedGradientSubsolutionComparison",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedHarmonicApproximation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedImprovementSuccessor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedIntegrationByParts",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedInverseNondegeneracy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedIterationAdjacentSwap",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedIterationBochner",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedIterationDiffusionEnergy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedIterationEnergyConvergence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedIterationGeometry",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedIterationHessianLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedIterationMeanLossBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedIterationMeanTaylor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedIterationSmoothDomain",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedIterationState",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedIterationStoppingIndex",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedIterationSuccessor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedIterationSymmetrization",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedIterationTaylorAction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedIterationTaylorBlock",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedIterationTaylorBlockRecursion",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedIterationTaylorDoubling",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedIterationTaylorEnergy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedIterationTaylorLemma38",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedIterationTaylorPartial",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedIterationTaylorPartialBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedIterationTaylorRecursion",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedIterationTaylorRepeat",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedIterationTaylorSumRecurrence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedIterationTaylorSums",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedL1Compactness",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedL2HarmonicLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedL2Indicator",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedL2TaylorTensor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedLocalDistribution",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedLocalSobolev",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedLocalizedTransport",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedMassResolvent",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedMassResolventBochner",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedMassResolventClassicalTest",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedMassResolventFaithfulTest",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedMassResolventIdentity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedMassResolventSmooth",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedMassResolventStrongLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedMollification",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedMomentEnergy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedMomentMeasure",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedNormExponential",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedNormalizedSuccessor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedOptimalInverse",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedOptimalPoincare",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedPerturbativeC2Regularity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedPerturbativeHessianHolder",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedPerturbativeLinearization",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedPointwiseHessian",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedPoissonRegularity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedRadialAverageSandwich",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedRayleighEquation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedRayleighMinimizer",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedReciprocalEquation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedRescaledWhitenedData",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedResolventBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedResolventConstruction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedResolventDualDisplacement",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedResolventGradientContraction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedResolventGradientCutoff",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedResolventGradientIdentity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedResolventGradientMaximum",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedResolventGradientSubcommutation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedResolventIdentity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedResolventIntegralDisplacement",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedResolventIteration",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedResolventLocalEquation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedResolventMarkovBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedResolventMaximumPrinciple",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedResolventMixedSmoothing",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedResolventPoissonTest",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedResolventPositivity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedResolventSmoothOrder",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedResolventSmoothRepresentative",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedResolventSpectralPairing",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedResolventSquarePairBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedResolventSquarePairing",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedResolventStrongGraphLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedResolventTwoStepSmoothing",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedResolventVariance",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedResolventVarianceL1Bound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedResolventWeakEquation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedScalarRescaling",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedShiftedEnergyForm",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedSmoothL2Density",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedSmoothVariance",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedStrongL2Compactness",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedSubsolutionMaximum",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedSuccessorBochner",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedSuccessorDomain",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedSuccessorIteration",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedSuccessorOrthogonality",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedSuccessorPermutation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedSuccessorSmooth",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedSuccessorSymmetry",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedTaylorBlockRecovery",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedTaylorBlockSymmetry",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedTaylorContinuity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedTaylorFirstMoment",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedTaylorGrowth288",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedTaylorLowOrder",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedTaylorPermutation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedTaylorSpectralCriterion",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedTensorAdjacentAction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedTensorPermutationAction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedTiltFirstDerivative",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedTiltIntegration",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedTiltMixedTaylor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedTiltSmooth",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedTiltSymmetrizedTaylor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedTiltTaylorLinearity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedTiltTaylorTensor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedUniformHarmonicLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedWeakEnergy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedWeakEquation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedWeakLiouville",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedWeakRegularity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WeightedWhiteningRegularity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WhitenedCutoffCumulantLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WhitenedCutoffMoments",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WhitenedCutoffWeakLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WhitenedFamilyMoments",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.WhiteningProductBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ZeroJumpContinuous",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KLS.ZeroPoisson",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KolmogorovExtension4.CompactSystem",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KolmogorovExtension4.KolmogorovExtension",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "KolmogorovExtension4.RegularContent",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Basic",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.AugmentedFiltration",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.Construction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.Continuity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ContinuityDyadicChaining",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ContinuityKolmogorovBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.CoordDerivative",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.CrossOrthogonality",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.CrossOrthogonalityDirectCross",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.CrossOrthogonalityLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.CrossVariation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.CrossVariationSum",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.DriftIncrement",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.Existence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.Filtered",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.FutureIndependence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoAlgebra",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoAlgebraAssociativity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoAlgebraProduct",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoAlgebraSimpleIntegrand",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoCutoff",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoDensity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoDensityDyadicAverages",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoDensityPointwise",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoDensityPredictableL2",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoDensityShiftedAverages",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoDensityUnbounded",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoFinsetSum",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoFormula",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoFormulaGrid",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoFormulaScalar",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoFourthMoment",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoFourthMomentIncrements",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoFourthMomentLintegral",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoFourthMomentPartialSums",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoGridPartition",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoIncrement",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoIncrementMoment",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoIncrementMomentBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoIncrementMomentRestrict",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoIntegrandComplete",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoL2Completion",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoL2CompletionApi",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoL2CompletionCompensator",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoL2CompletionConvergence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoL2CompletionExistence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoL2CompletionIncrement",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoL2CompletionLp",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoL2CompletionMaster",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoL2CompletionQuadVar",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoLinear",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoLocality",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoMartingale",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoMartingaleRiemann",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoOptionalStopping",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoProcess",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoProcessVersion",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoProcessWindow",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoPullOut",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoQuadVarRiemann",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoQuadVarSum",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoRange",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoRiemannIntegrand",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoSimple",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoSimpleIntegrand",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoSimpleIsometry",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoSimpleMoments",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoTimeRiemann",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoTruncate",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoVersionExists",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.ItoZero",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.Martingale",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.MartingaleCondExp",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.MathlibBridge",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.Multidim",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.MultidimFiltered",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.MultidimIto",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.PolarisedQuadVar",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.RiemannSum",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.SimplePredictableRefine",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.SimplePredictableRefineAppend",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.SimplePredictableRefineCommon",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.SimplePredictableRefineInvariance",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.SmoothCutoff",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.TaylorTwo",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.TaylorTwoModulus",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.TaylorTwoVector",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.VectorItoFormula",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.VectorItoFormulaDecomp",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.VectorItoMartingaleRiemann",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.VectorItoProcess",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.VectorItoProcessVersion",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.VectorItoProcessWindow",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.VectorItoQuadVarRiemann",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.VectorItoQuadVarRiemannDecomposition",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.VectorItoQuadVarRiemannTermBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.VectorItoTaylor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.VectorItoThirdMoment",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.VectorItoTimeRiemann",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Brownian.VectorItoVersionExists",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.ItoFormulaUnbounded",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.ItoFormulaUnboundedClamp",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.ItoFormulaUnboundedIntegrands",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.ItoFormulaUnboundedLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.Picard",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.PicardBieleckiContraction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.PicardBieleckiContractionTight",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.PicardBieleckiNorm",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.PicardContraction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.PicardContractionEstimate",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.PicardContractionFixedPoint",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.PicardGlobal",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.PicardIntegrand",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.PicardIntegrandBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.PicardIntegrandFrozen",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.PicardLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.PicardLocality",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.PicardOutput",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.PicardOutputModification",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.PicardOutputMoments",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.PicardOutputStepDiff",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.PicardOutputWeighting",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.PicardSelfMap",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.PicardSpace",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.PicardSpaceBieleckiEDist",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.PicardSpaceBieleckiQuotient",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.PicardSpaceDiscrete",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.PicardStepMap",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.PicardStochasticLipschitz",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.PicardSupL2",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.PicardWindow",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.Setting",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.VectorItoProcessDiff",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.VectorItoVersionLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.VectorItoVersionSup",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Ito.VectorItoVersionUnbounded",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Martingale.CadlagModification",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Martingale.RightCont",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Martingale.SquareCompensator",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.Compensated",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.CompensatedApprox",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.CompensatedDensity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.CompensatedDensityBoxIsometry",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.CompensatedDensityDyadic",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.CompensatedDensityLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.CompensatedDensityMarkApprox",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.CompensatedDensityMarkSum",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.CompensatedDensityRectSimple",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.CompensatedDensityRefinement",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.CompensatedDensityShifted",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.CompensatedDensityStepIntegral",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.CompensatedDensityTruncation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.CompensatedDiff",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.CompensatedIntegrandComplete",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.CompensatedIsometry",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.CompensatedIsometryL2",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.CompensatedIsometryOrthogonality",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.CompensatedLinear",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.CompensatedMartingale",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.CompensatedMartingaleAdapted",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.CompensatedMartingaleIncrement",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.CompensatedMartingaleQuadratic",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.CompensatedProcess",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.CompensatedProcessQuadVar",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.CompensatedPullOut",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.CompensatedQuadVar",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.CompensatedRange",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.CompensatedSimple",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.Filtered",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.IndependentScattering",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.L2Isometry",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.MarkStep",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.MarkStepIncrement",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.MarkStepIsometry",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.MarkStepWeight",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.NaturalFiltration",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.PastFutureIndependence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.PoissonSplitting",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.PoissonSuperposition",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.RandomMeasure",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.RegionIndependence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Poisson.RegionPartition",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Probability.AbsMoment",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Probability.Augmentation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Probability.ComapTuple",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Probability.DoobContinuous",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Probability.ExitTime",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Probability.IndepGrouping",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Probability.IndepJoin",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Probability.IndepLimit",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Probability.MartingaleDifference",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Probability.Progressive",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Probability.ProgressiveCadlag",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Probability.StoppedProgressive",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Probability.Transport",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "LevyStochCalc.Probability.TrivialSigma",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "MathFin.Foundations.DoobLpMaximalInequality",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "MovingParticleLargeWindow",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "MovingParticleTailBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OAI.Analysis.KLS.Model",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OpenAIKLS500",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OpenAIKLSBridge",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptActualCubicPathSeed",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptCollectivePolynomialEigenvalue",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptCombinedSmoothTaylor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptCombinedSuspensionCumulant",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptCombinedSuspensionDerivative",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptCombinedSuspensionDirection",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptCombinedSuspensionTaylor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptCompactCubicMixed",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptCompactScalarSkew",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptCubicBanach",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptCubicMatrixContraction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptCubicMultilinear",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptCumulantRankTwo",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptCumulantTensorSymmetry",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptCumulantTwentyEightHalfArithmetic",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptCumulantTwentyEightHalfInduction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptCumulantTwentyEightHalfStep",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptCumulantTwentyNineArithmetic",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptCumulantTwentyNineInduction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptCumulantTwentyNineStep",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptEighteenFifthBase",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptEighteenFifthConvolution",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptEighteenFifthInduction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptEighteenFifthStep",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptEighteenFifthWeights",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptEnergyCubicSeed",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptFiniteOrbitGap",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptFiniteRankFour",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptFiniteSixteenCertificates",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptFiniteSixteenInduction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptFiniteSixteenStep",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptFiniteSixteenWeights",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptFullL2SharpTransfer",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptInsertionDecomposition",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptInsertionJointDefinitions",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptInsertionJointWords",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptJointPermutationAverageBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptLocalMinimumHessian",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptMaximumHessian",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptMeanInsertionWords",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptMeanPermutationAverageBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptMeanReflectedWords",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptMixedLowerContraction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptMixedLowerIntegral",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptPolynomialSphereMaximum",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptPositiveSquareGap",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRadialPowerHessian",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankCauchyCertificates",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankCauchyInduction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankCauchyIntegral",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankCauchyLower",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankCauchyProcess",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankCauchyStep",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankCauchyWeights",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric128Certificates",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric128Certificates106To113",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric128Certificates10To17",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric128Certificates114To121",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric128Certificates122To128",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric128Certificates18To25",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric128Certificates26To33",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric128Certificates2To9",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric128Certificates34To41",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric128Certificates42To49",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric128Certificates50To57",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric128Certificates58To65",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric128Certificates66To73",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric128Certificates74To81",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric128Certificates82To89",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric128Certificates90To97",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric128Certificates98To105",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric128Induction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric128Step",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric128Weights",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric256Certificates",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric256Certificates129To136",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric256Certificates137To144",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric256Certificates145To152",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric256Certificates153To160",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric256Certificates161To168",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric256Certificates169To176",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric256Certificates177To184",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric256Certificates185To192",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric256Certificates193To200",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric256Certificates201To208",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric256Certificates209To216",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric256Certificates217To224",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric256Certificates225To232",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric256Certificates233To240",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric256Certificates241To248",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric256Certificates249To256",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric256Induction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric256Step",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankSymmetric256Weights",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankWeights",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankYoungCertificates",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankYoungInduction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankYoungStep",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptRankYoungWeights",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptScalarStandardization",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptScalarTiltVariance",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptScaledLowerContraction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptSymmetricCollectiveBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptSymmetricEnergyFinite",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptSymmetricEnergyInfinite",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptSymmetricSpectralBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptSymmetricTensorAction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptSymmetricTensorPolynomial",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptSymmetricTensorSpace",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptSymmetricYoungCorrection",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTaylorEighteenFifth",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTaylorFiniteSixteen",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTaylorRankCauchy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTaylorRankSymmetric128",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTaylorRankSymmetric256",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTaylorRankSymmetric256Unconditional",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTaylorRankYoung",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTaylorSymmetric128Unconditional",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTaylorTwentyEightHalf",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTaylorTwentyNine",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTaylorTwentySeven",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTensorCorrection",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTensorDiagonalInjectivity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTensorSlotCorrection",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTensorThreeSevenths",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTensorYoungParameter",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTensorZeroCoercivity",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptThreeSeventhsEnergyFinite",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptThreeSeventhsEnergyInfinite",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTwentyEightHalfConvolution",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTwentyEightHalfFinite13To23",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTwentyEightHalfFinite24To34",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTwentyEightHalfFinite2To12",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTwentyEightHalfWeights",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTwentyNineRankWeights",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTwentySevenBase",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTwentySevenConvolution",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTwentySevenConvolutionFinite",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTwentySevenInduction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTwentySevenStep",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptTwentySevenWeights",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptUniformCubicSeed",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptVarianceAffine",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptVarianceEnergy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptVarianceGlobal",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptVarianceODE",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptWeightedLowerContraction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptWeightedLowerContractionBeta",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptWeightedLowerIntegral",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptWeightedLowerIntegralBeta",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptWeightedProcessBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptYoungParameterEnergyFinite",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptYoungParameterEnergyInfinite",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptZeroCoercivityEnergyFinite",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptZeroCoercivityEnergyInfinite",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptimizedFullCheeger",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptimizedResolventDisplacement",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "OptimizedVarianceGradient",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "PermutationSquareWord",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "PermutationTriangularWord",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "ProfileClockAssembly",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "ProfileResolventNumerics",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "RankFullVerification29",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "RefinedIteratedResolventFullCheeger",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "RefinedIteratedResolventNumerics",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "RefinedIteratedResolventVarianceGradient",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "ResolventEntropyChain",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "ResolventEntropyIteration",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "ResolventEntropyMixedStep",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "ResolventGradientDomination",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "ResolventGradientKato",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "ResolventGradientL1Comparison",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "ResolventGradientL1Subcommutation",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "ResolventGradientWeightedDomination",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "ResolventPartitionNumerics",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "ResolventUniformLag",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "ResolventWeightedCauchy",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionCauchyRankTaylor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionCompleteAdjacent",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionCompleteSymmetrization",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionCompleteWindow",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionCoupledCoefficients",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionCoupledCriterion",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionCoupledScalar",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionCoupledStopping",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionExactDoubling",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionExactLemma38",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionExactRecovery",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionFiniteRankTaylor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionFirstImprovedSymmetrization",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionGeneralDoubling",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionGeneralLemma38",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionGeneralMeanLoss",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionGeneralPartial",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionGeneralStopping",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionGeneralSymmetrization",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionIndividualLemma38",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionIndividualRankTaylor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionIndividualSumRecurrence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionIndividualSymmetrization",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionIndividualWindow",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionIntervalSums",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionJointSymmetrization",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionJumpBlock",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionJumpIncidence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionJumpIteration",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionJumpLemma38",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionJumpPrefix",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionJumpRecovery",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionJumpSumRecurrence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionJumpWindow",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionLongBlock",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionLongDoubling",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionLongIncidence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionLongLemma38",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionLongPrefix",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionLongRecovery",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionLongSumRecurrence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionLongWindow",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionMeanLemma38",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionMeanSumRecurrence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionMeanSymmetrization",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionMoving256Taylor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionMoving256TaylorNumbers",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionMovingJumpLemma38",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionMovingJumpSumRecurrence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionMovingSymmetrization",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionOrthogonalDoubling",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionOrthogonalRecovery",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionPermutationCounts",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionPermutationCubic",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionPermutationIndividual",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionPermutationIndividualBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionPolynomialBounds",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionProjectionDoubling",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionProjectionRecovery",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionRankCriterion",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionRankDoubling",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionRankLemma38",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionRankScalar",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionRankSumRecurrence",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionRankSymmetrization",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionRankTaylor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionRankTaylorTwentyNine",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionRefinedRankTaylor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionRetainedDefect",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionRetainedJumpSum",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionRetainedMovingJumpSum",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionRetainedStopping",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionRetainedWindow",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionSharpRankTaylor",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionTriangularCoefficients",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionTripleGrowth",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionYoungDoubling",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionYoungLemma38",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "SpectralReductionYoungRecovery",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "TranspositionAverageAlgebra",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "TranspositionAverageBound",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "TranspositionDefectAlgebra",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "TranspositionDisjoint",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "TranspositionFiniteCoefficient",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "TranspositionIntervalComparison",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "TranspositionIntervalWords",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "TranspositionLocalGap",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "TranspositionMeanDefects",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "TranspositionMovingComplete",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "TranspositionMovingParticlePath",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "TranspositionOperator",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "TranspositionSeries",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "TranspositionSeriesTriple",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "TranspositionSharpGap",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "TranspositionSignedAverage",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "TranspositionStarContraction",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "TranspositionStarCoverage",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "TranspositionStarVariance",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "TranspositionTripleGap",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "TranspositionTripleSum",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "TwoPointWeightedSymmetrization",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "WeightedFiniteTaylorWindow",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "WeightedScaleSymmetrization",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "WeightedTaylorSymmetrization",
+    "forbidden_tokens": []
+  },
+  {
+    "module": "WeightedTriangularSymmetrization",
+    "forbidden_tokens": []
+  }
+]

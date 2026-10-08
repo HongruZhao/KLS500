@@ -1,0 +1,5 @@
+'KLS.weightedH1_bound_of_poincareConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.poincareConstant_eq_inv_weightedRayleigh' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_positive_weighted_eigenpair_with_optimal_poincare' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

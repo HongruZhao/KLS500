@@ -1,0 +1,235 @@
+[
+  {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/spectral23-independent/SpectralReductionCoupledCriterion.lean",
+    "lines": [
+      29,
+      89
+    ],
+    "sha256": "f2514e06fca1aac4473b1f08386c56cb84526a1c19a9bcdc9e3cd73e9e142d91"
+  },
+  {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/spectral23-independent/SpectralReductionCoupledScalar.lean",
+    "lines": [
+      188,
+      213
+    ],
+    "sha256": "15e6cc487bcb23467f3e34168bf1a72b9d21a54572e167f6412271c4e32e408a"
+  },
+  {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/spectral23-independent/SpectralReductionCoupledCoefficients.lean",
+    "lines": [
+      13,
+      20
+    ],
+    "sha256": "7af592523e7cfc83df3cea575007a4961a539f5a882bd8e0466fe598864e571a"
+  },
+  {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/spectral23-independent/SpectralReductionCoupledCoefficients.lean",
+    "lines": [
+      142,
+      234
+    ],
+    "sha256": "7af592523e7cfc83df3cea575007a4961a539f5a882bd8e0466fe598864e571a"
+  },
+  {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/spectral21-independent/SpectralReductionMoving256Taylor.lean",
+    "lines": [
+      11,
+      23
+    ],
+    "sha256": "42440dccd57b9686bd49fbdee64e24ce3d2f77bf89111504f43730180252a073"
+  },
+  {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/spectral21-independent/SpectralReductionMoving256TaylorNumbers.lean",
+    "lines": [
+      7,
+      17
+    ],
+    "sha256": "038f0ec9efc9cd544db2633452f75a36a2cd8209d8e5b20d172b442f395690b5"
+  },
+  {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/spectral3-independent/SpectralReductionRankTaylor.lean",
+    "lines": [
+      17,
+      27
+    ],
+    "sha256": "e1b240ae4b8f770f8b49e6bf7978ef6f1a1d884eed4f8e43fcef00590444b797"
+  },
+  {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/rank-symmetric256-independent/OptTaylorRankSymmetric256.lean",
+    "lines": [
+      14,
+      39
+    ],
+    "sha256": "49105c5f0c866433387cd0c06ad5f1020297208d9ead579fdf1166709f368326"
+  },
+  {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/rank-symmetric256-independent/OptTaylorRankSymmetric256Unconditional.lean",
+    "lines": [
+      13,
+      25
+    ],
+    "sha256": "f1440fba7196fbf09955e11b016961e96eee0eb76443ac511a1e8e94131bfe59"
+  },
+  {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/rank-symmetric256-independent/OptRankSymmetric256Induction.lean",
+    "lines": [
+      15,
+      51
+    ],
+    "sha256": "9656a184e7899862752f3d399ac8d3d4df6138e646b65ef470d11caa2e434865"
+  },
+  {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/eighteen-fifth-independent/OptTaylorSymmetric128Unconditional.lean",
+    "lines": [
+      18,
+      39
+    ],
+    "sha256": "361cfa533b59169845962896f36ef3eb8b628d16d3b9c1d6a750e1f9767d7804"
+  },
+  {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/cubic-path-independent/OptActualCubicPathSeed.lean",
+    "lines": [
+      13,
+      59
+    ],
+    "sha256": "795601ed502c9e1a06a050998356da669badbd5f20e887919a8fb9c6db635f6c"
+  },
+  {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/retained-defect-bkl-independent/SpectralReductionRetainedDefect.lean",
+    "lines": [
+      92,
+      129
+    ],
+    "sha256": "a3732971467e5a3780f2a04ba13dc94f446794644b1a8cddf48b67d9de3c3dac"
+  },
+  {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/coupled-defect-bkl-independent/SpectralReductionCoupledStopping.lean",
+    "lines": [
+      17,
+      127
+    ],
+    "sha256": "cef7f13fe66ad66bfb0399019861cba0e68000990c8e9a4100054d3d3f7014d9"
+  },
+  {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/rank29-independent/RankFullVerification29.lean",
+    "lines": [
+      17,
+      36
+    ],
+    "sha256": "480e5c32dea5ecf8d2b4b9d53d5d64e5c6beb28c60239616e993e599c0449edc"
+  },
+  {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/coupled500-full-independent/CoupledRankYoungFullVerification.lean",
+    "lines": [
+      12,
+      58
+    ],
+    "sha256": "6855620111a025f34de88fdbb3a1fe23bc7125f9ecce7fc061688216d610590f"
+  },
+  {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/openai12500-independent/OpenAIKLSBridge.lean",
+    "lines": [
+      17,
+      94
+    ],
+    "sha256": "d42df6c228db99dd2122807dff494358d12bad348ca6fcdd079cf2d7ea272d16"
+  },
+  {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/openai500-independent/OpenAIKLS500.lean",
+    "lines": [
+      11,
+      27
+    ],
+    "sha256": "1a9cf660b8699d6ec10d93456388505d46dae4d7e631fb34e25aab318c9191ee"
+  },
+  {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/entropy197500-final-independent/Entropy197500FullVerification.lean",
+    "lines": [
+      10,
+      45
+    ],
+    "sha256": "81c39fa56e7e918934e2ed9ac803bd2c4b01d7ba45d931eb175bd163612c9388"
+  },
+  {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/Definitions.lean",
+    "lines": [
+      138,
+      178
+    ],
+    "sha256": "03cbf1b33c56933d4fb03ad5d6659829bf62be7f35a0c5aedfdb91c5efb91ec6",
+    "working_source_matches_accepted_baseline": true
+  },
+  {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/OptimalConstants.lean",
+    "lines": [
+      23,
+      101
+    ],
+    "sha256": "717a97d3e090b1559ed1d0b4d78ec0aa8feae2c2b12ee224b321c119eef0edd7",
+    "working_source_matches_accepted_baseline": true
+  },
+  {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/WeightedTiltTaylorTensor.lean",
+    "lines": [
+      12,
+      14
+    ],
+    "sha256": "5a7d13fff8b90d37d745cc5bbabe56822f60af7ca9af2bc44432936e4efa5643",
+    "working_source_matches_accepted_baseline": true
+  },
+  {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/WeightedTiltSymmetrizedTaylor.lean",
+    "lines": [
+      15,
+      18
+    ],
+    "sha256": "87d09c3b6d36ff3aac2ee6bc4d5675d38eb18900738f5bddc830fe8f71496860",
+    "working_source_matches_accepted_baseline": true
+  },
+  {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/WeightedOptimalPoincare.lean",
+    "lines": [
+      70,
+      130
+    ],
+    "sha256": "c07c704664d303852904aff63c0b22d6d16850377f5520f60167847e9a67c011",
+    "working_source_matches_accepted_baseline": true
+  },
+  {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/FullPoincareStrongApproximation.lean",
+    "lines": [
+      12,
+      49
+    ],
+    "sha256": "b7e03df0b40c080b9aaf4d9a87ccba6de52967003c1ab1b0a0309b12f86fc9b2",
+    "working_source_matches_accepted_baseline": true
+  },
+  {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/TruncationEnergy.lean",
+    "lines": [
+      69,
+      99
+    ],
+    "sha256": "21d0fa2bed48cd048c98d75bd445daf1dd571d77d9a4d3955dbe43991d584f41",
+    "working_source_matches_accepted_baseline": true
+  },
+  {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/RealEndpoint.lean",
+    "lines": [
+      16,
+      51
+    ],
+    "sha256": "bf126087e98852230cbffc037a494322b8c7524bb245a2419bae29cdbc338ddf",
+    "working_source_matches_accepted_baseline": true
+  },
+  {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/IsotropicLowerBound.lean",
+    "lines": [
+      58,
+      79
+    ],
+    "sha256": "bc52c70a8d94287d29b57168c44edc98cdf03f6c8a00e03665a730f5f602fe0b",
+    "working_source_matches_accepted_baseline": true
+  }
+]

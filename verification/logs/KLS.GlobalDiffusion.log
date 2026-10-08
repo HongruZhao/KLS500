@@ -1,0 +1,2 @@
+'KLSLevyProbe.exists_continuous_globalSolution_of_zeroJump' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLSLevyProbe.exists_continuous_globalDiffusion' depends on axioms: [propext, Classical.choice, Quot.sound]

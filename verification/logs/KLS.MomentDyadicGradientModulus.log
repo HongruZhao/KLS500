@@ -1,0 +1,2 @@
+'KLS.exists_local_moment_supportDeficit_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_local_moment_gradient_dyadic_modulus' depends on axioms: [propext, Classical.choice, Quot.sound]

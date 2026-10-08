@@ -1,0 +1,3 @@
+'KLS.convex_momentLegendreDomain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.convexOn_normalizedLegendreTransform_toReal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.finiteLegendre_support_of_mem_convexSubgradient' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,7 @@
+KLS/AdaptiveContinuousLogDet.lean:50:10: warning: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
+
+Hint: Replace the deprecated name:
+  continuous_finset_̵s̵S̲um
+'KLS.AdaptiveLocalization.MaximalProcess.exists_continuous_logDet_representation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

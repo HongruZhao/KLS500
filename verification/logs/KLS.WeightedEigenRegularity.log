@@ -1,0 +1,4 @@
+'KLS.weighted_eigenpair_exists_smooth_representative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_positive_classical_eigenpair_with_optimal_poincare' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

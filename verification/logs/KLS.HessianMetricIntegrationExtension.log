@@ -1,0 +1,2 @@
+'KLS.integrable_of_tendsto_integral_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integrable_hessianMetricDiffusion_and_integral_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

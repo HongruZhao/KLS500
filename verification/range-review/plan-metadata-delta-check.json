@@ -1,0 +1,13 @@
+{
+  "success": true,
+  "reviewer": "song_zhang_audit",
+  "all_original_plan_fields_identical": true,
+  "added_fields": [
+    "parent_wrapper_comment_repair",
+    "verification_probe"
+  ],
+  "old_plan_sha256": "c4779ee922bfd794166252f24d2b2809b5615cafb3aa5f653d971372b03d2cfa",
+  "new_plan_sha256": "eb82c7bc12100b6f6082aaac7d6aa01f5fb75c393a3babed9d2819e0371618da",
+  "corrected_parent_wrapper_matches_compiled_author_support": true,
+  "range_source_unchanged_sha256": "91b032ab69d086ebd37d78c70a3d2acf93d01b34b0673cea41980c03bc692663"
+}

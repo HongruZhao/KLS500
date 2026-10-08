@@ -1,0 +1,4 @@
+'KLS.AdaptiveLocalization.coordinateCumulantTensor_generator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.AdaptiveLocalization.fderiv_coordinateCumulantTensor_diffusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

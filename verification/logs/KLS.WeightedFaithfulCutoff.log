@@ -1,0 +1,2 @@
+'KLS.eLpNorm_smoothCutoff_mul_sub_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.faithful_test_compact_cutoff_approximation' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'KLS.volume_image_linearIsometryEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.anisotropic_coordinate_box_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.directional_alexandrov_maximum_estimate' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,22 @@
+KLS.entropyCheegerCoefficient_lt_two : 197 / 100 < 2
+
+KLS.admissibleMeasure.cheeger_lower_entropy197_500 {n : ℕ} (hn : 1 ≤ n) {μ : MeasureTheory.Measure (KLS.Space n)}
+  (hμ : KLS.admissibleMeasure μ) : ENNReal.ofReal (100 / (197 * √500)) ≤ KLS.cheegerConstant μ
+
+KLS.fullCheegerVerification_entropy197_500 : KLS.FullCheegerVerification
+
+KLS.klsConjecture_entropy197_500 : KLS.KLSConjecture
+
+KLS.exactOpenAIKLSStatement_entropy197_500 : OAI.LeanBlast.KLS.KLSStatement
+
+KLS.dimensionFree500_and_cheeger197 :
+  (∀ (n : ℕ),
+      1 ≤ n →
+        ∀ (ρ : OAI.LeanBlast.KLS.Space n → ℝ),
+          OAI.LeanBlast.KLS.IsLogConcaveDensity ρ →
+            OAI.LeanBlast.KLS.IsIsotropic (OAI.LeanBlast.KLS.densityMeasure ρ) →
+              OAI.LeanBlast.KLS.PoincareBound (OAI.LeanBlast.KLS.densityMeasure ρ) 500) ∧
+    ∀ (n : ℕ),
+      1 ≤ n →
+        ∀ (μ : MeasureTheory.Measure (KLS.Space n)),
+          KLS.admissibleMeasure μ → ENNReal.ofReal (100 / (197 * √500)) ≤ KLS.cheegerConstant μ

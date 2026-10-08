@@ -1,0 +1,2 @@
+'KLS.finiteOrthonormalProjection_remainder_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.norm_finiteOrthonormalRemainder_le' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'KLS.LocalDiffusion.LocalProcess.observableNoiseIntegral_eq_before_exit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'KLS.weightedIterationTaylorSum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedIterationTaylorSum_le_initial' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedIterationDefect_sum_range_le' depends on axioms: [propext, Classical.choice, Quot.sound]

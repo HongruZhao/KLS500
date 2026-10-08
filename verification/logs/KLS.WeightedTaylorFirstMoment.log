@@ -1,0 +1,4 @@
+'KLS.hasFDerivAt_exponentialTilt_average_zero_of_integral_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.exponentialTiltCoordinateTaylor_one_of_integral_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

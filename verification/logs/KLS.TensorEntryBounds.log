@@ -1,0 +1,23 @@
+KLS/TensorEntryBounds.lean:12:13: warning: Variable name `hB` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hB
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+KLS/TensorEntryBounds.lean:57:59: warning: This simp argument is unused:
+  Finset.sum_div
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mul_add, add_div, Finset.sum_add_distrib, Finset.sum_mul, Finset.mul_sum, Finset.sum_const,
+    Finset.card_univ, nsmul_eq_mul, dotProduct, ← pow_two]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+KLS/TensorEntryBounds.lean:58:8: warning: This simp argument is unused:
+  Finset.sum_mul
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [mul_add, add_div, Finset.sum_add_distrib, Finset.sum_div, Finset.mul_sum, Finset.sum_const,
+    Finset.card_univ, nsmul_eq_mul, dotProduct, ← pow_two]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'KLS.TensorEnergy.abs_dotProduct_tensorSlotSum_le' depends on axioms: [propext, Classical.choice, Quot.sound]

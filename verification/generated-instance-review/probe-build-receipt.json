@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "exit_status": 0,
+  "seconds": 3.107304084,
+  "command": [
+    "/Users/avatar/.elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean",
+    "-j1",
+    "-M12288",
+    "-t0",
+    "-DmaxSynthPendingDepth=3",
+    "-o",
+    "GeneratedInstanceIndependentProbe.olean",
+    "GeneratedInstanceIndependentProbe.lean"
+  ],
+  "LEAN_PATH": [
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/clean-lean/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/plausible/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/importGraph/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/proofwidgets/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/aesop/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/Qq/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/batteries/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/Cli/.lake/build/lib/lean",
+    "/Users/avatar/.elan/toolchains/leanprover--lean4---v4.35.0-rc3/lib/lean"
+  ],
+  "compiler_sha256": "d1d9c26a539f54fe839d2aa7760bf1ac1dd76a30b26e2c9684bebf2900038fcf",
+  "source_sha256": "141f870454bd3617676abbc5083a2631e43514e85db784814aede00416038e75",
+  "log_sha256": "d97d3948daacf052dba07c63e5fabfe4ff3a589a99c7b0cd3ee3ca320d04097e",
+  "mathematical_sources_changed": false,
+  "old_project_objects_imported": false,
+  "object_sha256": "a524b1d306142ef38bb3858a7ea22ecf37ed1fc191b60675b905191957f6e9fd"
+}

@@ -1,0 +1,3 @@
+'KLS.weightedRayleigh_minimizer_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedRayleigh_minimizer_variational' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_positive_weighted_weak_eigenpair' depends on axioms: [propext, Classical.choice, Quot.sound]

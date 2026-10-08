@@ -1,0 +1,8 @@
+'KLS.tensorMetricForm_eq_kronecker' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.tensorMetricForm_swap_first' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.tensorMetricForm_swap_last' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.tensorMetricForm_eq_traceGram' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.inverse_metric_two_slot_posSemidef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.inverse_metric_tensorForm_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.inverse_metric_trace_tensor_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.hessianTraceGradientTerm_le_third' depends on axioms: [propext, Classical.choice, Quot.sound]

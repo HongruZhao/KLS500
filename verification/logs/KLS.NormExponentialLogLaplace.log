@@ -1,0 +1,4 @@
+'KLS.contDiff_tiltLogLaplace_of_normExponentialDomain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.fderiv_tiltLogLaplace_coordinate_of_normExponentialDomain' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,7 @@
+'KLS.IsIsotropic.exists_momentVariational_maximizer_of_competitor' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.momentDualEnergy_normCompetitor_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.IsIsotropic.exists_momentVariational_maximizer_of_bounded' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

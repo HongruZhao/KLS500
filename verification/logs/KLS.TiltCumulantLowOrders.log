@@ -1,0 +1,4 @@
+'KLS.cumulantTensor_one_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.cumulantTensor_two_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.cumulantTensor_three_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.IsIsotropic.cumulantTensor_three_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]

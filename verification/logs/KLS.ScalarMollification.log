@@ -1,0 +1,5 @@
+'KLS.mollify_contDiff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.mollify_tendsto_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.eLpNorm_mollify_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.coordinateDerivative_scalarConvolution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.coordinateHessian_const_sub' depends on axioms: [propext, Classical.choice, Quot.sound]

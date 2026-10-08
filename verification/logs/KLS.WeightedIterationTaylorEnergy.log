@@ -1,0 +1,3 @@
+'KLS.weightedIterationTaylorEnergy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedIterationTaylorEnergy_le_next' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedIterationTaylorEnergy_le_initial' depends on axioms: [propext, Classical.choice, Quot.sound]

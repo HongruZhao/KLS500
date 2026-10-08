@@ -1,0 +1,4 @@
+'KLS.moment_gradient_mem_interior_domain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.moment_gradient_finiteLegendrePotential_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.moment_gradient_gradient_finiteLegendrePotential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.momentGradientHomeomorph' depends on axioms: [propext, Classical.choice, Quot.sound]

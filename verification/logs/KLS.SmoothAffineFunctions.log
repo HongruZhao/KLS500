@@ -1,0 +1,2 @@
+'KLS.SmoothAffineFunction.exists_hessian_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.smoothAffineFunction_affineRemoval' depends on axioms: [propext, Classical.choice, Quot.sound]

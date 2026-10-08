@@ -1,0 +1,5 @@
+'KLS.eventually_subgradient_norm_sub_lt_of_unique' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.hasFDerivAt_of_unique_convexSubgradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.differentiableAt_of_subsingleton_convexSubgradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.continuous_gradient_of_subsingleton_convexSubgradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.contDiff_one_of_subsingleton_convexSubgradient' depends on axioms: [propext, Classical.choice, Quot.sound]

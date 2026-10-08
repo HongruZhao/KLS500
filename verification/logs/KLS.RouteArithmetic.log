@@ -1,0 +1,17 @@
+KLS/RouteArithmetic.lean:77:32: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+KLS/RouteArithmetic.lean:116:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'KLS.RouteArithmetic.drift_coefficient_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.RouteArithmetic.induction_factor_le_five_sixths' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.RouteArithmetic.induction_factor_lt_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.RouteArithmetic.symmetrization_coefficient_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.RouteArithmetic.tilt_main_coefficient_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.RouteArithmetic.tilt_error_coefficient_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.RouteArithmetic.candidate_bound_eval' depends on axioms: [propext]
+'KLS.RouteArithmetic.exponential_moment_ratio_algebra' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.RouteArithmetic.exponential_energy_expression_pos' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.RouteArithmetic.ratio_lt_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.RouteArithmetic.four_le_of_scalar_ratio_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

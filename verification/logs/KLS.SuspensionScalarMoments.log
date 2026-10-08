@@ -1,0 +1,2 @@
+'KLS.integral_sq_suspensionExtra' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_mul_suspensionExtra' depends on axioms: [propext, Classical.choice, Quot.sound]

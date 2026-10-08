@@ -1,0 +1,4 @@
+'KLS.measure_le_map_gradient_convexSubgradientImage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.measure_eq_map_gradient_convexSubgradientImage_of_strictConvex' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

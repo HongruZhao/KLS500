@@ -1,0 +1,321 @@
+{
+  "success": true,
+  "status": "ACCEPTED",
+  "reviewer": "definition_audit",
+  "created_utc": "2026-10-08T02:11:10.063249+00:00",
+  "scope": "Definition identity, quantifiers, law and test classes, measure/variance/energy fidelity, local-class equivalence and upstream inclusion, nonvacuity, public endpoint source review, and two freshly compiled independent probes. The parent owns the separate fresh rebuild of the entire dependency closure.",
+  "findings": [],
+  "accepted_input_sources_changed": false,
+  "upstream_identity": {
+    "repository": "https://github.com/openai/math",
+    "commit": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+    "relative_path": "lean/OAI/Analysis/KLS/Model.lean",
+    "official_raw_url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/lean/OAI/Analysis/KLS/Model.lean",
+    "fetched_utc": "2026-10-08T02:01:58.470744+00:00",
+    "bytes": 2437,
+    "sha256": "28cddbf3c493afd43b3f7aba78f670952ea0c38909665c86bff883849e7f8dbc",
+    "accepted_model_byte_identical": true,
+    "fresh_rebuild_source_byte_identical": true,
+    "evidence": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/definition-review/upstream-byte-comparison.json",
+    "scope_note": "Exact identity is with this pinned official OpenAI commit, not an assertion about every future upstream revision."
+  },
+  "upstream_semantics": [
+    {
+      "lines": [
+        12,
+        16
+      ],
+      "verified": "The space is ordinary EuclideanSpace over the reals and densityMeasure is Lebesgue volume.withDensity of ENNReal.ofReal rho."
+    },
+    {
+      "lines": [
+        20,
+        24
+      ],
+      "verified": "The density is pointwise nonnegative and measurable, induces a probability measure, and log rho is concave on its convex positive support. No Poincare or Cheeger bound is part of the law hypothesis."
+    },
+    {
+      "lines": [
+        27,
+        32
+      ],
+      "verified": "Every coordinate and coordinate product is explicitly integrable; the mean is zero and the second-moment matrix is identity."
+    },
+    {
+      "lines": [
+        34,
+        41
+      ],
+      "verified": "Variance is the literal centered-square real integral; Dirichlet energy is the literal squared Euclidean gradient norm integral."
+    },
+    {
+      "lines": [
+        44,
+        49
+      ],
+      "verified": "Every globally smooth compactly supported real function is tested by the direct Poincare inequality."
+    },
+    {
+      "lines": [
+        53,
+        58
+      ],
+      "verified": "One positive real C is existentially chosen before every n >= 1, every admissible density, and every test. FullStatement is an abbreviation of this same proposition."
+    }
+  ],
+  "semantic_bridge": {
+    "source": {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/openai12500-independent/OpenAIKLSBridge.lean",
+      "sha256": "d42df6c228db99dd2122807dff494358d12bad348ca6fcdd079cf2d7ea272d16",
+      "lines": [
+        [
+          17,
+          65
+        ],
+        [
+          67,
+          94
+        ]
+      ],
+      "review_purpose": "Read in full: all upstream laws included and actual real integrals recovered."
+    },
+    "law_inclusion": "Every density satisfying both upstream hypotheses gives an original local admissibleMeasure, with zero-density boundary cases handled in the pointwise log-concavity proof.",
+    "isotropy": "Coordinate integrability is converted to finite-dimensional Bochner integrability; the same mean and moment identities are retained.",
+    "test_and_integral_bridge": "For each upstream smooth compact test, derivative integrability proves finite Dirichlet energy; the real endpoint supplies L2 membership before the variance identity. The final formula is the actual centered-square integral and actual gradient-energy integral.",
+    "precise_equivalence_scope": "KLS.admissibleMeasure_iff_isKLSMeasure is the proved equivalence of the two original local measure classes. OpenAIBridge.admissible is the sufficient inclusion of all upstream densities into that class; this review does not label it an upstream/local biconditional.",
+    "local_class_equivalence_sources": [
+      {
+        "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/KLS/Definitions.lean",
+        "sha256": "03cbf1b33c56933d4fb03ad5d6659829bf62be7f35a0c5aedfdb91c5efb91ec6",
+        "lines": [
+          [
+            74,
+            78
+          ],
+          [
+            105,
+            120
+          ],
+          [
+            129,
+            178
+          ]
+        ],
+        "review_purpose": "Original law classes contain probability, log-concavity, and isotropy, not desired functional inequalities."
+      },
+      {
+        "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/KLS/DensityToClass.lean",
+        "sha256": "8f49a7d0492571bf2b91068704da7503b815ce220d9a7f7093487e82ef460374",
+        "lines": [
+          [
+            90,
+            93
+          ]
+        ],
+        "review_purpose": "Actual equivalence theorem of the two original local law classes."
+      },
+      {
+        "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/KLS/ClassToDensity.lean",
+        "sha256": "e4f81d721c1c5ef5b1f68d29808a238e58a6a4d2c529f0f499351fd0a5196b56",
+        "lines": [
+          [
+            19,
+            35
+          ]
+        ],
+        "review_purpose": "Reverse direction derives a density for each admissible law."
+      },
+      {
+        "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/KLS/LogConcavityAbsoluteContinuity.lean",
+        "sha256": "7686735a51197a13ce79bde25787ee3ebaf41bbc9fdd288e752e26649e1735c7",
+        "lines": [
+          [
+            1,
+            112
+          ]
+        ],
+        "review_purpose": "Absolute continuity is derived for nondegenerate isotropic log-concave laws."
+      },
+      {
+        "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/KLS/LogConcaveDensityPotential.lean",
+        "sha256": "b8ee52bc2e707ae86c2e3925b1a26da3865bdd3430462a61f5be1d606a63dfb5",
+        "lines": [
+          [
+            1,
+            98
+          ]
+        ],
+        "review_purpose": "The canonical density is converted into the original convex-potential density formulation."
+      },
+      {
+        "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/KLS/RealEndpoint.lean",
+        "sha256": "bf126087e98852230cbffc037a494322b8c7524bb245a2419bae29cdbc338ddf",
+        "lines": [
+          [
+            16,
+            51
+          ]
+        ],
+        "review_purpose": "Finite energy and L2 membership precede real-integral variance formula."
+      }
+    ]
+  },
+  "fixed500_endpoint": {
+    "accepted": true,
+    "source": {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/openai500-independent/OpenAIKLS500.lean",
+      "sha256": "1a9cf660b8699d6ec10d93456388505d46dae4d7e631fb34e25aab318c9191ee",
+      "lines": [
+        [
+          10,
+          20
+        ]
+      ],
+      "review_purpose": "Exact upstream bound with fixed C=500 and exact upstream KLSStatement/FullStatement."
+    },
+    "uniform_local_premise_source": {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/coupled500-full-independent/CoupledRankYoungFullVerification.lean",
+      "sha256": "6855620111a025f34de88fdbb3a1fe23bc7125f9ecce7fc061688216d610590f",
+      "lines": [
+        [
+          12,
+          36
+        ],
+        [
+          50,
+          58
+        ]
+      ],
+      "review_purpose": "The full original admissible law class receives 500 in poincareConstants; regularity assumptions are discharged by approximation."
+    },
+    "meaning": "For every n >= 1 and every upstream isotropic log-concave probability density, every upstream test satisfies Var_mu(f) <= 500 integral ||gradient f||^2 dmu. The number 500 is independent of dimension, law, and test."
+  },
+  "cheeger_endpoint": {
+    "accepted": true,
+    "original_definition": {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/KLS/Definitions.lean",
+      "sha256": "03cbf1b33c56933d4fb03ad5d6659829bf62be7f35a0c5aedfdb91c5efb91ec6",
+      "lines": [
+        [
+          82,
+          99
+        ]
+      ],
+      "review_purpose": "The literal original closed Euclidean enlargement, Minkowski boundary liminf, and infimum over nontrivial measurable sets."
+    },
+    "nontrivial_sets_source": {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/KLS/CheegerNonvacuity.lean",
+      "sha256": "a2fba11a668db72150daaec3531acb5803e97587a69d4f26bc5e9f4ae42d0ff1",
+      "lines": [
+        [
+          69,
+          77
+        ]
+      ],
+      "review_purpose": "Every positive-dimensional isotropic probability law admits a nontrivial measurable halfspace."
+    },
+    "stronger_endpoint": {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/entropy197500-final-independent/Entropy197500FullVerification.lean",
+      "sha256": "81c39fa56e7e918934e2ed9ac803bd2c4b01d7ba45d931eb175bd163612c9388",
+      "lines": [
+        [
+          13,
+          35
+        ],
+        [
+          39,
+          47
+        ]
+      ],
+      "review_purpose": "Full original law classes receive 100/(197 sqrt 500); exact upstream proposition is preserved."
+    },
+    "requested_two_corollary": {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/cheeger-review/CheegerTwoReverification.lean",
+      "sha256": "9112cbb4e90c928ce483b9529cc5e43168e012db5c72deb5a8c9d1dbb303c38e",
+      "lines": [
+        [
+          8,
+          23
+        ],
+        [
+          25,
+          33
+        ]
+      ],
+      "review_purpose": "Positive-denominator comparison weakens 1.97 to 2; both original law classes and exact upstream Poincare endpoint are used.",
+      "clean_copy_byte_identical": true
+    },
+    "meaning": "The original closed-neighborhood Cheeger constant is at least 1/(2 sqrt 500), obtained by weakening the proved stronger lower bound 100/(197 sqrt 500). No altered boundary, restricted law class, or definition change is used."
+  },
+  "public_final_entry": {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/FinalKLS500.lean",
+    "sha256": "892420de5332564c50196708a14035aa22de098b214abf2a6a046fa4d6a6d8a9",
+    "lines": [
+      [
+        11,
+        19
+      ],
+      [
+        21,
+        29
+      ],
+      [
+        32,
+        40
+      ]
+    ],
+    "review_purpose": "Exact upstream statement and fixed witness; unchanged original Cheeger constant; both bounds for the same upstream density.",
+    "clean_copy_path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/clean-lean/FinalKLS500.lean",
+    "clean_copy_sha256": "892420de5332564c50196708a14035aa22de098b214abf2a6a046fa4d6a6d8a9",
+    "clean_copy_byte_identical": true
+  },
+  "nonvacuity": {
+    "fresh_probe": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/definition-review/DefinitionIdentityAudit.lean",
+    "upstream_density_class": "An explicit standard Gaussian real density is formally shown to induce the standard Gaussian measure and satisfy upstream log-concavity and isotropy in every dimension.",
+    "original_law_class": "The standard Gaussian is formally exhibited in the original admissibleMeasure class.",
+    "upstream_test_class": "A smooth compactly supported bump function with value 1 at the origin is formally exhibited in every dimension.",
+    "cheeger_test_class": "The existing theorem KLS.IsIsotropic.exists_cheeger_test provides a measurable set with strictly intermediate mass for every n >= 1."
+  },
+  "compiled_probes": {
+    "receipts": [
+      {
+        "module": "DefinitionIdentityAudit",
+        "receipt_path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/definition-review/DefinitionIdentityAudit-build.json",
+        "receipt_sha256": "48c69ba43659eaf57953fd7f84508d9141b6104f2a091869d2c02796f5bacaca",
+        "exit_status": 0,
+        "seconds": 8.091982166000001,
+        "source_sha256": "3e518c82418db4b8645ad003a62da93d1a9012c1d5b01c34d3e99e2e1a9f2a61",
+        "log_sha256": "f35abdfc2714fe7071c0414a9adcd936d26845acb713e29488abe85731a6dac2",
+        "artifact_sha256": "6bd10c5680e5d5b8e48efde3c737a8d797890a8d3198edda839d9eb33070118e",
+        "fresh_artifact": true
+      },
+      {
+        "module": "DefinitionOriginsAudit",
+        "receipt_path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/definition-review/DefinitionOriginsAudit-build.json",
+        "receipt_sha256": "3b54ac981ee46df30edb264cf1b22c578ea21311fab9156fb07c694dfd95bf77",
+        "exit_status": 0,
+        "seconds": 7.987939750000001,
+        "source_sha256": "a14b64079d9740f34a4566ececb33c806b76819071ec0b5eea75d82235522311",
+        "log_sha256": "d4d3743d0f23fab98991dcd5d0c3b369fe8af08b6edecafb1620080e532c5d36",
+        "artifact_sha256": "6cd45f2972dd8139bb0b487f0600790579f353e914cc9927b9901ec8b967eed8",
+        "fresh_artifact": true
+      }
+    ],
+    "literal_expansion_checks": "upstream_poincare_literal and upstream_statement_literal close by Iff.rfl; fixed500_literal is the fully expanded real-integral inequality with constant 500.",
+    "origin_gate_count": 31,
+    "origin_gates_passed": true,
+    "origin_gate_scope": "Checks expected declaration kind, actual defining module, and transitive axiom set for eleven upstream model declarations, eleven original local declarations, and nine bridge/endpoint theorems.",
+    "allowed_axioms": [
+      "propext",
+      "Classical.choice",
+      "Quot.sound"
+    ],
+    "nonstandard_axioms_found": false,
+    "freshness_scope": "These two probe artifacts were deleted/recompiled from the displayed source against previously accepted dependencies. This is an independent probe rebuild, not the parent-owned fresh rebuild of all project dependencies."
+  },
+  "original_baseline_comparison": {
+    "all_ten_sources_match_accepted_inventory": true,
+    "evidence": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/definition-review/baseline-source-comparison.json"
+  },
+  "verification_limit": "This review seals definition and endpoint semantics and independent probe results. Publication as freshly rebuilt remains contingent on the parent-owned clean full-closure build, strict endpoint axiom/origin audit, and source/object inventory sealing. It does not assert that that still-running build has already completed."
+}

@@ -1,0 +1,75 @@
+{
+  "LEAN_PATH": [
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/work/github-kls500-preparation/statement-review",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/clean-lean/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/plausible/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/importGraph/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/proofwidgets/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/aesop/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/Qq/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/batteries/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/Cli/.lake/build/lib/lean",
+    "/Users/avatar/.elan/toolchains/leanprover--lean4---v4.35.0-rc3/lib/lean"
+  ],
+  "builds": [
+    {
+      "module": "Challenge",
+      "command": [
+        "/Users/avatar/.elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean",
+        "-j1",
+        "-M12288",
+        "-t0",
+        "-DmaxSynthPendingDepth=3",
+        "-o",
+        "/Users/avatar/Documents/Codex/2026-10-06/hel/work/github-kls500-preparation/statement-review/Challenge.olean",
+        "/Users/avatar/Documents/Codex/2026-10-06/hel/work/github-kls500-preparation/statement-review/Challenge.lean"
+      ],
+      "exit_status": 0,
+      "seconds": 4.558071292,
+      "source_sha256": "ae2fc652314c1f0eeca3947cf692da596031ae1b5b6fa781c75b3558f9ab9262",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fresh_object": true,
+      "object_sha256": "4f1e548b6ced5bdf6bd67a2cb1dcc5931bc2c9f8781d5b1e1a6576b3de171e62"
+    },
+    {
+      "module": "KLS500",
+      "command": [
+        "/Users/avatar/.elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean",
+        "-j1",
+        "-M12288",
+        "-t0",
+        "-DmaxSynthPendingDepth=3",
+        "-o",
+        "/Users/avatar/Documents/Codex/2026-10-06/hel/work/github-kls500-preparation/statement-review/KLS500.olean",
+        "/Users/avatar/Documents/Codex/2026-10-06/hel/work/github-kls500-preparation/statement-review/KLS500.lean"
+      ],
+      "exit_status": 0,
+      "seconds": 3.7601042079999996,
+      "source_sha256": "0ef3ebf5d6047e28b3c63c5bc68e462e9f18854f7f82d006b7b863ed0e384b85",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fresh_object": true,
+      "object_sha256": "321c4aacca5b72fc1b515d0268cea4c0de30e113e3920c50570c417bfb298d3b"
+    },
+    {
+      "module": "StatementAxioms",
+      "command": [
+        "/Users/avatar/.elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean",
+        "-j1",
+        "-M12288",
+        "-t0",
+        "-DmaxSynthPendingDepth=3",
+        "-o",
+        "/Users/avatar/Documents/Codex/2026-10-06/hel/work/github-kls500-preparation/statement-review/StatementAxioms.olean",
+        "/Users/avatar/Documents/Codex/2026-10-06/hel/work/github-kls500-preparation/statement-review/StatementAxioms.lean"
+      ],
+      "exit_status": 0,
+      "seconds": 3.6306199170000006,
+      "source_sha256": "76884c9109ce51b7b0a65c0ab321b12994f567bd369f772a943a7ff3bf98a67d",
+      "log_sha256": "059a4a4729aa2042c5a194cc65c0013a4c3ffb9ff825afa2d4fd3fb7db89da60",
+      "fresh_object": true,
+      "object_sha256": "492e69aacc788e9adc6ef82ce74657104ab0160d5813d43fa9d68eb961b9d7f9"
+    }
+  ]
+}

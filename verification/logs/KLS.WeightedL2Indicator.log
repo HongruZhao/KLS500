@@ -1,0 +1,2 @@
+'KLS.weightedL2Indicator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedL2Indicator_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]

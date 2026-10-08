@@ -1,0 +1,6 @@
+'KLS.AdaptiveLocalization.MaximalProcess.covariance_equation_global' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.AdaptiveLocalization.MaximalProcess.integral_globalCovarianceNoiseIntegral_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

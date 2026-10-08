@@ -1,0 +1,4 @@
+'KLS.potentialMeasure_eq_target_subgradientImage_of_weak_momentMap' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.exists_local_subgradient_volume_two_sided_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

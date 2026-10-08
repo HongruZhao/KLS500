@@ -1,0 +1,11 @@
+KLS/WeightedDiffusionRange.lean:109:16: warning: This simp argument is unused:
+  RCLike.inner_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hx, pow_two]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'KLS.compactDiffusionRange' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_eq_zero_of_mem_compactDiffusionRange' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.toLp_neg_weightedDiffusion_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.brascampLieb_variance_of_diffusionRangeDense' depends on axioms: [propext, Classical.choice, Quot.sound]

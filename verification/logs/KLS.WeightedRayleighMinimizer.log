@@ -1,0 +1,2 @@
+'KLS.exists_weightedRayleigh_minimizer' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_positive_weightedRayleigh_minimizer' depends on axioms: [propext, Classical.choice, Quot.sound]

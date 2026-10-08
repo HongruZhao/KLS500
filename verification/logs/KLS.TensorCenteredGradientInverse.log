@@ -1,0 +1,6 @@
+'KLS.finiteL2VectorLift_norm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.finiteL2VectorLift_opNorm_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedTensorCenteredGradientInverse_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_optimal_weightedTensorCenteredGradientInverse_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

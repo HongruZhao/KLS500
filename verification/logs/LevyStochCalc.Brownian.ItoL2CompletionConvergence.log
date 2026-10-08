@@ -1,0 +1,6 @@
+LevyStochCalc/Brownian/ItoL2CompletionConvergence.lean:98:21: warning: Variable name `hg` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hg
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`

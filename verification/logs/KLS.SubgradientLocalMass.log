@@ -1,0 +1,2 @@
+'KLS.exists_restrict_potentialMeasure_le_smul_volume' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_local_subgradient_volume_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

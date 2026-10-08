@@ -1,0 +1,5 @@
+'KLS.weightedH1_unweighted_weak_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedH1Derivative_eq_zero_of_value_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedH1_eq_zero_of_value_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedH1Value_injective' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedH1_compact_mul_hasWeakCoordinateDerivative' depends on axioms: [propext, Classical.choice, Quot.sound]

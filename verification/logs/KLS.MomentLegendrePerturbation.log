@@ -1,0 +1,3 @@
+'KLS.abs_momentLegendrePerturbation_sub_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.convexOn_momentLegendrePerturbation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.lipschitzWith_momentLegendrePerturbation' depends on axioms: [propext, Classical.choice, Quot.sound]

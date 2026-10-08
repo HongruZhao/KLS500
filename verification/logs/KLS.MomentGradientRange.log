@@ -1,0 +1,5 @@
+'KLS.convexSubgradient_subset_of_ae_gradient_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.convexSubgradient_subset_of_momentMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.IsIsotropic.exists_bounded_momentMap_with_subgradient_range' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

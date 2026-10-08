@@ -1,0 +1,2 @@
+'KLS.absolutelyContinuous_map_matrixAction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.isCompact_support_map_matrixAction' depends on axioms: [propext, Classical.choice, Quot.sound]

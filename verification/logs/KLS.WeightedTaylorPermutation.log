@@ -1,0 +1,3 @@
+'KLS.weightedL2TaylorTensor_reindex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedL2TaylorTensor_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedL2TaylorTensor_taylor_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]

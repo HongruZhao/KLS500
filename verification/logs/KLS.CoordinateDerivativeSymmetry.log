@@ -1,0 +1,3 @@
+'KLS.coordinateDerivative_hessian_swap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.coordinateDerivative_hessian_cycle' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.coordinateHessian_hessian_exchange' depends on axioms: [propext, Classical.choice, Quot.sound]

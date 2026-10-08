@@ -1,0 +1,6 @@
+'KLS.isCompact_normalizedMomentEnergySublevel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.IsIsotropic.exists_momentVariational_coercivity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.IsIsotropic.continuous_partition_on_energy_sublevel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.IsIsotropic.upperSemicontinuous_functional_on_energy_sublevel' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

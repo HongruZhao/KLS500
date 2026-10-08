@@ -1,0 +1,3 @@
+'KLS.subsetOrbitVector_eq_of_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.subsetOrbitVector_image' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.norm_subsetOrbitVector' depends on axioms: [propext, Classical.choice, Quot.sound]

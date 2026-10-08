@@ -1,0 +1,8 @@
+'KLS.covarianceMatrix_posSemidef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.covarianceMatrix_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.admissibleMeasure.eventually_posDef_covarianceMatrix_ballCutoffMeasure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.admissibleMeasure.tendsto_inverseSqrt_covarianceMatrix_ballCutoffMeasure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,33 @@
+KLS/AdaptiveMaximalLocalProcess.lean:26:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.MaximalProcess.parameterPath_initial`:
+  [IsProbabilityMeasure μ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure μ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+KLS/AdaptiveMaximalLocalProcess.lean:30:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.MaximalProcess.parameterPath_continuousOn`:
+  [IsProbabilityMeasure μ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure μ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+KLS/AdaptiveMaximalLocalProcess.lean:33:45: warning: Variable name `ω` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ω
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+KLS/AdaptiveMaximalLocalProcess.lean:36:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.MaximalProcess.linear_noise_eq`:
+  [IsProbabilityMeasure μ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure μ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+KLS/AdaptiveMaximalLocalProcess.lean:43:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.MaximalProcess.linear_equation`:
+  [IsProbabilityMeasure μ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure μ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'KLS.AdaptiveLocalization.exists_adaptiveMaximalLocalProcess' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.AdaptiveLocalization.MaximalProcess.linear_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.AdaptiveLocalization.MaximalProcess.matrix_equation' depends on axioms: [propext, Classical.choice, Quot.sound]

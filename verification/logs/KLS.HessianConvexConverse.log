@@ -1,0 +1,5 @@
+'KLS.convexOn_univ_of_secondFrechet_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.secondFrechet_add_const_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.convexOn_univ_add_small_hessian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.secondFrechet_abs_le_of_opNorm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.secondFrechet_lower_of_coordinateHessian' depends on axioms: [propext, Classical.choice, Quot.sound]

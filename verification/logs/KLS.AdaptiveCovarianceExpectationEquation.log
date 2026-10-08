@@ -1,0 +1,3 @@
+'KLS.AdaptiveLocalization.MaximalProcess.covarianceExpectation_integral_equation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

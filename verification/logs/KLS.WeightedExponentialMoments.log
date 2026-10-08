@@ -1,0 +1,17 @@
+KLS/WeightedExponentialMoments.lean:37:6: warning: This simp argument is unused:
+  conj_trivial
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [norm_smul, Real.norm_eq_abs, mul_pow, sq_abs, inner_smul_right] at hb
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+KLS/WeightedExponentialMoments.lean:49:56: warning: This simp argument is unused:
+  zero_pow
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [F, zero_smul, one_smul, zero_mul, one_mul, one_pow, sub_zero] at hh
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'KLS.potential_quadratic_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integrable_exp_inner_potentialMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.memLp_exp_inner_potentialMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]

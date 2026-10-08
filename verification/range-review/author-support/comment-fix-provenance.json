@@ -1,0 +1,6 @@
+{
+  "scope": "Only this isolated author-support copy was corrected. Parent source, clean build copy, manifest and ongoing build were not changed.",
+  "original_sha256": "892420de5332564c50196708a14035aa22de098b214abf2a6a046fa4d6a6d8a9",
+  "temporary_source_sha256": "207ffd00a5e5291f3f7f9b416b2dfe6d212d90b46b19bbd275e761c203459990",
+  "change": "Change namespace-attached documentation comment opener /-- to ordinary block comment opener /-; no mathematical or executable code change."
+}

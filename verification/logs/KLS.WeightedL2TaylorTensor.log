@@ -1,0 +1,4 @@
+'KLS.exponentialTiltCoordinateTaylor_congr_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedL2TaylorLinearMap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedL2TaylorTensor_norm_sq_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedL2TaylorContinuousLinearMap' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,5 @@
+'KLS.convexOn_realDensityPotential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.admissibleMeasure.lowerBallDensity_positive_interior_mem_ae' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.admissibleMeasure.canonicalPotential_locallyLipschitzOn' depends on axioms: [propext, Classical.choice, Quot.sound]

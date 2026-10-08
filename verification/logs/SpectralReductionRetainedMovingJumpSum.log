@@ -1,0 +1,3 @@
+'KLS.ConstantReduction.weightedIteration_taylor_sum_recurrence_rankMovingJumpYoung_retained' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

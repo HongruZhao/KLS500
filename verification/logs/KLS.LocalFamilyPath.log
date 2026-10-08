@@ -1,0 +1,13 @@
+KLS/LocalFamilyPath.lean:69:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+KLS/LocalFamilyPath.lean:75:35: warning: Variable name `ω` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ω
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'KLS.LocalDiffusion.LocalProcessFamily.measurable_path' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.LocalDiffusion.LocalProcessFamily.progressive_path' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.LocalDiffusion.LocalProcessFamily.ae_path_eq_of_le_exit' depends on axioms: [propext, Classical.choice, Quot.sound]

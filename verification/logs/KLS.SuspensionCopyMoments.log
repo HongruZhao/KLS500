@@ -1,0 +1,2 @@
+'KLS.integral_sq_sum_centered_copies' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_coordinate_mul_sum_copies' depends on axioms: [propext, Classical.choice, Quot.sound]

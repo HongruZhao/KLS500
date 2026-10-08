@@ -1,0 +1,3 @@
+'KLS.contDiff_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.coordinateDerivative_comp_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.coordinateHessian_comp_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]

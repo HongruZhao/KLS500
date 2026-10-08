@@ -1,0 +1,18 @@
+KLS/LocalFamilyEquation.lean:38:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+KLS/LocalFamilyEquation.lean:38:19: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+KLS/LocalFamilyEquation.lean:39:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+KLS/LocalFamilyEquation.lean:39:19: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+'KLS.LocalDiffusion.LocalProcessFamily.noise_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.LocalDiffusion.LocalProcessFamily.originalEquation' depends on axioms: [propext, Classical.choice, Quot.sound]

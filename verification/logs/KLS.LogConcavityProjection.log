@@ -1,0 +1,4 @@
+'KLS.measureLogConcave.le_measure_of_measurable_interpolation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.measureLogConcave.map_continuousAffineMap' depends on axioms: [propext, Classical.choice, Quot.sound]

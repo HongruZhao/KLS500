@@ -1,0 +1,3 @@
+'KLS.sum_sq_pureSuspensionBlocks_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.suspensionTensor_norm_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.le_of_all_laplace_variance_factors' depends on axioms: [propext, Classical.choice, Quot.sound]

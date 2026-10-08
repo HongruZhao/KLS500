@@ -1,0 +1,12 @@
+KLS/CenteredL2Variational.lean:67:12: warning: This simp argument is unused:
+  RCLike.inner_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [hx, pow_two]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'KLS.CenteredL2.center_ae' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.CenteredL2.integral_center' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.CenteredL2.norm_center_sq_eq_variance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.CenteredL2.norm_sq_le_of_mem_closure_dual' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.CenteredL2.variance_le_of_center_mem_closure' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,215 @@
+{
+  "status": "PASS_THREE_EXACT_ORIGIN_REGISTRY_CASES",
+  "created_utc": "2026-10-08T03:06:04.494101+00:00",
+  "reviewer": "bkl_audit",
+  "cases": [
+    {
+      "name": "KLS.matrixFrobeniusSq.eq_1",
+      "classification": "on-demand nonrecursive unfolding theorem; new name relative to origin-filtered expected subset",
+      "prior_origin": "KLS.ExponentialQuadratic",
+      "fresh_origin": "KLS.SteinMatrixContraction",
+      "definition": "KLS.ThirdCumulant:111-112",
+      "trigger": "KLS.SteinMatrixContraction:20-23",
+      "meaning": "For any finite real square matrix, matrixFrobeniusSq M equals the double sum of squared entries. No symmetry or probability assumption occurs.",
+      "action": "Add only this exact prior-global name with fresh origin KLS.SteinMatrixContraction, theorem kind and standard-three axioms. The old global origin is outside the fresh closure.",
+      "prior_row": {
+        "origin": "KLS.ExponentialQuadratic",
+        "kind": "theorem",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "fresh_row": {
+        "module": "KLS.SteinMatrixContraction",
+        "kind": "theorem",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "prior_origin_in_fresh_closure": false
+    },
+    {
+      "name": "KLS.coordinateDerivative_sq",
+      "classification": "duplicate handwritten theorem with identical type; not generated",
+      "prior_origin": "KLS.HarmonicBernsteinPointwise",
+      "fresh_origin": "KLS.WeightedDiffusionSquare",
+      "definition": "KLS.HarmonicBernsteinPointwise:9-14 and KLS.WeightedDiffusionSquare:11-16",
+      "trigger": "Two original source declarations share the same name and proposition.",
+      "meaning": "For differentiable f, coordinateDerivative(f squared) i x equals2*f x*coordinateDerivative f i x. Source statements coincide modulo whitespace; both proofs expand square, apply the actual product rule and ring.",
+      "action": "Replace only the expected defining module for this exact name, preserving theorem kind, standard axioms and explicitly checked proposition. Label this as a duplicate handwritten declaration.",
+      "prior_row": {
+        "origin": "KLS.HarmonicBernsteinPointwise",
+        "kind": "theorem",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "fresh_row": {
+        "module": "KLS.WeightedDiffusionSquare",
+        "kind": "theorem",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "prior_origin_in_fresh_closure": true
+    },
+    {
+      "name": "KLS.weightedIterationEnergy.congr_simp",
+      "classification": "on-demand generated dependent congruence theorem",
+      "prior_origin": "KLS.WeightedEigenSuccessorIteration",
+      "fresh_origin": "KLS.WeightedIterationBochner",
+      "definition": "KLS.WeightedSuccessorIteration:25-45",
+      "trigger": "Simp use while proving weighted iteration identities in either original module.",
+      "meaning": "Equal curvature parameters, families and iteration indices give equal actual iteration energies; positivity and Hessian lower-bound proofs are transported along curvature equality. This is equality congruence and asserts no Poincare or energy estimate.",
+      "action": "Replace only the expected module for this exact name, preserving theorem kind and standard axioms; require the full dependent literal type checked by the companion probe.",
+      "prior_row": {
+        "origin": "KLS.WeightedEigenSuccessorIteration",
+        "kind": "theorem",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "fresh_row": {
+        "module": "KLS.WeightedIterationBochner",
+        "kind": "theorem",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "prior_origin_in_fresh_closure": true
+    }
+  ],
+  "source_pins": [
+    {
+      "module": "KLS.ThirdCumulant",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/ThirdCumulant.lean",
+      "lines": [
+        110,
+        112
+      ],
+      "sha256": "74fccb3c07d907662626820c010d5c3bdf150b5e30c6f622c3617e672cca1544"
+    },
+    {
+      "module": "KLS.SteinMatrixContraction",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/SteinMatrixContraction.lean",
+      "lines": [
+        20,
+        23
+      ],
+      "sha256": "48ac3109a9a6a408c03988dc4648c811b489f56d75ecfedef504d6c62a5382a6"
+    },
+    {
+      "module": "KLS.HarmonicBernsteinPointwise",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/HarmonicBernsteinPointwise.lean",
+      "lines": [
+        9,
+        14
+      ],
+      "sha256": "2ba4e3109586a0ab418fb5dcee020c7715d13ed3436e206aa7ce5f5ff3e22106"
+    },
+    {
+      "module": "KLS.WeightedDiffusionSquare",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/WeightedDiffusionSquare.lean",
+      "lines": [
+        11,
+        16
+      ],
+      "sha256": "ad3687c903ca0ee922e7ca641b62edb5a96f11de7f0ae3ef27994d4a34693625"
+    },
+    {
+      "module": "KLS.WeightedSuccessorIteration",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/WeightedSuccessorIteration.lean",
+      "lines": [
+        25,
+        45
+      ],
+      "sha256": "3426975eb85f9f02a38df0e765ce9fccf94702c9c653d8dbd8b1a483d9a965ff"
+    },
+    {
+      "module": "KLS.WeightedEigenSuccessorIteration",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/WeightedEigenSuccessorIteration.lean",
+      "lines": [
+        54,
+        57
+      ],
+      "sha256": "5d696028373aae368833c9fb7ba8fb3cc8cde0b29eabe6ac82002676a227b92d"
+    },
+    {
+      "module": "KLS.WeightedIterationBochner",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/WeightedIterationBochner.lean",
+      "lines": [
+        92,
+        103
+      ],
+      "sha256": "4efdc8d8669f58e2e74285af0a23be15ef4c26c866a53a39f46f1755b68b19a6"
+    }
+  ],
+  "primary_fresh_audit": {
+    "execution_sha256": "7305963a08b25d40fc97dd837444aac9e37f15ac732ad22dd50296e20fbb1090",
+    "log_sha256": "3fba305fe1d1da12074a8ce67475167b25a6ab82cee3dc11bd2e622bc94deb81",
+    "kernel_trust_level": 0,
+    "exit_status": 0,
+    "all_origin_declarations": 22017,
+    "all_origin_theorems": 19686,
+    "strict_gates_passed": 3651
+  },
+  "independent_literal_type_probe": {
+    "source": "WeightedCongruenceExactTypeProbe.lean",
+    "source_sha256": "614a5a95666e0fb968068bc1f7a442d4b04c4a68c19ad487fdb6183090450d3a",
+    "execution": "WeightedCongruenceExactTypeProbe-execution.json",
+    "execution_sha256": "41d332de694b2a284dcc8f63665a4d004b1d6629eabffeba1a54cdfadef96510",
+    "log": "WeightedCongruenceExactTypeProbe.log",
+    "log_sha256": "1eadfa7001687533e126e3bf5d51bca8783a8d13b4a769f498f4c3eb5958e078",
+    "exit_status": 0,
+    "warnings": 0,
+    "errors": 0,
+    "kernel_trust_level": 0,
+    "all_three_axioms_exactly_standard_three": true,
+    "output_object_requested": false,
+    "dependency_environment": "same completed fresh1710 mathematical project library"
+  },
+  "prior_global_registry_sha256": "9c780cf38451ba98b69289095b05a518d191115096b2dc0cecec1ad1ccd7eff1",
+  "toolchain_generation_evidence": {
+    "equations": "Lean/Meta/Eqns.lean:183-198 builds a simple unfolding theorem from the actual definition body with a reflexive proof.",
+    "congruence": "Lean/Meta/CongrTheorems.lean:399-447 reserves congr_simp names and realizes the ordinary generated congruence proof from the original declaration."
+  },
+  "limitations": [
+    "This addendum approves exactly the three listed names/types/origins. It does not permit any other extra name, omitted old name, changed kind/axiom set, or arbitrary origin override.",
+    "The other four newly discovered provenance cases are reviewed separately by the definition reviewer. The root seven-case companion now passes literal type, exact origin, theorem kind and exact standard-three axiom gates. This addendum binds that companion for these three cases; final registry reconciliation remains root-owned.",
+    "An earlier diagnostic print-only probe exited1 solely because pp.width is not a Lean option. Its files are preserved separately; the successful exact-type probe uses format.width and is the evidence relied upon here."
+  ],
+  "mathematical_sources_or_audit_objects_modified": false,
+  "findings": [],
+  "root_seven_case_companion": {
+    "execution": "generated-helper-execution.json",
+    "execution_sha256": "03d0364436a74774c6d45e848e751b75bb4f98843a191e0aab602837b9c3418f",
+    "source": "clean-lean/GeneratedProvenanceAudit.lean",
+    "source_sha256": "db84ef56659bcf59f183cb5c706e7325638ce4f00d2b6c8a22072bbc414cee65",
+    "log": "logs/GeneratedProvenanceAudit.log",
+    "log_sha256": "747bcc2fcd5df8a34ab0c0af79506d482c1e47ed77927fa15345b70a2cc38d07",
+    "object": "clean-lean/.lake/build/lib/lean/GeneratedProvenanceAudit.olean",
+    "object_sha256": "5ff2976099cc9985803939f6fd31ff8058bbcc88c307cfda75dd20a6f30ca485",
+    "exit_status": 0,
+    "kernel_trust_level": 0,
+    "fresh_object": true,
+    "literal_type_checks": 7,
+    "strict_name_origin_kind_axiom_gates": 7,
+    "these_three_literal_type_checks_match_independent_probe_modulo_whitespace": true,
+    "these_three_exact_name_origin_kind_axiom_gates_passed": true,
+    "warnings": 0,
+    "errors": 0
+  },
+  "updated_utc": "2026-10-08T03:08:48.272880+00:00"
+}

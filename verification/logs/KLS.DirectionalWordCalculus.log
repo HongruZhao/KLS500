@@ -1,0 +1,2 @@
+'KLS.directionalWordDerivative_linear_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.directionalWordDerivative_linear_mul_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

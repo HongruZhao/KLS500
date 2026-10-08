@@ -1,0 +1,7 @@
+KLS/ConstructedMaximalLocalSde.lean:39:39: warning: Variable name `T` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _T
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'KLS.LocalDiffusion.exists_constructed_maximalLocalSde' depends on axioms: [propext, Classical.choice, Quot.sound]

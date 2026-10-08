@@ -1,0 +1,4 @@
+'KLS.convexOn_suspensionPotential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.convexOn_suspensionPotential_of_opNorm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_suspension_copy_count' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_convex_suspensionPotential' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,5 @@
+'KLS.expMeasure_one_exponential_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.expMeasure_one_nat_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.expMeasure_one_integral_centered' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.expMeasure_one_variance_centered' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.expMeasure_one_evariance_centered' depends on axioms: [propext, Classical.choice, Quot.sound]

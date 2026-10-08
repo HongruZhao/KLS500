@@ -1,0 +1,10 @@
+KLS/AdaptiveEnergyIto.lean:83:18: warning: Variable name `hr` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hr
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'KLS.AdaptiveLocalization.MaximalProcess.energy_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.AdaptiveLocalization.exists_adaptiveCumulantEnergyProcess' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

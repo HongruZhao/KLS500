@@ -1,0 +1,4 @@
+BrownianMotion/Auxiliary/NNReal.lean:3:0: warning: 
+'Mathlib.Data.NNReal.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.NNReal.Basic

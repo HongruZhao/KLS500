@@ -1,0 +1,2 @@
+'KLS.laplaceSuspensionLaw_eq_withDensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.isProbabilityMeasure_laplaceSuspensionLaw' depends on axioms: [propext, Classical.choice, Quot.sound]

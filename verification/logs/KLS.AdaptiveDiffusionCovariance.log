@@ -1,0 +1,4 @@
+'KLS.AdaptiveLocalization.inverseSqrtCovariance_mul_transpose' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.AdaptiveLocalization.diffusion_linear_covariance' depends on axioms: [propext, Classical.choice, Quot.sound]

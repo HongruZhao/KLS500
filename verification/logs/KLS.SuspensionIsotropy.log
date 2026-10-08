@@ -1,0 +1,2 @@
+'KLS.isIsotropic_euclideanSuspensionLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_isKLSMeasure_euclideanSuspensionLaw' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'KLS.integral_localized_bochner_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_localized_bochner_eigenfunction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_localized_bochner_diffusion' depends on axioms: [propext, Classical.choice, Quot.sound]

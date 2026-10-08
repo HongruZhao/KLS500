@@ -1,0 +1,4 @@
+'KLS.weighted_annihilator_test_pairing_sq_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weighted_annihilator_zero_distributional_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weakDiffusionLiouville_of_contDiff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.diffusionRangeDense_of_contDiff' depends on axioms: [propext, Classical.choice, Quot.sound]

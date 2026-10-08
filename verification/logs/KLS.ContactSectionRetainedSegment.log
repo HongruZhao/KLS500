@@ -1,0 +1,4 @@
+'KLS.exists_retained_contact_segment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.inner_inverse_affine_adjoint' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.retained_width_le_transformed_normal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_normalized_cap_from_retained_width' depends on axioms: [propext, Classical.choice, Quot.sound]

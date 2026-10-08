@@ -1,0 +1,2 @@
+'KLS.integrable_exp_neg_mul_norm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.momentPartitionFunction_le_exp_energy_mul_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]

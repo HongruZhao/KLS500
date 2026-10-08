@@ -1,0 +1,3 @@
+'KLS.sum_inverseHessianGradientForm_hessianCongruence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.memLp_hessianCongruence_entry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integrable_hessianCongruence_entry_energy' depends on axioms: [propext, Classical.choice, Quot.sound]

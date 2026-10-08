@@ -1,0 +1,3 @@
+'KLS.weak_gradient_pairing_eq_neg_diffusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weighted_annihilator_weak_gradient_test' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weighted_annihilator_localized_weak_equation' depends on axioms: [propext, Classical.choice, Quot.sound]

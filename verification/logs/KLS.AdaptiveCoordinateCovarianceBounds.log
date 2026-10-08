@@ -1,0 +1,62 @@
+KLS/AdaptiveCoordinateCovarianceBounds.lean:15:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+KLS/AdaptiveCoordinateCovarianceBounds.lean:62:17: warning: This simp argument is unused:
+  Pi.add_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [id_eq, one_smul, zero_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+KLS/AdaptiveCoordinateCovarianceBounds.lean:62:31: warning: This simp argument is unused:
+  id_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.add_apply, one_smul, zero_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+KLS/AdaptiveCoordinateCovarianceBounds.lean:62:48: warning: This simp argument is unused:
+  zero_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.add_apply, id_eq, one_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+KLS/AdaptiveCoordinateCovarianceBounds.lean:61:72: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+KLS/AdaptiveCoordinateCovarianceBounds.lean:80:17: warning: This simp argument is unused:
+  Pi.add_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [id_eq, one_smul, zero_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+KLS/AdaptiveCoordinateCovarianceBounds.lean:80:31: warning: This simp argument is unused:
+  id_eq
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.add_apply, one_smul, zero_add]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+KLS/AdaptiveCoordinateCovarianceBounds.lean:80:48: warning: This simp argument is unused:
+  zero_add
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.add_apply, id_eq, one_smul]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+KLS/AdaptiveCoordinateCovarianceBounds.lean:79:72: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'KLS.AdaptiveLocalization.norm_coordinateCovarianceGradient_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.AdaptiveLocalization.coordinateCovarianceHessian_apply_eq_cumulant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

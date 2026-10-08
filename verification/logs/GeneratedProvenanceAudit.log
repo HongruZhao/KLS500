@@ -1,0 +1,55 @@
+fun {n} =>
+  KLS.matrixFrobeniusSq.eq_1 : ∀ {n : ℕ} (M : Matrix (Fin n) (Fin n) ℝ), KLS.matrixFrobeniusSq M = ∑ i, ∑ j, M i j ^ 2
+KLS.CenteredExponential.instIsProbabilityMeasureRealExpMeasureOfNat_kLS_1 : IsProbabilityMeasure (expMeasure 1)
+fun {n} =>
+  KLS.potentialMeasure.eq_1 : ∀ {n : ℕ} (φ : KLS.Space n → ℝ),
+  KLS.potentialMeasure φ = ℙ.withDensity fun x => ENNReal.ofReal (Real.exp (-φ x))
+fun {n} =>
+  KLS.tiltLogLaplace.eq_1 : ∀ {n : ℕ} (μ : Measure (KLS.Space n)) (z : KLS.Space n),
+  KLS.tiltLogLaplace μ z = Real.log (KLS.tiltPartition μ fun x => inner ℝ z x)
+fun {n} =>
+  KLS.tiltThirdCumulant.eq_1 : ∀ {n : ℕ} (μ : Measure (KLS.Space n)) (q f g h : KLS.Space n → ℝ),
+  KLS.tiltThirdCumulant μ q f g h =
+    KLS.tiltAverage μ q fun x =>
+      (f x - KLS.tiltAverage μ q f) * (g x - KLS.tiltAverage μ q g) * (h x - KLS.tiltAverage μ q h)
+fun {n} {φ} {κ κ'} =>
+  KLS.weightedIterationEnergy.congr_simp : ∀ {n : ℕ} {φ : KLS.Space n → ℝ} {κ κ' : ℝ} (e_κ : κ = κ')
+  [inst : IsProbabilityMeasure (KLS.potentialMeasure φ)] (hφ : ContDiff ℝ 2 φ) (hκ : 0 < κ)
+  (hlower : ∀ (x : KLS.Space n) (a : Fin n → ℝ), κ * a ⬝ᵥ a ≤ a ⬝ᵥ KLS.coordinateHessian φ x *ᵥ a) {ι : Type u}
+  [inst_1 : Fintype ι] (U U_1 : KLS.WeightedH1Family φ ι),
+  U = U_1 →
+    ∀ (k k_1 : ℕ),
+      k = k_1 →
+        KLS.weightedIterationEnergy hφ hκ hlower U k =
+          KLS.weightedIterationEnergy hφ (e_κ ▸ hκ)
+            (Eq.ndrec (motive := fun {κ} =>
+              ∀ (x : KLS.Space n) (a : Fin n → ℝ), κ * a ⬝ᵥ a ≤ a ⬝ᵥ KLS.coordinateHessian φ x *ᵥ a) hlower e_κ)
+            U_1 k_1
+fun {n} {f} =>
+  KLS.coordinateDerivative_sq : ∀ {n : ℕ} {f : KLS.Space n → ℝ},
+  Differentiable ℝ f →
+    ∀ (i : Fin n) (x : KLS.Space n),
+      KLS.coordinateDerivative (fun y => f y ^ 2) i x = 2 * f x * KLS.coordinateDerivative f i x
+SELECTED_ORIGIN_OK KLS.matrixFrobeniusSq.eq_1|KLS.SteinMatrixContraction|theorem|[propext, Classical.choice, Quot.sound]
+SELECTED_ORIGIN_OK KLS.CenteredExponential.instIsProbabilityMeasureRealExpMeasureOfNat_kLS_1|KLS.ExponentialPoincare|theorem|[propext,
+ Classical.choice,
+ Quot.sound]
+SELECTED_ORIGIN_OK KLS.coordinateDerivative_sq|KLS.WeightedDiffusionSquare|theorem|[propext,
+ Classical.choice,
+ Quot.sound]
+SELECTED_ORIGIN_OK KLS.potentialMeasure.eq_1|KLS.WeightedEigenClassical|theorem|[propext, Classical.choice, Quot.sound]
+SELECTED_ORIGIN_OK KLS.tiltLogLaplace.eq_1|KLS.AdaptiveLogMGFSpatial|theorem|[propext, Classical.choice, Quot.sound]
+SELECTED_ORIGIN_OK KLS.tiltThirdCumulant.eq_1|KLS.CumulantBounds|theorem|[propext, Classical.choice, Quot.sound]
+SELECTED_ORIGIN_OK KLS.weightedIterationEnergy.congr_simp|KLS.WeightedIterationBochner|theorem|[propext,
+ Classical.choice,
+ Quot.sound]
+SELECTED_ORIGIN_GATES_PASSED 7
+'KLS.matrixFrobeniusSq.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.CenteredExponential.instIsProbabilityMeasureRealExpMeasureOfNat_kLS_1' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.coordinateDerivative_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.potentialMeasure.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.tiltLogLaplace.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.tiltThirdCumulant.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedIterationEnergy.congr_simp' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4 @@
+'KLS.weightedIterationDiffusionEnergy_eq_forcing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedIterationDiffusionEnergy_eq_scale_sq_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedIterationDiffusionEnergy_antitone' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedIterationScale_sq_le_of_half_energy' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'KLS.exists_holder_exponent_of_geometric_decay' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_holder_bound_of_dyadic_modulus' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_local_moment_gradient_holder_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'KLS.MatrixCalculus.hasDerivAt_det_add_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.MatrixCalculus.fderiv_det_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.MatrixCalculus.fderiv_logDet_comp_apply_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]

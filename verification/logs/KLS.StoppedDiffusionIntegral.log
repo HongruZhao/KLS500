@@ -1,0 +1,3 @@
+'KLSLevyAdapter.GlobalDiffusionPair.stopped_diffusion_integral_eq_before_exit' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

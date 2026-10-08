@@ -1,0 +1,2 @@
+'KLS.real_prod_sq_le_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedIterationBlockTaylor_partial_norm_sq_le' depends on axioms: [propext, Classical.choice, Quot.sound]

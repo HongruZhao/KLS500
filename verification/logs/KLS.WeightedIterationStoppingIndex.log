@@ -1,0 +1,3 @@
+'KLS.weightedIteration_exists_half_energy_index' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedEigenIteration_initial_diffusion_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedEigenIteration_exists_half_energy_index' depends on axioms: [propext, Classical.choice, Quot.sound]

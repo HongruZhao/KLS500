@@ -1,0 +1,8 @@
+KLS/AdaptiveMaximalCovarianceIto.lean:28:40: warning: Variable name `ω` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ω
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'KLS.AdaptiveLocalization.MaximalProcess.covariance_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.AdaptiveLocalization.exists_adaptiveCovarianceProcess' depends on axioms: [propext, Classical.choice, Quot.sound]

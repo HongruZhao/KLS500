@@ -1,0 +1,145 @@
+{
+  "status": "PASS_RUNNER_REVIEW_AFTER_FOUR_RECORDED_FIXES",
+  "created_utc": "2026-10-08T02:15:50.513233+00:00",
+  "scope": "Static runner and current-input review for the exact 1699-module FinalKLS500 closure; no compiler work performed by this reviewer.",
+  "runner_sha256": {
+    "rebuild.py": "9fac6d02861a68810fcfced3cac588a81981fff067236c24d9190fa2fbdf494c",
+    "seal_build.py": "0e78f16a64bf8521eb4429487ae88808ef6cf1a3b3e9f951806bb7ab37479383",
+    "audit.py": "634a60b71428d42182b171bd76a7bee6372ab178441aaf1ba28fe929115c7114"
+  },
+  "prepare_receipt_sha256": "da74a0667f66b9cd885679c5cad9528c926330fe5e0ea269760a9258696904d5",
+  "independent_checks": {
+    "source_modules": 1699,
+    "source_hash_mismatches": 0,
+    "recognized_import_lines": 3498,
+    "unsupported_import_forms": 0,
+    "manifest_import_mismatches": 0,
+    "independent_reachable_closure": 1699,
+    "external_direct_imports": 334,
+    "external_direct_import_roots": [
+      "Mathlib"
+    ],
+    "external_paths_checked_for_project_object_shadows": 10,
+    "project_object_shadows": [],
+    "explicit_kernel_trust_flag": "-t0",
+    "prior_expected_table_hashes_match_pinned_baseline_receipt": true,
+    "prior_expected_unique_names_after_documented_overlap": 21854,
+    "new_public_declarations_expected": 9,
+    "total_declarations_expected": 21863,
+    "total_theorems_expected": 19544,
+    "strict_name_origin_kind_gates_expected": 3645,
+    "public_endpoints_inspected": 17
+  },
+  "resolved_findings": [
+    {
+      "id": "R1",
+      "problem": "Per-module obj.name+star inventory omitted sibling .ir and .sig output files.",
+      "resolution": "Additive seal_build.py inventories every fresh library file, validates its module owner and allowed suffix, and hashes the inventory. audit.py verifies every inventoried file before and after auditing."
+    },
+    {
+      "id": "R2",
+      "problem": "The scheduler writes build success before final source and accepted-input checks complete.",
+      "resolution": "seal_build.py requires the post-build-input-check file, compares it to the pinned preparation check, reruns source and accepted-input checks, and writes a completion marker binding all receipts and artifact inventory. audit.py requires this marker and all bound hashes."
+    },
+    {
+      "id": "R3",
+      "problem": "The prior expected declaration and gate tables were initially read without runtime receipt-pin assertions.",
+      "resolution": "audit.py now checks the prior baseline receipt identity and both table hashes against the already-pinned accepted baseline receipt before reading them."
+    },
+    {
+      "id": "R4",
+      "problem": "One generated equation-theorem name occurs in both baseline and accepted-final tables with different realization origins; the original no-overlap assertion would fail.",
+      "resolution": "audit.py now accepts exactly this one named overlap with exact prior/final module, theorem kind, and standard-three axiom assertions; records both rows; selects the already-accepted final environment origin ResolventGradientKato; and checks the literal unfolding type in Lean. Any other overlap or actual origin deviation still fails."
+    }
+  ],
+  "generated_equation_overlap": [
+    {
+      "name": "KLS.hessianSquare.eq_1",
+      "baseline": {
+        "module": "KLS.WeightedSuccessorDomain",
+        "kind": "theorem",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      },
+      "accepted_final": {
+        "module": "ResolventGradientKato",
+        "kind": "theorem",
+        "axioms": [
+          "Classical.choice",
+          "Quot.sound",
+          "propext"
+        ]
+      }
+    }
+  ],
+  "overlap_evidence": [
+    {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/WeightedBochner.lean",
+      "lines": [
+        21,
+        22
+      ],
+      "sha256": "2f0f0190559fa972227cd6bc219853aa46428af05610d25b319edd071aa4ab5d",
+      "meaning": "Original literal definition of hessianSquare."
+    },
+    {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/WeightedSuccessorDomain.lean",
+      "lines": [
+        119,
+        119
+      ],
+      "sha256": "a130dc8ced3ac0a58cb1ee4a570a34fa3f8f31500b1d1a79da3bcabcf153fb28",
+      "meaning": "Baseline simp call can realize the unfolding theorem."
+    },
+    {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/cheeger-profile-l1-independent/ResolventGradientKato.lean",
+      "lines": [
+        33,
+        33
+      ],
+      "sha256": "eba82a6195fe73f6865c86dfe811938a5597c23739980a4e17f46e8cd3c2b0af",
+      "meaning": "New module simp call can independently realize the same unfolding theorem."
+    },
+    {
+      "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/entropy197500-final-independent/logs/Entropy197500FinalIndependentOriginAudit.log",
+      "lines": [
+        14070,
+        14070
+      ],
+      "sha256": "16b59010b310ff187a58c789094c5796f4ead7564be5f0c01621622945f0c794",
+      "meaning": "Pinned accepted final environment already selects ResolventGradientKato."
+    },
+    {
+      "path": "/Users/avatar/.elan/toolchains/leanprover--lean4---v4.35.0-rc3/src/lean/Lean/Meta/Eqns.lean",
+      "lines": [
+        112,
+        116
+      ],
+      "meaning": "Toolchain documents on-demand equation-theorem generation by multiple modules."
+    },
+    {
+      "path": "/Users/avatar/.elan/toolchains/leanprover--lean4---v4.35.0-rc3/src/lean/Lean/Meta/Eqns.lean",
+      "lines": [
+        183,
+        198
+      ],
+      "meaning": "Simple unfolding theorem is generated from the actual definition body with a reflexive proof."
+    }
+  ],
+  "audit_logic_review": {
+    "fresh_source_and_object_paths": "New SRC and LIB are required; all source bytes are copied and checked; no old project-library path is included.",
+    "dependencies": "Each compiler starts only after all direct project imports succeed. All current import syntax is independently supported and reaches exactly the manifest closure.",
+    "pins": "Compiler binary, nine package revisions and tracked-source cleanliness, accepted packets, baseline sources, selected math sources, and direct external object snapshots are checked.",
+    "declarations": "Lean enumerates every constant with an origin in the closure, checks axioms, and the Python runner compares exact unique names, kinds, origins, and axiom rows against merged prior expectations plus nine new public theorems.",
+    "public_types": "The five final public wrappers explicitly state the unchanged OpenAI KLS predicate, fixed 500 bound before dimension and law quantifiers, and literal Cheeger bounds. The audit prints 17 endpoint types/axioms and the five upstream model definitions; the generated equation exception receives a literal type ascription.",
+    "warnings": "New proof-module warnings are forbidden; baseline warning lines must exactly match accepted baseline logs."
+  },
+  "limitations": [
+    "The clean rebuild and exhaustive Lean audit were still running or pending when this static runner review was written. This report is not a completed-build or successful-audit receipt.",
+    "Standard Lean and package libraries use existing pinned dependency caches. The review does not claim a fresh rebuild of every mathlib or toolchain module; direct external object snapshots are recorded, while transitive libraries remain within the declared dependency-cache trust boundary.",
+    "The later lower-four extension and four-page report requested during this review are outside this 1699-module runner review. They require their own additive source/build/audit evidence."
+  ]
+}

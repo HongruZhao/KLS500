@@ -1,0 +1,2 @@
+'KLS.locallyLipschitz_hasWeakCoordinateDerivative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.eLpNorm_mollify_coordinateDerivative_sub_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

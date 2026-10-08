@@ -1,0 +1,3 @@
+'KLS.isCompact_closedCenteredSection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.self_mem_interior_closedCenteredSection' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.closedCenteredSection_subset_recentered' depends on axioms: [propext, Classical.choice, Quot.sound]

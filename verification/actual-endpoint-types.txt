@@ -1,0 +1,121 @@
+OAI.LeanBlast.KLS.poincareBound500 (n : ℕ) :
+  1 ≤ n →
+    ∀ (ρ : OAI.LeanBlast.KLS.Space n → ℝ),
+      OAI.LeanBlast.KLS.IsLogConcaveDensity ρ →
+        OAI.LeanBlast.KLS.IsIsotropic (OAI.LeanBlast.KLS.densityMeasure ρ) →
+          OAI.LeanBlast.KLS.PoincareBound (OAI.LeanBlast.KLS.densityMeasure ρ) 500
+'OAI.LeanBlast.KLS.poincareBound500' depends on axioms: [propext, Classical.choice, Quot.sound]
+OAI.LeanBlast.KLS.klsStatement500 : OAI.LeanBlast.KLS.KLSStatement
+'OAI.LeanBlast.KLS.klsStatement500' depends on axioms: [propext, Classical.choice, Quot.sound]
+OAI.LeanBlast.KLS.fullStatement500 : OAI.LeanBlast.KLS.FullStatement
+'OAI.LeanBlast.KLS.fullStatement500' depends on axioms: [propext, Classical.choice, Quot.sound]
+KLS.admissibleMeasure.real_poincare_coupledRankYoung {n : ℕ} (hn : 1 ≤ n) {μ : MeasureTheory.Measure (KLS.Space n)}
+  (hμ : KLS.admissibleMeasure μ) {f : KLS.Space n → ℝ} (hf : LocallyLipschitz f) (he : KLS.energy μ f < ⊤) :
+  MeasureTheory.MemLp f 2 μ ∧
+    MeasureTheory.Integrable (fun x => ‖gradient f x‖ ^ 2) μ ∧
+      ∫ (x : KLS.Space n), f x ^ 2 ∂μ - (∫ (x : KLS.Space n), f x ∂μ) ^ 2 ≤
+        500 * ∫ (x : KLS.Space n), ‖gradient f x‖ ^ 2 ∂μ
+'KLS.admissibleMeasure.real_poincare_coupledRankYoung' depends on axioms: [propext, Classical.choice, Quot.sound]
+KLS.entropyCheegerCoefficient_lt_two : 197 / 100 < 2
+'KLS.entropyCheegerCoefficient_lt_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+KLS.admissibleMeasure.cheeger_lower_entropy197_500 {n : ℕ} (hn : 1 ≤ n) {μ : MeasureTheory.Measure (KLS.Space n)}
+  (hμ : KLS.admissibleMeasure μ) : ENNReal.ofReal (100 / (197 * √500)) ≤ KLS.cheegerConstant μ
+'KLS.admissibleMeasure.cheeger_lower_entropy197_500' depends on axioms: [propext, Classical.choice, Quot.sound]
+KLS.exactOpenAIKLSStatement_entropy197_500 : OAI.LeanBlast.KLS.KLSStatement
+'KLS.exactOpenAIKLSStatement_entropy197_500' depends on axioms: [propext, Classical.choice, Quot.sound]
+KLS.dimensionFree500_and_cheeger197 :
+  (∀ (n : ℕ),
+      1 ≤ n →
+        ∀ (ρ : OAI.LeanBlast.KLS.Space n → ℝ),
+          OAI.LeanBlast.KLS.IsLogConcaveDensity ρ →
+            OAI.LeanBlast.KLS.IsIsotropic (OAI.LeanBlast.KLS.densityMeasure ρ) →
+              OAI.LeanBlast.KLS.PoincareBound (OAI.LeanBlast.KLS.densityMeasure ρ) 500) ∧
+    ∀ (n : ℕ),
+      1 ≤ n →
+        ∀ (μ : MeasureTheory.Measure (KLS.Space n)),
+          KLS.admissibleMeasure μ → ENNReal.ofReal (100 / (197 * √500)) ≤ KLS.cheegerConstant μ
+'KLS.dimensionFree500_and_cheeger197' depends on axioms: [propext, Classical.choice, Quot.sound]
+KLS.FinalDustCheegerReview.coefficient_two_comparison : 1 / (2 * √500) ≤ 100 / (197 * √500)
+'KLS.FinalDustCheegerReview.coefficient_two_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+KLS.FinalDustCheegerReview.original_admissible_cheeger_two {n : ℕ} (hn : 1 ≤ n)
+  {μ : MeasureTheory.Measure (KLS.Space n)} (hμ : KLS.admissibleMeasure μ) :
+  ENNReal.ofReal (1 / (2 * √500)) ≤ KLS.cheegerConstant μ
+'KLS.FinalDustCheegerReview.original_admissible_cheeger_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+KLS.FinalDustCheegerReview.original_density_cheeger_two {n : ℕ} (hn : 1 ≤ n) {μ : MeasureTheory.Measure (KLS.Space n)}
+  (hμ : KLS.IsKLSMeasure μ) : ENNReal.ofReal (1 / (2 * √500)) ≤ KLS.cheegerConstant μ
+'KLS.FinalDustCheegerReview.original_density_cheeger_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+KLS.FinalDustCheegerReview.exact_openai_poincare500_and_original_cheeger_two :
+  (∀ (n : ℕ),
+      1 ≤ n →
+        ∀ (ρ : OAI.LeanBlast.KLS.Space n → ℝ),
+          OAI.LeanBlast.KLS.IsLogConcaveDensity ρ →
+            OAI.LeanBlast.KLS.IsIsotropic (OAI.LeanBlast.KLS.densityMeasure ρ) →
+              OAI.LeanBlast.KLS.PoincareBound (OAI.LeanBlast.KLS.densityMeasure ρ) 500) ∧
+    ∀ (n : ℕ),
+      1 ≤ n →
+        ∀ (μ : MeasureTheory.Measure (KLS.Space n)),
+          KLS.admissibleMeasure μ → ENNReal.ofReal (1 / (2 * √500)) ≤ KLS.cheegerConstant μ
+'KLS.FinalDustCheegerReview.exact_openai_poincare500_and_original_cheeger_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+KLS.Final.openaiKLS : OAI.LeanBlast.KLS.KLSStatement
+'KLS.Final.openaiKLS' depends on axioms: [propext, Classical.choice, Quot.sound]
+KLS.Final.openaiPoincare500 (n : ℕ) :
+  1 ≤ n →
+    ∀ (ρ : OAI.LeanBlast.KLS.Space n → ℝ),
+      OAI.LeanBlast.KLS.IsLogConcaveDensity ρ →
+        OAI.LeanBlast.KLS.IsIsotropic (OAI.LeanBlast.KLS.densityMeasure ρ) →
+          OAI.LeanBlast.KLS.PoincareBound (OAI.LeanBlast.KLS.densityMeasure ρ) 500
+'KLS.Final.openaiPoincare500' depends on axioms: [propext, Classical.choice, Quot.sound]
+KLS.Final.cheegerTwo {n : ℕ} (hn : 1 ≤ n) {μ : MeasureTheory.Measure (KLS.Space n)} (hμ : KLS.admissibleMeasure μ) :
+  ENNReal.ofReal (1 / (2 * √500)) ≤ KLS.cheegerConstant μ
+'KLS.Final.cheegerTwo' depends on axioms: [propext, Classical.choice, Quot.sound]
+KLS.Final.cheeger197 {n : ℕ} (hn : 1 ≤ n) {μ : MeasureTheory.Measure (KLS.Space n)} (hμ : KLS.admissibleMeasure μ) :
+  ENNReal.ofReal (100 / (197 * √500)) ≤ KLS.cheegerConstant μ
+'KLS.Final.cheeger197' depends on axioms: [propext, Classical.choice, Quot.sound]
+KLS.Final.openaiDensityBounds {n : ℕ} (hn : 1 ≤ n) {ρ : OAI.LeanBlast.KLS.Space n → ℝ}
+  (hρ : OAI.LeanBlast.KLS.IsLogConcaveDensity ρ)
+  (hiso : OAI.LeanBlast.KLS.IsIsotropic (OAI.LeanBlast.KLS.densityMeasure ρ)) :
+  OAI.LeanBlast.KLS.PoincareBound (OAI.LeanBlast.KLS.densityMeasure ρ) 500 ∧
+    ENNReal.ofReal (1 / (2 * √500)) ≤ KLS.cheegerConstant (OAI.LeanBlast.KLS.densityMeasure ρ)
+'KLS.Final.openaiDensityBounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+KLS.Final.universalPoincareRange :
+  4 ≤ KLS.universalPoincareConstant ∧ KLS.universalPoincareConstant ≤ ENNReal.ofReal 500
+'KLS.Final.universalPoincareRange' depends on axioms: [propext, Classical.choice, Quot.sound]
+KLS.Final.poincareKLS : OAI.LeanBlast.KLS.KLSStatement
+'KLS.Final.poincareKLS' depends on axioms: [propext, Classical.choice, Quot.sound]
+KLS.Final.cheegerKLS : KLS.KLSConjecture
+'KLS.Final.cheegerKLS' depends on axioms: [propext, Classical.choice, Quot.sound]
+KLS.Final.fullCheegerKLS : KLS.FullCheegerVerification
+'KLS.Final.fullCheegerKLS' depends on axioms: [propext, Classical.choice, Quot.sound]
+KLS.four_le_universalPoincareConstant : 4 ≤ KLS.universalPoincareConstant
+'KLS.four_le_universalPoincareConstant' depends on axioms: [propext, Classical.choice, Quot.sound]
+KLS.CenteredExponential.admissible_and_poincareConstant_eq_four :
+  KLS.admissibleMeasure KLS.CenteredExponential.measure ∧ KLS.poincareConstant KLS.CenteredExponential.measure = 4
+'KLS.CenteredExponential.admissible_and_poincareConstant_eq_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+def OAI.LeanBlast.KLS.KLSStatement : Prop :=
+∃ C,
+  0 < C ∧
+    ∀ (n : ℕ),
+      1 ≤ n →
+        ∀ (ρ : OAI.LeanBlast.KLS.Space n → ℝ),
+          OAI.LeanBlast.KLS.IsLogConcaveDensity ρ →
+            OAI.LeanBlast.KLS.IsIsotropic (OAI.LeanBlast.KLS.densityMeasure ρ) →
+              OAI.LeanBlast.KLS.PoincareBound (OAI.LeanBlast.KLS.densityMeasure ρ) C
+def OAI.LeanBlast.KLS.PoincareBound : {n : ℕ} → MeasureTheory.Measure (OAI.LeanBlast.KLS.Space n) → ℝ → Prop :=
+fun {n} μ C =>
+  ∀ (f : OAI.LeanBlast.KLS.Space n → ℝ),
+    OAI.LeanBlast.KLS.IsTestFunction f → OAI.LeanBlast.KLS.variance μ f ≤ C * OAI.LeanBlast.KLS.dirichletEnergy μ f
+def OAI.LeanBlast.KLS.IsTestFunction : {n : ℕ} → (OAI.LeanBlast.KLS.Space n → ℝ) → Prop :=
+fun {n} f => ContDiff ℝ (↑⊤) f ∧ HasCompactSupport f
+def OAI.LeanBlast.KLS.variance : {n : ℕ} →
+  MeasureTheory.Measure (OAI.LeanBlast.KLS.Space n) → (OAI.LeanBlast.KLS.Space n → ℝ) → ℝ :=
+fun {n} μ f => ∫ (x : OAI.LeanBlast.KLS.Space n), (f x - OAI.LeanBlast.KLS.expectation μ f) ^ 2 ∂μ
+def OAI.LeanBlast.KLS.dirichletEnergy : {n : ℕ} →
+  MeasureTheory.Measure (OAI.LeanBlast.KLS.Space n) → (OAI.LeanBlast.KLS.Space n → ℝ) → ℝ :=
+fun {n} μ f => ∫ (x : OAI.LeanBlast.KLS.Space n), ‖gradient f x‖ ^ 2 ∂μ
+fun {n} =>
+  KLS.hessianSquare.eq_1 : ∀ {n : ℕ} (g : KLS.Space n → ℝ) (x : KLS.Space n),
+  KLS.hessianSquare g x = ∑ i, ∑ j, KLS.coordinateHessian g x i j ^ 2

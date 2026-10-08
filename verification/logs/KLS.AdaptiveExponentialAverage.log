@@ -1,0 +1,4 @@
+'KLS.AdaptiveLocalization.MaximalProcess.mgfPath_martingale' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.AdaptiveLocalization.MaximalProcess.mgfPath_equation_global' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

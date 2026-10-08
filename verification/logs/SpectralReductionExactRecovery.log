@@ -1,0 +1,10 @@
+'KLS.ConstantReduction.norm_le_choose_mul_prefixAverage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.ConstantReduction.norm_sq_le_of_near_average_recovery_exact' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.ConstantReduction.norm_weightedL2BlockTaylor_symmetrized_choose_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.ConstantReduction.weightedL2TaylorTensor_norm_sq_le_partial_and_error_choose' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

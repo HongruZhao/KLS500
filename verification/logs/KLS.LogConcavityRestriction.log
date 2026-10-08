@@ -1,0 +1,3 @@
+'KLS.measureLogConcave.restrict_closed_convex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.measureLogConcave.smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.measureLogConcave.cond_closed_convex' depends on axioms: [propext, Classical.choice, Quot.sound]

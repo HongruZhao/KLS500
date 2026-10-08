@@ -1,0 +1,2 @@
+'KLS.eventually_abs_le_sq_of_zero_second_jet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.eventually_abs_sub_centeredQuadratic_le_sq' depends on axioms: [propext, Classical.choice, Quot.sound]

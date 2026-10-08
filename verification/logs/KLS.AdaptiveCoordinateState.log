@@ -1,0 +1,4 @@
+'KLS.AdaptiveLocalization.locallyLipschitz_coordinateDrift' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.AdaptiveLocalization.locallyLipschitz_coordinateDiffusion' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

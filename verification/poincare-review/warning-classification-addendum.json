@@ -1,0 +1,109 @@
+{
+  "status": "PASS_ACCEPTED_WARNING_CLASSIFICATION_DELTA",
+  "created_utc": "2026-10-08T02:53:26.665553+00:00",
+  "reviewer": "bkl_audit",
+  "old_audit_runner_sha256": "e331eff7ec9ba2e861d5bcc69609aca96132091e8bf049daa3374185052d2e5e",
+  "current_audit_runner_sha256": "d327ae76701e0087fa96a448233554e618c601249873920e640fbebb287dc34e",
+  "warning_review_sha256": "f846c7672700956b3281d256d77b45fb85e51c0ca9de4a2d6fc292c6ac20812e",
+  "finding_resolution": "The previous runner allowed existing warnings only for baseline modules. Seven additional modules already accepted in pinned independent packets also emit11 known linter warning lines. The new logic locates their accepted owner, verifies its log hash against the pinned evidence manifest, and requires exact warning-line equality. It does not suppress new warnings.",
+  "independent_readback": {
+    "baseline_warning_lines": 543,
+    "accepted_additional_warning_lines": 11,
+    "accepted_additional_modules": 7,
+    "all_logged_warning_lines_equal_accepted_logs": true,
+    "additional_owner_receipt_and_evidence_hashes_verified": true,
+    "new_public_warning_counts": {
+      "CheegerTwoReverification": 0,
+      "FinalKLS500": 0,
+      "FinalKLSRange": 0
+    }
+  },
+  "accepted_additional_warning_rows": [
+    {
+      "module": "SpectralReductionExactLemma38",
+      "warning_count": 1,
+      "baseline_module": false,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/spectral2-clean-independent/logs/SpectralReductionExactLemma38.log",
+      "accepted_log_sha256": "cdf48f14117bfe175a6172c17e33551bf00fbf086cfaacd7f12ad7dbabb5fc1c",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "SpectralReductionExactLemma38.lean:64:46: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice"
+      ]
+    },
+    {
+      "module": "SpectralReductionGeneralLemma38",
+      "warning_count": 1,
+      "baseline_module": false,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/spectral4-independent/logs/SpectralReductionGeneralLemma38.log",
+      "accepted_log_sha256": "d015ef249faab8a7de7aea094931ff9a37401ba47f2ea84df43a4f9f7a60f009",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "SpectralReductionGeneralLemma38.lean:62:46: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice"
+      ]
+    },
+    {
+      "module": "SpectralReductionRankLemma38",
+      "warning_count": 1,
+      "baseline_module": false,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/spectral3-independent/logs/SpectralReductionRankLemma38.log",
+      "accepted_log_sha256": "f65c68a6098f4978df0aeddeacc4634fd6a99317e6a351652bdc36d4064be79f",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "SpectralReductionRankLemma38.lean:47:46: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice"
+      ]
+    },
+    {
+      "module": "SpectralReductionRankSumRecurrence",
+      "warning_count": 2,
+      "baseline_module": false,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/spectral3-independent/logs/SpectralReductionRankSumRecurrence.log",
+      "accepted_log_sha256": "fa12bba1a7e4d1d397d1690c7476c5d32d1d4cbcf4209fbc8bf114b6ec45073d",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "SpectralReductionRankSumRecurrence.lean:76:8: warning: Unused tactic linter: `ring` does nothing",
+        "SpectralReductionRankSumRecurrence.lean:76:8: warning: this tactic is never executed"
+      ]
+    },
+    {
+      "module": "SpectralReductionYoungRecovery",
+      "warning_count": 1,
+      "baseline_module": false,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/spectral6-independent/logs/SpectralReductionYoungRecovery.log",
+      "accepted_log_sha256": "f6183987b213ad4c2c28999a9d15b6472e14d87bdc09a41b9dbd2fb52381d24c",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "SpectralReductionYoungRecovery.lean:42:69: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice"
+      ]
+    },
+    {
+      "module": "SpectralReductionFiniteRankTaylor",
+      "warning_count": 3,
+      "baseline_module": false,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/spectral5-independent/logs/SpectralReductionFiniteRankTaylor.log",
+      "accepted_log_sha256": "1a91a87d12a9432313517e6fe96777fb2955ade715725a5dbae897154971df62",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "SpectralReductionFiniteRankTaylor.lean:34:121: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice",
+        "SpectralReductionFiniteRankTaylor.lean:38:121: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice",
+        "SpectralReductionFiniteRankTaylor.lean:42:123: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice"
+      ]
+    },
+    {
+      "module": "SpectralReductionRankScalar",
+      "warning_count": 2,
+      "baseline_module": false,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/spectral3-independent/logs/SpectralReductionRankScalar.log",
+      "accepted_log_sha256": "4b080c679efc09e5bb22fd4f82fe280212fa3f1ab7a2b11fd72a662d1637a0a7",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "SpectralReductionRankScalar.lean:26:8: warning: Unused tactic linter: `ring` does nothing",
+        "SpectralReductionRankScalar.lean:26:8: warning: this tactic is never executed"
+      ]
+    }
+  ],
+  "code_delta_check": "After excluding the warning-classification block and its two summary count fields, old and new audit source text is exactly identical. The declaration enumeration, origin/kind gates, complete-name comparison, type printing, axiom allowlist, source/artifact hashes and completion ancestry checks are unchanged.",
+  "no_math_changes": true,
+  "no_new_compile_by_reviewer": true,
+  "audit_execution_status": "Final declaration audit execution is owned by root and was being rerun separately. This addendum certifies the warning bookkeeping change, not audit completion.",
+  "findings": []
+}

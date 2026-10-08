@@ -1,0 +1,5 @@
+'KLS.CenteredExponential.measureLogConcave' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.CenteredExponential.admissible_and_poincareConstant_eq_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.four_le_universalPoincareConstant' depends on axioms: [propext, Classical.choice, Quot.sound]

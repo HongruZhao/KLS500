@@ -1,0 +1,2 @@
+'KLS.closure_momentLegendreDomain_eq_support' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.interior_momentLegendreDomain_eq_interior_support' depends on axioms: [propext, Classical.choice, Quot.sound]

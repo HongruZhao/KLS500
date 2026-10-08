@@ -1,0 +1,2392 @@
+{
+  "new_proof_module_warnings": 0,
+  "baseline_warning_count": 543,
+  "accepted_additional_warning_count": 11,
+  "all_warning_lines_unchanged": true,
+  "modules": [
+    {
+      "module": "BrownianMotion.Auxiliary.LeftLimWithin",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/BrownianMotion.Auxiliary.LeftLimWithin.log",
+      "accepted_log_sha256": "98cb71a05ae9b2ed57338ea3dcaabf6cd92ab2d99a397ac367c84d4f913ea26d",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "BrownianMotion/Auxiliary/LeftLimWithin.lean:95:72: warning: `if_false` has been deprecated: Use `ite_false` instead"
+      ]
+    },
+    {
+      "module": "BrownianMotion.Auxiliary.NNReal",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/BrownianMotion.Auxiliary.NNReal.log",
+      "accepted_log_sha256": "cea1384147423d051a4d7f49a8f5c258a93be259e0a61bd836aedf63f6fdc281",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "BrownianMotion/Auxiliary/NNReal.lean:3:0: warning: "
+      ]
+    },
+    {
+      "module": "BrownianMotion.Auxiliary.Upcrossing",
+      "warning_count": 8,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/BrownianMotion.Auxiliary.Upcrossing.log",
+      "accepted_log_sha256": "2f2518e2ed03b8d07594ae62f7c97091b6b8aa09fe3492cc89734e9adae0c128",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "BrownianMotion/Auxiliary/Upcrossing.lean:193:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "BrownianMotion/Auxiliary/Upcrossing.lean:197:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "BrownianMotion/Auxiliary/Upcrossing.lean:204:30: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "BrownianMotion/Auxiliary/Upcrossing.lean:207:12: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "BrownianMotion/Auxiliary/Upcrossing.lean:213:30: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "BrownianMotion/Auxiliary/Upcrossing.lean:216:12: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "BrownianMotion/Auxiliary/Upcrossing.lean:222:30: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "BrownianMotion/Auxiliary/Upcrossing.lean:225:30: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "BrownianMotion.Auxiliary.Topology",
+      "warning_count": 3,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/BrownianMotion.Auxiliary.Topology.log",
+      "accepted_log_sha256": "2c9789cf2327cf81ad4bdf2bc60490ee91e7a01c572dc43770e51e1c07892beb",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "BrownianMotion/Auxiliary/Topology.lean:46:2: warning: Try this: ",
+        "BrownianMotion/Auxiliary/Topology.lean:74:2: warning: Try this: ",
+        "BrownianMotion/Auxiliary/Topology.lean:91:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "BrownianMotion.Continuity.Chaining",
+      "warning_count": 6,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/BrownianMotion.Continuity.Chaining.log",
+      "accepted_log_sha256": "fe880cee78cf1489c7d6d2ef6f0e3edbb0653fb0c3fa32705cb9ada601547113",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "BrownianMotion/Continuity/Chaining.lean:37:17: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "BrownianMotion/Continuity/Chaining.lean:45:19: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "BrownianMotion/Continuity/Chaining.lean:47:21: warning: `dif_neg` has been deprecated: Use `dite_eq_right` instead",
+        "BrownianMotion/Continuity/Chaining.lean:127:24: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "BrownianMotion/Continuity/Chaining.lean:128:22: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "BrownianMotion/Continuity/Chaining.lean:173:97: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice"
+      ]
+    },
+    {
+      "module": "BrownianMotion.StochasticIntegral.Predictable",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/BrownianMotion.StochasticIntegral.Predictable.log",
+      "accepted_log_sha256": "80da012984b1ba9b413dc80890d71132be126bb0571d5c221bbfb19bb0c0c164",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "BrownianMotion/StochasticIntegral/Predictable.lean:160:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "BrownianMotion.Auxiliary.StoppedValue",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/BrownianMotion.Auxiliary.StoppedValue.log",
+      "accepted_log_sha256": "e83bae3b63e5f5289223f9891797be3433fd03f7154870da872d725f905a18e6",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "BrownianMotion/Auxiliary/StoppedValue.lean:60:21: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "BrownianMotion/Auxiliary/StoppedValue.lean:64:21: warning: `dif_neg` has been deprecated: Use `dite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "BrownianMotion.Auxiliary.Adapted",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/BrownianMotion.Auxiliary.Adapted.log",
+      "accepted_log_sha256": "590323351d52e3623701391a0fce497c8002483c0f59ed123b55f9bbf2e1241a",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "BrownianMotion/Auxiliary/Adapted.lean:5:0: warning: ",
+        "BrownianMotion/Auxiliary/Adapted.lean:110:19: warning: This simp argument is unused:"
+      ]
+    },
+    {
+      "module": "BrownianMotion.Continuity.KolmogorovChentsov",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/BrownianMotion.Continuity.KolmogorovChentsov.log",
+      "accepted_log_sha256": "1a1285b351d9b59253bcb226bbaae1e1e445ecfdf2df5d6e193e9070624e752b",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "BrownianMotion/Continuity/KolmogorovChentsov.lean:975:15: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "BrownianMotion/Continuity/KolmogorovChentsov.lean:1005:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead"
+      ]
+    },
+    {
+      "module": "BrownianMotion.StochasticIntegral.SimpleProcess",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/BrownianMotion.StochasticIntegral.SimpleProcess.log",
+      "accepted_log_sha256": "e21c114617833ed1e0ce5360980e40d87c55a5f6c22810ea4d4568080d51bd6b",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "BrownianMotion/StochasticIntegral/SimpleProcess.lean:762:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead"
+      ]
+    },
+    {
+      "module": "BrownianMotion.StochasticIntegral.Quasimartingale.MaximalInequality",
+      "warning_count": 12,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/BrownianMotion.StochasticIntegral.Quasimartingale.MaximalInequality.log",
+      "accepted_log_sha256": "da5a1681d8e90b66a5ed3de4e8b56e608d899311767d66d376466e0aa58f3292",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "BrownianMotion/StochasticIntegral/Quasimartingale/MaximalInequality.lean:42:22: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "BrownianMotion/StochasticIntegral/Quasimartingale/MaximalInequality.lean:42:46: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "BrownianMotion/StochasticIntegral/Quasimartingale/MaximalInequality.lean:47:22: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "BrownianMotion/StochasticIntegral/Quasimartingale/MaximalInequality.lean:47:34: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "BrownianMotion/StochasticIntegral/Quasimartingale/MaximalInequality.lean:60:32: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "BrownianMotion/StochasticIntegral/Quasimartingale/MaximalInequality.lean:85:17: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "BrownianMotion/StochasticIntegral/Quasimartingale/MaximalInequality.lean:130:8: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "BrownianMotion/StochasticIntegral/Quasimartingale/MaximalInequality.lean:351:21: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "BrownianMotion/StochasticIntegral/Quasimartingale/MaximalInequality.lean:355:21: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "BrownianMotion/StochasticIntegral/Quasimartingale/MaximalInequality.lean:399:21: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "BrownianMotion/StochasticIntegral/Quasimartingale/MaximalInequality.lean:403:21: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "BrownianMotion/StochasticIntegral/Quasimartingale/MaximalInequality.lean:457:23: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "BrownianMotion.StochasticIntegral.Quasimartingale.CadlagModification",
+      "warning_count": 6,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/BrownianMotion.StochasticIntegral.Quasimartingale.CadlagModification.log",
+      "accepted_log_sha256": "5b0c6ebe044256706031ad22224e2559a4d687291ae27a819fa356305cb4974a",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "BrownianMotion/StochasticIntegral/Quasimartingale/CadlagModification.lean:201:19: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "BrownianMotion/StochasticIntegral/Quasimartingale/CadlagModification.lean:205:19: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "BrownianMotion/StochasticIntegral/Quasimartingale/CadlagModification.lean:1010:35: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "BrownianMotion/StochasticIntegral/Quasimartingale/CadlagModification.lean:1060:32: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "BrownianMotion/StochasticIntegral/Quasimartingale/CadlagModification.lean:1091:36: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "BrownianMotion/StochasticIntegral/Quasimartingale/CadlagModification.lean:1161:23: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead"
+      ]
+    },
+    {
+      "module": "KLS.MatrixLogDetSecond",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.MatrixLogDetSecond.log",
+      "accepted_log_sha256": "032a759190914bd42a945444d8ec82f8e4eb55c1d6b1d7f88ee6706ed1c49258",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/MatrixLogDetSecond.lean:75:0: warning: automatically included section variable(s) unused in theorem `KLS.MatrixCalculus.fderiv_matrix_mul_apply`:"
+      ]
+    },
+    {
+      "module": "KLS.IsotropicLowerBound",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.IsotropicLowerBound.log",
+      "accepted_log_sha256": "c5fad7d62e8184271f70a973d9dca16db8e233ab8b556b4bbdfb978c323548ca",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/IsotropicLowerBound.lean:73:2: warning: Try this: ",
+        "KLS/IsotropicLowerBound.lean:78:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "KLS.RouteArithmetic",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.RouteArithmetic.log",
+      "accepted_log_sha256": "d3a4879168b4793ef0f0a3e4cf42ebc58a2e69cdb688281d6ef16a7776ea282f",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/RouteArithmetic.lean:77:32: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice",
+        "KLS/RouteArithmetic.lean:116:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice"
+      ]
+    },
+    {
+      "module": "KLS.TiltedMeasure",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.TiltedMeasure.log",
+      "accepted_log_sha256": "73dde76ef0351e8224b06c44b9cd357e30344b39e87eb612df0224e74314bacc",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/TiltedMeasure.lean:72:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "KLS.LocalizationTilt",
+      "warning_count": 3,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.LocalizationTilt.log",
+      "accepted_log_sha256": "0656f6b0228a459614c343182a4c4e7f5ad81dcb5aa1bd6039e906eb6314c502",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/LocalizationTilt.lean:90:2: warning: Try this: ",
+        "KLS/LocalizationTilt.lean:111:2: warning: Try this: ",
+        "KLS/LocalizationTilt.lean:117:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "KLS.TiltCovariancePositive",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.TiltCovariancePositive.log",
+      "accepted_log_sha256": "d6b97166e396516087f000d0db97224a135fdcfb3b3fe9643102c796b4c9c4cb",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/TiltCovariancePositive.lean:59:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "KLS.LocalizationLipschitz",
+      "warning_count": 7,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.LocalizationLipschitz.log",
+      "accepted_log_sha256": "8992fe3b917d178e086501219e8a1b2852ad7d228321430665ee8f8338c6a91c",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/LocalizationLipschitz.lean:32:2: warning: Try this: ",
+        "KLS/LocalizationLipschitz.lean:50:66: warning: Variable name `hB` is not explicitly referenced.",
+        "Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:",
+        "KLS/LocalizationLipschitz.lean:70:30: warning: Variable name `hR` is not explicitly referenced.",
+        "Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:",
+        "KLS/LocalizationLipschitz.lean:81:2: warning: Try this: ",
+        "KLS/LocalizationLipschitz.lean:112:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "KLS.LocalizationCovariance",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.LocalizationCovariance.log",
+      "accepted_log_sha256": "13b838436b1f31cb0f656818c47af0f108ca2f2fe71a6d3201156473a5df925e",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/LocalizationCovariance.lean:17:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveFeatureTilt",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveFeatureTilt.log",
+      "accepted_log_sha256": "273caca7ae444f926183802d0bcd677647b3ba15667da5b16fd8de053226c306",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveFeatureTilt.lean:85:31: warning: This simp argument is unused:",
+        "KLS/AdaptiveFeatureTilt.lean:146:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "KLS.LocalizationSmooth",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.LocalizationSmooth.log",
+      "accepted_log_sha256": "99dd22f165e7d0b6b196991fd42fc4f30043e2d043025c10c03007adab375b3b",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/LocalizationSmooth.lean:47:43: warning: This simp argument is unused:"
+      ]
+    },
+    {
+      "module": "KLS.CumulantBounds",
+      "warning_count": 3,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.CumulantBounds.log",
+      "accepted_log_sha256": "ae3297d2800a046c52db651140a4000d84362e4a6e2504fe53d79828b98e18f5",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/CumulantBounds.lean:18:2: warning: Try this: ",
+        "KLS/CumulantBounds.lean:13:43: warning: Variable name `hC` is not explicitly referenced.",
+        "Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:"
+      ]
+    },
+    {
+      "module": "KLS.MomentPotentialSublevel",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.MomentPotentialSublevel.log",
+      "accepted_log_sha256": "18823a68efc5ca203607e210672cd2b09899ebcfcae35028e2b3478c83b29e4a",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/MomentPotentialSublevel.lean:25:32: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveCoefficients",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveCoefficients.log",
+      "accepted_log_sha256": "8e570a2b234de8bd34b2e4f15844201f3f834f3bcf0387a6a76644dfc19defa1",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveCoefficients.lean:16:2: warning: Try this: ",
+        "KLS/AdaptiveCoefficients.lean:53:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.inverseSqrtCovariance_isSymm`:"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveScoreDecomposition",
+      "warning_count": 5,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveScoreDecomposition.log",
+      "accepted_log_sha256": "8ce9cde54ac4fa2f78fbb309dc4b96a29c3645acf8890efe4518affd29654f34",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveScoreDecomposition.lean:14:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.continuous_projection`:",
+        "KLS/AdaptiveScoreDecomposition.lean:18:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.projection_eq_transpose_mulVec`:",
+        "KLS/AdaptiveScoreDecomposition.lean:21:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.exponent_diffusion_eq_projection`:",
+        "KLS/AdaptiveScoreDecomposition.lean:29:2: warning: Try this: ",
+        "KLS/AdaptiveScoreDecomposition.lean:42:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "KLS.DirectionalWordLeibniz",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.DirectionalWordLeibniz.log",
+      "accepted_log_sha256": "3c1cce8f23b316cda5e422da09e1e86eb2ff3b11f897a1e204297e332cb904ed",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/DirectionalWordLeibniz.lean:13:4: warning: Variable name `m` is not explicitly referenced.",
+        "Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:"
+      ]
+    },
+    {
+      "module": "KLS.MaskedDirections",
+      "warning_count": 3,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.MaskedDirections.log",
+      "accepted_log_sha256": "561e8145ac835694efed118b80efa02bf00d2127a67bcee4542a9c3d612efbed",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/MaskedDirections.lean:38:29: warning: This simp argument is unused:",
+        "KLS/MaskedDirections.lean:67:17: warning: This simp argument is unused:",
+        "KLS/MaskedDirections.lean:69:17: warning: This simp argument is unused:"
+      ]
+    },
+    {
+      "module": "KLS.CumulantSubsetPairing",
+      "warning_count": 4,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.CumulantSubsetPairing.log",
+      "accepted_log_sha256": "b534c89d68f2da25f69b55c82417ff1df12c5d630a05a8489357cd6d37672b19",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/CumulantSubsetPairing.lean:64:41: warning: `simp` already closes the goal",
+        "KLS/CumulantSubsetPairing.lean:110:41: warning: `simp` already closes the goal",
+        "KLS/CumulantSubsetPairing.lean:82:20: warning: This simp argument is unused:",
+        "KLS/CumulantSubsetPairing.lean:87:20: warning: This simp argument is unused:"
+      ]
+    },
+    {
+      "module": "KLS.CenteredL2Variational",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.CenteredL2Variational.log",
+      "accepted_log_sha256": "cc3d0633a4751ed0609e6c224405a43da80bfca608dcc9eea22871e41f536d7e",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/CenteredL2Variational.lean:67:12: warning: This simp argument is unused:"
+      ]
+    },
+    {
+      "module": "KLS.HessianMetricComposition",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.HessianMetricComposition.log",
+      "accepted_log_sha256": "1b426d59ce8a41b62c1db976c754ac4a17ac0d0bb24e8bf4ca56f896c61be516",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/HessianMetricComposition.lean:29:53: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice"
+      ]
+    },
+    {
+      "module": "KLS.CoerciveContactGeometry",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.CoerciveContactGeometry.log",
+      "accepted_log_sha256": "309f42d14bb3202001c4f3823f7b39a9768edee5b5cd60d35dcd7508deedac69",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/CoerciveContactGeometry.lean:54:21: warning: Variable name `hp` is not explicitly referenced.",
+        "Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:"
+      ]
+    },
+    {
+      "module": "KLS.WeightedClassicalLiouville",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.WeightedClassicalLiouville.log",
+      "accepted_log_sha256": "dae8a94171eccd4df3506aa6861ada0b9128d75aecbbd2aec5101c15f8161670",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/WeightedClassicalLiouville.lean:26:52: warning: Variable name `ha` is not explicitly referenced.",
+        "Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:"
+      ]
+    },
+    {
+      "module": "KolmogorovExtension4.CompactSystem",
+      "warning_count": 3,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KolmogorovExtension4.CompactSystem.log",
+      "accepted_log_sha256": "54752534bc2311ed096c962a7c770e05c7ff19b5353742237f870586cb7576fe",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KolmogorovExtension4/CompactSystem.lean:204:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "KolmogorovExtension4/CompactSystem.lean:221:18: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "KolmogorovExtension4/CompactSystem.lean:226:18: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "KLS.WeightedDiffusionRange",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.WeightedDiffusionRange.log",
+      "accepted_log_sha256": "ed2e880f37b33af8e927dbb12ca74019d356f8a10c2eab99ef4dccbdd02bcb16",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/WeightedDiffusionRange.lean:109:16: warning: This simp argument is unused:"
+      ]
+    },
+    {
+      "module": "KLS.GradientDualVariance",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.GradientDualVariance.log",
+      "accepted_log_sha256": "b4734d9d220155f81666838e7bbca0ad1182988793c44e8b227e00c0ed2b1d61",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/GradientDualVariance.lean:106:16: warning: This simp argument is unused:"
+      ]
+    },
+    {
+      "module": "BrownianMotion.Gaussian.BrownianMotion",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/BrownianMotion.Gaussian.BrownianMotion.log",
+      "accepted_log_sha256": "3582893f0a75341a25678752023724790f3b155b7b54b25a15b3682d064d5701",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "BrownianMotion/Gaussian/BrownianMotion.lean:89:55: warning: `dif_neg` has been deprecated: Use `dite_eq_right` instead",
+        "BrownianMotion/Gaussian/BrownianMotion.lean:400:11: warning: `measurable_pi_lambda` has been deprecated: Use `Measurable.of_eval` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Brownian.ContinuityKolmogorovBounds",
+      "warning_count": 3,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Brownian.ContinuityKolmogorovBounds.log",
+      "accepted_log_sha256": "fd2d0ad00b9d08c15170d8278e81540beb466a3cde56ae25223762c724cfd6c6",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Brownian/ContinuityKolmogorovBounds.lean:90:13: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead",
+        "LevyStochCalc/Brownian/ContinuityKolmogorovBounds.lean:252:37: warning: `Set.setOf_mem_eq` has been deprecated: Use `Set.ofPred_mem_eq` instead",
+        "LevyStochCalc/Brownian/ContinuityKolmogorovBounds.lean:260:29: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead"
+      ]
+    },
+    {
+      "module": "KLS.WeightedBochnerBounds",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.WeightedBochnerBounds.log",
+      "accepted_log_sha256": "63d835384ec90d3deb0c4ec9fa6b9be921e2c63390e78fa2f5add59bdfea1133",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/WeightedBochnerBounds.lean:134:5: warning: Variable name `hK` is not explicitly referenced.",
+        "Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:"
+      ]
+    },
+    {
+      "module": "KLS.MomentQuadraticBarrier",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.MomentQuadraticBarrier.log",
+      "accepted_log_sha256": "ee7ec6aabc0d4530d04478a117b3a9b4dd492187d10a0ec426f0c9be9ff27e1c",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/MomentQuadraticBarrier.lean:54:26: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice"
+      ]
+    },
+    {
+      "module": "KLS.WeightedGlobalIntegration",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.WeightedGlobalIntegration.log",
+      "accepted_log_sha256": "bce6684d773f668f9ed281675a76f6a2c31c7f4bf3e173a43ff84a3400d1132a",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/WeightedGlobalIntegration.lean:109:69: warning: This simp argument is unused:"
+      ]
+    },
+    {
+      "module": "KLS.WeightedWeakEnergy",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.WeightedWeakEnergy.log",
+      "accepted_log_sha256": "dae1b47a8ebfafa3617383ea9227b6ab95f4510ee551105b0eb26f4864ebed5c",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/WeightedWeakEnergy.lean:77:15: warning: This simp argument is unused:",
+        "KLS/WeightedWeakEnergy.lean:139:79: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice"
+      ]
+    },
+    {
+      "module": "KLS.WeightedAnnihilatorEnergy",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.WeightedAnnihilatorEnergy.log",
+      "accepted_log_sha256": "4dded37273e56553d9b293624c48617500aba4204f5863f75fe0e58ab6152522",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/WeightedAnnihilatorEnergy.lean:77:35: warning: Variable name `ha` is not explicitly referenced.",
+        "Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:"
+      ]
+    },
+    {
+      "module": "KLS.CovarianceCumulantPDE",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.CovarianceCumulantPDE.log",
+      "accepted_log_sha256": "a13489fe4a1a5ea2262998da44c7de7481b3b17dd828a712a780cfb676802a28",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/CovarianceCumulantPDE.lean:20:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveCovarianceDerivatives",
+      "warning_count": 8,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveCovarianceDerivatives.log",
+      "accepted_log_sha256": "22e5f998d72d77917c904c97012b09112d26f10bd943ff445cc5cf0d81052eee",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveCovarianceDerivatives.lean:50:17: warning: This simp argument is unused:",
+        "KLS/AdaptiveCovarianceDerivatives.lean:50:31: warning: This simp argument is unused:",
+        "KLS/AdaptiveCovarianceDerivatives.lean:50:48: warning: This simp argument is unused:",
+        "KLS/AdaptiveCovarianceDerivatives.lean:49:72: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice",
+        "KLS/AdaptiveCovarianceDerivatives.lean:72:17: warning: This simp argument is unused:",
+        "KLS/AdaptiveCovarianceDerivatives.lean:72:31: warning: This simp argument is unused:",
+        "KLS/AdaptiveCovarianceDerivatives.lean:72:48: warning: This simp argument is unused:",
+        "KLS/AdaptiveCovarianceDerivatives.lean:71:72: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice"
+      ]
+    },
+    {
+      "module": "KLS.WeightedExponentialMoments",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.WeightedExponentialMoments.log",
+      "accepted_log_sha256": "7e93edb17c7c338af3625e6af6cabe8b052843970805c06530af4b9fccdb4675",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/WeightedExponentialMoments.lean:37:6: warning: This simp argument is unused:",
+        "KLS/WeightedExponentialMoments.lean:49:56: warning: This simp argument is unused:"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Martingale.CadlagModification",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Martingale.CadlagModification.log",
+      "accepted_log_sha256": "920e3f758edb38788049039eeb9db2cdd278aa6b787964a2ecfc50b953c29cc7",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Martingale/CadlagModification.lean:194:20: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Martingale/CadlagModification.lean:195:67: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Poisson.RegionPartition",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Poisson.RegionPartition.log",
+      "accepted_log_sha256": "ea51905199bdc6dc77e7c1e0dd578b381fd613b20a41419415af939ab14169ee",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Poisson/RegionPartition.lean:6:0: warning: ",
+        "LevyStochCalc/Poisson/RegionPartition.lean:42:15: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Probability.ExitTime",
+      "warning_count": 7,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Probability.ExitTime.log",
+      "accepted_log_sha256": "bbc9919a7b872f05abc23a22275f0ca9b937aed59d64e9f42ec5e2e59c20dffc",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Probability/ExitTime.lean:49:24: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead",
+        "LevyStochCalc/Probability/ExitTime.lean:78:18: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Probability/ExitTime.lean:146:2: warning: Try this: ",
+        "LevyStochCalc/Probability/ExitTime.lean:156:17: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead",
+        "LevyStochCalc/Probability/ExitTime.lean:165:17: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead",
+        "LevyStochCalc/Probability/ExitTime.lean:171:4: warning: Try this: ",
+        "LevyStochCalc/Probability/ExitTime.lean:202:20: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Poisson.PoissonSuperposition",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Poisson.PoissonSuperposition.log",
+      "accepted_log_sha256": "94d518256e0f7edd599f2b367c99b30606dc1b1e071217bbb6542640bd301e2f",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Poisson/PoissonSuperposition.lean:42:2: warning: Try this: ",
+        "LevyStochCalc/Poisson/PoissonSuperposition.lean:504:15: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Probability.IndepLimit",
+      "warning_count": 3,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Probability.IndepLimit.log",
+      "accepted_log_sha256": "29e6c96aa8b9f1a4ba034be45f30b64381bfa2bbc58910268aa4ae3f28f46313",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Probability/IndepLimit.lean:38:8: warning: Try this: ",
+        "LevyStochCalc/Probability/IndepLimit.lean:66:8: warning: `simp` already closes the goal",
+        "LevyStochCalc/Probability/IndepLimit.lean:65:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Poisson.RegionIndependence",
+      "warning_count": 4,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Poisson.RegionIndependence.log",
+      "accepted_log_sha256": "2668755f79aff1597e6a2aa3995cf45b9e02631e8c0a240f11855c2c5fee319d",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Poisson/RegionIndependence.lean:45:17: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead",
+        "LevyStochCalc/Poisson/RegionIndependence.lean:102:4: warning: Try this: ",
+        "LevyStochCalc/Poisson/RegionIndependence.lean:190:4: warning: Try this: ",
+        "LevyStochCalc/Poisson/RegionIndependence.lean:202:4: warning: Try this: "
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Probability.MartingaleDifference",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Probability.MartingaleDifference.log",
+      "accepted_log_sha256": "d71c3fd4747278468aa3843001480f41048142efc8960dff0a95504fa747e657",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Probability/MartingaleDifference.lean:55:4: warning: Try this: ",
+        "LevyStochCalc/Probability/MartingaleDifference.lean:54:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Poisson.RandomMeasure",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Poisson.RandomMeasure.log",
+      "accepted_log_sha256": "29b66bb84af0cdecbb847ede2f8c12e24ad078597d27b2f0b6bc3f2d3296b0f3",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Poisson/RandomMeasure.lean:220:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Probability.Progressive",
+      "warning_count": 10,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Probability.Progressive.log",
+      "accepted_log_sha256": "a58b1c50c755a5f92272ac68c000dc5f0dcb1dc4a81581d685893e7e2177f3cc",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Probability/Progressive.lean:46:2: warning: Try this: ",
+        "LevyStochCalc/Probability/Progressive.lean:72:2: warning: Try this: ",
+        "LevyStochCalc/Probability/Progressive.lean:97:2: warning: Try this: ",
+        "LevyStochCalc/Probability/Progressive.lean:113:2: warning: Try this: ",
+        "LevyStochCalc/Probability/Progressive.lean:212:2: warning: Try this: ",
+        "LevyStochCalc/Probability/Progressive.lean:260:2: warning: Try this: ",
+        "LevyStochCalc/Probability/Progressive.lean:277:2: warning: Try this: ",
+        "LevyStochCalc/Probability/Progressive.lean:303:2: warning: Try this: ",
+        "LevyStochCalc/Probability/Progressive.lean:324:2: warning: Try this: ",
+        "LevyStochCalc/Probability/Progressive.lean:353:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Poisson.CompensatedSimple",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Poisson.CompensatedSimple.log",
+      "accepted_log_sha256": "90775adef706dcfd1ca7843153a20074d45f6173675aae22c42463d8bc2ff7a4",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Poisson/CompensatedSimple.lean:82:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Poisson/CompensatedSimple.lean:87:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Probability.ProgressiveCadlag",
+      "warning_count": 5,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Probability.ProgressiveCadlag.log",
+      "accepted_log_sha256": "d14be1213e37a395cf2491372625485fc7efe6beb395ee40c481b89bbb45c718",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Probability/ProgressiveCadlag.lean:97:2: warning: Try this: ",
+        "LevyStochCalc/Probability/ProgressiveCadlag.lean:184:21: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Probability/ProgressiveCadlag.lean:190:21: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Probability/ProgressiveCadlag.lean:200:2: warning: Try this: ",
+        "LevyStochCalc/Probability/ProgressiveCadlag.lean:201:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Probability.StoppedProgressive",
+      "warning_count": 7,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Probability.StoppedProgressive.log",
+      "accepted_log_sha256": "803943294d47b6c1db991ff8461c4d447a3148c0418c9bca89b7efc6165b0ab2",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Probability/StoppedProgressive.lean:45:2: warning: Try this: ",
+        "LevyStochCalc/Probability/StoppedProgressive.lean:92:2: warning: Try this: ",
+        "LevyStochCalc/Probability/StoppedProgressive.lean:103:43: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Probability/StoppedProgressive.lean:107:72: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Probability/StoppedProgressive.lean:121:46: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead",
+        "LevyStochCalc/Probability/StoppedProgressive.lean:155:12: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Probability/StoppedProgressive.lean:157:12: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Brownian.ItoSimpleIntegrand",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Brownian.ItoSimpleIntegrand.log",
+      "accepted_log_sha256": "d97424f556101a36df11eec0ae16c9c5ad44e08438130daf6745e8e36d305c16",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Brownian/ItoSimpleIntegrand.lean:92:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoSimpleIntegrand.lean:94:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Probability.TrivialSigma",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Probability.TrivialSigma.log",
+      "accepted_log_sha256": "2d71b301060871f8341b4db0abf7afc17df6302777bdf4fdcddbc211517eb163",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Probability/TrivialSigma.lean:59:6: warning: Unused tactic linter: `change (\u03c9 \u2208 f \u207b\u00b9' S) = (\u03c9 \u2208 (Set.univ : Set \u03a9))` does nothing",
+        "LevyStochCalc/Probability/TrivialSigma.lean:65:6: warning: Unused tactic linter: `change (\u03c9 \u2208 f \u207b\u00b9' S) = (\u03c9 \u2208 (\u2205 : Set \u03a9))` does nothing"
+      ]
+    },
+    {
+      "module": "MathFin.Foundations.DoobLpMaximalInequality",
+      "warning_count": 3,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/MathFin.Foundations.DoobLpMaximalInequality.log",
+      "accepted_log_sha256": "2881c0ba265e0349e9703f7dc14207d2e665a21946a6baf503852d1b0ef4aad9",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "MathFin/Foundations/DoobLpMaximalInequality.lean:593:22: warning: `if_true` has been deprecated: Use `ite_true` instead",
+        "MathFin/Foundations/DoobLpMaximalInequality.lean:597:22: warning: `if_false` has been deprecated: Use `ite_false` instead",
+        "MathFin/Foundations/DoobLpMaximalInequality.lean:642:27: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Brownian.ItoDensityDyadicAverages",
+      "warning_count": 3,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Brownian.ItoDensityDyadicAverages.log",
+      "accepted_log_sha256": "15a3b77d3d97a9f5c6b6a65a7950af8f309cd3a06b9d0852f82888e6c3408d06",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Brownian/ItoDensityDyadicAverages.lean:174:2: warning: Try this: ",
+        "LevyStochCalc/Brownian/ItoDensityDyadicAverages.lean:176:2: warning: Try this: ",
+        "LevyStochCalc/Brownian/ItoDensityDyadicAverages.lean:325:4: warning: Try this: "
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Brownian.SimplePredictableRefineInvariance",
+      "warning_count": 13,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Brownian.SimplePredictableRefineInvariance.log",
+      "accepted_log_sha256": "9c410555477750caf2efabbf6b8d4fc3b9a548f20231975b980e743002d6bec8",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Brownian/SimplePredictableRefineInvariance.lean:151:12: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Brownian/SimplePredictableRefineInvariance.lean:152:26: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Brownian/SimplePredictableRefineInvariance.lean:174:12: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Brownian/SimplePredictableRefineInvariance.lean:175:26: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Brownian/SimplePredictableRefineInvariance.lean:182:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Brownian/SimplePredictableRefineInvariance.lean:193:12: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Brownian/SimplePredictableRefineInvariance.lean:206:12: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Brownian/SimplePredictableRefineInvariance.lean:369:29: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "LevyStochCalc/Brownian/SimplePredictableRefineInvariance.lean:436:25: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "LevyStochCalc/Brownian/SimplePredictableRefineInvariance.lean:438:25: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "LevyStochCalc/Brownian/SimplePredictableRefineInvariance.lean:470:29: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "LevyStochCalc/Brownian/SimplePredictableRefineInvariance.lean:534:25: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "LevyStochCalc/Brownian/SimplePredictableRefineInvariance.lean:536:25: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Poisson.CompensatedMartingaleAdapted",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Poisson.CompensatedMartingaleAdapted.log",
+      "accepted_log_sha256": "eaa7b5adbb63c429bad613f684999722a0e927e5b53dab50f668dd106eaf5471",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Poisson/CompensatedMartingaleAdapted.lean:234:6: warning: Try this: ",
+        "LevyStochCalc/Poisson/CompensatedMartingaleAdapted.lean:407:4: warning: Try this: "
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Brownian.ItoDensityShiftedAverages",
+      "warning_count": 9,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Brownian.ItoDensityShiftedAverages.log",
+      "accepted_log_sha256": "12e62cadc393e96a8b768ba9d06135465af61a613663f0059e970fa2f9ea2a68",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Brownian/ItoDensityShiftedAverages.lean:51:8: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoDensityShiftedAverages.lean:54:8: warning: `dif_neg` has been deprecated: Use `dite_eq_right` instead",
+        "LevyStochCalc/Brownian/ItoDensityShiftedAverages.lean:287:14: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoDensityShiftedAverages.lean:289:15: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Brownian/ItoDensityShiftedAverages.lean:300:13: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Brownian/ItoDensityShiftedAverages.lean:478:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoDensityShiftedAverages.lean:482:11: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Brownian/ItoDensityShiftedAverages.lean:537:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoDensityShiftedAverages.lean:541:11: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Brownian.ItoDensityPointwise",
+      "warning_count": 4,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Brownian.ItoDensityPointwise.log",
+      "accepted_log_sha256": "b285d3b6264219609d8dab2876e8bc8299922686ebf62ffcc2f5114447b0dc97",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Brownian/ItoDensityPointwise.lean:202:15: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead",
+        "LevyStochCalc/Brownian/ItoDensityPointwise.lean:263:2: warning: Try this: ",
+        "LevyStochCalc/Brownian/ItoDensityPointwise.lean:269:2: warning: Try this: ",
+        "LevyStochCalc/Brownian/ItoDensityPointwise.lean:547:8: warning: `dif_neg` has been deprecated: Use `dite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Brownian.ItoDensityPredictableL2",
+      "warning_count": 3,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Brownian.ItoDensityPredictableL2.log",
+      "accepted_log_sha256": "8fe8e15b982f791e66b34f760f98e36feba98b3138a879e43d9a6a89e3c268f4",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Brownian/ItoDensityPredictableL2.lean:45:15: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead",
+        "LevyStochCalc/Brownian/ItoDensityPredictableL2.lean:108:2: warning: Try this: ",
+        "LevyStochCalc/Brownian/ItoDensityPredictableL2.lean:114:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Poisson.CompensatedDensityDyadic",
+      "warning_count": 5,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Poisson.CompensatedDensityDyadic.log",
+      "accepted_log_sha256": "2aa1d71996fe19753333c2f192ee5163a8b3a1510964acf9184339c2eaa75421",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Poisson/CompensatedDensityDyadic.lean:266:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Poisson/CompensatedDensityDyadic.lean:268:11: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Poisson/CompensatedDensityDyadic.lean:374:47: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Poisson/CompensatedDensityDyadic.lean:375:49: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Poisson/CompensatedDensityDyadic.lean:378:39: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Brownian.ItoL2CompletionExistence",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Brownian.ItoL2CompletionExistence.log",
+      "accepted_log_sha256": "e17525ce6edd837b59c7ef272618816181d3ebad41f13cff5c24fb44916c9932",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Brownian/ItoL2CompletionExistence.lean:496:13: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Brownian.ItoL2CompletionConvergence",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Brownian.ItoL2CompletionConvergence.log",
+      "accepted_log_sha256": "afbbec27e51a36a25cf4cb346fcfc8136d507257e14630dcd8ee390904b0ed42",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Brownian/ItoL2CompletionConvergence.lean:98:21: warning: Variable name `hg` is not explicitly referenced.",
+        "Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Poisson.CompensatedDensityShifted",
+      "warning_count": 6,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Poisson.CompensatedDensityShifted.log",
+      "accepted_log_sha256": "381be76cb6ca59708f80feae541a5c7a714959b1d55143634be538ab5ac34287",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Poisson/CompensatedDensityShifted.lean:57:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Poisson/CompensatedDensityShifted.lean:59:11: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Poisson/CompensatedDensityShifted.lean:87:47: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Poisson/CompensatedDensityShifted.lean:88:49: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Poisson/CompensatedDensityShifted.lean:91:39: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Poisson/CompensatedDensityShifted.lean:209:74: warning: `dif_neg` has been deprecated: Use `dite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Brownian.ItoL2CompletionMaster",
+      "warning_count": 8,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Brownian.ItoL2CompletionMaster.log",
+      "accepted_log_sha256": "53c305b7373a80e84749f05292fc229510fcf3a1ae18dfd2a618f64a29678892",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Brownian/ItoL2CompletionMaster.lean:219:16: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoL2CompletionMaster.lean:257:27: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoL2CompletionMaster.lean:262:27: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoL2CompletionMaster.lean:338:2: warning: Try this: ",
+        "LevyStochCalc/Brownian/ItoL2CompletionMaster.lean:344:32: warning: `dif_neg` has been deprecated: Use `dite_eq_right` instead",
+        "LevyStochCalc/Brownian/ItoL2CompletionMaster.lean:394:2: warning: Try this: ",
+        "LevyStochCalc/Brownian/ItoL2CompletionMaster.lean:422:28: warning: `dif_neg` has been deprecated: Use `dite_eq_right` instead",
+        "LevyStochCalc/Brownian/ItoL2CompletionMaster.lean:488:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Poisson.CompensatedDensityMarkApprox",
+      "warning_count": 7,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Poisson.CompensatedDensityMarkApprox.log",
+      "accepted_log_sha256": "40f577de14ab9f06b2757a8cbf0de0862ed3c974f8059ed85b129c9c728a3bba",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Poisson/CompensatedDensityMarkApprox.lean:54:2: warning: Try this: ",
+        "LevyStochCalc/Poisson/CompensatedDensityMarkApprox.lean:55:2: warning: Try this: ",
+        "LevyStochCalc/Poisson/CompensatedDensityMarkApprox.lean:58:2: warning: Try this: ",
+        "LevyStochCalc/Poisson/CompensatedDensityMarkApprox.lean:307:12: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Poisson/CompensatedDensityMarkApprox.lean:307:41: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Poisson/CompensatedDensityMarkApprox.lean:308:12: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Poisson/CompensatedDensityMarkApprox.lean:308:57: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Brownian.ItoL2CompletionQuadVar",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Brownian.ItoL2CompletionQuadVar.log",
+      "accepted_log_sha256": "9ee782f8573ced621ba864108bf8bf9429b023c81b41ef01330e9401a682ab24",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Brownian/ItoL2CompletionQuadVar.lean:47:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Poisson.CompensatedDensityMarkSum",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Poisson.CompensatedDensityMarkSum.log",
+      "accepted_log_sha256": "96aab01b09280d5344d293566815bb582d7a9aae6f5ca29e0cf3f6771925d48d",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Poisson/CompensatedDensityMarkSum.lean:338:2: warning: Try this: ",
+        "LevyStochCalc/Poisson/CompensatedDensityMarkSum.lean:558:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Poisson.CompensatedDensityRefinement",
+      "warning_count": 7,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Poisson.CompensatedDensityRefinement.log",
+      "accepted_log_sha256": "0a4d935043ce34198deb57c0b12a768b793f2209b73d9fe0726cd9ffa623efb0",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Poisson/CompensatedDensityRefinement.lean:101:20: warning: `if_true` has been deprecated: Use `ite_true` instead",
+        "LevyStochCalc/Poisson/CompensatedDensityRefinement.lean:102:20: warning: `if_false` has been deprecated: Use `ite_false` instead",
+        "LevyStochCalc/Poisson/CompensatedDensityRefinement.lean:105:20: warning: `if_true` has been deprecated: Use `ite_true` instead",
+        "LevyStochCalc/Poisson/CompensatedDensityRefinement.lean:106:20: warning: `if_false` has been deprecated: Use `ite_false` instead",
+        "LevyStochCalc/Poisson/CompensatedDensityRefinement.lean:109:20: warning: `if_true` has been deprecated: Use `ite_true` instead",
+        "LevyStochCalc/Poisson/CompensatedDensityRefinement.lean:111:20: warning: `if_false` has been deprecated: Use `ite_false` instead",
+        "LevyStochCalc/Poisson/CompensatedDensityRefinement.lean:118:62: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Brownian.ItoL2CompletionApi",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Brownian.ItoL2CompletionApi.log",
+      "accepted_log_sha256": "aa494cb40fdc4578d386c4b42c1fbb1273ffc8c4e000b5184e1b1a053385a757",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Brownian/ItoL2CompletionApi.lean:338:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Poisson.CompensatedDensityLimit",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Poisson.CompensatedDensityLimit.log",
+      "accepted_log_sha256": "fe3e3b482814af36abdd142b72b428b5874e1a7fd38b2e12aaec29925c68c976",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Poisson/CompensatedDensityLimit.lean:99:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Brownian.ItoAlgebraSimpleIntegrand",
+      "warning_count": 3,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Brownian.ItoAlgebraSimpleIntegrand.log",
+      "accepted_log_sha256": "5dadb5a1a0d6e3738292983e31b4472fb27956a47b5fd3df2a42d2f74dd43289",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Brownian/ItoAlgebraSimpleIntegrand.lean:36:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoAlgebraSimpleIntegrand.lean:37:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Brownian/ItoAlgebraSimpleIntegrand.lean:95:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Brownian.ItoAlgebraProduct",
+      "warning_count": 3,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Brownian.ItoAlgebraProduct.log",
+      "accepted_log_sha256": "baa1fd1149221ef459df79d603f1bfb81451e9447f898b06fb044edb99eef546",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Brownian/ItoAlgebraProduct.lean:49:51: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Brownian/ItoAlgebraProduct.lean:51:12: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoAlgebraProduct.lean:56:46: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Brownian.ItoIntegrandComplete",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Brownian.ItoIntegrandComplete.log",
+      "accepted_log_sha256": "98671b32f97d23dd019a1e1f94bbdf79a777ee33a32ed667c4796c4a9070f984",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Brownian/ItoIntegrandComplete.lean:71:2: warning: Try this: ",
+        "LevyStochCalc/Brownian/ItoIntegrandComplete.lean:123:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Poisson.MarkStepIsometry",
+      "warning_count": 5,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Poisson.MarkStepIsometry.log",
+      "accepted_log_sha256": "e79174bce0f43dddd5c775d785dc0a016b3ae0d022221ca0b3f9d30b2c145ffd",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Poisson/MarkStepIsometry.lean:329:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Poisson/MarkStepIsometry.lean:329:27: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Poisson/MarkStepIsometry.lean:345:6: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Poisson/MarkStepIsometry.lean:450:25: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Poisson/MarkStepIsometry.lean:521:25: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Brownian.ItoAlgebraAssociativity",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Brownian.ItoAlgebraAssociativity.log",
+      "accepted_log_sha256": "47a6801d7d418b7bccb4ba1bb35e708cabb64db9a388e3f26cd06283216441d3",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Brownian/ItoAlgebraAssociativity.lean:332:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Brownian.ItoRange",
+      "warning_count": 5,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Brownian.ItoRange.log",
+      "accepted_log_sha256": "7419b8f24a4d78c4ab2720a9c4e6ad5a80082ab24b37f8d45dfd7ede6546db66",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Brownian/ItoRange.lean:48:2: warning: Try this: ",
+        "LevyStochCalc/Brownian/ItoRange.lean:202:2: warning: Try this: ",
+        "LevyStochCalc/Brownian/ItoRange.lean:330:2: warning: Try this: ",
+        "LevyStochCalc/Brownian/ItoRange.lean:331:2: warning: Try this: ",
+        "LevyStochCalc/Brownian/ItoRange.lean:333:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Poisson.CompensatedIntegrandComplete",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Poisson.CompensatedIntegrandComplete.log",
+      "accepted_log_sha256": "31ece243db7daf7aa1865bed615ccf39a58b4f20f02d214dded6222fb6f8a34b",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Poisson/CompensatedIntegrandComplete.lean:104:2: warning: Try this: ",
+        "LevyStochCalc/Poisson/CompensatedIntegrandComplete.lean:151:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Poisson.MarkStepWeight",
+      "warning_count": 10,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Poisson.MarkStepWeight.log",
+      "accepted_log_sha256": "98901b1bc0adfc7580ce13a311cbdd66b9bbf9720035386dae0f4c5779076801",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Poisson/MarkStepWeight.lean:200:20: warning: `if_true` has been deprecated: Use `ite_true` instead",
+        "LevyStochCalc/Poisson/MarkStepWeight.lean:202:20: warning: `if_false` has been deprecated: Use `ite_false` instead",
+        "LevyStochCalc/Poisson/MarkStepWeight.lean:217:18: warning: `if_true` has been deprecated: Use `ite_true` instead",
+        "LevyStochCalc/Poisson/MarkStepWeight.lean:219:18: warning: `if_false` has been deprecated: Use `ite_false` instead",
+        "LevyStochCalc/Poisson/MarkStepWeight.lean:307:24: warning: `if_true` has been deprecated: Use `ite_true` instead",
+        "LevyStochCalc/Poisson/MarkStepWeight.lean:356:33: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Poisson/MarkStepWeight.lean:358:36: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Poisson/MarkStepWeight.lean:369:6: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Poisson/MarkStepWeight.lean:385:6: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Poisson/MarkStepWeight.lean:412:6: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Brownian.ItoFourthMomentIncrements",
+      "warning_count": 9,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Brownian.ItoFourthMomentIncrements.log",
+      "accepted_log_sha256": "70e07fb85392077e21783cd97930041bebb057db968afc066f5ad86b2731dbb1",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Brownian/ItoFourthMomentIncrements.lean:188:12: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoFourthMomentIncrements.lean:203:26: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoFourthMomentIncrements.lean:207:73: warning: `dif_neg` has been deprecated: Use `dite_eq_right` instead",
+        "LevyStochCalc/Brownian/ItoFourthMomentIncrements.lean:227:24: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoFourthMomentIncrements.lean:253:29: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoFourthMomentIncrements.lean:259:8: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoFourthMomentIncrements.lean:262:8: warning: `dif_neg` has been deprecated: Use `dite_eq_right` instead",
+        "LevyStochCalc/Brownian/ItoFourthMomentIncrements.lean:273:8: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoFourthMomentIncrements.lean:276:8: warning: `dif_neg` has been deprecated: Use `dite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Poisson.MarkStepIncrement",
+      "warning_count": 10,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Poisson.MarkStepIncrement.log",
+      "accepted_log_sha256": "eaa553b9d6284515b0585f790081a0b1039ab5fdc98e5d8dcc46f997152e8fd3",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Poisson/MarkStepIncrement.lean:225:20: warning: `if_true` has been deprecated: Use `ite_true` instead",
+        "LevyStochCalc/Poisson/MarkStepIncrement.lean:227:20: warning: `if_false` has been deprecated: Use `ite_false` instead",
+        "LevyStochCalc/Poisson/MarkStepIncrement.lean:243:15: warning: `if_true` has been deprecated: Use `ite_true` instead",
+        "LevyStochCalc/Poisson/MarkStepIncrement.lean:251:33: warning: `if_false` has been deprecated: Use `ite_false` instead",
+        "LevyStochCalc/Poisson/MarkStepIncrement.lean:279:13: warning: `if_true` has been deprecated: Use `ite_true` instead",
+        "LevyStochCalc/Poisson/MarkStepIncrement.lean:282:31: warning: `if_false` has been deprecated: Use `ite_false` instead",
+        "LevyStochCalc/Poisson/MarkStepIncrement.lean:359:13: warning: `if_true` has been deprecated: Use `ite_true` instead",
+        "LevyStochCalc/Poisson/MarkStepIncrement.lean:362:31: warning: `if_false` has been deprecated: Use `ite_false` instead",
+        "LevyStochCalc/Poisson/MarkStepIncrement.lean:465:33: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Poisson/MarkStepIncrement.lean:467:36: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Brownian.ItoOptionalStopping",
+      "warning_count": 4,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Brownian.ItoOptionalStopping.log",
+      "accepted_log_sha256": "4f3f2f82b77e0d90e87471f9883663996171bbfd33c975d236266ef1a0abca92",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Brownian/ItoOptionalStopping.lean:70:2: warning: Try this: ",
+        "LevyStochCalc/Brownian/ItoOptionalStopping.lean:168:35: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoOptionalStopping.lean:179:35: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Brownian/ItoOptionalStopping.lean:192:33: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Brownian.ItoFourthMomentPartialSums",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Brownian.ItoFourthMomentPartialSums.log",
+      "accepted_log_sha256": "608ab4a0169ac4d09fb1f5325d9151bc917155dc09eaaec2e31b325e5771a3f3",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Brownian/ItoFourthMomentPartialSums.lean:244:39: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoFourthMomentPartialSums.lean:267:39: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Poisson.CompensatedApprox",
+      "warning_count": 6,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Poisson.CompensatedApprox.log",
+      "accepted_log_sha256": "0f032d681c04dc36677eea4ac708b93901156485cab9bf7c507b61611cc8136a",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Poisson/CompensatedApprox.lean:223:14: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "LevyStochCalc/Poisson/CompensatedApprox.lean:225:14: warning: `dif_neg` has been deprecated: Use `dite_eq_right` instead",
+        "LevyStochCalc/Poisson/CompensatedApprox.lean:229:14: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "LevyStochCalc/Poisson/CompensatedApprox.lean:231:14: warning: `dif_neg` has been deprecated: Use `dite_eq_right` instead",
+        "LevyStochCalc/Poisson/CompensatedApprox.lean:237:8: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "LevyStochCalc/Poisson/CompensatedApprox.lean:254:45: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Brownian.ItoFourthMomentLintegral",
+      "warning_count": 3,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Brownian.ItoFourthMomentLintegral.log",
+      "accepted_log_sha256": "98d05b3a047bc943f665ff1baf235f09b162919be2e0e14fa6af0ff5040c5493",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Brownian/ItoFourthMomentLintegral.lean:47:51: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Brownian/ItoFourthMomentLintegral.lean:49:12: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoFourthMomentLintegral.lean:54:46: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Brownian.ItoLocality",
+      "warning_count": 13,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Brownian.ItoLocality.log",
+      "accepted_log_sha256": "d30b2ea47f00673392fb2469bd182f2d93b73b3882e51c6fa93350e7a1083fe7",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Brownian/ItoLocality.lean:67:27: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead",
+        "LevyStochCalc/Brownian/ItoLocality.lean:69:19: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoLocality.lean:75:19: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Brownian/ItoLocality.lean:81:27: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead",
+        "LevyStochCalc/Brownian/ItoLocality.lean:83:19: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoLocality.lean:85:19: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Brownian/ItoLocality.lean:160:15: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead",
+        "LevyStochCalc/Brownian/ItoLocality.lean:273:18: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Brownian/ItoLocality.lean:327:24: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead",
+        "LevyStochCalc/Brownian/ItoLocality.lean:589:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoLocality.lean:589:22: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoLocality.lean:590:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Brownian/ItoLocality.lean:590:22: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Poisson.CompensatedProcess",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Poisson.CompensatedProcess.log",
+      "accepted_log_sha256": "9d4fdfd608ffb9f0efba53bf5fa2ea1dad7b19d6bb5d86a7538611e83af14219",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Poisson/CompensatedProcess.lean:168:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Brownian.CrossOrthogonalityDirectCross",
+      "warning_count": 4,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Brownian.CrossOrthogonalityDirectCross.log",
+      "accepted_log_sha256": "c54b97f149c5107a5079ce56e778d4965de2e043719f22a5a3a3621636e35bf0",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Brownian/CrossOrthogonalityDirectCross.lean:130:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Brownian/CrossOrthogonalityDirectCross.lean:139:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Brownian/CrossOrthogonalityDirectCross.lean:140:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Brownian/CrossOrthogonalityDirectCross.lean:210:39: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Brownian.ItoIncrementMomentRestrict",
+      "warning_count": 12,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Brownian.ItoIncrementMomentRestrict.log",
+      "accepted_log_sha256": "10a152d1664b12bedbd2712693fee919f4ccd389131face97f132e7f753d554e",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Brownian/ItoIncrementMomentRestrict.lean:55:20: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Brownian/ItoIncrementMomentRestrict.lean:57:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoIncrementMomentRestrict.lean:71:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Brownian/ItoIncrementMomentRestrict.lean:116:8: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoIncrementMomentRestrict.lean:121:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoIncrementMomentRestrict.lean:124:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Brownian/ItoIncrementMomentRestrict.lean:146:8: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoIncrementMomentRestrict.lean:147:8: warning: `dif_neg` has been deprecated: Use `dite_eq_right` instead",
+        "LevyStochCalc/Brownian/ItoIncrementMomentRestrict.lean:158:8: warning: `dif_pos` has been deprecated: Use `dite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoIncrementMomentRestrict.lean:159:8: warning: `dif_neg` has been deprecated: Use `dite_eq_right` instead",
+        "LevyStochCalc/Brownian/ItoIncrementMomentRestrict.lean:210:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoIncrementMomentRestrict.lean:223:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Poisson.CompensatedQuadVar",
+      "warning_count": 4,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Poisson.CompensatedQuadVar.log",
+      "accepted_log_sha256": "12a8c97cdec66200f36dfdf89d4532d3f527f3e9e78c4e8b35a80df1e10cae55",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Poisson/CompensatedQuadVar.lean:192:27: warning: `if_true` has been deprecated: Use `ite_true` instead",
+        "LevyStochCalc/Poisson/CompensatedQuadVar.lean:195:27: warning: `if_false` has been deprecated: Use `ite_false` instead",
+        "LevyStochCalc/Poisson/CompensatedQuadVar.lean:206:21: warning: `if_true` has been deprecated: Use `ite_true` instead",
+        "LevyStochCalc/Poisson/CompensatedQuadVar.lean:214:34: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Brownian.ItoIncrementMomentBounds",
+      "warning_count": 3,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Brownian.ItoIncrementMomentBounds.log",
+      "accepted_log_sha256": "32cf35fe132d9641594f55f2973d2d8fcff2b8d33560bf4ab41f17a5fb63d97f",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Brownian/ItoIncrementMomentBounds.lean:85:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Brownian/ItoIncrementMomentBounds.lean:86:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Brownian/ItoIncrementMomentBounds.lean:90:42: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Brownian.CrossOrthogonalityLimit",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Brownian.CrossOrthogonalityLimit.log",
+      "accepted_log_sha256": "11e86c664232646f671580ef435a94bbdb66fe6a2f54d897df58d62d7b0bc63c",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Brownian/CrossOrthogonalityLimit.lean:322:2: warning: Try this: ",
+        "LevyStochCalc/Brownian/CrossOrthogonalityLimit.lean:339:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Brownian.ItoVersionExists",
+      "warning_count": 5,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Brownian.ItoVersionExists.log",
+      "accepted_log_sha256": "94e9507320e79b49c0a9cc771bfeb7dd9f1c1d59ae4b92c20ed3d14d684040a9",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Brownian/ItoVersionExists.lean:172:23: warning: `if_true` has been deprecated: Use `ite_true` instead",
+        "LevyStochCalc/Brownian/ItoVersionExists.lean:174:23: warning: `if_false` has been deprecated: Use `ite_false` instead",
+        "LevyStochCalc/Brownian/ItoVersionExists.lean:182:4: warning: Try this: ",
+        "LevyStochCalc/Brownian/ItoVersionExists.lean:188:21: warning: `if_false` has been deprecated: Use `ite_false` instead",
+        "LevyStochCalc/Brownian/ItoVersionExists.lean:199:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Brownian.VectorItoVersionExists",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Brownian.VectorItoVersionExists.log",
+      "accepted_log_sha256": "df5b666c875def8887cc3509859d602e6518b93cf86fce93d4f5868ede7786a8",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Brownian/VectorItoVersionExists.lean:83:4: warning: Try this: "
+      ]
+    },
+    {
+      "module": "KLS.VectorBrownianExample",
+      "warning_count": 4,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.VectorBrownianExample.log",
+      "accepted_log_sha256": "277f895f2af04c1faf91d5d238d6fe8ac66c687d35d83c9c2243e0e4e52d38ac",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/VectorBrownianExample.lean:72:2: warning: Try this: ",
+        "KLS/VectorBrownianExample.lean:109:0: warning: automatically included section variable(s) unused in theorem `KLSLevyProbe.identityDiffusion_bound`:",
+        "KLS/VectorBrownianExample.lean:150:16: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "KLS/VectorBrownianExample.lean:166:16: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Poisson.CompensatedRange",
+      "warning_count": 4,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Poisson.CompensatedRange.log",
+      "accepted_log_sha256": "25c873b26bc9ab73a7ee2eccd9acf740bae9bf2f61cd02095e91471710ff0a50",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Poisson/CompensatedRange.lean:188:2: warning: Try this: ",
+        "LevyStochCalc/Poisson/CompensatedRange.lean:321:2: warning: Try this: ",
+        "LevyStochCalc/Poisson/CompensatedRange.lean:322:2: warning: Try this: ",
+        "LevyStochCalc/Poisson/CompensatedRange.lean:324:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Poisson.CompensatedPullOut",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Poisson.CompensatedPullOut.log",
+      "accepted_log_sha256": "e95915b833e839435aac14a54932c376822e89b7ca9a794fbdc36c20a2a1671b",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Poisson/CompensatedPullOut.lean:96:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "SpectralReductionExactLemma38",
+      "warning_count": 1,
+      "baseline_module": false,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/spectral2-clean-independent/logs/SpectralReductionExactLemma38.log",
+      "accepted_log_sha256": "cdf48f14117bfe175a6172c17e33551bf00fbf086cfaacd7f12ad7dbabb5fc1c",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "SpectralReductionExactLemma38.lean:64:46: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Ito.PicardSpaceDiscrete",
+      "warning_count": 9,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Ito.PicardSpaceDiscrete.log",
+      "accepted_log_sha256": "19717725305454122eb51409c89c45531a79301ccc4c74812b1cca7babd434ae",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Ito/PicardSpaceDiscrete.lean:159:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Ito/PicardSpaceDiscrete.lean:159:18: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Ito/PicardSpaceDiscrete.lean:166:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Ito/PicardSpaceDiscrete.lean:173:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Ito/PicardSpaceDiscrete.lean:177:12: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Ito/PicardSpaceDiscrete.lean:177:24: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Ito/PicardSpaceDiscrete.lean:178:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Ito/PicardSpaceDiscrete.lean:189:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Ito/PicardSpaceDiscrete.lean:236:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Ito.PicardIntegrandBounds",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Ito.PicardIntegrandBounds.log",
+      "accepted_log_sha256": "c9f57e10c3150d4c371c628c0be1cb10e0010d18f6d44e56d86d4861b15c0267",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Ito/PicardIntegrandBounds.lean:366:2: warning: Try this: ",
+        "LevyStochCalc/Ito/PicardIntegrandBounds.lean:382:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Ito.PicardOutputMoments",
+      "warning_count": 3,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Ito.PicardOutputMoments.log",
+      "accepted_log_sha256": "fed569ae4ddfe45331ef2614396146cda500cd40330322ab8b679db0407ffba3",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Ito/PicardOutputMoments.lean:183:2: warning: Try this: ",
+        "LevyStochCalc/Ito/PicardOutputMoments.lean:196:2: warning: Try this: ",
+        "LevyStochCalc/Ito/PicardOutputMoments.lean:297:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Ito.PicardOutputModification",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Ito.PicardOutputModification.log",
+      "accepted_log_sha256": "e6b83a818f9961e8dd7b8077d6d202d0c5fc015a353e578d954cf54ee1d6f380",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Ito/PicardOutputModification.lean:116:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "SpectralReductionGeneralLemma38",
+      "warning_count": 1,
+      "baseline_module": false,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/spectral4-independent/logs/SpectralReductionGeneralLemma38.log",
+      "accepted_log_sha256": "d015ef249faab8a7de7aea094931ff9a37401ba47f2ea84df43a4f9f7a60f009",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "SpectralReductionGeneralLemma38.lean:62:46: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Ito.VectorItoProcessDiff",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Ito.VectorItoProcessDiff.log",
+      "accepted_log_sha256": "d42f16494239ee59f955a3e55debc6869d0ca2f438f5793ec8adcfd9c7ae9dde",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Ito/VectorItoProcessDiff.lean:46:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "SpectralReductionRankLemma38",
+      "warning_count": 1,
+      "baseline_module": false,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/spectral3-independent/logs/SpectralReductionRankLemma38.log",
+      "accepted_log_sha256": "f65c68a6098f4978df0aeddeacc4634fd6a99317e6a351652bdc36d4064be79f",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "SpectralReductionRankLemma38.lean:47:46: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Ito.ItoFormulaUnboundedClamp",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Ito.ItoFormulaUnboundedClamp.log",
+      "accepted_log_sha256": "7efc1d3689c09733796936fc8a860c346412a4f058c710b96d55517c90660ca8",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Ito/ItoFormulaUnboundedClamp.lean:405:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "SpectralReductionRankSumRecurrence",
+      "warning_count": 2,
+      "baseline_module": false,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/spectral3-independent/logs/SpectralReductionRankSumRecurrence.log",
+      "accepted_log_sha256": "fa12bba1a7e4d1d397d1690c7476c5d32d1d4cbcf4209fbc8bf114b6ec45073d",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "SpectralReductionRankSumRecurrence.lean:76:8: warning: Unused tactic linter: `ring` does nothing",
+        "SpectralReductionRankSumRecurrence.lean:76:8: warning: this tactic is never executed"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Ito.VectorItoVersionLimit",
+      "warning_count": 6,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Ito.VectorItoVersionLimit.log",
+      "accepted_log_sha256": "65f5180923f070baa66517429ca41e5355602061bd419eef333e5b04803427cd",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Ito/VectorItoVersionLimit.lean:286:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Ito/VectorItoVersionLimit.lean:369:12: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Ito/VectorItoVersionLimit.lean:404:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "LevyStochCalc/Ito/VectorItoVersionLimit.lean:431:14: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "LevyStochCalc/Ito/VectorItoVersionLimit.lean:449:4: warning: Try this: ",
+        "LevyStochCalc/Ito/VectorItoVersionLimit.lean:457:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "LevyStochCalc.Ito.PicardGlobal",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/LevyStochCalc.Ito.PicardGlobal.log",
+      "accepted_log_sha256": "25b56208182a15d866e1eb45c64411123e99026b57c775c6a10b69d10c62043c",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "LevyStochCalc/Ito/PicardGlobal.lean:108:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "SpectralReductionYoungRecovery",
+      "warning_count": 1,
+      "baseline_module": false,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/spectral6-independent/logs/SpectralReductionYoungRecovery.log",
+      "accepted_log_sha256": "f6183987b213ad4c2c28999a9d15b6472e14d87bdc09a41b9dbd2fb52381d24c",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "SpectralReductionYoungRecovery.lean:42:69: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice"
+      ]
+    },
+    {
+      "module": "KLS.LocalProcessConstruction",
+      "warning_count": 4,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.LocalProcessConstruction.log",
+      "accepted_log_sha256": "cb613bfbd363a55f34b78f73d5548a1a7ca40e5be1f228a02be1298072e4b521",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/LocalProcessConstruction.lean:122:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "KLS/LocalProcessConstruction.lean:122:20: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "KLS/LocalProcessConstruction.lean:124:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "KLS/LocalProcessConstruction.lean:124:20: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveLocalProcess",
+      "warning_count": 6,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveLocalProcess.log",
+      "accepted_log_sha256": "ab6edb52a3f6ed60ccafcd2cfefcd419c6ef05ea00ea91d2f30d0bf2b04d8efc",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveLocalProcess.lean:30:67: warning: This simp argument is unused:",
+        "KLS/AdaptiveLocalProcess.lean:47:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.BallProcess.parameterPath_continuous`:",
+        "KLS/AdaptiveLocalProcess.lean:50:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.BallProcess.parameterPath_initial`:",
+        "KLS/AdaptiveLocalProcess.lean:54:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.BallProcess.linear_noise_eq`:",
+        "KLS/AdaptiveLocalProcess.lean:60:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.BallProcess.matrix_noise_eq_zero`:",
+        "KLS/AdaptiveLocalProcess.lean:79:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.BallProcess.linear_equation`:"
+      ]
+    },
+    {
+      "module": "KLS.LocalStoppedPair",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.LocalStoppedPair.log",
+      "accepted_log_sha256": "a4ee1d9af7ec9fcd2a2c645f032e1966a793b65629b78a6c89a95a328cced9c0",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/LocalStoppedPair.lean:81:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead"
+      ]
+    },
+    {
+      "module": "KLS.CommonExitDifference",
+      "warning_count": 5,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.CommonExitDifference.log",
+      "accepted_log_sha256": "5152f65b120222f01c8473b26926505bd5599ad6aa09cd599d137010b7b407ab",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/CommonExitDifference.lean:23:38: warning: `Set.setOf_or` has been deprecated: Use `Set.ofPred_or` instead",
+        "KLS/CommonExitDifference.lean:32:8: warning: `measurable_pi_lambda` has been deprecated: Use `Measurable.of_eval` instead",
+        "KLS/CommonExitDifference.lean:59:58: warning: Variable name `hT` is not explicitly referenced.",
+        "Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:",
+        "KLS/CommonExitDifference.lean:115:45: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead"
+      ]
+    },
+    {
+      "module": "KLS.CommonExitEnergy",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.CommonExitEnergy.log",
+      "accepted_log_sha256": "fe038f76deca55a8feb2186890b6ac222ed8bd48aa9a4fe0e4b8b1b99212b50b",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/CommonExitEnergy.lean:80:10: warning: `if_true` has been deprecated: Use `ite_true` instead"
+      ]
+    },
+    {
+      "module": "KLS.LocalObservableGenerator",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.LocalObservableGenerator.log",
+      "accepted_log_sha256": "43384c654744fba032ff684c8b1bb86400a1ac0bf52868f171b23a300e6d3d2b",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/LocalObservableGenerator.lean:74:12: warning: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead"
+      ]
+    },
+    {
+      "module": "KLS.LocalProcessCompatibility",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.LocalProcessCompatibility.log",
+      "accepted_log_sha256": "6c95d01a7bc02d96c8daf6f435c465d28c6b05f5b0fa09c07d638764ceade7a5",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/LocalProcessCompatibility.lean:62:52: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead"
+      ]
+    },
+    {
+      "module": "KLS.LocalProcessFamily",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.LocalProcessFamily.log",
+      "accepted_log_sha256": "338f22e230c8c498139c66c9fa686bfd2a1a9a6fb97f79cb7ab78cc0a0a9fef8",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/LocalProcessFamily.lean:34:25: warning: `Set.mem_setOf_eq` has been deprecated: Use `Set.mem_ofPred_eq` instead"
+      ]
+    },
+    {
+      "module": "KLS.LocalSmoothObservableIto",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.LocalSmoothObservableIto.log",
+      "accepted_log_sha256": "de0088cf097484c74696f2d751e9b3e31ddbf84fa33303764e629d50d0e71b03",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/LocalSmoothObservableIto.lean:26:2: warning: Unused tactic linter: `change"
+      ]
+    },
+    {
+      "module": "KLS.LocalFamilyPath",
+      "warning_count": 3,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.LocalFamilyPath.log",
+      "accepted_log_sha256": "31b75c135d5197703392ab1edb8ba11e9597dcfa126aa8b4f84005dfb4b95c21",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/LocalFamilyPath.lean:69:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "KLS/LocalFamilyPath.lean:75:35: warning: Variable name `\u03c9` is not explicitly referenced.",
+        "Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:"
+      ]
+    },
+    {
+      "module": "KLS.LocalFamilyExitIdentification",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.LocalFamilyExitIdentification.log",
+      "accepted_log_sha256": "6e9818eedf9fa3b39e9de4eb4caf7f72ece8cc28f20d8da9e18a17545a57ff1a",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/LocalFamilyExitIdentification.lean:48:24: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead"
+      ]
+    },
+    {
+      "module": "KLS.LocalFamilyEquation",
+      "warning_count": 4,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.LocalFamilyEquation.log",
+      "accepted_log_sha256": "9971ac9c7f0050b9755ee8c428ac3d0591fde3c43eea9917eb7c539824c3e439",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/LocalFamilyEquation.lean:38:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "KLS/LocalFamilyEquation.lean:38:19: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "KLS/LocalFamilyEquation.lean:39:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "KLS/LocalFamilyEquation.lean:39:19: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "KLS.ConstructedMaximalLocalSde",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.ConstructedMaximalLocalSde.log",
+      "accepted_log_sha256": "4d667d0e1d2da6f0f9e334a21d9a19537c104ccfc725dd45ee7ce0befda0f844",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/ConstructedMaximalLocalSde.lean:39:39: warning: Variable name `T` is not explicitly referenced.",
+        "Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveMaximalLocalProcess",
+      "warning_count": 6,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveMaximalLocalProcess.log",
+      "accepted_log_sha256": "da1d6cb46cf4125a347bac40662f3b9ce5fa326a1b63bc088252d7ced5dfea0c",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveMaximalLocalProcess.lean:26:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.MaximalProcess.parameterPath_initial`:",
+        "KLS/AdaptiveMaximalLocalProcess.lean:30:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.MaximalProcess.parameterPath_continuousOn`:",
+        "KLS/AdaptiveMaximalLocalProcess.lean:33:45: warning: Variable name `\u03c9` is not explicitly referenced.",
+        "Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:",
+        "KLS/AdaptiveMaximalLocalProcess.lean:36:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.MaximalProcess.linear_noise_eq`:",
+        "KLS/AdaptiveMaximalLocalProcess.lean:43:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.MaximalProcess.linear_equation`:"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveQuadraticParameter",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveQuadraticParameter.log",
+      "accepted_log_sha256": "268bce9d7f972c305a9ae580d483c7ff9c8834b3db285cadb9f8f45fc13a68c5",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveQuadraticParameter.lean:43:2: warning: Try this: ",
+        "KLS/AdaptiveQuadraticParameter.lean:76:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveCoordinateCovarianceBounds",
+      "warning_count": 9,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveCoordinateCovarianceBounds.log",
+      "accepted_log_sha256": "9f99e3937d470d35d580adfd983c0d0a255e2754204bc3d45505bf09e404d871",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveCoordinateCovarianceBounds.lean:15:2: warning: Try this: ",
+        "KLS/AdaptiveCoordinateCovarianceBounds.lean:62:17: warning: This simp argument is unused:",
+        "KLS/AdaptiveCoordinateCovarianceBounds.lean:62:31: warning: This simp argument is unused:",
+        "KLS/AdaptiveCoordinateCovarianceBounds.lean:62:48: warning: This simp argument is unused:",
+        "KLS/AdaptiveCoordinateCovarianceBounds.lean:61:72: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice",
+        "KLS/AdaptiveCoordinateCovarianceBounds.lean:80:17: warning: This simp argument is unused:",
+        "KLS/AdaptiveCoordinateCovarianceBounds.lean:80:31: warning: This simp argument is unused:",
+        "KLS/AdaptiveCoordinateCovarianceBounds.lean:80:48: warning: This simp argument is unused:",
+        "KLS/AdaptiveCoordinateCovarianceBounds.lean:79:72: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveCovarianceNoise",
+      "warning_count": 3,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveCovarianceNoise.log",
+      "accepted_log_sha256": "544b9c173fd7345d127e9fd31d95aa8d951f65b6f8a4ddcfaf0b43eb69988c3b",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveCovarianceNoise.lean:20:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.supportNormBound_pos`:",
+        "KLS/AdaptiveCovarianceNoise.lean:23:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.norm_le_supportNormBound`:",
+        "KLS/AdaptiveCovarianceNoise.lean:49:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.covarianceNoiseCoefficient_eq_sum`:"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveMaximalCovarianceNoise",
+      "warning_count": 5,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveMaximalCovarianceNoise.log",
+      "accepted_log_sha256": "ac8533641b0efa03c110b1883e8141e375a616dc32367976e1b5a86533d7fd4a",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveMaximalCovarianceNoise.lean:55:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "KLS/AdaptiveMaximalCovarianceNoise.lean:55:19: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "KLS/AdaptiveMaximalCovarianceNoise.lean:56:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "KLS/AdaptiveMaximalCovarianceNoise.lean:56:19: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "KLS/AdaptiveMaximalCovarianceNoise.lean:47:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.MaximalProcess.covarianceNoise_eq_local`:"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveMaximalCovarianceIto",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveMaximalCovarianceIto.log",
+      "accepted_log_sha256": "27929e9d8c57bc959a64cf492aeac75c738879e5734776b01cc410bf37790650",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveMaximalCovarianceIto.lean:28:40: warning: Variable name `\u03c9` is not explicitly referenced.",
+        "Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveStandardizedMoments",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveStandardizedMoments.log",
+      "accepted_log_sha256": "d222a0ee735d7f6c3ff534a5c09410a2758f73890486bb3666d8c3e49fbb759d",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveStandardizedMoments.lean:26:2: warning: Try this: ",
+        "KLS/AdaptiveStandardizedMoments.lean:40:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveCovarianceMatrixDerivatives",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveCovarianceMatrixDerivatives.log",
+      "accepted_log_sha256": "a7fb75d862fc1e84d2f6461ff7fa0b5035e9707ec01394834f4b6a4b98db4027",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveCovarianceMatrixDerivatives.lean:49:37: warning: `ContinuousLinearMap.add_apply` has been deprecated: Use `_root_.add_apply` instead",
+        "KLS/AdaptiveCovarianceMatrixDerivatives.lean:49:37: warning: This simp argument is unused:"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveLogDetDerivatives",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveLogDetDerivatives.log",
+      "accepted_log_sha256": "ddb6da8dfc4f9e74a51f95a180f7af2050df76e70b029af31abebe46c090712f",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveLogDetDerivatives.lean:52:35: warning: `ContinuousLinearMap.add_apply` has been deprecated: Use `_root_.add_apply` instead",
+        "KLS/AdaptiveLogDetDerivatives.lean:52:35: warning: This simp argument is unused:"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveMaximalLogDetIto",
+      "warning_count": 5,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveMaximalLogDetIto.log",
+      "accepted_log_sha256": "39b336d1345d6502f0144fb38a807e8162e101724a4cfde64f7ccf2124690879",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveMaximalLogDetIto.lean:54:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "KLS/AdaptiveMaximalLogDetIto.lean:54:19: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "KLS/AdaptiveMaximalLogDetIto.lean:55:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "KLS/AdaptiveMaximalLogDetIto.lean:55:19: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "KLS/AdaptiveMaximalLogDetIto.lean:46:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.MaximalProcess.logDetNoise_eq_local`:"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveWhitenedCovarianceNoise",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveWhitenedCovarianceNoise.log",
+      "accepted_log_sha256": "f31888d4088f921a0cfe538462be9705656f673b2bdaf818e57c0421ecdcc577",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveWhitenedCovarianceNoise.lean:21:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveLogDetBounds",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveLogDetBounds.log",
+      "accepted_log_sha256": "864cb817cd5ff04ed99e7b9a18a585154629a03479bc32f438c567f5a0e025ae",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveLogDetBounds.lean:30:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "KLS.AdaptivePathLogDetBounds",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptivePathLogDetBounds.log",
+      "accepted_log_sha256": "674801b553ba3c6b1f0cad225cb394efb058ccfc20fe6ed806ece18fcb0149cf",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptivePathLogDetBounds.lean:43:2: warning: Unused tactic linter: `change |if (t : WithTop \u211d) \u2264 D.exit m \u03c9 then _ else 0| \u2264 _` does nothing"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveClippedLogDet",
+      "warning_count": 3,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveClippedLogDet.log",
+      "accepted_log_sha256": "2afb2b2a096b6de33f600d2e18053292a39c837cca4a8a205379a5364bdf26ee",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveClippedLogDet.lean:60:8: warning: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead",
+        "KLS/AdaptiveClippedLogDet.lean:65:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.MaximalProcess.clippedLogDetNoise_bound`:",
+        "KLS/AdaptiveClippedLogDet.lean:95:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.MaximalProcess.clippedLogDetDrift_bound`:"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveClippedLogDetEquation",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveClippedLogDetEquation.log",
+      "accepted_log_sha256": "0cdbcd0d82c0cd0c8b9933b99d300197ed8ceec68c3915e6d50239509b5aa123",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveClippedLogDetEquation.lean:27:2: warning: Unused tactic linter: `change"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveContinuousLogDet",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveContinuousLogDet.log",
+      "accepted_log_sha256": "4ab6941a46c980055fd246022ef39baab9dee3d80c3f41f1ac30f8a66142fa54",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveContinuousLogDet.lean:50:10: warning: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveCovarianceCompactBounds",
+      "warning_count": 4,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveCovarianceCompactBounds.log",
+      "accepted_log_sha256": "a9ef929f5b347afe7500640caa4a299427012aed872c4c1a95852b7b86d50edd",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveCovarianceCompactBounds.lean:15:2: warning: Try this: ",
+        "KLS/AdaptiveCovarianceCompactBounds.lean:16:2: warning: Try this: ",
+        "KLS/AdaptiveCovarianceCompactBounds.lean:25:2: warning: Try this: ",
+        "KLS/AdaptiveCovarianceCompactBounds.lean:26:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "KLS.AdaptivePathCoefficientBounds",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptivePathCoefficientBounds.log",
+      "accepted_log_sha256": "c1482077d3a1768d21cf53d1751fa83f33d21750205b857c2ce37bd1e209139f",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptivePathCoefficientBounds.lean:25:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.norm_linearDrift_le_of_bounds`:"
+      ]
+    },
+    {
+      "module": "KLS.LocalFamilyClippedCoefficients",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.LocalFamilyClippedCoefficients.log",
+      "accepted_log_sha256": "e3008337efe59801684d73b5d704ea6eea9a5a44631a01adfd2b04a59419d737",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/LocalFamilyClippedCoefficients.lean:18:23: warning: Variable name `D` is not explicitly referenced.",
+        "Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:"
+      ]
+    },
+    {
+      "module": "KLS.LocalFamilyClippedEquation",
+      "warning_count": 5,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.LocalFamilyClippedEquation.log",
+      "accepted_log_sha256": "b573ba182f579852462945c351db85f6d3caf41d10293f66ea2347085aefe91b",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/LocalFamilyClippedEquation.lean:35:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "KLS/LocalFamilyClippedEquation.lean:35:21: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "KLS/LocalFamilyClippedEquation.lean:37:10: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "KLS/LocalFamilyClippedEquation.lean:39:10: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "KLS/LocalFamilyClippedEquation.lean:39:21: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveCovarianceUniformNoise",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveCovarianceUniformNoise.log",
+      "accepted_log_sha256": "c0a4ef3f9c9e6ebb2e9b62dc1bc0cb9d7bd76db879b15d94e8eeee899331f8e1",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveCovarianceUniformNoise.lean:32:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveAverageDerivatives",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveAverageDerivatives.log",
+      "accepted_log_sha256": "3fb4152a4aaf06c3907d64110d2edb49fae191e9e8bc03d517ae4b1668546e5f",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveAverageDerivatives.lean:54:72: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice",
+        "KLS/AdaptiveAverageDerivatives.lean:75:72: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveLocalAverageIto",
+      "warning_count": 5,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveLocalAverageIto.log",
+      "accepted_log_sha256": "f8594bf7d725fb1f27ff267928ddbefd7013fe08e711ca641fd015770b2484d7",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveLocalAverageIto.lean:17:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.averageNoiseCoefficient_eq_sum`:",
+        "KLS/AdaptiveLocalAverageIto.lean:17:40: warning: Variable name `h\u03bc` is not explicitly referenced.",
+        "Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:",
+        "KLS/AdaptiveLocalAverageIto.lean:18:5: warning: Variable name `hfi` is not explicitly referenced.",
+        "Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveGlobalAverageIto",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveGlobalAverageIto.log",
+      "accepted_log_sha256": "9d3716ab4fd7c9cd23d1a02e78d47efa3a7375f1efb8877f90f26912e6582822",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveGlobalAverageIto.lean:25:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.MaximalProcess.localAverageNoise_eq_stopped_global`:"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveLogMGFDerivatives",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveLogMGFDerivatives.log",
+      "accepted_log_sha256": "a31373b8e6d82c7cffe482b788826e4fd9c6ac051a3ccdadc6f9ed9e02367425",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveLogMGFDerivatives.lean:56:72: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveLogMGFSpatial",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveLogMGFSpatial.log",
+      "accepted_log_sha256": "ff8a90b07b4abd0dce6fae539b1da482e2c588075ccd02cb6778c662f7e431b8",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveLogMGFSpatial.lean:18:72: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveLocalLogMGFIto",
+      "warning_count": 3,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveLocalLogMGFIto.log",
+      "accepted_log_sha256": "d3a05ad990938b33d73fde41f4671baf4acc8eb9cd60a8420ee89c25850b60dd",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveLocalLogMGFIto.lean:17:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.logMGFNoiseCoefficient_eq_sum`:",
+        "KLS/AdaptiveLocalLogMGFIto.lean:17:39: warning: Variable name `h\u03bc` is not explicitly referenced.",
+        "Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveLogPartition",
+      "warning_count": 3,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveLogPartition.log",
+      "accepted_log_sha256": "1b6b120c05b02be85414c8f06bc0d42cf589a90f42e019cfedb6c2f917f00720",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveLogPartition.lean:29:34: warning: This simp argument is unused:",
+        "KLS/AdaptiveLogPartition.lean:29:67: warning: This simp argument is unused:",
+        "KLS/AdaptiveLogPartition.lean:29:76: warning: This simp argument is unused:"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveCumulantDerivatives",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveCumulantDerivatives.log",
+      "accepted_log_sha256": "78837b96d4dc086643baabd05e60d6920a1986144e4cb73157e8d044d4f7a325",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveCumulantDerivatives.lean:27:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveCumulantGenerator",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveCumulantGenerator.log",
+      "accepted_log_sha256": "7f7b60374f4652e90f2a8affd34959cfb6f004a0d55352ebf6671e3ad3d10d85",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveCumulantGenerator.lean:39:42: warning: Variable name `k` is not explicitly referenced.",
+        "Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveCumulantContraction",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveCumulantContraction.log",
+      "accepted_log_sha256": "328ba8ff12f0afb0fc21125bb1c4512bdb40e5400c1ad06cda3bd0b9b4411869",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveCumulantContraction.lean:47:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveCumulantDrift",
+      "warning_count": 5,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveCumulantDrift.log",
+      "accepted_log_sha256": "c2d97c1072068e2d839233f32740d6c16611aaca61bc2853e0e5b9be76f9c318",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveCumulantDrift.lean:19:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.cumulantSubsetTerm_complement`:",
+        "KLS/AdaptiveCumulantDrift.lean:25:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.cumulantSubsetTerm_empty`:",
+        "KLS/AdaptiveCumulantDrift.lean:57:2: warning: Try this: ",
+        "KLS/AdaptiveCumulantDrift.lean:75:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.lowerCumulantDrift_eq_middle`:",
+        "KLS/AdaptiveCumulantDrift.lean:83:19: warning: This simp argument is unused:"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveLocalCumulantIto",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveLocalCumulantIto.log",
+      "accepted_log_sha256": "6bb049855f1f83c55367cbcdafeb9af313bf7205ca95435de6675a18574c9d88",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveLocalCumulantIto.lean:35:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.observableGenerator_coordinateCumulant`:"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveMaximalCumulantNoise",
+      "warning_count": 5,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveMaximalCumulantNoise.log",
+      "accepted_log_sha256": "38ee466492c36de978c902f5f9a763f139b92a7f7d0d85e912a4abc0f4de7860",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveMaximalCumulantNoise.lean:54:8: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "KLS/AdaptiveMaximalCumulantNoise.lean:54:19: warning: `if_pos` has been deprecated: Use `ite_eq_left` instead",
+        "KLS/AdaptiveMaximalCumulantNoise.lean:55:8: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "KLS/AdaptiveMaximalCumulantNoise.lean:55:19: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead",
+        "KLS/AdaptiveMaximalCumulantNoise.lean:46:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.MaximalProcess.cumulantNoise_eq_local`:"
+      ]
+    },
+    {
+      "module": "KLS.TensorMatrixFamily",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.TensorMatrixFamily.log",
+      "accepted_log_sha256": "410bb3db8467968525c1f77801de0eb022ac59dceb55aab7039ee36a74311e2f",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/TensorMatrixFamily.lean:30:6: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.",
+        "KLS/TensorMatrixFamily.lean:34:51: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead"
+      ]
+    },
+    {
+      "module": "KLS.TensorMatrixDifferential",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.TensorMatrixDifferential.log",
+      "accepted_log_sha256": "4c663975f0043b7f75794b4d3a47db33ab030b3041ee63d31f4a22767dd4de02",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/TensorMatrixDifferential.lean:69:10: warning: This simp argument is unused:"
+      ]
+    },
+    {
+      "module": "KLS.TensorSlotLinear",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.TensorSlotLinear.log",
+      "accepted_log_sha256": "0b61f22ca843f94a9205936d32ac2e119082ae470ed9751b528273357b351fea",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/TensorSlotLinear.lean:16:30: warning: This simp argument is unused:"
+      ]
+    },
+    {
+      "module": "KLS.MatrixInverseSecond",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.MatrixInverseSecond.log",
+      "accepted_log_sha256": "a359a868315b30cba8e9adbb6af390c8c04d26811aeb4e3816cba9fc6f7a965e",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/MatrixInverseSecond.lean:30:13: warning: `ContinuousLinearMap.neg_apply` has been deprecated: Use `_root_.neg_apply` instead"
+      ]
+    },
+    {
+      "module": "KLS.CoordinateQuadraticDerivatives",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.CoordinateQuadraticDerivatives.log",
+      "accepted_log_sha256": "0a6b6d17de5174ddc1dd7966892c1891c4d8d0a4e25786a42c1922e9b7e91fd3",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/CoordinateQuadraticDerivatives.lean:13:0: warning: automatically included section variable(s) unused in theorem `KLS.TensorEnergy.fderiv_vector_entry`:",
+        "KLS/CoordinateQuadraticDerivatives.lean:19:0: warning: automatically included section variable(s) unused in theorem `KLS.TensorEnergy.differentiableAt_dotProduct`:"
+      ]
+    },
+    {
+      "module": "KLS.TensorMetricGenerator",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.TensorMetricGenerator.log",
+      "accepted_log_sha256": "1be0956390b7394bf0d7e9c07dc064a8c948bac5b81d1b8e203d61c9b5bc5756",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/TensorMetricGenerator.lean:61:60: warning: This simp argument is unused:",
+        "KLS/TensorMetricGenerator.lean:62:2: warning: Unused tactic linter: `push_cast` does nothing"
+      ]
+    },
+    {
+      "module": "KLS.TensorEnergyCorrection",
+      "warning_count": 3,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.TensorEnergyCorrection.log",
+      "accepted_log_sha256": "81c3411d18580dd1a04fc91693700ef9adb864be7c98ebab1cd52627699afbb8",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/TensorEnergyCorrection.lean:20:40: warning: Variable name `i` is not explicitly referenced.",
+        "Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:",
+        "KLS/TensorEnergyCorrection.lean:65:13: warning: This simp argument is unused:"
+      ]
+    },
+    {
+      "module": "KLS.TensorWhitenedGenerator",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.TensorWhitenedGenerator.log",
+      "accepted_log_sha256": "3207f5c8e194d78657be59c112f43c11eb3849159cb61bec4adfff1c1c87a34c",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/TensorWhitenedGenerator.lean:18:34: warning: This simp argument is unused:",
+        "KLS/TensorWhitenedGenerator.lean:18:51: warning: This simp argument is unused:"
+      ]
+    },
+    {
+      "module": "KLS.TensorCoordinateExpansion",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.TensorCoordinateExpansion.log",
+      "accepted_log_sha256": "cdd18cc7c229c5a95f5d22e94005ced3cf66acf5c1e3590b0a5f61465d9fae4a",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/TensorCoordinateExpansion.lean:87:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveMaximalSmoothNoise",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveMaximalSmoothNoise.log",
+      "accepted_log_sha256": "39f6e3b984533ee8d0fde127f68644b24f941af271f94a795e501c03f9ffdbbf",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveMaximalSmoothNoise.lean:28:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.MaximalProcess.smoothNoiseCoefficient_continuous`:",
+        "KLS/AdaptiveMaximalSmoothNoise.lean:46:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.MaximalProcess.smoothNoise_eq_local`:"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveMaximalSmoothIto",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveMaximalSmoothIto.log",
+      "accepted_log_sha256": "31931851609d9bc6d02c5e817584ebb084f084aab6216d18f9c97d7e182e727e",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveMaximalSmoothIto.lean:59:8: warning: automatically included section variable(s) unused in theorem `_private.KLS.AdaptiveMaximalSmoothIto.0.KLS.AdaptiveLocalization.martingale_finsetSum`:"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveEnergyIto",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveEnergyIto.log",
+      "accepted_log_sha256": "800d7da664feffaacf3ae58f36079fa812580670aefe9cf98a982f15cdc85559",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveEnergyIto.lean:83:18: warning: Variable name `hr` is not explicitly referenced.",
+        "Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveEnergyApriori",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveEnergyApriori.log",
+      "accepted_log_sha256": "d3d2856937a4f0e5bf8d374c66db585cbd00dc03dde4cb7f6f221c8bc28e508b",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveEnergyApriori.lean:36:2: warning: Try this: "
+      ]
+    },
+    {
+      "module": "KLS.TensorEntryBounds",
+      "warning_count": 4,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.TensorEntryBounds.log",
+      "accepted_log_sha256": "a80181f118aa82860e491493a3ab3982fcd71bebfbfba99ba15afd65e62b1476",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/TensorEntryBounds.lean:12:13: warning: Variable name `hB` is not explicitly referenced.",
+        "Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:",
+        "KLS/TensorEntryBounds.lean:57:59: warning: This simp argument is unused:",
+        "KLS/TensorEntryBounds.lean:58:8: warning: This simp argument is unused:"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveEnergyNoiseBound",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveEnergyNoiseBound.log",
+      "accepted_log_sha256": "f82d3e5ca4e84d344ef90a517920b1407449ed1db37efc08e9426657ce7c8562",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveEnergyNoiseBound.lean:96:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.energyUniformNoiseBound_nonnegative`:"
+      ]
+    },
+    {
+      "module": "KLS.AdaptiveGlobalEnergyIto",
+      "warning_count": 2,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.AdaptiveGlobalEnergyIto.log",
+      "accepted_log_sha256": "fbd41a370931977b702d8613daec0721d20cb3fae7a4ecbb0786f90970c3412c",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/AdaptiveGlobalEnergyIto.lean:19:8: warning: automatically included section variable(s) unused in theorem `_private.KLS.AdaptiveGlobalEnergyIto.0.KLS.AdaptiveLocalization.martingale_sum_energy`:",
+        "KLS/AdaptiveGlobalEnergyIto.lean:33:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.energyNoiseCoefficient_eq_coordinate_sum`:"
+      ]
+    },
+    {
+      "module": "KLS.EnergyLowerRegularity",
+      "warning_count": 1,
+      "baseline_module": true,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/source-rebuild/KLS.EnergyLowerRegularity.log",
+      "accepted_log_sha256": "3bae9ff5ab0412d81b75b783a2eed4af0665d65dca3cecc4c3f36dc6a09095cf",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "KLS/EnergyLowerRegularity.lean:21:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.lowerCumulantEnergy_nonnegative`:"
+      ]
+    },
+    {
+      "module": "SpectralReductionFiniteRankTaylor",
+      "warning_count": 3,
+      "baseline_module": false,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/spectral5-independent/logs/SpectralReductionFiniteRankTaylor.log",
+      "accepted_log_sha256": "1a91a87d12a9432313517e6fe96777fb2955ade715725a5dbae897154971df62",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "SpectralReductionFiniteRankTaylor.lean:34:121: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice",
+        "SpectralReductionFiniteRankTaylor.lean:38:121: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice",
+        "SpectralReductionFiniteRankTaylor.lean:42:123: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice"
+      ]
+    },
+    {
+      "module": "SpectralReductionRankScalar",
+      "warning_count": 2,
+      "baseline_module": false,
+      "accepted_log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/spectral3-independent/logs/SpectralReductionRankScalar.log",
+      "accepted_log_sha256": "4b080c679efc09e5bb22fd4f82fe280212fa3f1ab7a2b11fd72a662d1637a0a7",
+      "warning_lines_exactly_equal_accepted_log": true,
+      "warning_lines": [
+        "SpectralReductionRankScalar.lean:26:8: warning: Unused tactic linter: `ring` does nothing",
+        "SpectralReductionRankScalar.lean:26:8: warning: this tactic is never executed"
+      ]
+    }
+  ]
+}

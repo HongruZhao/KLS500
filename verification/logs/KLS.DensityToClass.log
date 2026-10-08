@@ -1,0 +1,4 @@
+'KLS.measureLogConcave_withDensity_of_pointwise' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.ExtendedConvex.expNegPotential_logConcave' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.HasLogConcaveDensity.measureLogConcave' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.admissibleMeasure_iff_isKLSMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]

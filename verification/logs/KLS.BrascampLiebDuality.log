@@ -1,0 +1,6 @@
+'KLS.matrix_inverse_young' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.continuous_inverse_coordinateHessian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integrable_inverseHessianGradientForm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_weightedDiffusion_eq_zero_of_hasCompactSupport' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.memLp_weightedDiffusion_of_hasCompactSupport' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.brascampLieb_dual_diffusion' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,14 @@
+KLS/TensorEnergyCorrection.lean:20:40: warning: Variable name `i` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _i
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+KLS/TensorEnergyCorrection.lean:65:13: warning: This simp argument is unused:
+  Pi.star_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [star_trivial] at hp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'KLS.TensorEnergy.tensorSlot_noise_sum_le' depends on axioms: [propext, Classical.choice, Quot.sound]

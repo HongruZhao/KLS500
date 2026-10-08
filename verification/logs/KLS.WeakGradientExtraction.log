@@ -1,0 +1,3 @@
+'KLS.exists_weak_limit_of_bounded_hilbert' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.tendsto_toLp_of_eLpNorm_sub_tendsto_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_weak_coordinateDerivative_of_approximation' depends on axioms: [propext, Classical.choice, Quot.sound]

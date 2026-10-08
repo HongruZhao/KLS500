@@ -1,0 +1,206 @@
+DEFINITION_ORIGIN_OK OAI.LeanBlast.KLS.Space|OAI.Analysis.KLS.Model|def|[propext, Classical.choice, Quot.sound]
+DEFINITION_ORIGIN_OK OAI.LeanBlast.KLS.densityMeasure|OAI.Analysis.KLS.Model|def|[propext, Classical.choice, Quot.sound]
+DEFINITION_ORIGIN_OK OAI.LeanBlast.KLS.IsLogConcaveDensity|OAI.Analysis.KLS.Model|inductive|[propext,
+ Classical.choice,
+ Quot.sound]
+DEFINITION_ORIGIN_OK OAI.LeanBlast.KLS.IsIsotropic|OAI.Analysis.KLS.Model|inductive|[propext,
+ Classical.choice,
+ Quot.sound]
+DEFINITION_ORIGIN_OK OAI.LeanBlast.KLS.expectation|OAI.Analysis.KLS.Model|def|[propext, Classical.choice, Quot.sound]
+DEFINITION_ORIGIN_OK OAI.LeanBlast.KLS.variance|OAI.Analysis.KLS.Model|def|[propext, Classical.choice, Quot.sound]
+DEFINITION_ORIGIN_OK OAI.LeanBlast.KLS.dirichletEnergy|OAI.Analysis.KLS.Model|def|[propext,
+ Classical.choice,
+ Quot.sound]
+DEFINITION_ORIGIN_OK OAI.LeanBlast.KLS.IsTestFunction|OAI.Analysis.KLS.Model|def|[propext, Classical.choice, Quot.sound]
+DEFINITION_ORIGIN_OK OAI.LeanBlast.KLS.PoincareBound|OAI.Analysis.KLS.Model|def|[propext, Classical.choice, Quot.sound]
+DEFINITION_ORIGIN_OK OAI.LeanBlast.KLS.KLSStatement|OAI.Analysis.KLS.Model|def|[propext, Classical.choice, Quot.sound]
+DEFINITION_ORIGIN_OK OAI.LeanBlast.KLS.FullStatement|OAI.Analysis.KLS.Model|def|[propext, Classical.choice, Quot.sound]
+DEFINITION_ORIGIN_OK KLS.Space|KLS.Definitions|def|[propext, Classical.choice, Quot.sound]
+DEFINITION_ORIGIN_OK KLS.IsIsotropic|KLS.Definitions|def|[propext, Classical.choice, Quot.sound]
+DEFINITION_ORIGIN_OK KLS.HasLogConcaveDensity|KLS.Definitions|def|[propext, Classical.choice, Quot.sound]
+DEFINITION_ORIGIN_OK KLS.IsKLSMeasure|KLS.Definitions|inductive|[propext, Classical.choice, Quot.sound]
+DEFINITION_ORIGIN_OK KLS.admissibleMeasure|KLS.Definitions|inductive|[propext, Classical.choice, Quot.sound]
+DEFINITION_ORIGIN_OK KLS.measureLogConcave|KLS.Definitions|def|[propext, Classical.choice, Quot.sound]
+DEFINITION_ORIGIN_OK KLS.energy|KLS.Definitions|def|[propext, Classical.choice, Quot.sound]
+DEFINITION_ORIGIN_OK KLS.variance|KLS.Definitions|def|[propext, Classical.choice, Quot.sound]
+DEFINITION_ORIGIN_OK KLS.poincareConstants|KLS.Definitions|def|[propext, Classical.choice, Quot.sound]
+DEFINITION_ORIGIN_OK KLS.cheegerConstant|KLS.Definitions|def|[propext, Classical.choice, Quot.sound]
+DEFINITION_ORIGIN_OK KLS.KLSConjecture|KLS.Definitions|def|[propext, Classical.choice, Quot.sound]
+DEFINITION_ORIGIN_OK KLS.admissibleMeasure_iff_isKLSMeasure|KLS.DensityToClass|theorem|[propext,
+ Classical.choice,
+ Quot.sound]
+DEFINITION_ORIGIN_OK KLS.OpenAIBridge.admissible|OpenAIKLSBridge|theorem|[propext, Classical.choice, Quot.sound]
+DEFINITION_ORIGIN_OK KLS.OpenAIBridge.poincareBound_of_mem|OpenAIKLSBridge|theorem|[propext,
+ Classical.choice,
+ Quot.sound]
+DEFINITION_ORIGIN_OK OAI.LeanBlast.KLS.poincareBound500|OpenAIKLS500|theorem|[propext, Classical.choice, Quot.sound]
+DEFINITION_ORIGIN_OK OAI.LeanBlast.KLS.klsStatement500|OpenAIKLS500|theorem|[propext, Classical.choice, Quot.sound]
+DEFINITION_ORIGIN_OK KLS.admissibleMeasure.poincare_mem_coupledRankYoung|CoupledRankYoungFullVerification|theorem|[propext,
+ Classical.choice,
+ Quot.sound]
+DEFINITION_ORIGIN_OK KLS.admissibleMeasure.cheeger_lower_entropy197_500|Entropy197500FullVerification|theorem|[propext,
+ Classical.choice,
+ Quot.sound]
+DEFINITION_ORIGIN_OK KLS.exactOpenAIKLSStatement_entropy197_500|Entropy197500FullVerification|theorem|[propext,
+ Classical.choice,
+ Quot.sound]
+DEFINITION_ORIGIN_OK KLS.dimensionFree500_and_cheeger197|Entropy197500FullVerification|theorem|[propext,
+ Classical.choice,
+ Quot.sound]
+DEFINITION_ORIGINS_PASSED 31
+@[reducible] def OAI.LeanBlast.KLS.Space : ℕ → Type :=
+fun n => EuclideanSpace ℝ (Fin n)
+def OAI.LeanBlast.KLS.densityMeasure : {n : ℕ} →
+  (OAI.LeanBlast.KLS.Space n → ℝ) → MeasureTheory.Measure (OAI.LeanBlast.KLS.Space n) :=
+fun {n} ρ => MeasureTheory.MeasureSpace.volume.withDensity fun x => ENNReal.ofReal (ρ x)
+structure OAI.LeanBlast.KLS.IsLogConcaveDensity {n : ℕ} (ρ : OAI.LeanBlast.KLS.Space n → ℝ) : Prop
+number of parameters: 2
+fields:
+  OAI.LeanBlast.KLS.IsLogConcaveDensity.nonnegative : ∀ (x : OAI.LeanBlast.KLS.Space n), 0 ≤ ρ x
+  OAI.LeanBlast.KLS.IsLogConcaveDensity.measurable : Measurable ρ
+  OAI.LeanBlast.KLS.IsLogConcaveDensity.probability : MeasureTheory.IsProbabilityMeasure
+      (OAI.LeanBlast.KLS.densityMeasure ρ)
+  OAI.LeanBlast.KLS.IsLogConcaveDensity.log_concave : ConcaveOn ℝ {x | 0 < ρ x} fun x => Real.log (ρ x)
+constructor:
+  OAI.LeanBlast.KLS.IsLogConcaveDensity.mk {n : ℕ} {ρ : OAI.LeanBlast.KLS.Space n → ℝ}
+    (nonnegative : ∀ (x : OAI.LeanBlast.KLS.Space n), 0 ≤ ρ x) (measurable : Measurable ρ)
+    (probability : MeasureTheory.IsProbabilityMeasure (OAI.LeanBlast.KLS.densityMeasure ρ))
+    (log_concave : ConcaveOn ℝ {x | 0 < ρ x} fun x => Real.log (ρ x)) : OAI.LeanBlast.KLS.IsLogConcaveDensity ρ
+structure OAI.LeanBlast.KLS.IsIsotropic {n : ℕ} (μ : MeasureTheory.Measure (OAI.LeanBlast.KLS.Space n)) : Prop
+number of parameters: 2
+fields:
+  OAI.LeanBlast.KLS.IsIsotropic.integrable_coordinate : ∀ (i : Fin n), MeasureTheory.Integrable (fun x => x.ofLp i) μ
+  OAI.LeanBlast.KLS.IsIsotropic.integrable_product : ∀ (i j : Fin n),
+      MeasureTheory.Integrable (fun x => x.ofLp i * x.ofLp j) μ
+  OAI.LeanBlast.KLS.IsIsotropic.mean_zero : ∀ (i : Fin n), ∫ (x : OAI.LeanBlast.KLS.Space n), x.ofLp i ∂μ = 0
+  OAI.LeanBlast.KLS.IsIsotropic.second_moment : ∀ (i j : Fin n),
+      ∫ (x : OAI.LeanBlast.KLS.Space n), x.ofLp i * x.ofLp j ∂μ = if i = j then 1 else 0
+constructor:
+  OAI.LeanBlast.KLS.IsIsotropic.mk {n : ℕ} {μ : MeasureTheory.Measure (OAI.LeanBlast.KLS.Space n)}
+    (integrable_coordinate : ∀ (i : Fin n), MeasureTheory.Integrable (fun x => x.ofLp i) μ)
+    (integrable_product : ∀ (i j : Fin n), MeasureTheory.Integrable (fun x => x.ofLp i * x.ofLp j) μ)
+    (mean_zero : ∀ (i : Fin n), ∫ (x : OAI.LeanBlast.KLS.Space n), x.ofLp i ∂μ = 0)
+    (second_moment :
+      ∀ (i j : Fin n), ∫ (x : OAI.LeanBlast.KLS.Space n), x.ofLp i * x.ofLp j ∂μ = if i = j then 1 else 0) :
+    OAI.LeanBlast.KLS.IsIsotropic μ
+def OAI.LeanBlast.KLS.expectation : {n : ℕ} →
+  MeasureTheory.Measure (OAI.LeanBlast.KLS.Space n) → (OAI.LeanBlast.KLS.Space n → ℝ) → ℝ :=
+fun {n} μ f => ∫ (x : OAI.LeanBlast.KLS.Space n), f x ∂μ
+def OAI.LeanBlast.KLS.variance : {n : ℕ} →
+  MeasureTheory.Measure (OAI.LeanBlast.KLS.Space n) → (OAI.LeanBlast.KLS.Space n → ℝ) → ℝ :=
+fun {n} μ f => ∫ (x : OAI.LeanBlast.KLS.Space n), (f x - OAI.LeanBlast.KLS.expectation μ f) ^ 2 ∂μ
+def OAI.LeanBlast.KLS.dirichletEnergy : {n : ℕ} →
+  MeasureTheory.Measure (OAI.LeanBlast.KLS.Space n) → (OAI.LeanBlast.KLS.Space n → ℝ) → ℝ :=
+fun {n} μ f => ∫ (x : OAI.LeanBlast.KLS.Space n), ‖gradient f x‖ ^ 2 ∂μ
+def OAI.LeanBlast.KLS.IsTestFunction : {n : ℕ} → (OAI.LeanBlast.KLS.Space n → ℝ) → Prop :=
+fun {n} f => ContDiff ℝ (↑⊤) f ∧ HasCompactSupport f
+def OAI.LeanBlast.KLS.PoincareBound : {n : ℕ} → MeasureTheory.Measure (OAI.LeanBlast.KLS.Space n) → ℝ → Prop :=
+fun {n} μ C =>
+  ∀ (f : OAI.LeanBlast.KLS.Space n → ℝ),
+    OAI.LeanBlast.KLS.IsTestFunction f → OAI.LeanBlast.KLS.variance μ f ≤ C * OAI.LeanBlast.KLS.dirichletEnergy μ f
+def OAI.LeanBlast.KLS.KLSStatement : Prop :=
+∃ C,
+  0 < C ∧
+    ∀ (n : ℕ),
+      1 ≤ n →
+        ∀ (ρ : OAI.LeanBlast.KLS.Space n → ℝ),
+          OAI.LeanBlast.KLS.IsLogConcaveDensity ρ →
+            OAI.LeanBlast.KLS.IsIsotropic (OAI.LeanBlast.KLS.densityMeasure ρ) →
+              OAI.LeanBlast.KLS.PoincareBound (OAI.LeanBlast.KLS.densityMeasure ρ) C
+@[reducible] def OAI.LeanBlast.KLS.FullStatement : Prop :=
+OAI.LeanBlast.KLS.KLSStatement
+@[reducible] def KLS.Space : ℕ → Type :=
+fun n => EuclideanSpace ℝ (Fin n)
+def KLS.IsIsotropic : {n : ℕ} → MeasureTheory.Measure (KLS.Space n) → Prop :=
+fun {n} μ =>
+  MeasureTheory.Integrable (fun x => x) μ ∧
+    ∫ (x : KLS.Space n), x ∂μ = 0 ∧
+      (∀ (i j : Fin n), MeasureTheory.Integrable (fun x => x.ofLp i * x.ofLp j) μ) ∧ KLS.secondMomentMatrix μ = 1
+def KLS.HasLogConcaveDensity : {n : ℕ} → MeasureTheory.Measure (KLS.Space n) → Prop :=
+fun {n} μ =>
+  ∃ V,
+    KLS.ExtendedConvex V ∧
+      (Measurable fun x => KLS.expNegPotential (V x)) ∧
+        μ = MeasureTheory.MeasureSpace.volume.withDensity fun x => KLS.expNegPotential (V x)
+structure KLS.IsKLSMeasure {n : ℕ} (μ : MeasureTheory.Measure (KLS.Space n)) : Prop
+number of parameters: 2
+fields:
+  KLS.IsKLSMeasure.isProb : MeasureTheory.IsProbabilityMeasure μ
+  KLS.IsKLSMeasure.absCont : KLS.AbsolutelyContinuousLebesgue μ
+  KLS.IsKLSMeasure.logConcave : KLS.HasLogConcaveDensity μ
+  KLS.IsKLSMeasure.isotropic : KLS.IsIsotropic μ
+constructor:
+  KLS.IsKLSMeasure.mk {n : ℕ} {μ : MeasureTheory.Measure (KLS.Space n)} (isProb : MeasureTheory.IsProbabilityMeasure μ)
+    (absCont : KLS.AbsolutelyContinuousLebesgue μ) (logConcave : KLS.HasLogConcaveDensity μ)
+    (isotropic : KLS.IsIsotropic μ) : KLS.IsKLSMeasure μ
+structure KLS.admissibleMeasure {n : ℕ} (μ : MeasureTheory.Measure (KLS.Space n)) : Prop
+number of parameters: 2
+fields:
+  KLS.admissibleMeasure.isProb : MeasureTheory.IsProbabilityMeasure μ
+  KLS.admissibleMeasure.logConcave : KLS.measureLogConcave μ
+  KLS.admissibleMeasure.isotropic : KLS.IsIsotropic μ
+constructor:
+  KLS.admissibleMeasure.mk {n : ℕ} {μ : MeasureTheory.Measure (KLS.Space n)}
+    (isProb : MeasureTheory.IsProbabilityMeasure μ) (logConcave : KLS.measureLogConcave μ)
+    (isotropic : KLS.IsIsotropic μ) : KLS.admissibleMeasure μ
+def KLS.measureLogConcave : {n : ℕ} → MeasureTheory.Measure (KLS.Space n) → Prop :=
+fun {n} μ =>
+  ∀ (E F : Set (KLS.Space n)),
+    IsCompact E → IsCompact F → ∀ (t : ℝ), 0 < t → t < 1 → μ E ^ t * μ F ^ (1 - t) ≤ μ (KLS.affineSetCombination t E F)
+def KLS.energy : {n : ℕ} → MeasureTheory.Measure (KLS.Space n) → (KLS.Space n → ℝ) → ENNReal :=
+fun {n} μ f => ∫⁻ (x : KLS.Space n), ENNReal.ofReal (‖gradient f x‖ ^ 2) ∂μ
+def KLS.variance : {n : ℕ} → MeasureTheory.Measure (KLS.Space n) → (KLS.Space n → ℝ) → ENNReal :=
+fun {n} μ f => ProbabilityTheory.evariance f μ
+def KLS.poincareConstants : {n : ℕ} → MeasureTheory.Measure (KLS.Space n) → Set NNReal :=
+fun {n} μ => {C | ∀ (f : KLS.Space n → ℝ), KLS.LocallyLipschitzTests μ f → KLS.variance μ f ≤ ↑C * KLS.energy μ f}
+def KLS.cheegerConstant : {n : ℕ} → MeasureTheory.Measure (KLS.Space n) → ENNReal :=
+fun {n} μ => ⨅ A, KLS.boundaryMeasure μ ↑A / Min.min (μ ↑A) (1 - μ ↑A)
+def KLS.KLSConjecture : Prop :=
+∃ c,
+  0 < c ∧
+    ∀ (n : ℕ),
+      1 ≤ n → ∀ (μ : MeasureTheory.Measure (KLS.Space n)), KLS.IsKLSMeasure μ → ENNReal.ofReal c ≤ KLS.cheegerConstant μ
+theorem KLS.admissibleMeasure_iff_isKLSMeasure : ∀ {n : ℕ} {μ : MeasureTheory.Measure (KLS.Space n)},
+  KLS.admissibleMeasure μ ↔ KLS.IsKLSMeasure μ :=
+⋯
+theorem KLS.OpenAIBridge.admissible : ∀ {n : ℕ} {ρ : KLS.Space n → ℝ},
+  OAI.LeanBlast.KLS.IsLogConcaveDensity ρ →
+    OAI.LeanBlast.KLS.IsIsotropic (OAI.LeanBlast.KLS.densityMeasure ρ) →
+      KLS.admissibleMeasure (OAI.LeanBlast.KLS.densityMeasure ρ) :=
+⋯
+theorem KLS.OpenAIBridge.poincareBound_of_mem : ∀ {n : ℕ} {ρ : KLS.Space n → ℝ},
+  OAI.LeanBlast.KLS.IsLogConcaveDensity ρ →
+    ∀ {C : NNReal},
+      C ∈ KLS.poincareConstants (OAI.LeanBlast.KLS.densityMeasure ρ) →
+        OAI.LeanBlast.KLS.PoincareBound (OAI.LeanBlast.KLS.densityMeasure ρ) ↑C :=
+⋯
+theorem OAI.LeanBlast.KLS.poincareBound500 : ∀ (n : ℕ),
+  1 ≤ n →
+    ∀ (ρ : OAI.LeanBlast.KLS.Space n → ℝ),
+      OAI.LeanBlast.KLS.IsLogConcaveDensity ρ →
+        OAI.LeanBlast.KLS.IsIsotropic (OAI.LeanBlast.KLS.densityMeasure ρ) →
+          OAI.LeanBlast.KLS.PoincareBound (OAI.LeanBlast.KLS.densityMeasure ρ) 500 :=
+⋯
+theorem OAI.LeanBlast.KLS.klsStatement500 : OAI.LeanBlast.KLS.KLSStatement :=
+⋯
+theorem KLS.admissibleMeasure.poincare_mem_coupledRankYoung : ∀ {n : ℕ},
+  1 ≤ n → ∀ {μ : MeasureTheory.Measure (KLS.Space n)}, KLS.admissibleMeasure μ → 500 ∈ KLS.poincareConstants μ :=
+⋯
+theorem KLS.admissibleMeasure.cheeger_lower_entropy197_500 : ∀ {n : ℕ},
+  1 ≤ n →
+    ∀ {μ : MeasureTheory.Measure (KLS.Space n)},
+      KLS.admissibleMeasure μ → ENNReal.ofReal (100 / (197 * √500)) ≤ KLS.cheegerConstant μ :=
+⋯
+theorem KLS.exactOpenAIKLSStatement_entropy197_500 : OAI.LeanBlast.KLS.KLSStatement :=
+OAI.LeanBlast.KLS.klsStatement500
+theorem KLS.dimensionFree500_and_cheeger197 : (∀ (n : ℕ),
+    1 ≤ n →
+      ∀ (ρ : OAI.LeanBlast.KLS.Space n → ℝ),
+        OAI.LeanBlast.KLS.IsLogConcaveDensity ρ →
+          OAI.LeanBlast.KLS.IsIsotropic (OAI.LeanBlast.KLS.densityMeasure ρ) →
+            OAI.LeanBlast.KLS.PoincareBound (OAI.LeanBlast.KLS.densityMeasure ρ) 500) ∧
+  ∀ (n : ℕ),
+    1 ≤ n →
+      ∀ (μ : MeasureTheory.Measure (KLS.Space n)),
+        KLS.admissibleMeasure μ → ENNReal.ofReal (100 / (197 * √500)) ≤ KLS.cheegerConstant μ :=
+⋯

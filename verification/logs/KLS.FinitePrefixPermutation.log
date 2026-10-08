@@ -1,0 +1,3 @@
+'KLS.prefixFinPermHom_apply_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.prefixFinPermHom_apply_suffix' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.realCoordinateAverage_absorb_prefix' depends on axioms: [propext, Classical.choice, Quot.sound]

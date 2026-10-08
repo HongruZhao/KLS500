@@ -1,0 +1,4 @@
+'KLS.MomentMap.hessianMatrix_isSymm' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.MomentMap.sum_integral_transportedGradientDerivative_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.MomentMap.integrable_transported_hessian_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.quadratic_variance_le_transported_hessian_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]

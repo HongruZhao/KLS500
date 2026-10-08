@@ -1,0 +1,3 @@
+'KLS.LocalDiffusion.LocalProcess.itoFormula_original_bounded_derivative' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

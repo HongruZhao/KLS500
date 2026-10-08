@@ -1,0 +1,1 @@
+'KLS.weightedIterationBlockTaylor_partial' depends on axioms: [propext, Classical.choice, Quot.sound]

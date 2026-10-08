@@ -1,0 +1,18 @@
+KLS/AdaptiveFeatureTilt.lean:85:31: warning: This simp argument is unused:
+  WithLp.toLp_ofLp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [feature, toSpace, WithLp.ofLp_toLp, Fin.sum_univ_add, Fin.addCases_left, Fin.addCases_right]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+KLS/AdaptiveFeatureTilt.lean:146:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+'KLS.AdaptiveLocalization.contDiff_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.AdaptiveLocalization.contDiff_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.AdaptiveLocalization.contDiff_covariance' depends on axioms: [propext, Classical.choice, Quot.sound]

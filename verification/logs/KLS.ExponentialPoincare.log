@@ -1,0 +1,7 @@
+'KLS.CenteredExponential.ae_deriv_comp_embedding_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.CenteredExponential.energy_eq_deriv_comp_embedding' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.CenteredExponential.four_mem_poincareConstants' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.CenteredExponential.poincareConstant_eq_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.CenteredExponential.isKLSMeasure_and_poincareConstant_eq_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

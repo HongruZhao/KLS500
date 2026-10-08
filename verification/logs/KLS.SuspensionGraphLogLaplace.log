@@ -1,0 +1,2 @@
+'KLS.contDiff_graphLogLaplace_of_linear_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.fderiv_graphLogLaplace_first_at_zero_signal' depends on axioms: [propext, Classical.choice, Quot.sound]

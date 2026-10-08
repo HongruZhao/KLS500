@@ -1,0 +1,3 @@
+'KLS.isProbabilityMeasure_normalizedMomentPotential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.gradient_map_eq_of_moment_integral_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.IsIsotropic.exists_bounded_momentMap' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,10 @@
+KLS/LocalizationSmooth.lean:47:43: warning: This simp argument is unused:
+  WithLp.toLp_ofLp
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [localizationFeature, toSpace, WithLp.ofLp_toLp, Fin.sum_univ_succ, Fin.cons_zero, Fin.cons_succ]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'KLS.StandardLocalization.contDiff_average' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.StandardLocalization.contDiff_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.StandardLocalization.contDiff_covariance' depends on axioms: [propext, Classical.choice, Quot.sound]

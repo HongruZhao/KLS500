@@ -1,0 +1,27 @@
+KLS/LocalizationTilt.lean:90:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+KLS/LocalizationTilt.lean:111:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+KLS/LocalizationTilt.lean:117:2: warning: Try this: 
+  haveI̵
+
+The goal is a proposition, so `have` is preferred over `haveI`.
+The difference between `have` and `haveI` is that `haveI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+'KLS.StandardLocalization.continuous_mean' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.StandardLocalization.continuous_covariance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.StandardLocalization.norm_mean_le' depends on axioms: [propext, Classical.choice, Quot.sound]

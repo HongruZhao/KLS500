@@ -1,0 +1,4 @@
+'KLS.exists_bound_diffusion_potentialHeight' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.potentialSublevelTail_energy_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.potentialSublevelCutoff_L1_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_potentialSublevelCutoff_L1_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

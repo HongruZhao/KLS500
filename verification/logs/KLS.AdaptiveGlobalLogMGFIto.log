@@ -1,0 +1,6 @@
+'KLS.AdaptiveLocalization.MaximalProcess.logMGF_equation_global' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.AdaptiveLocalization.MaximalProcess.logMGF_equation_spatial' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

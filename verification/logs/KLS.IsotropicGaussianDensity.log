@@ -1,0 +1,6 @@
+'KLS.map_smul_withDensity_ofReal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.isotropicGaussianPotential_contDiff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.admissibleMeasure.isotropicGaussianPotential_convex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.admissibleMeasure.isotropicGaussianSmoothing_eq_exp_potential' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

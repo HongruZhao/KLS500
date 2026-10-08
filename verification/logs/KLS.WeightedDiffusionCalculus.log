@@ -1,0 +1,5 @@
+'KLS.coordinateHessian_eq_fderiv_fderiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.coordinateHessian_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.coordinateLaplacian_eq_laplacian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedDiffusion_eq_laplacian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_mul_laplacian_sub_inner_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]

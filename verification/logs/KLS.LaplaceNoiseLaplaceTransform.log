@@ -1,0 +1,2 @@
+'KLS.integral_exp_mul_laplaceNoiseLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.contDiffAt_laplaceNoise_transform_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

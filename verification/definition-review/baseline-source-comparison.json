@@ -1,0 +1,72 @@
+[
+  {
+    "module": "KLS.Definitions",
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/KLS/Definitions.lean",
+    "sha256": "03cbf1b33c56933d4fb03ad5d6659829bf62be7f35a0c5aedfdb91c5efb91ec6",
+    "accepted_baseline_sha256": "03cbf1b33c56933d4fb03ad5d6659829bf62be7f35a0c5aedfdb91c5efb91ec6",
+    "matches": true
+  },
+  {
+    "module": "KLS.Targets",
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/KLS/Targets.lean",
+    "sha256": "e1a20d28cc55d84dc8939066c4a504bd51578814b798344741f90cd16599d9ec",
+    "accepted_baseline_sha256": "e1a20d28cc55d84dc8939066c4a504bd51578814b798344741f90cd16599d9ec",
+    "matches": true
+  },
+  {
+    "module": "KLS.DensityToClass",
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/KLS/DensityToClass.lean",
+    "sha256": "8f49a7d0492571bf2b91068704da7503b815ce220d9a7f7093487e82ef460374",
+    "accepted_baseline_sha256": "8f49a7d0492571bf2b91068704da7503b815ce220d9a7f7093487e82ef460374",
+    "matches": true
+  },
+  {
+    "module": "KLS.ClassToDensity",
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/KLS/ClassToDensity.lean",
+    "sha256": "e4f81d721c1c5ef5b1f68d29808a238e58a6a4d2c529f0f499351fd0a5196b56",
+    "accepted_baseline_sha256": "e4f81d721c1c5ef5b1f68d29808a238e58a6a4d2c529f0f499351fd0a5196b56",
+    "matches": true
+  },
+  {
+    "module": "KLS.RealEndpoint",
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/KLS/RealEndpoint.lean",
+    "sha256": "bf126087e98852230cbffc037a494322b8c7524bb245a2419bae29cdbc338ddf",
+    "accepted_baseline_sha256": "bf126087e98852230cbffc037a494322b8c7524bb245a2419bae29cdbc338ddf",
+    "matches": true
+  },
+  {
+    "module": "KLS.GaussianExample",
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/KLS/GaussianExample.lean",
+    "sha256": "25cbcb1fd3a6d8b088bee70e463737e23dd72a6f0958d82c7a76088420c0a94c",
+    "accepted_baseline_sha256": "25cbcb1fd3a6d8b088bee70e463737e23dd72a6f0958d82c7a76088420c0a94c",
+    "matches": true
+  },
+  {
+    "module": "KLS.CheegerNonvacuity",
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/KLS/CheegerNonvacuity.lean",
+    "sha256": "a2fba11a668db72150daaec3531acb5803e97587a69d4f26bc5e9f4ae42d0ff1",
+    "accepted_baseline_sha256": "a2fba11a668db72150daaec3531acb5803e97587a69d4f26bc5e9f4ae42d0ff1",
+    "matches": true
+  },
+  {
+    "module": "KLS.FullVerification",
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/KLS/FullVerification.lean",
+    "sha256": "0d53ce99dfb67b27eff101f9a876432a5454088ccd0822a471bec77259ad86e5",
+    "accepted_baseline_sha256": "0d53ce99dfb67b27eff101f9a876432a5454088ccd0822a471bec77259ad86e5",
+    "matches": true
+  },
+  {
+    "module": "KLS.TruncationEnergy",
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/KLS/TruncationEnergy.lean",
+    "sha256": "21d0fa2bed48cd048c98d75bd445daf1dd571d77d9a4d3955dbe43991d584f41",
+    "accepted_baseline_sha256": "21d0fa2bed48cd048c98d75bd445daf1dd571d77d9a4d3955dbe43991d584f41",
+    "matches": true
+  },
+  {
+    "module": "KLS.WeightedOptimalPoincare",
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/KLS/WeightedOptimalPoincare.lean",
+    "sha256": "c07c704664d303852904aff63c0b22d6d16850377f5520f60167847e9a67c011",
+    "accepted_baseline_sha256": "c07c704664d303852904aff63c0b22d6d16850377f5520f60167847e9a67c011",
+    "matches": true
+  }
+]

@@ -1,0 +1,2 @@
+'KLS.openBoundaryMeasure_le_boundaryMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.openCheegerConstant_le_cheegerConstant' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,2 @@
+'KLS.weightedIterationSymmetrizedGradient_fixed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedIteration_symmetrization_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

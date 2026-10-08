@@ -1,0 +1,6 @@
+'KLS.AdaptiveLocalization.MaximalProcess.integrable_energyExpectation_Ioi' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.AdaptiveLocalization.MaximalProcess.tendsto_energyExpectation_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

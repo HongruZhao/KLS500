@@ -1,0 +1,35 @@
+{
+  "status": "PASS_SINGLE_LINE_ARTIFACT_SUFFIX_CORRECTION",
+  "created_utc": "2026-10-08T02:50:38.598476+00:00",
+  "reviewer": "bkl_audit",
+  "previous_review": "recovery-range-report-addendum.json",
+  "old_seal_runner_sha256": "23af26e985dbc9d1b14dbeaf2f3ed3fa1bae706677aab50efa79f9c471e5f2fd",
+  "corrected_seal_runner_sha256": "23bafab5605e34329907f7ade23e63967f60cbd343a0ef8f3afddac05406bff4",
+  "only_change": {
+    "before": "allowed_suffixes = ['.olean.private','.olean.server','.olean','.ir','.sig']",
+    "after": "allowed_suffixes = ['.olean.private','.olean.server','.olean','.ir.sig','.ir']"
+  },
+  "exact_single_line_replacement_verified": true,
+  "reason": "Lean names the signature sibling MODULE.ir.sig. Removing only .sig incorrectly produced the module name MODULE.ir. Removing the full .ir.sig suffix correctly recovers MODULE.",
+  "artifact_checks": {
+    "math_olean_files": 1710,
+    "olean_private_files": 168,
+    "olean_server_files": 168,
+    "ir_files": 168,
+    "ir_signature_files": 168,
+    "total_files": 2382,
+    "unrecognized_suffixes": 0,
+    "unknown_module_owners": 0
+  },
+  "build_receipt_readback": {
+    "effective_prepare_sha256": "6286fb8ccbb6a11fa9c450edfa50bf901ac87dd24d3f0186565861855f3c52dc",
+    "effective_build_sha256": "b77fd8e1d9edd2f356a4b6d5b12ac3cf6c835fa6a014832ba46492946764058a",
+    "success": true,
+    "completed": 1710,
+    "unique_successful_fresh_module_rows": 1710,
+    "source_and_copied_source_and_compile_row_hash_mismatches": []
+  },
+  "findings": [],
+  "scope_limit": "No mathematical source, compiler invocation, completed proof object, or audit logic was changed by this correction. Final sealing and the exhaustive Lean declaration audit remain separate execution steps; this review does not mark them complete.",
+  "reviewer_changes": "Only this additive JSON review was written."
+}

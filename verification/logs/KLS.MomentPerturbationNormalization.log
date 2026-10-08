@@ -1,0 +1,4 @@
+'KLS.IsIsotropic.exists_minimizer_momentLegendrePerturbation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.IsIsotropic.momentDualEnergy_normalizedPerturbation_toReal_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

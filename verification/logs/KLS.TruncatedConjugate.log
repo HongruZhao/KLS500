@@ -1,0 +1,6 @@
+'KLS.convexOn_truncatedLegendrePotential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.lipschitzWith_truncatedLegendrePotential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.truncatedLegendrePotential_eq_finiteLegendrePotential_of_contact' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.centeredTruncatedConjugate_eq_zero_iff' depends on axioms: [propext, Classical.choice, Quot.sound]

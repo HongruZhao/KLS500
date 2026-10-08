@@ -1,0 +1,9 @@
+KLS/MatrixLogDetSecond.lean:75:0: warning: automatically included section variable(s) unused in theorem `KLS.MatrixCalculus.fderiv_matrix_mul_apply`:
+  [DecidableEq ι]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq ι] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'KLS.MatrixCalculus.fderiv_matrix_mul_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.MatrixCalculus.fderiv_matrix_inv_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.MatrixCalculus.fderiv_fderiv_logDet_comp_apply_posDef' depends on axioms: [propext, Classical.choice, Quot.sound]

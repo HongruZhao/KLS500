@@ -1,0 +1,5 @@
+'KLS.integral_mul_coordinateDerivative_of_hasCompactSupport_left' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.integral_gradient_mul_eq_zero_of_divergence_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.forced_caccioppoli_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]

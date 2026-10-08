@@ -1,0 +1,8 @@
+SpectralReductionRankScalar.lean:26:8: warning: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+SpectralReductionRankScalar.lean:26:8: warning: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+'KLS.ConstantReduction.rank_dyadic_recurrence_first_lt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.ConstantReduction.rank_spectral_scalar_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

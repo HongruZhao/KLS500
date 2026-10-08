@@ -1,0 +1,4 @@
+'KLS.memLp_densityWeightedFunction_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.memLp_densityWeightedFlux_restrict' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weak_diffusion_reflected_kernel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.laplacian_mollified_weighted_distribution' depends on axioms: [propext, Classical.choice, Quot.sound]

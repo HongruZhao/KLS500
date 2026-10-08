@@ -1,0 +1,3 @@
+'KLS.faithfulCenteredGradientPair_mem' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_weightedH1_of_faithful_test' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_weightedH1_of_faithful_test_with_norms' depends on axioms: [propext, Classical.choice, Quot.sound]

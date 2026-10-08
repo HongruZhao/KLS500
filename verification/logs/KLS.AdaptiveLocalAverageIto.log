@@ -1,0 +1,19 @@
+KLS/AdaptiveLocalAverageIto.lean:17:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.averageNoiseCoefficient_eq_sum`:
+  [IsProbabilityMeasure μ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure μ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+KLS/AdaptiveLocalAverageIto.lean:17:40: warning: Variable name `hμ` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hμ
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+KLS/AdaptiveLocalAverageIto.lean:18:5: warning: Variable name `hfi` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _hfi
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'KLS.AdaptiveLocalization.BallProcess.average_equation' depends on axioms: [propext, Classical.choice, Quot.sound]

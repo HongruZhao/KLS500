@@ -1,0 +1,3 @@
+'KLS.gradient_comp_const_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.smoothCutoff_tendsto_one' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.smoothCutoff_gradient_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

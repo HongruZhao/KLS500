@@ -1,0 +1,4 @@
+'KLS.lconvolution_logConcave' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.measureLogConcave_conv_withDensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.HasLogConcaveDensity.conv_measureLogConcave' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.admissibleMeasure.conv_measureLogConcave' depends on axioms: [propext, Classical.choice, Quot.sound]

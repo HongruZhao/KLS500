@@ -1,0 +1,3 @@
+'KLS.memLp_coordinateHessian_entry_of_bounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_coordinateHessian_entry_eq_one_of_isotropic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_matrix_congruence_entry' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,1 @@
+'KLS.integral_gaussian_shift_mul_inner' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,9 @@
+'KLS.admissibleMeasure.tendsto_quadraticVariance_isotropicGaussianSmoothing' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.admissibleMeasure.quadraticVarianceEight_of_isotropicGaussianFamily' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.admissibleMeasure.quadraticVarianceEight_of_smooth_linear_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

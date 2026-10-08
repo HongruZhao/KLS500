@@ -1,0 +1,3 @@
+'KLS.sum_variance_hessianCongruence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.sum_integral_energy_hessianCongruence' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.hessianTrace_variance_control' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,5 @@
+'KLS.weightedH1_eq_zero_of_gradient_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedEnergyInverse_eq_zero_iff_of_integral_eq_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedEnergyInverse_gradient_eq_zero_iff_of_integral_eq_zero' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

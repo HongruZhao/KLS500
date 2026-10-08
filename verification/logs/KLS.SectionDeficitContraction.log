@@ -1,0 +1,3 @@
+'KLS.sectionDeficitContractionFactor_pos_lt_half' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.supportDeficit_midpoint_contraction' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.supportDeficit_dyadic_le' depends on axioms: [propext, Classical.choice, Quot.sound]

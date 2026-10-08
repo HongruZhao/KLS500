@@ -1,0 +1,4 @@
+'KLS.AdaptiveLocalization.hasDerivAt_coordinateCovariance_line' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.AdaptiveLocalization.abs_coordinateScore_le' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'KLS.gradient_matrixQuadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.IsIsotropic.integral_gradient_matrixQuadratic_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.IsIsotropic.energy_matrixQuadratic' depends on axioms: [propext, Classical.choice, Quot.sound]

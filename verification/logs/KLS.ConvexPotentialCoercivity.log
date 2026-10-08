@@ -1,0 +1,3 @@
+'KLS.isCompact_sublevel_of_finite_potentialMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.tendsto_potential_cocompact_atTop' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_minimizer_of_finite_potentialMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]

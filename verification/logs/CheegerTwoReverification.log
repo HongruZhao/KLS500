@@ -1,0 +1,21 @@
+KLS.FinalDustCheegerReview.coefficient_two_comparison : 1 / (2 * √500) ≤ 100 / (197 * √500)
+'KLS.FinalDustCheegerReview.coefficient_two_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+KLS.FinalDustCheegerReview.original_admissible_cheeger_two {n : ℕ} (hn : 1 ≤ n) {μ : Measure (KLS.Space n)}
+  (hμ : KLS.admissibleMeasure μ) : ENNReal.ofReal (1 / (2 * √500)) ≤ KLS.cheegerConstant μ
+'KLS.FinalDustCheegerReview.original_admissible_cheeger_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+KLS.FinalDustCheegerReview.original_density_cheeger_two {n : ℕ} (hn : 1 ≤ n) {μ : Measure (KLS.Space n)}
+  (hμ : KLS.IsKLSMeasure μ) : ENNReal.ofReal (1 / (2 * √500)) ≤ KLS.cheegerConstant μ
+'KLS.FinalDustCheegerReview.original_density_cheeger_two' depends on axioms: [propext, Classical.choice, Quot.sound]
+KLS.FinalDustCheegerReview.exact_openai_poincare500_and_original_cheeger_two :
+  (∀ (n : ℕ),
+      1 ≤ n →
+        ∀ (ρ : OAI.LeanBlast.KLS.Space n → ℝ),
+          OAI.LeanBlast.KLS.IsLogConcaveDensity ρ →
+            OAI.LeanBlast.KLS.IsIsotropic (OAI.LeanBlast.KLS.densityMeasure ρ) →
+              OAI.LeanBlast.KLS.PoincareBound (OAI.LeanBlast.KLS.densityMeasure ρ) 500) ∧
+    ∀ (n : ℕ),
+      1 ≤ n →
+        ∀ (μ : Measure (KLS.Space n)), KLS.admissibleMeasure μ → ENNReal.ofReal (1 / (2 * √500)) ≤ KLS.cheegerConstant μ
+'KLS.FinalDustCheegerReview.exact_openai_poincare500_and_original_cheeger_two' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

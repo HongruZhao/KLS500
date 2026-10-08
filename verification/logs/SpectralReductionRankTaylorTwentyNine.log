@@ -1,0 +1,6 @@
+'KLS.ConstantReduction.weightedCoordinateTaylorCoefficientBound_twentyNine' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.ConstantReduction.improvedTaylorCoefficientTwentyNine_le' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,12 @@
+'KLS.tendsto_integral_ballCutoffMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.measureLogConcave.fourthMoment_tail_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.admissibleMeasure.tendsto_secondMoment_ballCutoffMeasure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.admissibleMeasure.tendsto_covariance_ballCutoffMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.measureLogConcave.exists_compact_probability_cutoffs' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.tendsto_variance_ballCutoffMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.measureLogConcave.memLp_two_matrixQuadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.measureLogConcave.tendsto_quadraticVariance_ballCutoffMeasure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

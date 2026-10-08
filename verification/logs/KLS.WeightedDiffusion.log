@@ -1,0 +1,6 @@
+'KLS.coordinateDerivative_eq_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_mul_coordinate_diffusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_mul_weightedDiffusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_mul_weightedDiffusion_symmetric' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_mul_weightedDiffusion_self' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_mul_weightedDiffusion_self_nonpos' depends on axioms: [propext, Classical.choice, Quot.sound]

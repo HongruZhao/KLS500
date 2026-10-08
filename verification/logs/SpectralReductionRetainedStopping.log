@@ -1,0 +1,3 @@
+'KLS.ConstantReduction.weightedEigenIteration_exists_retained_energy_index' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

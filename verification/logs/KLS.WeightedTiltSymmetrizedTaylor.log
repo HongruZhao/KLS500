@@ -1,0 +1,5 @@
+'KLS.exponentialTiltTaylorCoefficient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedDiffusion_exponentialTilt_symmetrized_taylor_head' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.weightedDiffusion_exponentialTilt_symmetrized_taylor' depends on axioms: [propext, Classical.choice, Quot.sound]

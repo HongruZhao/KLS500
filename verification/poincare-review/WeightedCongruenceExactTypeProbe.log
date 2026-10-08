@@ -1,0 +1,23 @@
+fun {n} {φ} {κ κ'} =>
+  KLS.weightedIterationEnergy.congr_simp : ∀ {n : ℕ} {φ : KLS.Space n → ℝ} {κ κ' : ℝ} (e_κ : κ = κ')
+  [inst : IsProbabilityMeasure (KLS.potentialMeasure φ)] (hφ : ContDiff ℝ 2 φ) (hκ : 0 < κ)
+  (hlower : ∀ (x : KLS.Space n) (a : Fin n → ℝ), κ * a ⬝ᵥ a ≤ a ⬝ᵥ KLS.coordinateHessian φ x *ᵥ a) {ι : Type u}
+  [inst_1 : Fintype ι] (U U_1 : KLS.WeightedH1Family φ ι),
+  U = U_1 →
+    ∀ (k k_1 : ℕ),
+      k = k_1 →
+        KLS.weightedIterationEnergy hφ hκ hlower U k =
+          KLS.weightedIterationEnergy hφ (e_κ ▸ hκ)
+            (Eq.ndrec (motive := fun {κ} =>
+              ∀ (x : KLS.Space n) (a : Fin n → ℝ), κ * a ⬝ᵥ a ≤ a ⬝ᵥ KLS.coordinateHessian φ x *ᵥ a) hlower e_κ)
+            U_1 k_1
+'KLS.weightedIterationEnergy.congr_simp' depends on axioms: [propext, Classical.choice, Quot.sound]
+fun {n} =>
+  KLS.matrixFrobeniusSq.eq_1 : ∀ {n : ℕ} (M : Matrix (Fin n) (Fin n) ℝ), KLS.matrixFrobeniusSq M = ∑ i, ∑ j, M i j ^ 2
+'KLS.matrixFrobeniusSq.eq_1' depends on axioms: [propext, Classical.choice, Quot.sound]
+fun {n} {f} =>
+  KLS.coordinateDerivative_sq : ∀ {n : ℕ} {f : KLS.Space n → ℝ},
+  Differentiable ℝ f →
+    ∀ (i : Fin n) (x : KLS.Space n),
+      KLS.coordinateDerivative (fun y => f y ^ 2) i x = 2 * f x * KLS.coordinateDerivative f i x
+'KLS.coordinateDerivative_sq' depends on axioms: [propext, Classical.choice, Quot.sound]

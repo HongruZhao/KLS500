@@ -1,0 +1,44 @@
+{
+  "status": "passed_local_interface_review",
+  "accepted_release_modified": false,
+  "reference_commit": "61340d0b74163003b32756bb16e91d9209a5e330",
+  "interface_style": "proof-bearing, post-solution companion, separate environments",
+  "shared_proof_dependency": "FinalKLSRange",
+  "freshly_compiled_modules": [
+    "Challenge",
+    "KLS500",
+    "StatementAxioms"
+  ],
+  "theorem_names": [
+    "KLS500.poincare500",
+    "KLS500.cheeger197",
+    "KLS500.universalPoincareRange",
+    "KLS500.openaiPoincare500",
+    "KLS500.openaiKLS"
+  ],
+  "actual_endpoint_axioms": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "comparator_run": false,
+  "nanoda_run": false,
+  "no_new_definitions_or_axioms": true,
+  "challenge_and_solution_declaration_bodies_identical": true,
+  "semantic_checks": {
+    "poincare500": "All positive dimensions; full original compact-set log-concave isotropic probability-law class; full LocallyLipschitzTests = locally Lipschitz plus L2; original extended energy and variance; direct inequality with exact coefficient 500.",
+    "cheeger197": "Same full law class; original closed-neighborhood Cheeger constant; lower bound 100/(197*sqrt 500), denominator factor 197/100. Does not assert h > 2.",
+    "universalPoincareRange": "Original supremum of optimal constants over positive dimensions and admissible laws lies between 4 and 500; no per-law lower bound 4 and no optimality claim for 500.",
+    "openaiPoincare500": "Original upstream density model, density hypotheses and isotropy, smooth-compact test class encapsulated by original PoincareBound, fixed witness 500.",
+    "openaiKLS": "Exact original upstream KLSStatement, with no local redefinition."
+  },
+  "source_files": {
+    "Challenge.lean": "ae2fc652314c1f0eeca3947cf692da596031ae1b5b6fa781c75b3558f9ab9262",
+    "KLS500.lean": "0ef3ebf5d6047e28b3c63c5bc68e462e9f18854f7f82d006b7b863ed0e384b85",
+    "StatementAxioms.lean": "76884c9109ce51b7b0a65c0ab321b12994f567bd369f772a943a7ff3bf98a67d",
+    "StatementAxioms.log": "059a4a4729aa2042c5a194cc65c0013a4c3ffb9ff825afa2d4fd3fb7db89da60",
+    "interface-build-receipt.json": "c593751df68dfd5d37a688b4e3b40a6ecabcf1023e9360c76a446a65339a0de8",
+    "comparator/main.json": "6a716a21b3bfbdb94ddeafb73471ce9cae114d37812321bc90af9f04a3323430",
+    "layout-and-status-recommendation.txt": "4208f3971aa06814f0c31b85113b428b0d07f5a4aecd63f464748b876d41352b"
+  }
+}

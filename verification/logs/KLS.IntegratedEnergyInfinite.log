@@ -1,0 +1,6 @@
+'KLS.AdaptiveLocalization.MaximalProcess.expected_energy_inequality_infinite' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.AdaptiveLocalization.MaximalProcess.expected_cumulant_square_inequality' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

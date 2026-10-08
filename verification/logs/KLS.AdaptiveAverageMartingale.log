@@ -1,0 +1,6 @@
+'KLS.AdaptiveLocalization.MaximalProcess.averagePath_martingale' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.AdaptiveLocalization.MaximalProcess.integral_averagePath_eq_base' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

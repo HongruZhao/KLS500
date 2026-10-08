@@ -1,0 +1,4 @@
+'KLS.exists_maximizer_penalizedSecondDifference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.gradient_symmetricSecondDifference_at_penalized_max' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.tendsto_symmetricSecondDifference_directional' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.secondFrechet_nonpos_at_global_max' depends on axioms: [propext, Classical.choice, Quot.sound]

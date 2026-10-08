@@ -1,0 +1,6 @@
+'KLS.covariance_sq_le_variance_mul_variance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.IsIsotropic.integral_inner_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.IsIsotropic.integral_inner_mul_sq_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.IsIsotropic.integrable_thirdMoment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.IsIsotropic.thirdCumulant_self_pairing' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.IsIsotropic.thirdCumulant_frobeniusSq_le' depends on axioms: [propext, Classical.choice, Quot.sound]

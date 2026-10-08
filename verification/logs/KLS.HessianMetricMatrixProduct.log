@@ -1,0 +1,3 @@
+'KLS.hessianMetricDiffusionMatrix_const_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.hessianMetricDiffusion_trace_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.hessianMetricDiffusion_trace_square' depends on axioms: [propext, Classical.choice, Quot.sound]

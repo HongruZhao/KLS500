@@ -1,0 +1,3 @@
+'KLS.weighted_poisson_unweighted_test' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weighted_poisson_exists_smooth_representative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedEnergyInverse_exists_smooth_representative' depends on axioms: [propext, Classical.choice, Quot.sound]

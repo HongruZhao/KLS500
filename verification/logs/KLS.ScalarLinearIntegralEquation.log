@@ -1,0 +1,1 @@
+'KLS.LocalDiffusion.eq_exp_neg_mul_of_integral_equation' depends on axioms: [propext, Classical.choice, Quot.sound]

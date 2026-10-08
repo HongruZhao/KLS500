@@ -1,0 +1,24 @@
+[
+  {
+    "name": "KLS.hessianSquare.eq_1",
+    "baseline": {
+      "module": "KLS.WeightedSuccessorDomain",
+      "kind": "theorem",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    "accepted_final": {
+      "module": "ResolventGradientKato",
+      "kind": "theorem",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ]
+    },
+    "explanation": "Lean generates this reflexive unfolding theorem on demand in multiple modules. The accepted final environment selects ResolventGradientKato; the fresh environment must match that exact origin and the literal type."
+  }
+]

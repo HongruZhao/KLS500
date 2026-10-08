@@ -1,0 +1,9 @@
+KLS/AdaptivePathCoefficientBounds.lean:25:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.norm_linearDrift_le_of_bounds`:
+  [IsProbabilityMeasure μ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure μ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'KLS.AdaptiveLocalization.MaximalProcess.ae_finite_horizon_coefficient_bound' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'KLS.hasCompactSupport_deriv_sublevelCutoffProfile' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.sublevelCutoffTail_hasDerivAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.sublevelCutoffTail_norm_le' depends on axioms: [propext, Classical.choice, Quot.sound]

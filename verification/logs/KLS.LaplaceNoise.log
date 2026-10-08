@@ -1,0 +1,5 @@
+'KLS.isProbabilityMeasure_laplaceNoiseLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_id_laplaceNoiseLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_sq_laplaceNoiseLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integrable_exp_mul_abs_laplaceNoiseLaw' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_exp_mul_abs_laplaceNoiseLaw' depends on axioms: [propext, Classical.choice, Quot.sound]

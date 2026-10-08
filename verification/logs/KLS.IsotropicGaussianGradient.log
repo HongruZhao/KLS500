@@ -1,0 +1,3 @@
+'KLS.norm_gradient_scalarTransformedPotential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.norm_gradient_isotropicGaussianPotential_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_linear_growth_isotropicGaussianPotential' depends on axioms: [propext, Classical.choice, Quot.sound]

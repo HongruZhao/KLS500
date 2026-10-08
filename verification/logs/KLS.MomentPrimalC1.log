@@ -1,0 +1,3 @@
+'KLS.momentLegendreDomain_subset_closedTarget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.moment_convexSubgradient_subsingleton_closedTarget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.moment_contDiff_one_closedTarget' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,3 @@
+'KLS.brascampLieb_variance_smooth_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.brascampLieb_variance_smooth_of_integrable_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.variance_le_sum_gradient_dual_smooth' depends on axioms: [propext, Classical.choice, Quot.sound]

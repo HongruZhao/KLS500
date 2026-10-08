@@ -1,0 +1,7 @@
+KLS/LocalFamilyClippedCoefficients.lean:18:23: warning: Variable name `D` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _D
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'KLS.LocalDiffusion.LocalProcessFamily.clippedNoise_energy' depends on axioms: [propext, Classical.choice, Quot.sound]

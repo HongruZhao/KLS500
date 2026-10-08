@@ -1,0 +1,3 @@
+'KLS.fderiv_fderiv_coordinateHessian_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.hessianMetricDiffusion_hessian' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.hessianMetricDiffusion_hessian_expanded' depends on axioms: [propext, Classical.choice, Quot.sound]

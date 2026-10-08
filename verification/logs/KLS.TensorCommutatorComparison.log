@@ -1,0 +1,3 @@
+'KLS.matrix_trace_commutator_difference' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.sum_matrix_trace_cross_le_square' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.normalized_tensor_trace_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]

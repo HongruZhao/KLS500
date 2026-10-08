@@ -1,0 +1,4 @@
+'KLS.exponentialTiltCoordinateTaylor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exponentialTiltGradientTaylor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedDiffusion_exponentialTilt_taylor_tensor' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedDiffusion_exponentialTilt_family_taylor_tensor' depends on axioms: [propext, Classical.choice, Quot.sound]

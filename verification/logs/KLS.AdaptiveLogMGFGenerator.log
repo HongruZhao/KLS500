@@ -1,0 +1,4 @@
+'KLS.AdaptiveLocalization.coordinateLogMGF_generator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.AdaptiveLocalization.observableGenerator_coordinateLogMGF' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

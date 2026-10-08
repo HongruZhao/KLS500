@@ -1,0 +1,3 @@
+'KLS.normExponentialDomain_of_memLp_potentialMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.NormExponentialDomain.mul_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.NormExponentialDomain.integrable_tilt_derivative' depends on axioms: [propext, Classical.choice, Quot.sound]

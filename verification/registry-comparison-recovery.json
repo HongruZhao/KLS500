@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "reason": "The primary Lean kernel audit passed. Its original Python registry comparison stopped on two names excluded by filtering old module origins. The complete comparison additionally found five exact origin-only differences.",
+  "original_primary_execution_sha256": "7305963a08b25d40fc97dd837444aac9e37f15ac732ad22dd50296e20fbb1090",
+  "primary_audit_source_log_and_object_unchanged": true,
+  "old_filtered_registry_sha256": "64f2d6c5b3fee596aea0169feb39e16f925139b3a8bf98cb70e5e83820f5fd15",
+  "old_full_registry_sha256": "9c780cf38451ba98b69289095b05a518d191115096b2dc0cecec1ad1ccd7eff1",
+  "new_public_names": [
+    "KLS.Final.cheeger197",
+    "KLS.Final.cheegerKLS",
+    "KLS.Final.cheegerTwo",
+    "KLS.Final.fullCheegerKLS",
+    "KLS.Final.openaiDensityBounds",
+    "KLS.Final.openaiKLS",
+    "KLS.Final.openaiPoincare500",
+    "KLS.Final.poincareKLS",
+    "KLS.Final.universalPoincareRange",
+    "KLS.FinalDustCheegerReview.coefficient_two_comparison",
+    "KLS.FinalDustCheegerReview.exact_openai_poincare500_and_original_cheeger_two",
+    "KLS.FinalDustCheegerReview.original_admissible_cheeger_two",
+    "KLS.FinalDustCheegerReview.original_density_cheeger_two"
+  ],
+  "restored_existing_names": [
+    "KLS.CenteredExponential.instIsProbabilityMeasureRealExpMeasureOfNat_kLS_1",
+    "KLS.matrixFrobeniusSq.eq_1"
+  ],
+  "origin_only_replacements": [
+    "KLS.coordinateDerivative_sq",
+    "KLS.potentialMeasure.eq_1",
+    "KLS.tiltLogLaplace.eq_1",
+    "KLS.tiltThirdCumulant.eq_1",
+    "KLS.weightedIterationEnergy.congr_simp"
+  ],
+  "selected_origin_reconciliation_sha256": "2bf24b1e20778d6b090cb4fcf393bc8246f8b57f155df123925f83c0cdb2a26b",
+  "companion_execution_sha256": "03d0364436a74774c6d45e848e751b75bb4f98843a191e0aab602837b9c3418f",
+  "recovery_runner_sha256": "0c1755cc0cd9193952685c13e945c7b343722e5fc7360951e77da37fefe0d566",
+  "no_blanket_name_origin_or_axiom_allowance": true,
+  "mathematical_sources_and_objects_unchanged": true
+}

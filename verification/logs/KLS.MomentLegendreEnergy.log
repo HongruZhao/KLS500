@@ -1,0 +1,3 @@
+'KLS.normalizedLegendreTransform_isLUB' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.momentDualEnergy_le_liminf' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.IsIsotropic.exists_dualEnergy_linear_coercivity' depends on axioms: [propext, Classical.choice, Quot.sound]

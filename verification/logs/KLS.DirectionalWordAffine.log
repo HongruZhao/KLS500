@@ -1,0 +1,2 @@
+'KLS.directionalWordDerivative_comp_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.directionalWordDerivative_sub' depends on axioms: [propext, Classical.choice, Quot.sound]

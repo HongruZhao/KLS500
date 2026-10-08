@@ -1,0 +1,7 @@
+KLS/AdaptiveClippedLogDetEquation.lean:27:2: warning: Unused tactic linter: `change
+  (if (t : WithTop ℝ) ≤ D.exit m ω then _ else 0) = (if (t : WithTop ℝ) ≤ D.exit m ω then _ else 0)` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+'KLS.AdaptiveLocalization.MaximalProcess.clippedLogDet_equation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

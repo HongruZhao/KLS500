@@ -1,0 +1,7 @@
+KLS/LocalObservableGenerator.lean:74:12: warning: `continuous_finset_sum` has been deprecated: Use `continuous_finsetSum` instead
+
+Hint: Replace the deprecated name:
+  continuous_finset_̵s̵S̲um
+'KLS.LocalDiffusion.LocalProcess.itoFormula_original_generator' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

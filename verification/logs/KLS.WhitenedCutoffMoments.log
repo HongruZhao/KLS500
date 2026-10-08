@@ -1,0 +1,8 @@
+'KLS.measureLogConcave.integral_prod_affineMatrixMeasure' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.admissibleMeasure.tendsto_coordinate_moment_whitenedBallCutoffMeasure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.admissibleMeasure.tendsto_quadraticVariance_whitenedBallCutoffMeasure' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.admissibleMeasure.quadraticVarianceEight_of_compact' depends on axioms: [propext, Classical.choice, Quot.sound]

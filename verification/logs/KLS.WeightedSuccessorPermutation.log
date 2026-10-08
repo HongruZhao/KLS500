@@ -1,0 +1,3 @@
+'KLS.weightedNormalizedSuccessor_tail_permutation_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedNormalizedSuccessor_tail_permutation_norm_sq_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedNormalizedSuccessor_firstSwap_norm_sq_le' depends on axioms: [propext, Classical.choice, Quot.sound]

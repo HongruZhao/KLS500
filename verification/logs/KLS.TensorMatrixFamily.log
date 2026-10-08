@@ -1,0 +1,13 @@
+KLS/TensorMatrixFamily.lean:30:6: warning: `push_neg` has been deprecated. Prefer using `push Not` instead.
+If you'd rather continue using `push_neg` in your project, you can implement it as follows:
+```
+open Lean.Parser.Tactic in
+macro "push_neg" cfg:optConfig loc:(location)? : tactic =>
+  `(tactic| push $cfg:optConfig Not $[$loc]?)
+```
+KLS/TensorMatrixFamily.lean:34:51: warning: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+'KLS.TensorEnergy.tensorMatrixFamily_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.TensorEnergy.tensorSlot_commute' depends on axioms: [propext, Classical.choice, Quot.sound]

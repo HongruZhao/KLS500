@@ -1,0 +1,5 @@
+'KLS500.poincare500' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS500.cheeger197' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS500.universalPoincareRange' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS500.openaiPoincare500' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS500.openaiKLS' depends on axioms: [propext, Classical.choice, Quot.sound]

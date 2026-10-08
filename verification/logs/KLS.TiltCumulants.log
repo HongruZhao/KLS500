@@ -1,0 +1,4 @@
+'KLS.tiltThirdCumulant_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.tiltFourthCumulant_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.hasDerivAt_tilted_covariance' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.hasDerivAt_tiltThirdCumulant' depends on axioms: [propext, Classical.choice, Quot.sound]

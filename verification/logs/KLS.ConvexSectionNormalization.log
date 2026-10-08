@@ -1,0 +1,3 @@
+'KLS.exists_maximal_simplex_coordinates' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_simplex_box_affine_normalization' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_ball_affine_normalization' depends on axioms: [propext, Classical.choice, Quot.sound]

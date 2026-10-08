@@ -1,0 +1,2 @@
+'KLS.tensorPrefixEquiv' depends on axioms: [propext, Quot.sound]
+'KLS.weightedGradientPermutationAction' depends on axioms: [propext, Classical.choice, Quot.sound]

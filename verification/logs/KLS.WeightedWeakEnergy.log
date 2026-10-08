@@ -1,0 +1,12 @@
+KLS/WeightedWeakEnergy.lean:77:15: warning: This simp argument is unused:
+  Pi.add_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [Pi.mul_apply] at hadd
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+KLS/WeightedWeakEnergy.lean:139:79: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'KLS.weak_energy_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weak_caccioppoli' depends on axioms: [propext, Classical.choice, Quot.sound]

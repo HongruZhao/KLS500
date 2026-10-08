@@ -1,0 +1,66 @@
+{
+  "success": true,
+  "status": "ACCEPTED",
+  "reviewer": "song_zhang_audit",
+  "created_utc": "2026-10-08T03:00:55.862722+00:00",
+  "scope": "Additive independent review of one generated local-instance provenance overlap. Existing mathematical sources and frozen reviews were not modified.",
+  "name": "KLS.CenteredExponential.instIsProbabilityMeasureRealExpMeasureOfNat_kLS_1",
+  "kind": "theorem",
+  "literal_type": "MeasureTheory.IsProbabilityMeasure (ProbabilityTheory.expMeasure (1 : Real))",
+  "universe_parameters": [],
+  "axioms_exact": [
+    "propext",
+    "Classical.choice",
+    "Quot.sound"
+  ],
+  "fresh_origin": "KLS.ExponentialPoincare",
+  "legacy_full_baseline_origin": "KLS.ExponentialQuadratic",
+  "source_instances_identical": true,
+  "raw_type_equal_after_whitespace_normalization": true,
+  "raw_proof_equal_after_whitespace_normalization": true,
+  "proof_meaning": "Application of ProbabilityTheory.isProbabilityMeasure_expMeasure to rate 1, with 0 < 1 proved by norm_num. No KLS inequality, numerical upper bound, regularity assertion, or new mathematical assumption is encoded here.",
+  "naming_explanation": "CenteredExponential introduces the existing unsuffixed unnamed local probability instance in namespace KLS.CenteredExponential. Both ExponentialPoincare and ExponentialQuadratic independently repeat exactly that unnamed local instance after importing CenteredExponential, yielding the same generated suffixed global name. The smaller fresh dependency closure includes ExponentialPoincare and excludes ExponentialQuadratic, so its recorded defining module is ExponentialPoincare. The legacy full aggregate records ExponentialQuadratic for the same name/type/proof.",
+  "acceptance_condition": "Permit only this exact name/kind/type/axiom provenance reconciliation; retain strict checks for every other declaration. Parent separately owns the strict helper and final set-comparison reconciliation.",
+  "findings": [],
+  "source_pins": [
+    {
+      "module": "KLS.CenteredExponential",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/CenteredExponential.lean",
+      "source_sha256": "02382392b1a68d020bfad77cb5d2fb8bbd935e6fa1083d461767e794d032c5b2",
+      "instance_start_line": 24,
+      "instance_source": "local instance : IsProbabilityMeasure (expMeasure 1) :=\n  isProbabilityMeasure_expMeasure (by norm_num)",
+      "present_in_final_source_closure": true,
+      "fresh_copied_source_sha256": "02382392b1a68d020bfad77cb5d2fb8bbd935e6fa1083d461767e794d032c5b2"
+    },
+    {
+      "module": "KLS.ExponentialPoincare",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/ExponentialPoincare.lean",
+      "source_sha256": "daeb9d1d68f71855995ec9b6e3261f938c959753d36d66af5abf1c961f385f2e",
+      "instance_start_line": 23,
+      "instance_source": "local instance : IsProbabilityMeasure (expMeasure 1) :=\n  isProbabilityMeasure_expMeasure (by norm_num)",
+      "present_in_final_source_closure": true,
+      "fresh_copied_source_sha256": "daeb9d1d68f71855995ec9b6e3261f938c959753d36d66af5abf1c961f385f2e"
+    },
+    {
+      "module": "KLS.ExponentialQuadratic",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/ExponentialQuadratic.lean",
+      "source_sha256": "365185f8c4de6e4464e74017c0a283325c07c1d3636eac7205d24a6817594dad",
+      "instance_start_line": 21,
+      "instance_source": "local instance : IsProbabilityMeasure (expMeasure 1) :=\n  isProbabilityMeasure_expMeasure (by norm_num)",
+      "present_in_final_source_closure": false
+    }
+  ],
+  "legacy_literal_dump": {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/evidence/post1549-integration/integrated-preflight/logs/CanonicalOverlapsFinal.log",
+    "sha256": "6133ceeb48abfd51639adea6d61bca6e03063ec730107860c9196b47ad9f9a81"
+  },
+  "fresh_literal_dump": {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/generated-instance-review/GeneratedInstanceIndependentProbe.log",
+    "sha256": "d97d3948daacf052dba07c63e5fabfe4ff3a589a99c7b0cd3ee3ca320d04097e"
+  },
+  "fresh_probe_build_receipt_sha256": "ace906f1c214297f822381d14a1d0d70bd3685acf0c591014370394ad5332ad3",
+  "effective_prepare_receipt_sha256": "6286fb8ccbb6a11fa9c450edfa50bf901ac87dd24d3f0186565861855f3c52dc",
+  "baseline_source_inventory_sha256": "3ce94cba714b8931b5e01d6a57d7cb516f25900178e4758b7dcbeb17a079bc8f",
+  "fresh_project_only_search_path": true,
+  "mathematical_sources_changed": false
+}

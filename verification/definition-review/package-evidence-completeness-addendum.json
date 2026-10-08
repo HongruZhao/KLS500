@@ -1,0 +1,43 @@
+{
+  "success": true,
+  "status": "ACCEPTED_FINAL_PACKAGING_PREPARATION_ADDENDUM",
+  "reviewer": "definition_audit",
+  "created_utc": "2026-10-08T03:11:52.829783+00:00",
+  "stage_script": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/stage_package.py",
+  "stage_script_sha256": "2e786c6bd26eda0273acbbf2091d2c487c7122cad499cdb37c1d552acaedb539",
+  "stage_script_executed": false,
+  "findings": [],
+  "previous_two_audit_review": {
+    "path": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/definition-review/package-two-audits-addendum.json",
+    "sha256": "9415b41010ea6e9e380d9dc4fc5160c189a6240de9d755e6c04cf4451ae57a99"
+  },
+  "preserved_previous_scripts": {
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/stage_package.single-audit.py": "1873f16b0da3d14d35e3383d3030e2f9e55d2ab4ed7b06b0603bff8b3d98fa60",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/stage_package.before-evidence-completeness.py": "6aa1ffe86bd837afc3b8f2c98cbf8e44c141656e4c3221473f16f812786cb74d"
+  },
+  "unchanged_core_checks": [
+    "Exactly1710 mathematical source hashes and two audit source receipt hashes are checked before and after copying.",
+    "All1712 module names occur as exact roots and exact glob-one entries, including FinalKLSRange and both audits.",
+    "Successful accepted proof and four-page PDF QA receipts, exact report hashes, and the seven-case registry records gate staging.",
+    "Public brief and README inputs reject the pending-verification marker before creating the stage and again before each copy."
+  ],
+  "added_completeness_checks": [
+    "The root closure runner hash and final source scan are pinned to final-verification-receipt.json.",
+    "The publication status-finalization receipt is pinned to the final receipt. Its exactly three final draft hashes and exactly corresponding reviewed-before-status snapshot hashes must match before staging.",
+    "The entire publication-drafts tree, including the reviewed-before-status archive and finalization receipt, is retained under verification/publication-drafts.",
+    "verification-summary.provisional.json, both source scans, and artifact-suffix-repair.json are retained with the final and recovery receipts.",
+    "The report-song-semantic-addendum directory and the complete small report tree are retained, including previous source snapshots, final source/PDF, and historical/final rendering and QA archives.",
+    "All Python scripts directly under the audit root are retained under verification/recorded-run-scripts, including the root closure runner and previous audit/seal/staging scripts. This copy does not execute them.",
+    "README identifies verification/report as a historical evidence archive and identifies the final render paths through verification/pdf-qa.json. Independent reviewer artifacts and historical audit objects are outside the Lean import search path."
+  ],
+  "historical_pending_marker_scope": "Reviewed-before-status draft snapshots intentionally preserve their historical pending markers for audit fidelity. The current public copies and generated README must have no such marker; historical evidence is not represented as current publication text.",
+  "configuration_expression_check": {
+    "mathematical_sources": 1710,
+    "audit_sources": 2,
+    "exact_roots": 1712,
+    "exact_globs": 1712,
+    "config_sha256": "8f77b1de5926e4b4671f46fbd994f4da71556f0e4e932f04adb6ba164c859665",
+    "Lake_loaded_by_this_review": false
+  },
+  "remaining_parent_checks": "Execute staging only after the sealed final proof/report receipts and finalized status text exist; load the actual staged Lake configuration, check the final entry, and verify resulting package file hashes. This is preparation review and is not a second full Lake build."
+}

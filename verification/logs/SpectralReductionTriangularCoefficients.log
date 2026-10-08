@@ -1,0 +1,3 @@
+'KLS.ConstantReduction.one_add_exactTaylorErrorCoefficient_le_triangular' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,5 @@
+'KLS.strictPolar_subset_convexSubgradientImage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.volume_euclidean_coordinate_box' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.coordinate_box_volume_le_convexSubgradientImage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.anisotropic_box_volume_le_convexSubgradientImage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.anisotropic_alexandrov_maximum_estimate' depends on axioms: [propext, Classical.choice, Quot.sound]

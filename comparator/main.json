@@ -1,0 +1,17 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "KLS500",
+  "theorem_names": [
+    "KLS500.poincare500",
+    "KLS500.cheeger197",
+    "KLS500.universalPoincareRange",
+    "KLS500.openaiPoincare500",
+    "KLS500.openaiKLS"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

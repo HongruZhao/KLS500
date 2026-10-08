@@ -1,0 +1,6 @@
+'KLS.secondFrechet_nonneg_of_convex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.coordinateHessian_quadratic_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.hessianGradientForm_nonneg_of_convex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.coordinateHessian_posSemidef_of_convex' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_hessianGradientForm_le_diffusion_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_hessianSquare_le_diffusion_sq' depends on axioms: [propext, Classical.choice, Quot.sound]

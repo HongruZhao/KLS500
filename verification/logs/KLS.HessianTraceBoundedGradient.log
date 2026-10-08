@@ -1,0 +1,6 @@
+'KLS.integrable_hessianMetricDiffusion_potential_of_bounded_gradient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.integral_hessianTraceSquare_le_two_trace_of_bounded_gradient' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

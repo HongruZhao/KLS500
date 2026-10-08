@@ -1,0 +1,3 @@
+'KLS.coordinateHessian_centeredQuadratic' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.moment_quadratic_upper_test_hessian_det_ge_density' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.moment_quadratic_lower_test_hessian_det_le_density' depends on axioms: [propext, Classical.choice, Quot.sound]

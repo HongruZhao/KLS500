@@ -1,0 +1,3 @@
+'KLS.smoothCenteredGradientCore' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.span_smoothCenteredGradientGraphSet' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedCenteredGradientGraph_coe_eq_closure' depends on axioms: [propext, Classical.choice, Quot.sound]

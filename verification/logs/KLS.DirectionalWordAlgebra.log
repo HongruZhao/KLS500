@@ -1,0 +1,4 @@
+'KLS.directionalWordDerivative_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.directionalWordDerivative_const_mul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.list_ofFn_eraseIdx' depends on axioms: [propext, Quot.sound]
+'KLS.iteratedFDeriv_linear_mul_zero' depends on axioms: [propext, Classical.choice, Quot.sound]

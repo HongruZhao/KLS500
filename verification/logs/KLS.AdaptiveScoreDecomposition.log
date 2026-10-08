@@ -1,0 +1,36 @@
+KLS/AdaptiveScoreDecomposition.lean:14:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.continuous_projection`:
+  [IsProbabilityMeasure μ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure μ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+KLS/AdaptiveScoreDecomposition.lean:18:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.projection_eq_transpose_mulVec`:
+  [IsProbabilityMeasure μ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure μ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+KLS/AdaptiveScoreDecomposition.lean:21:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.exponent_diffusion_eq_projection`:
+  [IsProbabilityMeasure μ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure μ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+KLS/AdaptiveScoreDecomposition.lean:29:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+KLS/AdaptiveScoreDecomposition.lean:42:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+'KLS.AdaptiveLocalization.exponent_drift_eq_projection_sum' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.AdaptiveLocalization.covariance_projection' depends on axioms: [propext, Classical.choice, Quot.sound]

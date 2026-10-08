@@ -1,0 +1,167 @@
+{
+  "success": true,
+  "status": "ACCEPTED_PREPARATION_REVIEW",
+  "reviewer": "definition_audit",
+  "created_utc": "2026-10-08T02:33:18.248331+00:00",
+  "script": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/stage_package.py",
+  "script_sha256": "1873f16b0da3d14d35e3383d3030e2f9e55d2ab4ed7b06b0603bff8b3d98fa60",
+  "scope": "Read-only preparation review of the package staging script. The script was not run and no release-stage directory was created by this review. Final staging, Lake configuration loading, source-byte inventory validation, and final-entry compilation remain parent-owned.",
+  "findings": [],
+  "resolved_findings": [
+    {
+      "issue": "The initial roots-prefix list with only two globs did not make other closure modules buildable in the pinned Lake version.",
+      "resolution": "Both roots and globs now use the exact sorted list of every mathematical source module plus FinalKLS500Audit. Each source directly matches a Glob.one and therefore is buildable."
+    },
+    {
+      "issue": "The initial copy path did not explicitly bind the copied audit source and report files to their final verification/QA receipts.",
+      "resolution": "The script now validates the final receipt -> summary -> completion -> manifest chain, the summary -> audit-execution -> audit-source chain, and final receipt -> PDF QA -> current and copied PDF/TeX hashes."
+    }
+  ],
+  "source_fidelity_checks": [
+    {
+      "lines": [
+        17,
+        25
+      ],
+      "checked": "The manifest reports exactly 1710 and contains exactly 1710 provenance entries. Completion pins that manifest; the summary pins completion and audit execution; audit execution pins the audit source."
+    },
+    {
+      "lines": [
+        34,
+        44
+      ],
+      "checked": "Each mathematical source is checked against its recorded SHA-256 before copy and the copied target is checked against that same hash. The copied audit source is checked against audit-execution.source_sha256."
+    },
+    {
+      "lines": [
+        7,
+        16
+      ],
+      "checked": "Successful accepted final receipt and summary are required. Receipt pins summary and successful four-page QA; QA pins current TeX and PDF."
+    },
+    {
+      "lines": [
+        62,
+        65
+      ],
+      "checked": "Copied TeX and PDF are rehashed against the same QA receipt."
+    },
+    {
+      "lines": [
+        122,
+        129
+      ],
+      "checked": "The stage writes a source inventory and staging receipt while explicitly labeling the separate Lake configuration and entry check pending."
+    }
+  ],
+  "pending_marker_checks": {
+    "preflight_lines": [
+      26,
+      27
+    ],
+    "copy_time_lines": [
+      90,
+      95
+    ],
+    "all_three_publication_files_checked": true,
+    "known_marker": "[VERIFICATION STATUS",
+    "known_current_markers_rejected": true,
+    "checks_precede_stage_directory_creation": true,
+    "meaning": "No currently defined pending-status marker can pass into a copied public brief or README. Removing/replacing those markers remains contingent on final verification."
+  },
+  "lake_configuration_review": {
+    "script_lines": [
+      45,
+      57
+    ],
+    "pinned_toolchain": "leanprover/lean4:v4.35.0-rc3",
+    "pinned_mathlib_revision": "4beb549110aa44b87d699166cece6e3642bddf34",
+    "default_target": "KLSFinal",
+    "mathematical_module_count": 1710,
+    "audit_module_count": 1,
+    "roots_count": 1711,
+    "glob_one_count": 1711,
+    "roots_and_globs_exactly_equal_complete_module_set": true,
+    "final_entry_Selected": "FinalKLSRange",
+    "audit_selected": "FinalKLS500Audit",
+    "all_included_modules_buildable_by_pinned_predicate": true,
+    "planned_config_sha256": "5fbc6c69249f80532d24793a565b5737ee7c5aa581c18393c39cedbd4cc653eb",
+    "read_only_expression_check": "Evaluated only the pure modules/module_array/config expressions from the AST against the current 1699-module manifest plus the sealed 11-module extension plan. No imports, writes, copies, or package-stage script statements were executed.",
+    "configuration_loading_scope": "Lake itself has not loaded this planned configuration in this review; the parent will validate the actual staged file.",
+    "local_documentation": [
+      {
+        "path": "/Users/avatar/.elan/toolchains/leanprover--lean4---v4.35.0-rc3/src/lean/lake/Lake/Config/LeanLibConfig.lean",
+        "sha256": "3e01dbc4184f934878350114d3596a9391e0e6fe03c0bb17cde3bbfbb306aaf9",
+        "lines": [
+          [
+            30,
+            46
+          ],
+          [
+            134,
+            142
+          ]
+        ],
+        "evidence": "roots mark locality; globs specify build selection; isBuildableModule requires a direct glob match or a prefix root that itself matches a glob."
+      },
+      {
+        "path": "/Users/avatar/.elan/toolchains/leanprover--lean4---v4.35.0-rc3/src/lean/lake/Lake/Config/Module.lean",
+        "sha256": "87c14d8552b5115d2c1e0f22436ae6f7b5d03b8ccec125d2991327dc55535455",
+        "lines": [
+          [
+            37,
+            42
+          ]
+        ],
+        "evidence": "LeanLib.findModule? locates imports only when isBuildableModule is true."
+      },
+      {
+        "path": "/Users/avatar/.elan/toolchains/leanprover--lean4---v4.35.0-rc3/src/lean/lake/Lake/Config/Glob.lean",
+        "sha256": "2b6e32b01a286c7be5763e0a76bd026b955f8b2f78405b0650479a1a41bc6e7d",
+        "lines": [
+          [
+            20,
+            27
+          ],
+          [
+            48,
+            52
+          ]
+        ],
+        "evidence": "Glob.one matches exactly its module name."
+      }
+    ]
+  },
+  "reproduction_and_record_preservation": [
+    {
+      "lines": [
+        68,
+        89
+      ],
+      "checked": "Verification receipts, complete recursive review directories, logs, and all five recorded-run Python scripts are preserved. Recursive review copying includes reviewer artifacts and range author-support files; only .lake and __pycache__ directories are excluded."
+    },
+    {
+      "lines": [
+        103,
+        121
+      ],
+      "checked": "README identifies the range entry, numerical entry, exhaustive audit, pinned dependencies, and historical paths in the direct-rebuild scripts. It offers Lake as the portable reproduction route without claiming a second complete Lake build. Independent reviewer artifacts are explicitly outside the Lean import search path."
+    },
+    {
+      "lines": [
+        123,
+        123
+      ],
+      "checked": "The ignore file does not exclude every .log file; it ignores only the root LaTeX compile log, preserving addability of verification logs."
+    }
+  ],
+  "remaining_parent_checks": [
+    "Successful final proof and PDF QA receipts with the field names used by the staging script.",
+    "Run stage_package.py only after those gates pass and all three publication markers are resolved.",
+    "Load the actual staged Lake configuration and compile/check the final entry as planned.",
+    "Verify the final staged source inventory, report hashes, and absence of public pending markers; do not label the preparation review a second full Lake build."
+  ],
+  "previous_reviewed_script_sha256": "1873f16b0da3d14d35e3383d3030e2f9e55d2ab4ed7b06b0603bff8b3d98fa60",
+  "updated_utc": "2026-10-08T02:33:41.737932+00:00",
+  "complete_review_directory_copy_reviewed": true
+}

@@ -1,0 +1,3 @@
+'KLS.ConstantReduction.weightedIteration_sum_meanLoss_le_generalScale' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

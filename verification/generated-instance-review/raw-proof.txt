@@ -1,0 +1,131 @@
+Lean.Expr.app
+  (Lean.Expr.app
+    (Lean.Expr.const `ProbabilityTheory.isProbabilityMeasure_expMeasure [])
+    (Lean.Expr.app
+      (Lean.Expr.app
+        (Lean.Expr.app (Lean.Expr.const `OfNat.ofNat [Lean.Level.zero]) (Lean.Expr.const `Real []))
+        (Lean.Expr.lit (Lean.Literal.natVal 1)))
+      (Lean.Expr.app
+        (Lean.Expr.app (Lean.Expr.const `One.toOfNat1 [Lean.Level.zero]) (Lean.Expr.const `Real []))
+        (Lean.Expr.const `Real.instOne []))))
+  (Lean.Expr.app
+    (Lean.Expr.app
+      (Lean.Expr.app
+        (Lean.Expr.app
+          (Lean.Expr.app
+            (Lean.Expr.app
+              (Lean.Expr.app
+                (Lean.Expr.app
+                  (Lean.Expr.app
+                    (Lean.Expr.app
+                      (Lean.Expr.app
+                        (Lean.Expr.app
+                          (Lean.Expr.const `Mathlib.Meta.NormNum.isNat_lt_true [Lean.Level.zero])
+                          (Lean.Expr.const `Real []))
+                        (Lean.Expr.const `Real.semiring []))
+                      (Lean.Expr.const `Real.partialOrder []))
+                    (Lean.Expr.const `Real.instIsOrderedRing []))
+                  (Lean.Expr.app
+                    (Lean.Expr.app
+                      (Lean.Expr.app
+                        (Lean.Expr.app
+                          (Lean.Expr.const `FloorSemiring.instCharZero [Lean.Level.zero])
+                          (Lean.Expr.const `Real []))
+                        (Lean.Expr.app
+                          (Lean.Expr.app
+                            (Lean.Expr.const `Ring.toSemiring [Lean.Level.zero])
+                            (Lean.Expr.const `Real []))
+                          (Lean.Expr.const `Real.instRing [])))
+                      (Lean.Expr.const `Real.partialOrder []))
+                    (Lean.Expr.app
+                      (Lean.Expr.app
+                        (Lean.Expr.app
+                          (Lean.Expr.app
+                            (Lean.Expr.const `FloorRing.toFloorSemiring [Lean.Level.zero])
+                            (Lean.Expr.const `Real []))
+                          (Lean.Expr.const `Real.instRing []))
+                        (Lean.Expr.const `Real.linearOrder []))
+                      (Lean.Expr.const `Real.instFloorRing []))))
+                (Lean.Expr.app
+                  (Lean.Expr.app
+                    (Lean.Expr.app (Lean.Expr.const `OfNat.ofNat [Lean.Level.zero]) (Lean.Expr.const `Real []))
+                    (Lean.Expr.lit (Lean.Literal.natVal 0)))
+                  (Lean.Expr.app
+                    (Lean.Expr.app (Lean.Expr.const `Zero.toOfNat0 [Lean.Level.zero]) (Lean.Expr.const `Real []))
+                    (Lean.Expr.const `Real.instZero []))))
+              (Lean.Expr.app
+                (Lean.Expr.app
+                  (Lean.Expr.app (Lean.Expr.const `OfNat.ofNat [Lean.Level.zero]) (Lean.Expr.const `Real []))
+                  (Lean.Expr.lit (Lean.Literal.natVal 1)))
+                (Lean.Expr.app
+                  (Lean.Expr.app (Lean.Expr.const `One.toOfNat1 [Lean.Level.zero]) (Lean.Expr.const `Real []))
+                  (Lean.Expr.const `Real.instOne []))))
+            (Lean.Expr.lit (Lean.Literal.natVal 0)))
+          (Lean.Expr.lit (Lean.Literal.natVal 1)))
+        (Lean.Expr.app
+          (Lean.Expr.app
+            (Lean.Expr.app
+              (Lean.Expr.app
+                (Lean.Expr.app
+                  (Lean.Expr.const `Mathlib.Meta.NormNum.isNat_ofNat [Lean.Level.zero])
+                  (Lean.Expr.const `Real []))
+                (Lean.Expr.app
+                  (Lean.Expr.app
+                    (Lean.Expr.const `AddGroupWithOne.toAddMonoidWithOne [Lean.Level.zero])
+                    (Lean.Expr.const `Real []))
+                  (Lean.Expr.app
+                    (Lean.Expr.app
+                      (Lean.Expr.const `Ring.toAddGroupWithOne [Lean.Level.zero])
+                      (Lean.Expr.const `Real []))
+                    (Lean.Expr.const `Real.instRing []))))
+              (Lean.Expr.app
+                (Lean.Expr.app
+                  (Lean.Expr.app (Lean.Expr.const `OfNat.ofNat [Lean.Level.zero]) (Lean.Expr.const `Real []))
+                  (Lean.Expr.lit (Lean.Literal.natVal 0)))
+                (Lean.Expr.app
+                  (Lean.Expr.app (Lean.Expr.const `Zero.toOfNat0 [Lean.Level.zero]) (Lean.Expr.const `Real []))
+                  (Lean.Expr.const `Real.instZero []))))
+            (Lean.Expr.lit (Lean.Literal.natVal 0)))
+          (Lean.Expr.app
+            (Lean.Expr.app (Lean.Expr.const `Nat.cast_zero [Lean.Level.zero]) (Lean.Expr.const `Real []))
+            (Lean.Expr.app
+              (Lean.Expr.app
+                (Lean.Expr.const `AddGroupWithOne.toAddMonoidWithOne [Lean.Level.zero])
+                (Lean.Expr.const `Real []))
+              (Lean.Expr.app
+                (Lean.Expr.app (Lean.Expr.const `Ring.toAddGroupWithOne [Lean.Level.zero]) (Lean.Expr.const `Real []))
+                (Lean.Expr.const `Real.instRing []))))))
+      (Lean.Expr.app
+        (Lean.Expr.app
+          (Lean.Expr.app
+            (Lean.Expr.app
+              (Lean.Expr.app
+                (Lean.Expr.const `Mathlib.Meta.NormNum.isNat_ofNat [Lean.Level.zero])
+                (Lean.Expr.const `Real []))
+              (Lean.Expr.app
+                (Lean.Expr.app
+                  (Lean.Expr.const `AddGroupWithOne.toAddMonoidWithOne [Lean.Level.zero])
+                  (Lean.Expr.const `Real []))
+                (Lean.Expr.app
+                  (Lean.Expr.app (Lean.Expr.const `Ring.toAddGroupWithOne [Lean.Level.zero]) (Lean.Expr.const `Real []))
+                  (Lean.Expr.const `Real.instRing []))))
+            (Lean.Expr.app
+              (Lean.Expr.app
+                (Lean.Expr.app (Lean.Expr.const `OfNat.ofNat [Lean.Level.zero]) (Lean.Expr.const `Real []))
+                (Lean.Expr.lit (Lean.Literal.natVal 1)))
+              (Lean.Expr.app
+                (Lean.Expr.app (Lean.Expr.const `One.toOfNat1 [Lean.Level.zero]) (Lean.Expr.const `Real []))
+                (Lean.Expr.const `Real.instOne []))))
+          (Lean.Expr.lit (Lean.Literal.natVal 1)))
+        (Lean.Expr.app
+          (Lean.Expr.app (Lean.Expr.const `Nat.cast_one [Lean.Level.zero]) (Lean.Expr.const `Real []))
+          (Lean.Expr.app
+            (Lean.Expr.app
+              (Lean.Expr.const `AddGroupWithOne.toAddMonoidWithOne [Lean.Level.zero])
+              (Lean.Expr.const `Real []))
+            (Lean.Expr.app
+              (Lean.Expr.app (Lean.Expr.const `Ring.toAddGroupWithOne [Lean.Level.zero]) (Lean.Expr.const `Real []))
+              (Lean.Expr.const `Real.instRing []))))))
+    (Lean.Expr.app
+      (Lean.Expr.app (Lean.Expr.const `Eq.refl [Lean.Level.succ (Lean.Level.zero)]) (Lean.Expr.const `Bool []))
+      (Lean.Expr.const `Bool.false [])))

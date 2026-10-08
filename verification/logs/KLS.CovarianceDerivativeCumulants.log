@@ -1,0 +1,6 @@
+'KLS.StandardLocalization.covarianceGradient_apply_eq_cumulant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.StandardLocalization.covarianceHessian_apply_eq_cumulant' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

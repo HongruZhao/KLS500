@@ -1,0 +1,3 @@
+'KLS.integrated_bochner_coordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_weightedDiffusion_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_weightedDiffusion_sq_eq_sum' depends on axioms: [propext, Classical.choice, Quot.sound]

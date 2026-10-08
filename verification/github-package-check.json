@@ -1,0 +1,72 @@
+{
+  "success": true,
+  "date_local": "2026-10-07",
+  "accepted_lean_sources_unchanged": 1712,
+  "additional_public_interfaces": 2,
+  "all_accepted_roots_and_globs_preserved": true,
+  "lean_and_dependency_pins_unchanged": true,
+  "commands": [
+    {
+      "command": [
+        "/Users/avatar/.elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lake",
+        "env",
+        "lean",
+        "--version"
+      ],
+      "exit_status": 0,
+      "seconds": 1.36,
+      "log": "root-check-0.log",
+      "log_sha256": "7d6e80aeb07b52d32b6386a20cec52e6fca1f11b0601c94f0db1bbb1684cde95"
+    },
+    {
+      "command": [
+        "/Users/avatar/.elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lake",
+        "env",
+        "lean",
+        "-j1",
+        "-M12288",
+        "-t0",
+        "-DmaxSynthPendingDepth=3",
+        "-o",
+        "/Users/avatar/Documents/Codex/2026-10-06/hel/work/github-kls500-preparation/github-package-check/KLS500.olean",
+        "KLS500.lean"
+      ],
+      "exit_status": 0,
+      "seconds": 4.588,
+      "log": "root-check-1.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "command": [
+        "/Users/avatar/.elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lake",
+        "env",
+        "lean",
+        "-j1",
+        "-M12288",
+        "-t0",
+        "-DmaxSynthPendingDepth=3",
+        "-o",
+        "/Users/avatar/Documents/Codex/2026-10-06/hel/work/github-kls500-preparation/github-package-check/Challenge.olean",
+        "Challenge.lean"
+      ],
+      "exit_status": 0,
+      "seconds": 4.551,
+      "log": "root-check-2.log",
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "compiler_sha256": "d1d9c26a539f54fe839d2aa7760bf1ac1dd76a30b26e2c9684bebf2900038fcf",
+  "all_temporary_links_removed": true,
+  "report_in_code_upload": false,
+  "scope": "Root package configuration loading and fresh compilation of two new interfaces using the sealed fresh accepted mathematical object closure. Not another full mathematical rebuild.",
+  "comparator_run": false,
+  "nanoda_run": false,
+  "root_manifest_name": "KLS500",
+  "manifest_change": "Only the root package name changed from KLSVerification to KLS500; all dependency objects remain identical.",
+  "renamed_manifest_configuration_exit_status": 0,
+  "new_configuration_sha256": {
+    "lean-toolchain": "bc84812c94489d1e3e191baa1dc10d5eb684382d7fe9d2a5ab085e72c1c67e47",
+    "lakefile.toml": "bb0ab2cc8bff1ca3125b666f35f5a826e607d5e7a436e0040acf7053dc6f89dd",
+    "lake-manifest.json": "efe9b1ecc5209fd23e723011f6ea522d149b808582992b639b312c00624bf28e"
+  }
+}

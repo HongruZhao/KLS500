@@ -1,0 +1,7 @@
+'KLS.hasSmoothBoundedConvexDensity_affine_cond' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.admissibleMeasure.eventually_smoothBoundedDensity_whitenedBallCutoff' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.admissibleMeasure.quadraticVarianceEight_of_smoothBoundedDensity' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

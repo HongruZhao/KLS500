@@ -1,0 +1,7 @@
+'KLS.locallyLipschitz_ae_differentiableAt' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.locallyLipschitz_ae_differentiableAt_of_absolutelyContinuous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.norm_gradient_eq_norm_fderiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.measurable_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.locallyLipschitz_ae_hasGradientAt' depends on axioms: [propext, Classical.choice, Quot.sound]

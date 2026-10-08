@@ -1,0 +1,40 @@
+KLS/AdaptiveLocalProcess.lean:30:67: warning: This simp argument is unused:
+  Equiv.symm_apply_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [coordinateDiffusion, encodeState, Fin.addCases_right, diffusion, Matrix.zero_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+KLS/AdaptiveLocalProcess.lean:47:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.BallProcess.parameterPath_continuous`:
+  [IsProbabilityMeasure μ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure μ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+KLS/AdaptiveLocalProcess.lean:50:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.BallProcess.parameterPath_initial`:
+  [IsProbabilityMeasure μ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure μ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+KLS/AdaptiveLocalProcess.lean:54:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.BallProcess.linear_noise_eq`:
+  [IsProbabilityMeasure μ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure μ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+KLS/AdaptiveLocalProcess.lean:60:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.BallProcess.matrix_noise_eq_zero`:
+  [IsProbabilityMeasure μ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure μ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+KLS/AdaptiveLocalProcess.lean:79:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.BallProcess.linear_equation`:
+  [IsProbabilityMeasure μ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure μ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'KLS.AdaptiveLocalization.exists_adaptiveLocalProcesses' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.AdaptiveLocalization.BallProcess.linear_equation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.AdaptiveLocalization.BallProcess.matrix_equation' depends on axioms: [propext, Classical.choice, Quot.sound]

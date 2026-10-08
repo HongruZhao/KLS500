@@ -1,0 +1,17 @@
+{
+  "repository": "https://github.com/openai/math",
+  "revision": "adc7f1241b42e322a6451854ab7e4b4c146bf78a",
+  "model": "lean/OAI/Analysis/KLS/Model.lean",
+  "model_sha256": "28cddbf3c493afd43b3f7aba78f670952ea0c38909665c86bff883849e7f8dbc",
+  "files": {
+    "LICENSE": {
+      "http_status": 200,
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/LICENSE",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    "NOTICE": {
+      "http_status": 404,
+      "url": "https://raw.githubusercontent.com/openai/math/adc7f1241b42e322a6451854ab7e4b4c146bf78a/NOTICE"
+    }
+  }
+}

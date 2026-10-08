@@ -1,0 +1,34 @@
+{
+  "success": true,
+  "scope": "Only a newly authored wrapper namespace comment was changed from a documentation comment to an ordinary block comment; all theorem statements and proof bodies are byte unchanged.",
+  "initial_source_sha256": "892420de5332564c50196708a14035aa22de098b214abf2a6a046fa4d6a6d8a9",
+  "repaired_source_sha256": "207ffd00a5e5291f3f7f9b416b2dfe6d212d90b46b19bbd275e761c203459990",
+  "initial_prepare_receipt_sha256": "da74a0667f66b9cd885679c5cad9528c926330fe5e0ea269760a9258696904d5",
+  "initial_build_receipt_sha256": "0b9edd517b53ea17bd9dce76363d0f02a0e362f8a0ffcb4b839d245b2a3b637d",
+  "initial_failure_log_sha256": "5ddedb6c5c3ca4afe0a471a8a1af9fc6580cecb7d933d735b18537a83414100a",
+  "repaired_compile": {
+    "module": "FinalKLS500",
+    "command": [
+      "/Users/avatar/.elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean",
+      "-j1",
+      "-M12288",
+      "-t0",
+      "-DmaxSynthPendingDepth=3",
+      "-o",
+      "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/clean-lean/.lake/build/lib/lean/FinalKLS500.olean",
+      "FinalKLS500.lean"
+    ],
+    "exit_status": 0,
+    "seconds": 3.174,
+    "fresh_object": true,
+    "source_sha256": "207ffd00a5e5291f3f7f9b416b2dfe6d212d90b46b19bbd275e761c203459990",
+    "artifacts": {
+      "FinalKLS500.olean": "b3d1744612e0041b02b7ca52cc9e3d7c2c50a13e66a93761cd08f10923f7e6b2"
+    },
+    "log": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/logs/FinalKLS500.log",
+    "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "warnings": 0,
+    "errors": 0
+  },
+  "accepted_mathematical_sources_changed": false
+}

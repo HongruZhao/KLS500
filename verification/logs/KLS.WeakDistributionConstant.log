@@ -1,0 +1,2 @@
+'KLS.coordinateDerivative_mollify_eq_zero_of_distribution' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.ae_eq_const_of_zero_distributional_gradient' depends on axioms: [propext, Classical.choice, Quot.sound]

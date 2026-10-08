@@ -1,0 +1,7 @@
+'KLS.convexSubgradientImage_continuousAffineEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.volume_convexSubgradientImage_pos_mul_continuousAffineEquiv' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.volume_image_continuousAffineEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.volume_preimage_continuousAffineEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.volume_mul_subgradientImage_continuousAffineEquiv' depends on axioms: [propext, Classical.choice, Quot.sound]

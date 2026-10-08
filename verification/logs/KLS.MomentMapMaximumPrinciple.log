@@ -1,0 +1,3 @@
+'KLS.elliptic_secondDifference_le_at_penalized_max' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.secondDifference_target_le_at_penalized_max' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.strongConvex_secondDifference_maximum_estimates' depends on axioms: [propext, Classical.choice, Quot.sound]

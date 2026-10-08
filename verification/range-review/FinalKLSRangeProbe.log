@@ -1,0 +1,14 @@
+KLS.Final.universalPoincareRange :
+  4 ≤ KLS.universalPoincareConstant ∧ KLS.universalPoincareConstant ≤ ENNReal.ofReal 500
+'KLS.Final.universalPoincareRange' depends on axioms: [propext, Classical.choice, Quot.sound]
+KLS.Final.poincareKLS : OAI.LeanBlast.KLS.KLSStatement
+'KLS.Final.poincareKLS' depends on axioms: [propext, Classical.choice, Quot.sound]
+KLS.Final.cheegerKLS : KLS.KLSConjecture
+'KLS.Final.cheegerKLS' depends on axioms: [propext, Classical.choice, Quot.sound]
+KLS.Final.fullCheegerKLS : KLS.FullCheegerVerification
+'KLS.Final.fullCheegerKLS' depends on axioms: [propext, Classical.choice, Quot.sound]
+KLS.CenteredExponential.admissible_and_poincareConstant_eq_four :
+  KLS.admissibleMeasure KLS.CenteredExponential.measure ∧ KLS.poincareConstant KLS.CenteredExponential.measure = 4
+'KLS.CenteredExponential.admissible_and_poincareConstant_eq_four' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

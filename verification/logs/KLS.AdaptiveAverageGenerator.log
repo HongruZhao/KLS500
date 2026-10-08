@@ -1,0 +1,4 @@
+'KLS.AdaptiveLocalization.coordinateAverage_generator_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.AdaptiveLocalization.averageNoiseCoefficient_eq_integral' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,3 @@
+'KLS.norm_le_choose_mul_blockAverage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.norm_le_four_pow_mul_blockAverage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.norm_le_four_pow_mul_blockAverage_of_two_block_symmetry' depends on axioms: [propext, Classical.choice, Quot.sound]

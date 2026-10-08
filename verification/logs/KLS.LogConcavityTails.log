@@ -1,0 +1,6 @@
+'KLS.measureLogConcave.le_measure_of_compact_measurable_interpolation' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.measureLogConcave.norm_tail_interpolation' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.measureLogConcave.norm_tail_mul_pow_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.measureLogConcave.exists_geometric_norm_tail' depends on axioms: [propext, Classical.choice, Quot.sound]

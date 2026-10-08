@@ -1,0 +1,4 @@
+'KLS.compact_translation_bound_of_smooth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedH1CompactValue_translation_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedH1CompactValue_totallyBounded' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedH1CompactValue_isCompactOperator' depends on axioms: [propext, Classical.choice, Quot.sound]

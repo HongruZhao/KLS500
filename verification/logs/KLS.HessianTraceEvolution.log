@@ -1,0 +1,3 @@
+'KLS.hessianMetricDiffusion_hessianTraceSquare' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.hessianTrace_evolution_terms_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.hessianMetricDiffusion_hessianTraceSquare_add_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]

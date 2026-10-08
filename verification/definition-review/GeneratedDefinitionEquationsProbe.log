@@ -1,0 +1,18 @@
+fun {n} =>
+  KLS.potentialMeasure.eq_1 : ∀ {n : ℕ} (φ : KLS.Space n → ℝ),
+  KLS.potentialMeasure φ = volume.withDensity fun x => ENNReal.ofReal (Real.exp (-φ x))
+fun {n} =>
+  KLS.tiltLogLaplace.eq_1 : ∀ {n : ℕ} (μ : Measure (KLS.Space n)) (z : KLS.Space n),
+  KLS.tiltLogLaplace μ z = Real.log (KLS.tiltPartition μ fun x => inner ℝ z x)
+fun {n} =>
+  KLS.tiltThirdCumulant.eq_1 : ∀ {n : ℕ} (μ : Measure (KLS.Space n)) (q f g h : KLS.Space n → ℝ),
+  KLS.tiltThirdCumulant μ q f g h =
+    KLS.tiltAverage μ q fun x =>
+      (f x - KLS.tiltAverage μ q f) * (g x - KLS.tiltAverage μ q g) * (h x - KLS.tiltAverage μ q h)
+EQUATION_ORIGIN_OK KLS.potentialMeasure.eq_1|KLS.WeightedEigenClassical|[propext, Classical.choice, Quot.sound]
+EQUATION_ORIGIN_OK KLS.tiltLogLaplace.eq_1|KLS.AdaptiveLogMGFSpatial|[propext, Classical.choice, Quot.sound]
+EQUATION_ORIGIN_OK KLS.tiltThirdCumulant.eq_1|KLS.CumulantBounds|[propext, Classical.choice, Quot.sound]
+EQUATION_ORIGIN_OK KLS.potentialMeasure|KLS.WeightedIntegrationByParts|[propext, Classical.choice, Quot.sound]
+EQUATION_ORIGIN_OK KLS.tiltLogLaplace|KLS.TiltFrechet|[propext, Classical.choice, Quot.sound]
+EQUATION_ORIGIN_OK KLS.tiltThirdCumulant|KLS.TiltCumulants|[propext, Classical.choice, Quot.sound]
+EQUATION_DEFINITION_GATES_PASSED 6

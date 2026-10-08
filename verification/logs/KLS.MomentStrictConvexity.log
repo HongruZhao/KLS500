@@ -1,0 +1,2 @@
+'KLS.strictConvexOn_of_supportContactSet_subsingleton' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.moment_strictConvexOn' depends on axioms: [propext, Classical.choice, Quot.sound]

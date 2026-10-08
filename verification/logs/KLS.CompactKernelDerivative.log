@@ -1,0 +1,1 @@
+'KLS.hasFDerivAt_integral_translate_of_compact_support' depends on axioms: [propext, Classical.choice, Quot.sound]

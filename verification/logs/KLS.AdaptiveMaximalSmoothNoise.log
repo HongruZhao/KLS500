@@ -1,0 +1,18 @@
+KLS/AdaptiveMaximalSmoothNoise.lean:28:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.MaximalProcess.smoothNoiseCoefficient_continuous`:
+  [IsProbabilityMeasure μ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure μ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+KLS/AdaptiveMaximalSmoothNoise.lean:46:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.MaximalProcess.smoothNoise_eq_local`:
+  [IsProbabilityMeasure μ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure μ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+'KLS.AdaptiveLocalization.MaximalProcess.smoothNoiseIntegral_martingale' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.AdaptiveLocalization.MaximalProcess.smoothNoiseIntegral_eq_local' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

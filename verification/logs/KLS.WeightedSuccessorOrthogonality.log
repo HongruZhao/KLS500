@@ -1,0 +1,4 @@
+'KLS.weightedSuccessor_hessian_orthogonal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedSuccessor_hessian_energy_identity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedSuccessor_hessian_energy_eq_forcing_add_defect' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weightedSuccessor_centered_hessian_approximation' depends on axioms: [propext, Classical.choice, Quot.sound]

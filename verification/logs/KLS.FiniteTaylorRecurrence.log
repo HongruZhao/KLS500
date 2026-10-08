@@ -1,0 +1,1 @@
+'KLS.finite_taylor_doubling_sum' depends on axioms: [propext, Classical.choice, Quot.sound]

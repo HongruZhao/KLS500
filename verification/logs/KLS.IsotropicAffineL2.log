@@ -1,0 +1,3 @@
+'KLS.orthonormal_isotropicAffineCoordinate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.toLp_affineRemoval' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.affineRemoval_orthogonal' depends on axioms: [propext, Classical.choice, Quot.sound]

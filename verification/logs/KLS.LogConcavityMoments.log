@@ -1,0 +1,3 @@
+'KLS.integrable_norm_pow_of_geometric_tail' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.measureLogConcave.integrable_norm_pow' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.measureLogConcave.memLp_two_coordinate_mul' depends on axioms: [propext, Classical.choice, Quot.sound]

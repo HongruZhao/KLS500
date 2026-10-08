@@ -1,0 +1,6 @@
+'KLS.supportContactSet_sublevel_subsingleton_of_subgradient_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.supportContactSet_sublevel_subsingleton_of_sigmaCompact_bounds' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

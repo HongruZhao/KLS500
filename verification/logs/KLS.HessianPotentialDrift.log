@@ -1,0 +1,5 @@
+'KLS.hessianMetricDiffusion_potential_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integrable_target_radial_gradient_of_linear_growth' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integrable_hessianMetricDiffusion_potential_of_linear_growth' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

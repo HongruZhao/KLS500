@@ -1,0 +1,3 @@
+'KLS.ConstantReduction.weightedIteration_symmetrization_bound_generalScale' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

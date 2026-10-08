@@ -1,0 +1,5 @@
+KLS/MomentQuadraticBarrier.lean:54:26: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'KLS.quadratic_part_le_opNorm_radius_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.moment_abs_sub_quadratic_le_on_closedBall' depends on axioms: [propext, Classical.choice, Quot.sound]

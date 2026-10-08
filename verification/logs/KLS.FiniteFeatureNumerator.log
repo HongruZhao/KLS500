@@ -1,0 +1,2 @@
+'KLS.FiniteFeatureTilt.hasFDerivAt_featureNumerator' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.FiniteFeatureTilt.contDiff_featureNumerator' depends on axioms: [propext, Classical.choice, Quot.sound]

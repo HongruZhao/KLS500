@@ -1,0 +1,6 @@
+'KLS.integrable_bochner_terms_of_diffusion_domain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.memLp_coordinateHessian_of_integrable_hessianSquare' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_weightedDiffusion_sq_of_L2_domain' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_hessianSquare_add_curvature_gradient_le_diffusion_sq' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

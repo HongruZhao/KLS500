@@ -1,0 +1,5 @@
+'KLS.conjugateMongeAmpereMeasure_apply_eq_relativeSubgradientImage_volume' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.exists_local_relativeSubgradientImage_volume_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_local_moment_conjugate_volume_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

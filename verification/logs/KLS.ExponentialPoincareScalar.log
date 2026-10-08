@@ -1,0 +1,7 @@
+'KLS.ExponentialPoincare.locallyLipschitz_absolutelyContinuous' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'KLS.ExponentialPoincare.intervalIntegrable_deriv_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.ExponentialPoincare.weighted_anchor_interval_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.ExponentialPoincare.weighted_anchor_halfLine_le' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.ExponentialPoincare.evariance_expMeasure_le' depends on axioms: [propext, Classical.choice, Quot.sound]

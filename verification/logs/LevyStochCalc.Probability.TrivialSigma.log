@@ -1,0 +1,6 @@
+LevyStochCalc/Probability/TrivialSigma.lean:59:6: warning: Unused tactic linter: `change (ω ∈ f ⁻¹' S) = (ω ∈ (Set.univ : Set Ω))` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+LevyStochCalc/Probability/TrivialSigma.lean:65:6: warning: Unused tactic linter: `change (ω ∈ f ⁻¹' S) = (ω ∈ (∅ : Set Ω))` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`

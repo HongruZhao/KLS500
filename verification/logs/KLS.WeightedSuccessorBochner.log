@@ -1,0 +1,2 @@
+'KLS.weightedSuccessorForcing_ae_of_representative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_weightedNormalizedSuccessor_bochner_step' depends on axioms: [propext, Classical.choice, Quot.sound]

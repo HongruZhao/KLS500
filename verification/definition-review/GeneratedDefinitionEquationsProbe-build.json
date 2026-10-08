@@ -1,0 +1,32 @@
+{
+  "source_sha256": "f70ee501f35ad8b974c5dec3f667b67990e4669d746f41f6945587b77169a2ec",
+  "exit_status": 0,
+  "seconds": 3.33,
+  "log_sha256": "1604f238dd0d106d9239197a1d6ff952f1a215b105a20f7f618719327e50a2f1",
+  "artifact_sha256": "8a177b9bf7b2a236b02a09af97e05c0a37066d31cbfaa9d77356be6552d96e81",
+  "fresh_object": true,
+  "command": [
+    "/Users/avatar/.elan/toolchains/leanprover--lean4---v4.35.0-rc3/bin/lean",
+    "-j1",
+    "-M12288",
+    "-t0",
+    "-DmaxSynthPendingDepth=3",
+    "-o",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/definition-review/GeneratedDefinitionEquationsProbe.olean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/definition-review/GeneratedDefinitionEquationsProbe.lean"
+  ],
+  "LEAN_PATH": [
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/clean-lean/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/mathlib/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/plausible/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/LeanSearchClient/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/importGraph/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/proofwidgets/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/aesop/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/Qq/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/batteries/.lake/build/lib/lean",
+    "/Users/avatar/Documents/Codex/2026-10-06/hel/outputs/kls-verification/lean/.lake/packages/Cli/.lake/build/lib/lean",
+    "/Users/avatar/.elan/toolchains/leanprover--lean4---v4.35.0-rc3/lib/lean"
+  ],
+  "compiled_against_fresh_final_project_closure": true
+}

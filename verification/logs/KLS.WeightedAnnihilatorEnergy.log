@@ -1,0 +1,9 @@
+KLS/WeightedAnnihilatorEnergy.lean:77:35: warning: Variable name `ha` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _ha
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+'KLS.exists_smooth_compact_one_on_compact' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.weighted_annihilator_exists_local_energy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.integral_weighted_coordinate_sq_le_L2' depends on axioms: [propext, Classical.choice, Quot.sound]

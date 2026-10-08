@@ -1,0 +1,41 @@
+{
+  "success": true,
+  "status": "ACCEPTED_AUTHOR_PACKET_PENDING_PARENT_FRESH_ADDON_REPLAY",
+  "reviewer": "song_zhang_audit",
+  "created_utc": "2026-10-08T02:18:59.654391+00:00",
+  "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/final-dust-audit/range-review/FinalKLSRange.lean",
+  "source_sha256": "91b032ab69d086ebd37d78c70a3d2acf93d01b34b0673cea41980c03bc692663",
+  "public_theorems": [
+    "KLS.Final.universalPoincareRange",
+    "KLS.Final.poincareKLS",
+    "KLS.Final.cheegerKLS",
+    "KLS.Final.fullCheegerKLS"
+  ],
+  "author_compilation_passed": true,
+  "axiom_check": "All four public endpoints and the exact centered exponential admissible witness have precisely propext, Classical.choice, Quot.sound.",
+  "findings": [],
+  "scope_checks": {
+    "C_star_definition": "KLS.universalPoincareConstant is the supremum over all positive dimensions and all admissible measures of KLS.poincareConstant, the infimum of finite valid Poincare constants for locally Lipschitz L2 tests.",
+    "lower_bound": "A concrete centered rate-one exponential probability law is isotropic in dimension one, belongs to the exact compact-set admissible class, and has actual optimal Poincare constant 4. The universal supremum is therefore at least 4.",
+    "lower_witness_realization": "Its finite-energy exponential tests with parameter 0<a<1/2 have variance/energy ratio 1/(1-a)^2 approaching 4; actual integrability, moments and gradients are proved. Full-class membership is proved independently, not assumed from a density label.",
+    "lower_bound_is_not_per_law": true,
+    "upper_bound": "The existing proved full-class universal upper bound is ENNReal.ofReal 500.",
+    "no_sharpness_or_equality_claim": "The range does not establish C_star=4, C_star=500, or any exact universal optimum.",
+    "poincare_target": "poincareKLS has exactly OAI.LeanBlast.KLS.KLSStatement as its type.",
+    "cheeger_target": "cheegerKLS has the original KLS.KLSConjecture type, using the original closed metric enlargement and min-mass denominator. fullCheegerKLS keeps both original law classes.",
+    "remaining_unproved_assumptions": false
+  },
+  "dependency_addon": {
+    "missing_baseline_modules": 10,
+    "new_mathematical_wrapper_modules": 1,
+    "new_mathematical_closure_modules": 11,
+    "combined_mathematical_source_count": 1710,
+    "all_missing_baseline_source_pins_matched": true,
+    "main_ongoing_sources_or_manifest_edited_by_reviewer": false,
+    "historical_prepare_receipt_sha256": "da74a0667f66b9cd885679c5cad9528c926330fe5e0ea269760a9258696904d5",
+    "corrected_parent_wrapper_sha256": "207ffd00a5e5291f3f7f9b416b2dfe6d212d90b46b19bbd275e761c203459990",
+    "only_new_direct_external_import": "Mathlib.MeasureTheory.Function.JacobianOneDim"
+  },
+  "resolved_author_compile_issue": "Exact initial parent wrapper copy failed because a documentation comment preceded a namespace. Root corrected its authored wrapper to an ordinary block comment; our compiled isolated support copy now matches it byte for byte. Root preserves the current base-build provenance and owns the clean wrapper repair and fresh add-on replay.",
+  "freeze": "FinalKLSRange.lean and FinalKLSRangeProbe.lean are sealed; no further edits planned. Parent will copy exact source bytes for the fresh add-on replay."
+}

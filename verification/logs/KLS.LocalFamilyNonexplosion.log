@@ -1,0 +1,3 @@
+'KLS.LocalDiffusion.LocalProcessFamily.ae_lifetime_eq_top_of_coefficients_bounded' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

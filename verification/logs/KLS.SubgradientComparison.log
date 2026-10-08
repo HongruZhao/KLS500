@@ -1,0 +1,3 @@
+'KLS.exists_subgradient_contact_in_strict_comparison' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.convexSubgradientImage_strict_comparison_subset' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.ball_subset_convexSubgradientImage_of_negative_value' depends on axioms: [propext, Classical.choice, Quot.sound]

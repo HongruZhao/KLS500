@@ -1,0 +1,2 @@
+'KLS.exponentialTiltCoordinateTaylor_inner_eq_cumulant' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.Taylor_sum_le_of_universalCumulant_linear' depends on axioms: [propext, Classical.choice, Quot.sound]

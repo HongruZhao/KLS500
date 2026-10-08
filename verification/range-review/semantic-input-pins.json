@@ -1,0 +1,50 @@
+{
+  "baseline_inventory_sha256": "3ce94cba714b8931b5e01d6a57d7cb516f25900178e4758b7dcbeb17a079bc8f",
+  "sources": [
+    {
+      "module": "KLS.Definitions",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/Definitions.lean",
+      "source_sha256": "03cbf1b33c56933d4fb03ad5d6659829bf62be7f35a0c5aedfdb91c5efb91ec6"
+    },
+    {
+      "module": "KLS.OptimalConstants",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/OptimalConstants.lean",
+      "source_sha256": "717a97d3e090b1559ed1d0b4d78ec0aa8feae2c2b12ee224b321c119eef0edd7"
+    },
+    {
+      "module": "KLS.ExponentialFullClass",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/ExponentialFullClass.lean",
+      "source_sha256": "1fa737978b620d224bde3164089973ec729d03e4715f3f1303de130cc34605f1"
+    },
+    {
+      "module": "KLS.ExponentialPoincare",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/ExponentialPoincare.lean",
+      "source_sha256": "daeb9d1d68f71855995ec9b6e3261f938c959753d36d66af5abf1c961f385f2e"
+    },
+    {
+      "module": "KLS.CenteredExponential",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/CenteredExponential.lean",
+      "source_sha256": "02382392b1a68d020bfad77cb5d2fb8bbd935e6fa1083d461767e794d032c5b2"
+    },
+    {
+      "module": "KLS.ExponentialMoments",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/ExponentialMoments.lean",
+      "source_sha256": "1123ac937b842efe8ceffd617592f764d90bbd155587f1db531d137483621922"
+    },
+    {
+      "module": "KLS.ExponentialDensity",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/ExponentialDensity.lean",
+      "source_sha256": "30dfacde0584fa53af0538ae320247d153c684ee3011a244d539b5238a82aaed"
+    },
+    {
+      "module": "KLS.ExponentialCompactLogConcavity",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/ExponentialCompactLogConcavity.lean",
+      "source_sha256": "6b06e3b465705e7fbd253e471dfcf4e73874f55e32e5a9800b657f62d7984efb"
+    },
+    {
+      "module": "KLS.RouteArithmetic",
+      "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/clean-replay-cb65148/lean/KLS/RouteArithmetic.lean",
+      "source_sha256": "38c2fb28248a397869f34a3f0c1d7c245982bfa262d8009457c40588097132bb"
+    }
+  ]
+}

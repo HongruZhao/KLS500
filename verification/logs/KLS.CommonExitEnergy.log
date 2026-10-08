@@ -1,0 +1,5 @@
+KLS/CommonExitEnergy.lean:80:10: warning: `if_true` has been deprecated: Use `ite_true` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵t̵r̵u̵e̵i̲t̲e̲_̲t̲r̲u̲e̲
+'KLS.LocalDiffusion.commonDifference_energy_le' depends on axioms: [propext, Classical.choice, Quot.sound]

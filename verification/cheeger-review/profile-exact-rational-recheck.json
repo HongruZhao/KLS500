@@ -1,0 +1,21 @@
+{
+  "success": true,
+  "source": "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/cheeger-profile-polynomial-independent/EntropyPolynomialProfile.lean",
+  "source_sha256": "65bd87f46b35f836ba566d32eee80ca102a809a78a3a663b1e34fdcab8c80312",
+  "scalar_degree": 20,
+  "degree_in_square": 10,
+  "coefficient_count": 11,
+  "bernstein_term_count": 20,
+  "exact_taylor_coefficient_match": true,
+  "exact_first_derivative_match": true,
+  "exact_second_derivative_match": true,
+  "exact_bernstein_identity": true,
+  "bernstein_weights_all_positive": true,
+  "endpoint_lower_bound_rational": "8545444394780851761/53687091200000000000",
+  "endpoint_lower_bound_decimal": 0.15917130549961425,
+  "derivative_absolute_coefficient_sum_rational": "5234062394364141879/2684354560000000000",
+  "derivative_absolute_coefficient_sum_decimal": 1.9498401859269074,
+  "certified_lower_bound": "3/20",
+  "certified_upper_bound": "87/100",
+  "certified_lipschitz_bound": "2"
+}

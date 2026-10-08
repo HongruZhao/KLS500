@@ -1,0 +1,3 @@
+'KLS.contDiff_weightedDiffusion' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.coordinateDerivative_diagonal_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.coordinateDerivative_weightedDiffusion' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,82 @@
+{
+  "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/entropy197500-final-independent": {
+    "receipt_sha256": "b9dbc476960c2093b088faa983d5be5e46e8a46df59738d9bdcb4f1301af2e89",
+    "evidence_manifest_sha256": "f227cc6b563c70addad87e35f72576f3d816f7314ec525041c4a3c072f047442",
+    "status": "ACCEPTED"
+  },
+  "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/cheeger-entropy-final-independent": {
+    "receipt_sha256": "3258c788bb6d01d30e686a7d2a34efe1a0b590cd537294336480760947d415e3",
+    "evidence_manifest_sha256": "9898c712ebedc63a308f0cb54b7723477b19482f1ed74b4045ac01b1b03b9a5f",
+    "status": "ACCEPTED"
+  },
+  "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/openai500-independent": {
+    "receipt_sha256": "2fd6a57184cc383b451cdab4f00bd947aefc677b3d4e32c1553d0dacb1076bf0",
+    "evidence_manifest_sha256": "0ac39c54ffab4d492bfe8c8b77bfe4a2133a8b3a6b76255145872d7233f6633c",
+    "status": "ACCEPTED"
+  },
+  "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/coupled500-full-independent": {
+    "receipt_sha256": "e88dd88d74f776787bce0e10e30a16a8d21e927f3386d986839e3d55324064a8",
+    "evidence_manifest_sha256": "f00df7b91809bc80d085095348f970539af2334b0b4cb619676d25341bd95459",
+    "status": "ACCEPTED"
+  },
+  "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/separated32-independent": {
+    "receipt_sha256": "d5e20e9f03ca50349429b636facec4bde2c74ef1d4d14e4d082f4de7bc468251",
+    "evidence_manifest_sha256": "1462febad08ad90ae36659267ca32307296799a763a9cd851f294941dff4e43a",
+    "status": "ACCEPTED"
+  },
+  "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/cheeger-clock-assembly-independent": {
+    "receipt_sha256": "fd0e493d97b9389f0b7e756bc8579e665da0190629cc6503183ad6d828b7e4a5",
+    "evidence_manifest_sha256": "3d206fafb4e001c3f4738c0a842ac73d994acf90f84fd4717bfe693c1acbab68",
+    "status": "ACCEPTED"
+  },
+  "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/cheeger-profile-numerics-independent": {
+    "receipt_sha256": "a14872dcc00098c5a7dd9dfe2048538c5250d99b6686460735585d5f6f766224",
+    "evidence_manifest_sha256": "71479136b81207f40397408c3740a267909ce764f4cda59e773b17f672eaa45f",
+    "status": "ACCEPTED"
+  },
+  "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/cheeger-entropy-clock-independent": {
+    "receipt_sha256": "bdcc661d6c2494888274056b80eaefdc7b3bd8a912cda0c022323776463c3c1c",
+    "evidence_manifest_sha256": "54ddf75b17f9dc7c513e8aacfaa1e615e8a90b64f4c9d49e1633a46f97ffd695",
+    "status": "ACCEPTED"
+  },
+  "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/cheeger-profile-polynomial-independent": {
+    "receipt_sha256": "3979087aab26bde356f1397eccb1e68ca4e6dc07bb206770184c5106196391bb",
+    "evidence_manifest_sha256": "e5dc6988b5ec8db0abd4c9f11084833ed52553cf2e1b60d054810a4fc66332bb",
+    "status": "ACCEPTED"
+  },
+  "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/cheeger-entropy-mixed-independent": {
+    "receipt_sha256": "b407819f6d755361795ba0a342d13360cbee3308732d028435da3686d551fc29",
+    "evidence_manifest_sha256": "d69187a5245082fb7833cbef72bf1ef5378edfc36ab1a28b11d70d469e13cdb2",
+    "status": "ACCEPTED"
+  },
+  "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/cheeger-entropy-chain-independent": {
+    "receipt_sha256": "62110457a91129e2dd6f8812060eaa3d15f0c2348f9ec48d50246d1eaf36751a",
+    "evidence_manifest_sha256": "5da45d468ad293523ee4f3616d7efff055bb5686994b1953b9cd33acb27bf7cc",
+    "status": "ACCEPTED"
+  },
+  "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/cheeger-lag-independent": {
+    "receipt_sha256": "a007eee675eae2fc0ea8c3e18d77ff5b00afa819a38d396dea5a9d2da9726454",
+    "evidence_manifest_sha256": "f41c1525c189b7bc0dfd687230edabd4006f0656e7f6c3d9c323cecd6fe64ce8",
+    "status": "ACCEPTED"
+  },
+  "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/cheeger-profile-l1-independent": {
+    "receipt_sha256": "bce9a0993954837e6bc3a5f9f12c1e36ee2e83de1dffed13f7ae0dffa0dd0e84",
+    "evidence_manifest_sha256": "bad94bb912f531b7f948eaec3b0a8e534635b0809568e68ce4250919d37131fa",
+    "status": "ACCEPTED"
+  },
+  "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/cheeger-profile-domination-independent": {
+    "receipt_sha256": "38014a00894eb5ed4a76751b728901402b7f01918032ac68ed15927a25dd6256",
+    "evidence_manifest_sha256": "e4addabd60236f1902088ddfb1e2f4a1a712754c0721f445eb5d500314110f3f",
+    "status": "ACCEPTED"
+  },
+  "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/resolvent-weighted-cauchy-independent": {
+    "receipt_sha256": "4ad1c5e5db1d06e377d4a2d2c1fd2e88f3acdb953a7f419871fd6f0172c41c3d",
+    "evidence_manifest_sha256": "97a8513344f1d7985341269bdf6444f51a6f338652692ed7906339305d743c30",
+    "status": "ACCEPTED"
+  },
+  "/Users/avatar/Documents/Codex/2026-10-06/hel/work/constant-reduction-20261007/endpoint-report/iterated-cheeger-independent": {
+    "receipt_sha256": "5f36cb67ba86ee48ae6a288582b7a6339de8116bf91b1b5e4609c728ef530ea7",
+    "evidence_manifest_sha256": "20f4156bc34d6c4350f3fa6b149e3e5843f0a15e40073da0f12c0d8974a0bb88",
+    "status": "ACCEPTED"
+  }
+}

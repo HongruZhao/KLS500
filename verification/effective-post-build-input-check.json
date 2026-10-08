@@ -1,0 +1,10 @@
+{
+  "success": true,
+  "accepted_packet_roots": 82,
+  "accepted_evidence_files": 9709,
+  "baseline_modules": 1744,
+  "baseline_source_and_config_pins": 1748,
+  "baseline_sidecars": 392,
+  "package_pins": 9,
+  "compiler_sha256": "d1d9c26a539f54fe839d2aa7760bf1ac1dd76a30b26e2c9684bebf2900038fcf"
+}

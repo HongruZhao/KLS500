@@ -1,0 +1,3 @@
+'KLS.trace_mul_nonneg_of_posSemidef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.matrixTraceGram_posSemidef' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.inverse_weighted_traceGram_nonneg' depends on axioms: [propext, Classical.choice, Quot.sound]

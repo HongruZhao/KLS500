@@ -1,0 +1,5 @@
+'KLS.exists_linear_lower_bound_truncatedLegendrePotential' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.exists_linear_lower_bound_centeredTruncatedConjugate' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.isFiniteMeasure_potentialMeasure_centeredTruncatedConjugate' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

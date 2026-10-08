@@ -1,0 +1,3 @@
+'KLS.ConstantReduction.norm_sub_permutationAverage_sq_le_cubic' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

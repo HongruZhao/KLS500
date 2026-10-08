@@ -1,0 +1,36 @@
+KLS/AdaptiveCumulantDrift.lean:19:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.cumulantSubsetTerm_complement`:
+  [IsProbabilityMeasure μ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure μ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+KLS/AdaptiveCumulantDrift.lean:25:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.cumulantSubsetTerm_empty`:
+  [IsProbabilityMeasure μ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure μ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+KLS/AdaptiveCumulantDrift.lean:57:2: warning: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+KLS/AdaptiveCumulantDrift.lean:75:0: warning: automatically included section variable(s) unused in theorem `KLS.AdaptiveLocalization.lowerCumulantDrift_eq_middle`:
+  [IsProbabilityMeasure μ]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [IsProbabilityMeasure μ] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+KLS/AdaptiveCumulantDrift.lean:83:19: warning: This simp argument is unused:
+  ite_true
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [hS]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'KLS.AdaptiveLocalization.cumulantGenerator_eq_neg_order_add_lower' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

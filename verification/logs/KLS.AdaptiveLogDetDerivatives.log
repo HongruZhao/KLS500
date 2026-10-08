@@ -1,0 +1,15 @@
+KLS/AdaptiveLogDetDerivatives.lean:52:35: warning: `ContinuousLinearMap.add_apply` has been deprecated: Use `_root_.add_apply` instead
+
+Note: The updated constant is in a different namespace. Dot notation may need to be changed (e.g., from `x.add_apply` to `_root_.add_apply x`).
+
+Hint: Replace the deprecated name:
+  C̵o̵n̵t̵i̵n̵u̵o̵u̵s̵L̵i̵n̵e̵a̵r̵M̵a̵p̵.̵a̵d̵d̵_̵a̵p̵p̵l̵y̵_̲r̲o̲o̲t̲_̲.̲a̲d̲d̲_̲a̲p̲p̲l̲y̲
+KLS/AdaptiveLogDetDerivatives.lean:52:35: warning: This simp argument is unused:
+  ContinuousLinearMap.add_apply
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [coordinateLogDetHessian, ContinuousLinearMap.flip_apply]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+'KLS.AdaptiveLocalization.coordinateLogDetHessian_apply' depends on axioms: [propext, Classical.choice, Quot.sound]
+'KLS.AdaptiveLocalization.coordinateLogDet_noise' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,10 +1,13 @@
 # KLS500
 
-Lean 4 proofs of dimension-free bounds for every isotropic log-concave probability law $\mu$ on $\mathbb R^n$, $n\ge1$:
+Lean 4 proofs of dimension-free bounds for every isotropic log-concave probability law $\mu$ on $\mathbb{R}^n$, $n\ge1$:
 
-$$\operatorname{Var}_\mu(f)\le500\int\|\nabla f\|^2\,d\mu,\qquad h(\mu)\ge\frac{100}{197\sqrt{500}}.$$
+```math
+\mathrm{Var}_{\mu}(f) \le 500\int \lVert\nabla f\rVert^2\,d\mu,
+\qquad h(\mu) \ge \frac{100}{197\sqrt{500}}.
+```
 
-The Poincaré inequality covers locally Lipschitz $L^2$ functions. The Cheeger constant uses closed Euclidean neighborhoods and denominator $\min\{\mu(A),1-\mu(A)\}$. The optimal **universal** Poincaré constant satisfies $4\le C_*\le500$.
+The Poincaré inequality covers locally Lipschitz $L^2$ functions. The Cheeger constant uses closed Euclidean neighborhoods and denominator $\min(\mu(A),1-\mu(A))$. The optimal **universal** Poincaré constant satisfies $4\le C_*\le500$.
 
 | Statement | Lean declaration |
 |---|---|
